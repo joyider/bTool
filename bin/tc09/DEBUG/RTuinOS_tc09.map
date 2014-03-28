@@ -1,0 +1,1764 @@
+Archive member included because of file (symbol)
+
+bin/core/core.a(wiring_digital.o)
+                              bin/tc09/DEBUG/obj/tc09_pseudoMutex.o (pinMode)
+bin/core/core.a(HardwareSerial.o)
+                              bin/tc09/DEBUG/obj/gsl_systemLoad.o (Serial)
+bin/core/core.a(new.o)        bin/core/core.a(HardwareSerial.o) (__cxa_pure_virtual)
+bin/core/core.a(Print.o)      bin/core/core.a(HardwareSerial.o) (Print::write(unsigned char const*, unsigned int))
+bin/core/core.a(WString.o)    bin/core/core.a(Print.o) (String::operator[](unsigned int) const)
+bin/core/core.a(wiring.o)     bin/tc09/DEBUG/obj/gsl_systemLoad.o (millis)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
+                              bin/core/core.a(Print.o) (__subsf3)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o) (__addsf3x)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
+                              bin/core/core.a(Print.o) (__ltsf2)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3.o)
+                              bin/core/core.a(Print.o) (__divsf3)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3.o) (__divsf3x)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixsfsi.o)
+                              bin/core/core.a(Print.o) (__fixsfsi)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+                              bin/core/core.a(Print.o) (__fixunssfsi)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+                              bin/core/core.a(Print.o) (__floatunsisf)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_cmp.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(cmpsf2.o) (__fp_cmp)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_inf)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_nan)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_pscA)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_pscB)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_round.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o) (__fp_round)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_split3)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_zero)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(gesf2.o)
+                              bin/core/core.a(Print.o) (__gtsf2)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+                              bin/core/core.a(Print.o) (__mulsf3)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3.o) (__mulsf3x)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(unordsf2.o)
+                              bin/core/core.a(Print.o) (__unordsf2)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_mulsi3.o)
+                              bin/tc09/DEBUG/obj/gsl_systemLoad.o (__mulsi3)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
+                              bin/tc09/DEBUG/obj/gsl_systemLoad.o (__udivmodsi4)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o (exit)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+                              bin/tc09/DEBUG/obj/gsl_systemLoad.o (__do_clear_bss)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_ctors.o)
+                              bin/core/core.a(HardwareSerial.o) (__do_global_ctors)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_tablejump.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_ctors.o) (__tablejump__)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+                              bin/core/core.a(new.o) (malloc)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+                              bin/core/core.a(WString.o) (realloc)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(atol.o)
+                              bin/core/core.a(WString.o) (atol)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(isspace.o)
+                              bin/core/core.a(WString.o) (isspace)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(tolower.o)
+                              bin/core/core.a(WString.o) (tolower)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(toupper.o)
+                              bin/core/core.a(WString.o) (toupper)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memcpy.o)
+                              bin/core/core.a(WString.o) (memcpy)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memmove.o)
+                              bin/core/core.a(WString.o) (memmove)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strchr.o)
+                              bin/core/core.a(WString.o) (strchr)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strcmp.o)
+                              bin/core/core.a(WString.o) (strcmp)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strcpy.o)
+                              bin/core/core.a(WString.o) (strcpy)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strncmp.o)
+                              bin/core/core.a(WString.o) (strncmp)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strncpy.o)
+                              bin/core/core.a(WString.o) (strncpy)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strrchr.o)
+                              bin/core/core.a(WString.o) (strrchr)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strstr.o)
+                              bin/core/core.a(WString.o) (strstr)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(itoa.o)
+                              bin/core/core.a(WString.o) (itoa)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ltoa.o)
+                              bin/core/core.a(WString.o) (ltoa)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(mulsi10.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(atol.o) (__mulsi_const_10)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ultoa.o)
+                              bin/core/core.a(WString.o) (ultoa)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(utoa.o)
+                              bin/core/core.a(WString.o) (utoa)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(isspace.o) (__ctype_isfalse)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strrev.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(itoa.o) (strrev)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodhi4.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(itoa.o) (__udivmodhi4)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o) (__prologue_saves__)
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
+                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+__flp               0x2               /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+ .text          0x00000000        0x0 bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .data          0x00000000        0x0 bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .bss           0x00000000        0x0 bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .text._Z17gsl_getSystemLoadv
+                0x00000000        0x0 bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .text          0x00000000        0x0 bin/tc09/DEBUG/obj/main.o
+ .data          0x00000000        0x0 bin/tc09/DEBUG/obj/main.o
+ .bss           0x00000000        0x0 bin/tc09/DEBUG/obj/main.o
+ .text          0x00000000        0x0 bin/tc09/DEBUG/obj/rtos.o
+ .bss           0x00000000        0x0 bin/tc09/DEBUG/obj/rtos.o
+ .text._Z26rtos_getTaskOverrunCounterhh
+                0x00000000        0x0 bin/tc09/DEBUG/obj/rtos.o
+ .text._Z20rtos_getStackReserveh
+                0x00000000        0x0 bin/tc09/DEBUG/obj/rtos.o
+ .progmem.rtuinos
+                0x00000000        0x0 bin/tc09/DEBUG/obj/rtos.o
+ .text          0x00000000        0x0 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .bss           0x00000000        0x0 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .text          0x00000000        0x0 bin/core/core.a(wiring_digital.o)
+ .data          0x00000000        0x0 bin/core/core.a(wiring_digital.o)
+ .bss           0x00000000        0x0 bin/core/core.a(wiring_digital.o)
+ .text._ZL10turnOffPWMh
+                0x00000000        0x0 bin/core/core.a(wiring_digital.o)
+ .text.digitalWrite
+                0x00000000        0x0 bin/core/core.a(wiring_digital.o)
+ .text.digitalRead
+                0x00000000        0x0 bin/core/core.a(wiring_digital.o)
+ .text          0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .data          0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .bss           0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .text._Z11serialEventv
+                0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .text._Z12serialEvent1v
+                0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .text._Z12serialEvent2v
+                0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .text._Z12serialEvent3v
+                0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .text._Z14serialEventRunv
+                0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .text._ZN14HardwareSerialC2EP11ring_bufferS1_PVhS3_S3_S3_S3_S3_hhhhh
+                0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .text._ZN14HardwareSerialC1EP11ring_bufferS1_PVhS3_S3_S3_S3_S3_hhhhh
+                0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .text._ZN14HardwareSerial5beginEmh
+                0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .text._ZN14HardwareSerial3endEv
+                0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .text._ZN14HardwareSerialcvbEv
+                0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .rodata._ZTV6Stream
+                0x00000000        0x0 bin/core/core.a(HardwareSerial.o)
+ .text          0x00000000        0x0 bin/core/core.a(new.o)
+ .data          0x00000000        0x0 bin/core/core.a(new.o)
+ .bss           0x00000000        0x0 bin/core/core.a(new.o)
+ .text.__cxa_guard_acquire
+                0x00000000        0x0 bin/core/core.a(new.o)
+ .text.__cxa_guard_release
+                0x00000000        0x0 bin/core/core.a(new.o)
+ .text.__cxa_guard_abort
+                0x00000000        0x0 bin/core/core.a(new.o)
+ .text.__cxa_pure_virtual
+                0x00000000        0x0 bin/core/core.a(new.o)
+ .text._ZdaPv   0x00000000        0x0 bin/core/core.a(new.o)
+ .text._ZdlPv   0x00000000        0x0 bin/core/core.a(new.o)
+ .text._Znaj    0x00000000        0x0 bin/core/core.a(new.o)
+ .text._Znwj    0x00000000        0x0 bin/core/core.a(new.o)
+ .text          0x00000000        0x0 bin/core/core.a(Print.o)
+ .data          0x00000000        0x0 bin/core/core.a(Print.o)
+ .bss           0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print5printEc
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print5printERK9Printable
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print7printlnEc
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print7printlnEmi
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print5printEji
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print7printlnEji
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print7printlnEli
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print5printEii
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print10printFloatEdh
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print5printEdi
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print7printlnEdi
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print5printERK6String
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text._ZN5Print7printlnERK6String
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .rodata._ZTV5Print
+                0x00000000        0x0 bin/core/core.a(Print.o)
+ .text          0x00000000        0x0 bin/core/core.a(WString.o)
+ .data          0x00000000        0x0 bin/core/core.a(WString.o)
+ .bss           0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String6charAtEj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String9setCharAtEjc
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringixEj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6StringixEj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String7replaceEcc
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String5toIntEv
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String4trimEv
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String11toUpperCaseEv
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String11toLowerCaseEv
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String16equalsIgnoreCaseERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String11lastIndexOfERKS_j
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String11lastIndexOfERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String7indexOfERKS_j
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String7indexOfERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String11lastIndexOfEcj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String11lastIndexOfEc
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String7indexOfEcj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String7indexOfEc
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String8getBytesEPhjj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String8endsWithERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String6equalsEPKc
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String9compareToERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6StringgeERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6StringleERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6StringgtERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6StringltERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String6equalsERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String10startsWithERKS_j
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String10startsWithERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String12changeBufferEj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String7replaceERKS_S1_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String7reserveEj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String6concatEPKcj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String6concatEm
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String6concatEl
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String6concatEj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String6concatEi
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String6concatEh
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String6concatEc
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String6concatEPKc
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String6concatERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String10invalidateEv
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZplRK15StringSumHelperm
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZplRK15StringSumHelperl
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZplRK15StringSumHelperj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZplRK15StringSumHelperi
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZplRK15StringSumHelperh
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZplRK15StringSumHelperc
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZplRK15StringSumHelperPKc
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZplRK15StringSumHelperRK6String
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6String4copyEPKcj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC1EPKc
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC2EPKc
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringaSEPKc
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC1Emh
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC2Emh
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC1Elh
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC2Elh
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC1Ejh
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC2Ejh
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC1Eih
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC2Eih
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC1Ehh
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC2Ehh
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC1Ec
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC2Ec
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String9substringEjj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZNK6String9substringEj
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringaSERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC1ERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringC2ERKS_
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringD1Ev
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text._ZN6StringD2Ev
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .bss._ZZN6StringixEjE19dummy_writable_char
+                0x00000000        0x0 bin/core/core.a(WString.o)
+ .text          0x00000000        0x0 bin/core/core.a(wiring.o)
+ .data          0x00000000        0x0 bin/core/core.a(wiring.o)
+ .bss           0x00000000        0x0 bin/core/core.a(wiring.o)
+ .text.millis   0x00000000        0x0 bin/core/core.a(wiring.o)
+ .text.micros   0x00000000        0x0 bin/core/core.a(wiring.o)
+ .text.delayMicroseconds
+                0x00000000        0x0 bin/core/core.a(wiring.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixsfsi.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixsfsi.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixsfsi.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixsfsi.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_cmp.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_cmp.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_round.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_round.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_round.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_round.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(gesf2.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(gesf2.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(gesf2.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(gesf2.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(unordsf2.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(unordsf2.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(unordsf2.o)
+ .text.fplib    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(unordsf2.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_ctors.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_tablejump.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_tablejump.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_tablejump.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ COMMON         0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(atol.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(atol.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(atol.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(isspace.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(isspace.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(isspace.o)
+ .text.ctype    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(isspace.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(tolower.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(tolower.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(tolower.o)
+ .text.ctype    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(tolower.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(toupper.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(toupper.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(toupper.o)
+ .text.ctype    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(toupper.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memcpy.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memcpy.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memcpy.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memmove.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memmove.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memmove.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strchr.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strchr.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strchr.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strcmp.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strcmp.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strcmp.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strcpy.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strcpy.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strcpy.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strncmp.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strncmp.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strncmp.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strncpy.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strncpy.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strncpy.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strrchr.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strrchr.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strrchr.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strstr.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strstr.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strstr.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(itoa.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(itoa.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(itoa.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ltoa.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ltoa.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ltoa.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(mulsi10.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(mulsi10.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(mulsi10.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ultoa.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ultoa.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ultoa.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(utoa.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(utoa.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(utoa.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+ .text.ctype    0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strrev.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strrev.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strrev.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
+ .text.libgcc   0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00100000         xr
+data             0x00800200         0x0000fe00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+START GROUP
+LOAD bin/core/core.a
+LOAD bin/tc09/DEBUG/obj/gsl_systemLoad.o
+LOAD bin/tc09/DEBUG/obj/main.o
+LOAD bin/tc09/DEBUG/obj/rtos.o
+LOAD bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+END GROUP
+LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a
+LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a
+LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a
+LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x23a4
+ *(.vectors)
+ .vectors       0x00000000       0xe4 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x000000e4      0x120 bin/core/core.a(wiring_digital.o)
+                0x000000e4                port_to_mode_PGM
+                0x00000132                digital_pin_to_port_PGM
+                0x00000178                digital_pin_to_bit_mask_PGM
+                0x000000fe                port_to_output_PGM
+                0x00000118                port_to_input_PGM
+                0x000001be                digital_pin_to_timer_PGM
+                0x00000204                . = ALIGN (0x2)
+                0x00000204                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000204        0x0 linker stubs
+ *(.trampolines*)
+                0x00000204                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000204                __ctors_start = .
+ *(.ctors)
+ .ctors         0x00000204        0x2 bin/core/core.a(HardwareSerial.o)
+                0x00000206                __ctors_end = .
+                0x00000206                __dtors_start = .
+ *(.dtors)
+                0x00000206                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000206        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                0x00000206                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000206       0x10 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000216       0x1c /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                0x00000216                __do_copy_data
+ .init4         0x00000232       0x10 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+                0x00000232                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x00000242       0x16 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_ctors.o)
+                0x00000242                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000258        0x6 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+ *(.init9)
+ *(.text)
+ .text          0x0000025e        0x2 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                0x0000025e                __vector_38
+                0x0000025e                __vector_22
+                0x0000025e                __vector_28
+                0x0000025e                __vector_1
+                0x0000025e                __vector_32
+                0x0000025e                __vector_34
+                0x0000025e                __vector_24
+                0x0000025e                __vector_12
+                0x0000025e                __vector_46
+                0x0000025e                __bad_interrupt
+                0x0000025e                __vector_6
+                0x0000025e                __vector_31
+                0x0000025e                __vector_35
+                0x0000025e                __vector_39
+                0x0000025e                __vector_3
+                0x0000025e                __vector_30
+                0x0000025e                __vector_45
+                0x0000025e                __vector_11
+                0x0000025e                __vector_13
+                0x0000025e                __vector_17
+                0x0000025e                __vector_19
+                0x0000025e                __vector_56
+                0x0000025e                __vector_7
+                0x0000025e                __vector_49
+                0x0000025e                __vector_41
+                0x0000025e                __vector_43
+                0x0000025e                __vector_27
+                0x0000025e                __vector_5
+                0x0000025e                __vector_33
+                0x0000025e                __vector_47
+                0x0000025e                __vector_4
+                0x0000025e                __vector_44
+                0x0000025e                __vector_9
+                0x0000025e                __vector_2
+                0x0000025e                __vector_21
+                0x0000025e                __vector_29
+                0x0000025e                __vector_40
+                0x0000025e                __vector_8
+                0x0000025e                __vector_48
+                0x0000025e                __vector_14
+                0x0000025e                __vector_53
+                0x0000025e                __vector_10
+                0x0000025e                __vector_50
+                0x0000025e                __vector_16
+                0x0000025e                __vector_18
+                0x0000025e                __vector_20
+                0x0000025e                __vector_42
+                0x00000260                . = ALIGN (0x2)
+ *(.text.*)
+ .text.main     0x00000260        0xc bin/tc09/DEBUG/obj/main.o
+                0x00000260                main
+ .text._Z22rtos_enableIRQTimerTicv
+                0x0000026c        0xc bin/tc09/DEBUG/obj/rtos.o
+                0x0000026c                rtos_enableIRQTimerTic()
+ .text._ZL9sendEventj
+                0x00000278      0x23e bin/tc09/DEBUG/obj/rtos.o
+ .text._Z14rtos_sendEventj
+                0x000004b6       0xfe bin/tc09/DEBUG/obj/rtos.o
+                0x000004b6                rtos_sendEvent(unsigned int)
+ .text._ZL12waitForEventjhh
+                0x000005b4      0x25e bin/tc09/DEBUG/obj/rtos.o
+ .text._Z17rtos_waitForEventjhh
+                0x00000812       0xf8 bin/tc09/DEBUG/obj/rtos.o
+                0x00000812                rtos_waitForEvent(unsigned int, unsigned char, unsigned char)
+ .text._Z13rtos_initRTOSv
+                0x0000090a      0x1fa bin/tc09/DEBUG/obj/rtos.o
+                0x0000090a                rtos_initRTOS()
+ .text._Z19rtos_initializeTaskhPFvjEhhPhjjhh
+                0x00000b04      0x25c bin/tc09/DEBUG/obj/rtos.o
+                0x00000b04                rtos_initializeTask(unsigned char, void (*)(unsigned int), unsigned char, unsigned char, unsigned char*, unsigned int, unsigned int, unsigned char, unsigned char)
+ .text._ZL10onTimerTicv
+                0x00000d60      0x268 bin/tc09/DEBUG/obj/rtos.o
+ .text.__vector_15
+                0x00000fc8       0xfe bin/tc09/DEBUG/obj/rtos.o
+                0x00000fc8                __vector_15
+ .text.loop     0x000010c6        0x8 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+                0x000010c6                loop
+ .text.setup    0x000010ce       0xac bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+                0x000010ce                setup
+ .text._ZL9taskT0_C1j
+                0x0000117a      0x16a bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .text._ZL11taskEntryC0j
+                0x000012e4      0x1f2 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .text.pinMode  0x000014d6       0x7e bin/core/core.a(wiring_digital.o)
+                0x000014d6                pinMode
+ .text.__vector_25
+                0x00001554       0x7e bin/core/core.a(HardwareSerial.o)
+                0x00001554                __vector_25
+ .text.__vector_36
+                0x000015d2       0x7e bin/core/core.a(HardwareSerial.o)
+                0x000015d2                __vector_36
+ .text.__vector_51
+                0x00001650       0x7e bin/core/core.a(HardwareSerial.o)
+                0x00001650                __vector_51
+ .text.__vector_54
+                0x000016ce       0x7e bin/core/core.a(HardwareSerial.o)
+                0x000016ce                __vector_54
+ .text.__vector_26
+                0x0000174c       0x7e bin/core/core.a(HardwareSerial.o)
+                0x0000174c                __vector_26
+ .text.__vector_37
+                0x000017ca       0x7e bin/core/core.a(HardwareSerial.o)
+                0x000017ca                __vector_37
+ .text.__vector_52
+                0x00001848       0x7e bin/core/core.a(HardwareSerial.o)
+                0x00001848                __vector_52
+ .text.__vector_55
+                0x000018c6       0x7e bin/core/core.a(HardwareSerial.o)
+                0x000018c6                __vector_55
+ .text._ZN14HardwareSerial5beginEm
+                0x00001944      0x10c bin/core/core.a(HardwareSerial.o)
+                0x00001944                HardwareSerial::begin(unsigned long)
+ .text._ZN14HardwareSerial9availableEv
+                0x00001a50       0x22 bin/core/core.a(HardwareSerial.o)
+                0x00001a50                HardwareSerial::available()
+ .text._ZN14HardwareSerial4peekEv
+                0x00001a72       0x40 bin/core/core.a(HardwareSerial.o)
+                0x00001a72                HardwareSerial::peek()
+ .text._ZN14HardwareSerial4readEv
+                0x00001ab2       0x52 bin/core/core.a(HardwareSerial.o)
+                0x00001ab2                HardwareSerial::read()
+ .text._ZN14HardwareSerial5flushEv
+                0x00001b04       0x20 bin/core/core.a(HardwareSerial.o)
+                0x00001b04                HardwareSerial::flush()
+ .text._ZN14HardwareSerial5writeEh
+                0x00001b24       0x80 bin/core/core.a(HardwareSerial.o)
+                0x00001b24                HardwareSerial::write(unsigned char)
+ .text._GLOBAL__I_rx_buffer
+                0x00001ba4      0x26c bin/core/core.a(HardwareSerial.o)
+ .text._ZN5Print5writeEPKhj
+                0x00001e10       0x54 bin/core/core.a(Print.o)
+                0x00001e10                Print::write(unsigned char const*, unsigned int)
+ .text._ZN5Print7printlnEv
+                0x00001e64       0x40 bin/core/core.a(Print.o)
+                0x00001e64                Print::println()
+ .text._ZN5Print5writeEPKc
+                0x00001ea4       0x38 bin/core/core.a(Print.o)
+                0x00001ea4                Print::write(char const*)
+ .text._ZN5Print11printNumberEmh
+                0x00001edc       0xc2 bin/core/core.a(Print.o)
+                0x00001edc                Print::printNumber(unsigned long, unsigned char)
+ .text._ZN5Print5printEmi
+                0x00001f9e       0x1a bin/core/core.a(Print.o)
+                0x00001f9e                Print::print(unsigned long, int)
+ .text._ZN5Print5printEhi
+                0x00001fb8       0x22 bin/core/core.a(Print.o)
+                0x00001fb8                Print::print(unsigned char, int)
+ .text._ZN5Print7printlnEhi
+                0x00001fda       0x38 bin/core/core.a(Print.o)
+                0x00001fda                Print::println(unsigned char, int)
+ .text._ZN5Print5printEli
+                0x00002012       0x7c bin/core/core.a(Print.o)
+                0x00002012                Print::print(long, int)
+ .text._ZN5Print7printlnEii
+                0x0000208e       0x3a bin/core/core.a(Print.o)
+                0x0000208e                Print::println(int, int)
+ .text._ZN5Print5printEPKc
+                0x000020c8        0x4 bin/core/core.a(Print.o)
+                0x000020c8                Print::print(char const*)
+ .text._ZN5Print7printlnEPKc
+                0x000020cc       0x22 bin/core/core.a(Print.o)
+                0x000020cc                Print::println(char const*)
+ .text.__vector_23
+                0x000020ee       0x90 bin/core/core.a(wiring.o)
+                0x000020ee                __vector_23
+ .text.init     0x0000217e       0xc4 bin/core/core.a(wiring.o)
+                0x0000217e                init
+ .text.delay    0x00002242       0xd0 bin/core/core.a(wiring.o)
+                0x00002242                delay
+ .text.libgcc   0x00002312       0x3e /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_mulsi3.o)
+                0x00002312                __mulsi3
+ .text.libgcc   0x00002350       0x44 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
+                0x00002350                __udivmodsi4
+ .text.libgcc   0x00002394        0xc /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_tablejump.o)
+                0x00002398                __tablejump__
+                0x00002394                __tablejump2__
+                0x000023a0                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000023a0        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+                0x000023a0                exit
+                0x000023a0                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000023a0        0x4 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+ *(.fini0)
+                0x000023a4                _etext = .
+
+.data           0x00800200      0x2aa load address 0x000023a4
+                0x00800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800200       0x31 bin/tc09/DEBUG/obj/rtos.o
+ .data          0x00800231      0x265 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ *(.data*)
+ .data._ZL5_time
+                0x00800496        0x1 bin/tc09/DEBUG/obj/rtos.o
+ .data._ZL12_pActiveTask
+                0x00800497        0x2 bin/tc09/DEBUG/obj/rtos.o
+ *(.rodata)
+ *(.rodata*)
+ .rodata._ZTV14HardwareSerial
+                0x00800499       0x10 bin/core/core.a(HardwareSerial.o)
+                0x00800499                vtable for HardwareSerial
+ *(.gnu.linkonce.d*)
+                0x008004aa                . = ALIGN (0x2)
+ *fill*         0x008004a9        0x1 00
+                0x008004aa                _edata = .
+                0x008004aa                PROVIDE (__data_end, .)
+
+.bss            0x008004aa      0x716
+                0x008004aa                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss._tmpVarAsmToC_u16
+                0x008004aa        0x2 bin/tc09/DEBUG/obj/rtos.o
+                0x008004aa                _tmpVarAsmToC_u16
+ .bss._tmpVarCToAsm_u16
+                0x008004ac        0x2 bin/tc09/DEBUG/obj/rtos.o
+                0x008004ac                _tmpVarCToAsm_u16
+ .bss._ZL18_pSuspendedTaskAry
+                0x008004ae        0x8 bin/tc09/DEBUG/obj/rtos.o
+ .bss._ZL17_noSuspendedTasks
+                0x008004b6        0x1 bin/tc09/DEBUG/obj/rtos.o
+ .bss._ZL14_noDueTasksAry
+                0x008004b7        0x2 bin/tc09/DEBUG/obj/rtos.o
+ .bss._ZL15_pDueTaskAryAry
+                0x008004b9        0xc bin/tc09/DEBUG/obj/rtos.o
+ .bss._ZL8_taskAry
+                0x008004c5       0x5f bin/tc09/DEBUG/obj/rtos.o
+ .bss._ZL15_pSuspendedTask
+                0x00800524        0x2 bin/tc09/DEBUG/obj/rtos.o
+ .bss._ZL11_stackT0_C0
+                0x00800526       0xfa bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .bss._ZL11_stackT1_C0
+                0x00800620       0xfa bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .bss._ZL11_stackT2_C0
+                0x0080071a       0xfa bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .bss._ZL11_stackT0_C1
+                0x00800814       0xfa bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .bss._ZL6_mutex
+                0x0080090e        0x1 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .bss.rx_buffer
+                0x0080090f       0x44 bin/core/core.a(HardwareSerial.o)
+                0x0080090f                rx_buffer
+ .bss.tx_buffer
+                0x00800953       0x44 bin/core/core.a(HardwareSerial.o)
+                0x00800953                tx_buffer
+ .bss.rx_buffer1
+                0x00800997       0x44 bin/core/core.a(HardwareSerial.o)
+                0x00800997                rx_buffer1
+ .bss.tx_buffer1
+                0x008009db       0x44 bin/core/core.a(HardwareSerial.o)
+                0x008009db                tx_buffer1
+ .bss.rx_buffer2
+                0x00800a1f       0x44 bin/core/core.a(HardwareSerial.o)
+                0x00800a1f                rx_buffer2
+ .bss.tx_buffer2
+                0x00800a63       0x44 bin/core/core.a(HardwareSerial.o)
+                0x00800a63                tx_buffer2
+ .bss.rx_buffer3
+                0x00800aa7       0x44 bin/core/core.a(HardwareSerial.o)
+                0x00800aa7                rx_buffer3
+ .bss.tx_buffer3
+                0x00800aeb       0x44 bin/core/core.a(HardwareSerial.o)
+                0x00800aeb                tx_buffer3
+ .bss.Serial    0x00800b2f       0x22 bin/core/core.a(HardwareSerial.o)
+                0x00800b2f                Serial
+ .bss.Serial1   0x00800b51       0x22 bin/core/core.a(HardwareSerial.o)
+                0x00800b51                Serial1
+ .bss.Serial2   0x00800b73       0x22 bin/core/core.a(HardwareSerial.o)
+                0x00800b73                Serial2
+ .bss.Serial3   0x00800b95       0x22 bin/core/core.a(HardwareSerial.o)
+                0x00800b95                Serial3
+ .bss.timer0_overflow_count
+                0x00800bb7        0x4 bin/core/core.a(wiring.o)
+                0x00800bb7                timer0_overflow_count
+ .bss.timer0_millis
+                0x00800bbb        0x4 bin/core/core.a(wiring.o)
+                0x00800bbb                timer0_millis
+ .bss._ZL12timer0_fract
+                0x00800bbf        0x1 bin/core/core.a(wiring.o)
+ *(COMMON)
+                0x00800bc0                PROVIDE (__bss_end, .)
+                0x000023a4                __data_load_start = LOADADDR (.data)
+                0x0000264e                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800bc0        0x0
+                0x00800bc0                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800bc0                PROVIDE (__noinit_end, .)
+                0x00800bc0                _end = .
+                0x00800bc0                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x630
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .debug_aranges
+                0x00000020       0x20 bin/tc09/DEBUG/obj/main.o
+ .debug_aranges
+                0x00000040       0x70 bin/tc09/DEBUG/obj/rtos.o
+ .debug_aranges
+                0x000000b0       0x38 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .debug_aranges
+                0x000000e8       0x38 bin/core/core.a(wiring_digital.o)
+ .debug_aranges
+                0x00000120       0xe0 bin/core/core.a(HardwareSerial.o)
+ .debug_aranges
+                0x00000200       0x58 bin/core/core.a(new.o)
+ .debug_aranges
+                0x00000258       0xf0 bin/core/core.a(Print.o)
+ .debug_aranges
+                0x00000348      0x260 bin/core/core.a(WString.o)
+ .debug_aranges
+                0x000005a8       0x48 bin/core/core.a(wiring.o)
+ .debug_aranges
+                0x000005f0       0x20 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .debug_aranges
+                0x00000610       0x20 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+
+.debug_pubnames
+                0x00000000      0xebe
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x28 bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .debug_pubnames
+                0x00000028       0x1b bin/tc09/DEBUG/obj/main.o
+ .debug_pubnames
+                0x00000043      0x10f bin/tc09/DEBUG/obj/rtos.o
+ .debug_pubnames
+                0x00000152       0x25 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .debug_pubnames
+                0x00000177       0xda bin/core/core.a(wiring_digital.o)
+ .debug_pubnames
+                0x00000251      0x2c5 bin/core/core.a(HardwareSerial.o)
+ .debug_pubnames
+                0x00000516       0xbf bin/core/core.a(new.o)
+ .debug_pubnames
+                0x000005d5      0x200 bin/core/core.a(Print.o)
+ .debug_pubnames
+                0x000007d5      0x5bf bin/core/core.a(WString.o)
+ .debug_pubnames
+                0x00000d94       0x8d bin/core/core.a(wiring.o)
+ .debug_pubnames
+                0x00000e21       0x7f /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .debug_pubnames
+                0x00000ea0       0x1e /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+
+.debug_info     0x00000000     0x7d55
+ *(.debug_info)
+ .debug_info    0x00000000      0x230 bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .debug_info    0x00000230      0x1b1 bin/tc09/DEBUG/obj/main.o
+ .debug_info    0x000003e1      0xafe bin/tc09/DEBUG/obj/rtos.o
+ .debug_info    0x00000edf      0x403 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .debug_info    0x000012e2      0x5dd bin/core/core.a(wiring_digital.o)
+ .debug_info    0x000018bf     0x1f05 bin/core/core.a(HardwareSerial.o)
+ .debug_info    0x000037c4      0x195 bin/core/core.a(new.o)
+ .debug_info    0x00003959     0x1b2f bin/core/core.a(Print.o)
+ .debug_info    0x00005488     0x21c5 bin/core/core.a(WString.o)
+ .debug_info    0x0000764d      0x36b bin/core/core.a(wiring.o)
+ .debug_info    0x000079b8      0x204 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .debug_info    0x00007bbc      0x199 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x167a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xcb bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .debug_abbrev  0x000000cb       0x7e bin/tc09/DEBUG/obj/main.o
+ .debug_abbrev  0x00000149      0x2ab bin/tc09/DEBUG/obj/rtos.o
+ .debug_abbrev  0x000003f4      0x1c7 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .debug_abbrev  0x000005bb      0x161 bin/core/core.a(wiring_digital.o)
+ .debug_abbrev  0x0000071c      0x48e bin/core/core.a(HardwareSerial.o)
+ .debug_abbrev  0x00000baa       0xf7 bin/core/core.a(new.o)
+ .debug_abbrev  0x00000ca1      0x336 bin/core/core.a(Print.o)
+ .debug_abbrev  0x00000fd7      0x343 bin/core/core.a(WString.o)
+ .debug_abbrev  0x0000131a      0x16c bin/core/core.a(wiring.o)
+ .debug_abbrev  0x00001486      0x10d /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .debug_abbrev  0x00001593       0xe7 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+
+.debug_line     0x00000000     0x4f15
+ *(.debug_line)
+ .debug_line    0x00000000      0x4c4 bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .debug_line    0x000004c4      0x45b bin/tc09/DEBUG/obj/main.o
+ .debug_line    0x0000091f      0xbb8 bin/tc09/DEBUG/obj/rtos.o
+ .debug_line    0x000014d7      0x6e1 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .debug_line    0x00001bb8      0x3a3 bin/core/core.a(wiring_digital.o)
+ .debug_line    0x00001f5b      0xbc2 bin/core/core.a(HardwareSerial.o)
+ .debug_line    0x00002b1d      0x20c bin/core/core.a(new.o)
+ .debug_line    0x00002d29      0x7b5 bin/core/core.a(Print.o)
+ .debug_line    0x000034de     0x1129 bin/core/core.a(WString.o)
+ .debug_line    0x00004607      0x45b bin/core/core.a(wiring.o)
+ .debug_line    0x00004a62      0x297 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .debug_line    0x00004cf9      0x21c /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+
+.debug_frame    0x00000000      0xaf0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .debug_frame   0x00000020       0x20 bin/tc09/DEBUG/obj/main.o
+ .debug_frame   0x00000040       0xc0 bin/tc09/DEBUG/obj/rtos.o
+ .debug_frame   0x00000100       0x50 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .debug_frame   0x00000150       0x50 bin/core/core.a(wiring_digital.o)
+ .debug_frame   0x000001a0      0x1a0 bin/core/core.a(HardwareSerial.o)
+ .debug_frame   0x00000340       0x90 bin/core/core.a(new.o)
+ .debug_frame   0x000003d0      0x1c0 bin/core/core.a(Print.o)
+ .debug_frame   0x00000590      0x4a0 bin/core/core.a(WString.o)
+ .debug_frame   0x00000a30       0x70 bin/core/core.a(wiring.o)
+ .debug_frame   0x00000aa0       0x30 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .debug_frame   0x00000ad0       0x20 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+
+.debug_str      0x00000000     0x1e36
+ *(.debug_str)
+ .debug_str     0x00000000       0xf8 bin/tc09/DEBUG/obj/gsl_systemLoad.o
+                                0x13d (size before relaxing)
+ .debug_str     0x000000f8       0x16 bin/tc09/DEBUG/obj/main.o
+                                 0xd4 (size before relaxing)
+ .debug_str     0x0000010e      0x438 bin/tc09/DEBUG/obj/rtos.o
+                                0x53b (size before relaxing)
+ .debug_str     0x00000546       0xbf bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+                                0x1be (size before relaxing)
+ .debug_str     0x00000605      0x13f bin/core/core.a(wiring_digital.o)
+                                0x1eb (size before relaxing)
+ .debug_str     0x00000744      0xe14 bin/core/core.a(HardwareSerial.o)
+                                0xf49 (size before relaxing)
+ .debug_str     0x00001558      0x10c bin/core/core.a(new.o)
+                                0x14a (size before relaxing)
+ .debug_str     0x00001664      0x3df bin/core/core.a(Print.o)
+                                0xc10 (size before relaxing)
+ .debug_str     0x00001a43      0x1f5 bin/core/core.a(WString.o)
+                                0x9ac (size before relaxing)
+ .debug_str     0x00001c38       0xba bin/core/core.a(wiring.o)
+                                0x180 (size before relaxing)
+ .debug_str     0x00001cf2      0x10e /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+                                0x181 (size before relaxing)
+ .debug_str     0x00001e00       0x36 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+                                0x14f (size before relaxing)
+
+.debug_loc      0x00000000     0x46fc
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x1d0 bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .debug_loc     0x000001d0      0x898 bin/tc09/DEBUG/obj/rtos.o
+ .debug_loc     0x00000a68      0x15b bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .debug_loc     0x00000bc3      0x27a bin/core/core.a(wiring_digital.o)
+ .debug_loc     0x00000e3d      0x53f bin/core/core.a(HardwareSerial.o)
+ .debug_loc     0x0000137c       0xb0 bin/core/core.a(new.o)
+ .debug_loc     0x0000142c      0xdb8 bin/core/core.a(Print.o)
+ .debug_loc     0x000021e4     0x1f05 bin/core/core.a(WString.o)
+ .debug_loc     0x000040e9      0x19b bin/core/core.a(wiring.o)
+ .debug_loc     0x00004284      0x288 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .debug_loc     0x0000450c      0x1f0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+
+.debug_macinfo  0x00000000    0x3148f
+ *(.debug_macinfo)
+ .debug_macinfo
+                0x00000000     0xbc1e bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .debug_macinfo
+                0x0000bc1e     0xc3e6 bin/tc09/DEBUG/obj/main.o
+ .debug_macinfo
+                0x00018004     0xce3f bin/tc09/DEBUG/obj/rtos.o
+ .debug_macinfo
+                0x00024e43     0xc64c bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+OUTPUT(bin/tc09/DEBUG/RTuinOS_tc09.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000      0x7c8
+ .debug_ranges  0x00000000       0x18 bin/tc09/DEBUG/obj/gsl_systemLoad.o
+ .debug_ranges  0x00000018       0x18 bin/tc09/DEBUG/obj/main.o
+ .debug_ranges  0x00000030      0x180 bin/tc09/DEBUG/obj/rtos.o
+ .debug_ranges  0x000001b0      0x128 bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+ .debug_ranges  0x000002d8       0x30 bin/core/core.a(wiring_digital.o)
+ .debug_ranges  0x00000308       0xd8 bin/core/core.a(HardwareSerial.o)
+ .debug_ranges  0x000003e0       0x50 bin/core/core.a(new.o)
+ .debug_ranges  0x00000430       0xe8 bin/core/core.a(Print.o)
+ .debug_ranges  0x00000518      0x270 bin/core/core.a(WString.o)
+ .debug_ranges  0x00000788       0x40 bin/core/core.a(wiring.o)
+
+Cross Reference Table
+
+Symbol                                            File
+HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) bin/core/core.a(HardwareSerial.o)
+HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) bin/core/core.a(HardwareSerial.o)
+HardwareSerial::available()                       bin/core/core.a(HardwareSerial.o)
+HardwareSerial::begin(unsigned long)              bin/core/core.a(HardwareSerial.o)
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+HardwareSerial::begin(unsigned long, unsigned char) bin/core/core.a(HardwareSerial.o)
+HardwareSerial::end()                             bin/core/core.a(HardwareSerial.o)
+HardwareSerial::flush()                           bin/core/core.a(HardwareSerial.o)
+HardwareSerial::operator bool()                   bin/core/core.a(HardwareSerial.o)
+HardwareSerial::peek()                            bin/core/core.a(HardwareSerial.o)
+HardwareSerial::read()                            bin/core/core.a(HardwareSerial.o)
+HardwareSerial::write(unsigned char)              bin/core/core.a(HardwareSerial.o)
+Print::print(Printable const&)                    bin/core/core.a(Print.o)
+Print::print(String const&)                       bin/core/core.a(Print.o)
+Print::print(__FlashStringHelper const*)          bin/core/core.a(Print.o)
+Print::print(char const*)                         bin/core/core.a(Print.o)
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+                                                  bin/tc09/DEBUG/obj/rtos.o
+                                                  bin/tc09/DEBUG/obj/gsl_systemLoad.o
+Print::print(char)                                bin/core/core.a(Print.o)
+Print::print(double, int)                         bin/core/core.a(Print.o)
+Print::print(int, int)                            bin/core/core.a(Print.o)
+Print::print(long, int)                           bin/core/core.a(Print.o)
+Print::print(unsigned char, int)                  bin/core/core.a(Print.o)
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+Print::print(unsigned int, int)                   bin/core/core.a(Print.o)
+Print::print(unsigned long, int)                  bin/core/core.a(Print.o)
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+Print::printFloat(double, unsigned char)          bin/core/core.a(Print.o)
+Print::printNumber(unsigned long, unsigned char)  bin/core/core.a(Print.o)
+Print::println()                                  bin/core/core.a(Print.o)
+Print::println(Printable const&)                  bin/core/core.a(Print.o)
+Print::println(String const&)                     bin/core/core.a(Print.o)
+Print::println(__FlashStringHelper const*)        bin/core/core.a(Print.o)
+Print::println(char const*)                       bin/core/core.a(Print.o)
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+Print::println(char)                              bin/core/core.a(Print.o)
+Print::println(double, int)                       bin/core/core.a(Print.o)
+Print::println(int, int)                          bin/core/core.a(Print.o)
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+                                                  bin/tc09/DEBUG/obj/rtos.o
+                                                  bin/tc09/DEBUG/obj/gsl_systemLoad.o
+Print::println(long, int)                         bin/core/core.a(Print.o)
+Print::println(unsigned char, int)                bin/core/core.a(Print.o)
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+Print::println(unsigned int, int)                 bin/core/core.a(Print.o)
+Print::println(unsigned long, int)                bin/core/core.a(Print.o)
+Print::write(char const*)                         bin/core/core.a(Print.o)
+Print::write(unsigned char const*, unsigned int)  bin/core/core.a(Print.o)
+                                                  bin/core/core.a(HardwareSerial.o)
+Serial                                            bin/core/core.a(HardwareSerial.o)
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+                                                  bin/tc09/DEBUG/obj/rtos.o
+                                                  bin/tc09/DEBUG/obj/gsl_systemLoad.o
+Serial1                                           bin/core/core.a(HardwareSerial.o)
+Serial2                                           bin/core/core.a(HardwareSerial.o)
+Serial3                                           bin/core/core.a(HardwareSerial.o)
+String::String(String const&)                     bin/core/core.a(WString.o)
+String::String(String const&)                     bin/core/core.a(WString.o)
+String::String(char const*)                       bin/core/core.a(WString.o)
+String::String(char const*)                       bin/core/core.a(WString.o)
+String::String(char)                              bin/core/core.a(WString.o)
+String::String(char)                              bin/core/core.a(WString.o)
+String::String(int, unsigned char)                bin/core/core.a(WString.o)
+String::String(int, unsigned char)                bin/core/core.a(WString.o)
+String::String(long, unsigned char)               bin/core/core.a(WString.o)
+String::String(long, unsigned char)               bin/core/core.a(WString.o)
+String::String(unsigned char, unsigned char)      bin/core/core.a(WString.o)
+String::String(unsigned char, unsigned char)      bin/core/core.a(WString.o)
+String::String(unsigned int, unsigned char)       bin/core/core.a(WString.o)
+String::String(unsigned int, unsigned char)       bin/core/core.a(WString.o)
+String::String(unsigned long, unsigned char)      bin/core/core.a(WString.o)
+String::String(unsigned long, unsigned char)      bin/core/core.a(WString.o)
+String::changeBuffer(unsigned int)                bin/core/core.a(WString.o)
+String::charAt(unsigned int) const                bin/core/core.a(WString.o)
+String::compareTo(String const&) const            bin/core/core.a(WString.o)
+String::concat(String const&)                     bin/core/core.a(WString.o)
+String::concat(char const*)                       bin/core/core.a(WString.o)
+String::concat(char const*, unsigned int)         bin/core/core.a(WString.o)
+String::concat(char)                              bin/core/core.a(WString.o)
+String::concat(int)                               bin/core/core.a(WString.o)
+String::concat(long)                              bin/core/core.a(WString.o)
+String::concat(unsigned char)                     bin/core/core.a(WString.o)
+String::concat(unsigned int)                      bin/core/core.a(WString.o)
+String::concat(unsigned long)                     bin/core/core.a(WString.o)
+String::copy(char const*, unsigned int)           bin/core/core.a(WString.o)
+String::endsWith(String const&) const             bin/core/core.a(WString.o)
+String::equals(String const&) const               bin/core/core.a(WString.o)
+String::equals(char const*) const                 bin/core/core.a(WString.o)
+String::equalsIgnoreCase(String const&) const     bin/core/core.a(WString.o)
+String::getBytes(unsigned char*, unsigned int, unsigned int) const bin/core/core.a(WString.o)
+String::indexOf(String const&) const              bin/core/core.a(WString.o)
+String::indexOf(String const&, unsigned int) const bin/core/core.a(WString.o)
+String::indexOf(char) const                       bin/core/core.a(WString.o)
+String::indexOf(char, unsigned int) const         bin/core/core.a(WString.o)
+String::invalidate()                              bin/core/core.a(WString.o)
+String::lastIndexOf(String const&) const          bin/core/core.a(WString.o)
+String::lastIndexOf(String const&, unsigned int) const bin/core/core.a(WString.o)
+String::lastIndexOf(char) const                   bin/core/core.a(WString.o)
+String::lastIndexOf(char, unsigned int) const     bin/core/core.a(WString.o)
+String::operator<(String const&) const            bin/core/core.a(WString.o)
+String::operator<=(String const&) const           bin/core/core.a(WString.o)
+String::operator=(String const&)                  bin/core/core.a(WString.o)
+String::operator=(char const*)                    bin/core/core.a(WString.o)
+String::operator>(String const&) const            bin/core/core.a(WString.o)
+String::operator>=(String const&) const           bin/core/core.a(WString.o)
+String::operator[](unsigned int)                  bin/core/core.a(WString.o)
+String::operator[](unsigned int) const            bin/core/core.a(WString.o)
+                                                  bin/core/core.a(Print.o)
+String::replace(String const&, String const&)     bin/core/core.a(WString.o)
+String::replace(char, char)                       bin/core/core.a(WString.o)
+String::reserve(unsigned int)                     bin/core/core.a(WString.o)
+String::setCharAt(unsigned int, char)             bin/core/core.a(WString.o)
+String::startsWith(String const&) const           bin/core/core.a(WString.o)
+String::startsWith(String const&, unsigned int) const bin/core/core.a(WString.o)
+String::substring(unsigned int) const             bin/core/core.a(WString.o)
+String::substring(unsigned int, unsigned int) const bin/core/core.a(WString.o)
+String::toInt() const                             bin/core/core.a(WString.o)
+String::toLowerCase()                             bin/core/core.a(WString.o)
+String::toUpperCase()                             bin/core/core.a(WString.o)
+String::trim()                                    bin/core/core.a(WString.o)
+String::~String()                                 bin/core/core.a(WString.o)
+String::~String()                                 bin/core/core.a(WString.o)
+__addsf3                                          /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
+                                                  bin/core/core.a(Print.o)
+__addsf3x                                         /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
+__bad_interrupt                                   /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__brkval                                          /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+__bss_end                                         /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+__bss_start                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+__cmpsf2                                          /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
+__ctors_end                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_ctors.o)
+__ctors_start                                     /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_ctors.o)
+__ctype_isfalse                                   /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(isspace.o)
+__ctype_istrue                                    /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+__cxa_guard_abort                                 bin/core/core.a(new.o)
+__cxa_guard_acquire                               bin/core/core.a(new.o)
+__cxa_guard_release                               bin/core/core.a(new.o)
+__cxa_pure_virtual                                bin/core/core.a(new.o)
+                                                  bin/core/core.a(Print.o)
+                                                  bin/core/core.a(HardwareSerial.o)
+__data_end                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__data_load_start                                 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__data_start                                      /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__divsf3                                          /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3.o)
+                                                  bin/core/core.a(Print.o)
+__divsf3_pse                                      /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+__divsf3x                                         /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3.o)
+__do_clear_bss                                    /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_clear_bss.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+                                                  bin/core/core.a(wiring.o)
+                                                  bin/core/core.a(WString.o)
+                                                  bin/core/core.a(Print.o)
+                                                  bin/core/core.a(new.o)
+                                                  bin/core/core.a(HardwareSerial.o)
+                                                  bin/core/core.a(wiring_digital.o)
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+                                                  bin/tc09/DEBUG/obj/rtos.o
+                                                  bin/tc09/DEBUG/obj/main.o
+                                                  bin/tc09/DEBUG/obj/gsl_systemLoad.o
+__do_copy_data                                    /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+                                                  bin/core/core.a(wiring.o)
+                                                  bin/core/core.a(WString.o)
+                                                  bin/core/core.a(Print.o)
+                                                  bin/core/core.a(new.o)
+                                                  bin/core/core.a(HardwareSerial.o)
+                                                  bin/core/core.a(wiring_digital.o)
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+                                                  bin/tc09/DEBUG/obj/rtos.o
+                                                  bin/tc09/DEBUG/obj/main.o
+                                                  bin/tc09/DEBUG/obj/gsl_systemLoad.o
+__do_global_ctors                                 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_ctors.o)
+                                                  bin/core/core.a(HardwareSerial.o)
+__epilogue_restores__                             /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+__eqsf2                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
+__fixsfsi                                         /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixsfsi.o)
+                                                  bin/core/core.a(Print.o)
+__fixunssfsi                                      /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixsfsi.o)
+                                                  bin/core/core.a(Print.o)
+__floatsisf                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+                                                  bin/core/core.a(Print.o)
+__floatunsisf                                     /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+                                                  bin/core/core.a(Print.o)
+__flp                                             /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+__fp_cmp                                          /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_cmp.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(unordsf2.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(gesf2.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
+__fp_inf                                          /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+__fp_nan                                          /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+__fp_pscA                                         /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+__fp_pscB                                         /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+__fp_round                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_round.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
+__fp_split3                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+__fp_splitA                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+__fp_szero                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixsfsi.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+__fp_zero                                         /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+__gesf2                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(gesf2.o)
+__gtsf2                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(gesf2.o)
+                                                  bin/core/core.a(Print.o)
+__heap_end                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+__heap_start                                      /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+__init                                            /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__lesf2                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
+                                                  bin/core/core.a(Print.o)
+__ltsf2                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
+                                                  bin/core/core.a(Print.o)
+__malloc_heap_end                                 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+__malloc_heap_start                               /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+__malloc_margin                                   /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+__mulsf3                                          /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+                                                  bin/core/core.a(Print.o)
+__mulsf3_pse                                      /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+__mulsf3x                                         /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+__mulsi3                                          /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_mulsi3.o)
+                                                  bin/core/core.a(Print.o)
+                                                  bin/tc09/DEBUG/obj/gsl_systemLoad.o
+__mulsi_const_10                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(mulsi10.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(atol.o)
+__nesf2                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
+__prologue_saves__                                /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+__stack                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__subsf3                                          /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
+                                                  bin/core/core.a(Print.o)
+__tablejump2__                                    /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_tablejump.o)
+__tablejump__                                     /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_tablejump.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_ctors.o)
+__udivmodhi4                                      /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodhi4.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(utoa.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(itoa.o)
+__udivmodsi4                                      /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ultoa.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ltoa.o)
+                                                  bin/core/core.a(Print.o)
+                                                  bin/core/core.a(HardwareSerial.o)
+                                                  bin/tc09/DEBUG/obj/gsl_systemLoad.o
+__unordsf2                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(unordsf2.o)
+                                                  bin/core/core.a(Print.o)
+__vector_1                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_10                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_11                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_12                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_13                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_14                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_15                                       bin/tc09/DEBUG/obj/rtos.o
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_16                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_17                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_18                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_19                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_2                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_20                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_21                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_22                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_23                                       bin/core/core.a(wiring.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_24                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_25                                       bin/core/core.a(HardwareSerial.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_26                                       bin/core/core.a(HardwareSerial.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_27                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_28                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_29                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_3                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_30                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_31                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_32                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_33                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_34                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_35                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_36                                       bin/core/core.a(HardwareSerial.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_37                                       bin/core/core.a(HardwareSerial.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_38                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_39                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_4                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_40                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_41                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_42                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_43                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_44                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_45                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_46                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_47                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_48                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_49                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_5                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_50                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_51                                       bin/core/core.a(HardwareSerial.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_52                                       bin/core/core.a(HardwareSerial.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_53                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_54                                       bin/core/core.a(HardwareSerial.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_55                                       bin/core/core.a(HardwareSerial.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_56                                       /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_6                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_7                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_8                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_9                                        /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vector_default                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+__vectors                                         /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+_exit                                             /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+_tmpVarAsmToC_u16                                 bin/tc09/DEBUG/obj/rtos.o
+_tmpVarCToAsm_u16                                 bin/tc09/DEBUG/obj/rtos.o
+atol                                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(atol.o)
+                                                  bin/core/core.a(WString.o)
+delay                                             bin/core/core.a(wiring.o)
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+delayMicroseconds                                 bin/core/core.a(wiring.o)
+                                                  bin/tc09/DEBUG/obj/gsl_systemLoad.o
+digitalRead                                       bin/core/core.a(wiring_digital.o)
+digitalWrite                                      bin/core/core.a(wiring_digital.o)
+digital_pin_to_bit_mask_PGM                       bin/core/core.a(wiring_digital.o)
+digital_pin_to_port_PGM                           bin/core/core.a(wiring_digital.o)
+digital_pin_to_timer_PGM                          bin/core/core.a(wiring_digital.o)
+exit                                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+free                                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  bin/core/core.a(WString.o)
+                                                  bin/core/core.a(new.o)
+gsl_getSystemLoad()                               bin/tc09/DEBUG/obj/gsl_systemLoad.o
+init                                              bin/core/core.a(wiring.o)
+                                                  bin/tc09/DEBUG/obj/main.o
+isspace                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(isspace.o)
+                                                  bin/core/core.a(WString.o)
+itoa                                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(itoa.o)
+                                                  bin/core/core.a(WString.o)
+loop                                              bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+                                                  bin/tc09/DEBUG/obj/rtos.o
+ltoa                                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ltoa.o)
+                                                  bin/core/core.a(WString.o)
+main                                              bin/tc09/DEBUG/obj/main.o
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+malloc                                            /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  bin/core/core.a(new.o)
+memcpy                                            /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memcpy.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memmove.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  bin/core/core.a(WString.o)
+memmove                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(memmove.o)
+                                                  bin/core/core.a(WString.o)
+micros                                            bin/core/core.a(wiring.o)
+millis                                            bin/core/core.a(wiring.o)
+                                                  bin/tc09/DEBUG/obj/gsl_systemLoad.o
+operator delete(void*)                            bin/core/core.a(new.o)
+operator delete[](void*)                          bin/core/core.a(new.o)
+operator new(unsigned int)                        bin/core/core.a(new.o)
+operator new[](unsigned int)                      bin/core/core.a(new.o)
+operator+(StringSumHelper const&, String const&)  bin/core/core.a(WString.o)
+operator+(StringSumHelper const&, char const*)    bin/core/core.a(WString.o)
+operator+(StringSumHelper const&, char)           bin/core/core.a(WString.o)
+operator+(StringSumHelper const&, int)            bin/core/core.a(WString.o)
+operator+(StringSumHelper const&, long)           bin/core/core.a(WString.o)
+operator+(StringSumHelper const&, unsigned char)  bin/core/core.a(WString.o)
+operator+(StringSumHelper const&, unsigned int)   bin/core/core.a(WString.o)
+operator+(StringSumHelper const&, unsigned long)  bin/core/core.a(WString.o)
+pinMode                                           bin/core/core.a(wiring_digital.o)
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+port_to_input_PGM                                 bin/core/core.a(wiring_digital.o)
+port_to_mode_PGM                                  bin/core/core.a(wiring_digital.o)
+port_to_output_PGM                                bin/core/core.a(wiring_digital.o)
+realloc                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+                                                  bin/core/core.a(WString.o)
+rtos_enableIRQTimerTic()                          bin/tc09/DEBUG/obj/rtos.o
+rtos_getStackReserve(unsigned char)               bin/tc09/DEBUG/obj/rtos.o
+rtos_getTaskOverrunCounter(unsigned char, unsigned char) bin/tc09/DEBUG/obj/rtos.o
+rtos_initRTOS()                                   bin/tc09/DEBUG/obj/rtos.o
+                                                  bin/tc09/DEBUG/obj/main.o
+rtos_initializeTask(unsigned char, void (*)(unsigned int), unsigned char, unsigned char, unsigned char*, unsigned int, unsigned int, unsigned char, unsigned char) bin/tc09/DEBUG/obj/rtos.o
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+rtos_rtuinosStartupMsg                            bin/tc09/DEBUG/obj/rtos.o
+rtos_sendEvent(unsigned int)                      bin/tc09/DEBUG/obj/rtos.o
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+rtos_waitForEvent(unsigned int, unsigned char, unsigned char) bin/tc09/DEBUG/obj/rtos.o
+                                                  bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+rx_buffer                                         bin/core/core.a(HardwareSerial.o)
+rx_buffer1                                        bin/core/core.a(HardwareSerial.o)
+rx_buffer2                                        bin/core/core.a(HardwareSerial.o)
+rx_buffer3                                        bin/core/core.a(HardwareSerial.o)
+serialEvent()                                     bin/core/core.a(HardwareSerial.o)
+serialEvent1()                                    bin/core/core.a(HardwareSerial.o)
+serialEvent2()                                    bin/core/core.a(HardwareSerial.o)
+serialEvent3()                                    bin/core/core.a(HardwareSerial.o)
+serialEventRun()                                  bin/core/core.a(HardwareSerial.o)
+setup                                             bin/tc09/DEBUG/obj/tc09_pseudoMutex.o
+                                                  bin/tc09/DEBUG/obj/rtos.o
+strchr                                            /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strchr.o)
+                                                  bin/core/core.a(WString.o)
+strcmp                                            /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strcmp.o)
+                                                  bin/core/core.a(WString.o)
+strcpy                                            /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strcpy.o)
+                                                  bin/core/core.a(WString.o)
+strncmp                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strncmp.o)
+                                                  bin/core/core.a(WString.o)
+strncpy                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strncpy.o)
+                                                  bin/core/core.a(WString.o)
+strrchr                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strrchr.o)
+                                                  bin/core/core.a(WString.o)
+strrev                                            /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strrev.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(utoa.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ultoa.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ltoa.o)
+                                                  /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(itoa.o)
+strstr                                            /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(strstr.o)
+                                                  bin/core/core.a(WString.o)
+timer0_millis                                     bin/core/core.a(wiring.o)
+timer0_overflow_count                             bin/core/core.a(wiring.o)
+tolower                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(tolower.o)
+                                                  bin/core/core.a(WString.o)
+toupper                                           /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(toupper.o)
+                                                  bin/core/core.a(WString.o)
+tx_buffer                                         bin/core/core.a(HardwareSerial.o)
+tx_buffer1                                        bin/core/core.a(HardwareSerial.o)
+tx_buffer2                                        bin/core/core.a(HardwareSerial.o)
+tx_buffer3                                        bin/core/core.a(HardwareSerial.o)
+ultoa                                             /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(ultoa.o)
+                                                  bin/core/core.a(WString.o)
+utoa                                              /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(utoa.o)
+                                                  bin/core/core.a(WString.o)
+vtable for HardwareSerial                         bin/core/core.a(HardwareSerial.o)
+vtable for Print                                  bin/core/core.a(Print.o)
+vtable for Stream                                 bin/core/core.a(HardwareSerial.o)
+yield                                             bin/core/core.a(wiring.o)

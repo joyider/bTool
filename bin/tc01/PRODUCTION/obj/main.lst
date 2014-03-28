@@ -1,0 +1,671 @@
+GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s 			page 1
+
+
+   1               		.file	"main.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  10               		.section	.debug_abbrev,"",@progbits
+  11               	.Ldebug_abbrev0:
+  12               		.section	.debug_info,"",@progbits
+  13               	.Ldebug_info0:
+  14               		.section	.debug_line,"",@progbits
+  15               	.Ldebug_line0:
+  16               		.text
+  17               	.Ltext0:
+  18               		.section	.text.main,"ax",@progbits
+  19               	.global	main
+  20               		.type	main, @function
+  21               	main:
+  22               	.LFB75:
+  23               	.LSM0:
+  24               	/* prologue: function */
+  25               	/* frame size = 0 */
+  26               	.LSM1:
+  27 0000 0E94 0000 		call init
+  28               	.LSM2:
+  29 0004 0E94 0000 		call _Z13rtos_initRTOSv
+  30               	.LSM3:
+  31 0008 80E0      		ldi r24,lo8(0)
+  32 000a 90E0      		ldi r25,hi8(0)
+  33               	/* epilogue start */
+  34 000c 0895      		ret
+  35               	.LFE75:
+  36               		.size	main, .-main
+  37               		.section	.debug_frame,"",@progbits
+  38               	.Lframe0:
+  39 0000 0C00 0000 		.long	.LECIE0-.LSCIE0
+  40               	.LSCIE0:
+  41 0004 FFFF FFFF 		.long	0xffffffff
+  42 0008 01        		.byte	0x1
+  43 0009 00        		.string	""
+  44 000a 01        		.uleb128 0x1
+  45 000b 7F        		.sleb128 -1
+  46 000c 24        		.byte	0x24
+  47 000d 0C        		.byte	0xc
+  48 000e 20        		.uleb128 0x20
+  49 000f 00        		.uleb128 0x0
+  50               		.p2align	2
+  51               	.LECIE0:
+  52               	.LSFDE0:
+  53 0010 0C00 0000 		.long	.LEFDE0-.LASFDE0
+  54               	.LASFDE0:
+  55 0014 0000 0000 		.long	.Lframe0
+  56 0018 0000 0000 		.long	.LFB75
+  57 001c 0E00 0000 		.long	.LFE75-.LFB75
+GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s 			page 2
+
+
+  58               		.p2align	2
+  59               	.LEFDE0:
+  60               		.text
+  61               	.Letext0:
+  62               		.section	.debug_info
+  63 0000 A901 0000 		.long	0x1a9
+  64 0004 0200      		.word	0x2
+  65 0006 0000 0000 		.long	.Ldebug_abbrev0
+  66 000a 04        		.byte	0x4
+  67 000b 01        		.uleb128 0x1
+  68 000c 0000 0000 		.long	.LASF13
+  69 0010 04        		.byte	0x4
+  70 0011 0000 0000 		.long	.LASF14
+  71 0015 0000 0000 		.long	.LASF15
+  72 0019 0000 0000 		.long	0x0
+  73 001d 0000 0000 		.long	0x0
+  74 0021 0000 0000 		.long	.Ldebug_ranges0+0x0
+  75 0025 0000 0000 		.long	.Ldebug_line0
+  76 0029 02        		.uleb128 0x2
+  77 002a 02        		.byte	0x2
+  78 002b 07        		.byte	0x7
+  79 002c 0000 0000 		.long	.LASF0
+  80 0030 03        		.uleb128 0x3
+  81 0031 02        		.byte	0x2
+  82 0032 05        		.byte	0x5
+  83 0033 696E 7400 		.string	"int"
+  84 0037 02        		.uleb128 0x2
+  85 0038 04        		.byte	0x4
+  86 0039 05        		.byte	0x5
+  87 003a 0000 0000 		.long	.LASF1
+  88 003e 02        		.uleb128 0x2
+  89 003f 01        		.byte	0x1
+  90 0040 06        		.byte	0x6
+  91 0041 0000 0000 		.long	.LASF2
+  92 0045 04        		.uleb128 0x4
+  93 0046 0000 0000 		.long	.LASF16
+  94 004a 03        		.byte	0x3
+  95 004b 7A        		.byte	0x7a
+  96 004c 5000 0000 		.long	0x50
+  97 0050 02        		.uleb128 0x2
+  98 0051 01        		.byte	0x1
+  99 0052 08        		.byte	0x8
+ 100 0053 0000 0000 		.long	.LASF3
+ 101 0057 02        		.uleb128 0x2
+ 102 0058 04        		.byte	0x4
+ 103 0059 07        		.byte	0x7
+ 104 005a 0000 0000 		.long	.LASF4
+ 105 005e 02        		.uleb128 0x2
+ 106 005f 08        		.byte	0x8
+ 107 0060 05        		.byte	0x5
+ 108 0061 0000 0000 		.long	.LASF5
+ 109 0065 02        		.uleb128 0x2
+ 110 0066 08        		.byte	0x8
+ 111 0067 07        		.byte	0x7
+ 112 0068 0000 0000 		.long	.LASF6
+ 113 006c 05        		.uleb128 0x5
+ 114 006d 01        		.byte	0x1
+GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s 			page 3
+
+
+ 115 006e 06        		.byte	0x6
+ 116 006f 05        		.uleb128 0x5
+ 117 0070 01        		.byte	0x1
+ 118 0071 08        		.byte	0x8
+ 119 0072 02        		.uleb128 0x2
+ 120 0073 01        		.byte	0x1
+ 121 0074 06        		.byte	0x6
+ 122 0075 0000 0000 		.long	.LASF7
+ 123 0079 06        		.uleb128 0x6
+ 124 007a 4500 0000 		.long	0x45
+ 125 007e 02        		.uleb128 0x2
+ 126 007f 01        		.byte	0x1
+ 127 0080 02        		.byte	0x2
+ 128 0081 0000 0000 		.long	.LASF8
+ 129 0085 02        		.uleb128 0x2
+ 130 0086 04        		.byte	0x4
+ 131 0087 04        		.byte	0x4
+ 132 0088 0000 0000 		.long	.LASF9
+ 133 008c 07        		.uleb128 0x7
+ 134 008d 01        		.byte	0x1
+ 135 008e 0000 0000 		.long	.LASF17
+ 136 0092 01        		.byte	0x1
+ 137 0093 05        		.byte	0x5
+ 138 0094 3000 0000 		.long	0x30
+ 139 0098 0000 0000 		.long	.LFB75
+ 140 009c 0000 0000 		.long	.LFE75
+ 141 00a0 02        		.byte	0x2
+ 142 00a1 90        		.byte	0x90
+ 143 00a2 20        		.uleb128 0x20
+ 144 00a3 08        		.uleb128 0x8
+ 145 00a4 5353 00   		.string	"SS"
+ 146 00a7 02        		.byte	0x2
+ 147 00a8 23        		.byte	0x23
+ 148 00a9 7900 0000 		.long	0x79
+ 149 00ad 35        		.byte	0x35
+ 150 00ae 09        		.uleb128 0x9
+ 151 00af 0000 0000 		.long	.LASF10
+ 152 00b3 02        		.byte	0x2
+ 153 00b4 24        		.byte	0x24
+ 154 00b5 7900 0000 		.long	0x79
+ 155 00b9 33        		.byte	0x33
+ 156 00ba 09        		.uleb128 0x9
+ 157 00bb 0000 0000 		.long	.LASF11
+ 158 00bf 02        		.byte	0x2
+ 159 00c0 25        		.byte	0x25
+ 160 00c1 7900 0000 		.long	0x79
+ 161 00c5 32        		.byte	0x32
+ 162 00c6 08        		.uleb128 0x8
+ 163 00c7 5343 4B00 		.string	"SCK"
+ 164 00cb 02        		.byte	0x2
+ 165 00cc 26        		.byte	0x26
+ 166 00cd 7900 0000 		.long	0x79
+ 167 00d1 34        		.byte	0x34
+ 168 00d2 08        		.uleb128 0x8
+ 169 00d3 5344 4100 		.string	"SDA"
+ 170 00d7 02        		.byte	0x2
+ 171 00d8 28        		.byte	0x28
+GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s 			page 4
+
+
+ 172 00d9 7900 0000 		.long	0x79
+ 173 00dd 14        		.byte	0x14
+ 174 00de 08        		.uleb128 0x8
+ 175 00df 5343 4C00 		.string	"SCL"
+ 176 00e3 02        		.byte	0x2
+ 177 00e4 29        		.byte	0x29
+ 178 00e5 7900 0000 		.long	0x79
+ 179 00e9 15        		.byte	0x15
+ 180 00ea 09        		.uleb128 0x9
+ 181 00eb 0000 0000 		.long	.LASF12
+ 182 00ef 02        		.byte	0x2
+ 183 00f0 2A        		.byte	0x2a
+ 184 00f1 7900 0000 		.long	0x79
+ 185 00f5 0D        		.byte	0xd
+ 186 00f6 08        		.uleb128 0x8
+ 187 00f7 4130 00   		.string	"A0"
+ 188 00fa 02        		.byte	0x2
+ 189 00fb 2C        		.byte	0x2c
+ 190 00fc 7900 0000 		.long	0x79
+ 191 0100 36        		.byte	0x36
+ 192 0101 08        		.uleb128 0x8
+ 193 0102 4131 00   		.string	"A1"
+ 194 0105 02        		.byte	0x2
+ 195 0106 2D        		.byte	0x2d
+ 196 0107 7900 0000 		.long	0x79
+ 197 010b 37        		.byte	0x37
+ 198 010c 08        		.uleb128 0x8
+ 199 010d 4132 00   		.string	"A2"
+ 200 0110 02        		.byte	0x2
+ 201 0111 2E        		.byte	0x2e
+ 202 0112 7900 0000 		.long	0x79
+ 203 0116 38        		.byte	0x38
+ 204 0117 08        		.uleb128 0x8
+ 205 0118 4133 00   		.string	"A3"
+ 206 011b 02        		.byte	0x2
+ 207 011c 2F        		.byte	0x2f
+ 208 011d 7900 0000 		.long	0x79
+ 209 0121 39        		.byte	0x39
+ 210 0122 08        		.uleb128 0x8
+ 211 0123 4134 00   		.string	"A4"
+ 212 0126 02        		.byte	0x2
+ 213 0127 30        		.byte	0x30
+ 214 0128 7900 0000 		.long	0x79
+ 215 012c 3A        		.byte	0x3a
+ 216 012d 08        		.uleb128 0x8
+ 217 012e 4135 00   		.string	"A5"
+ 218 0131 02        		.byte	0x2
+ 219 0132 31        		.byte	0x31
+ 220 0133 7900 0000 		.long	0x79
+ 221 0137 3B        		.byte	0x3b
+ 222 0138 08        		.uleb128 0x8
+ 223 0139 4136 00   		.string	"A6"
+ 224 013c 02        		.byte	0x2
+ 225 013d 32        		.byte	0x32
+ 226 013e 7900 0000 		.long	0x79
+ 227 0142 3C        		.byte	0x3c
+ 228 0143 08        		.uleb128 0x8
+GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s 			page 5
+
+
+ 229 0144 4137 00   		.string	"A7"
+ 230 0147 02        		.byte	0x2
+ 231 0148 33        		.byte	0x33
+ 232 0149 7900 0000 		.long	0x79
+ 233 014d 3D        		.byte	0x3d
+ 234 014e 08        		.uleb128 0x8
+ 235 014f 4138 00   		.string	"A8"
+ 236 0152 02        		.byte	0x2
+ 237 0153 34        		.byte	0x34
+ 238 0154 7900 0000 		.long	0x79
+ 239 0158 3E        		.byte	0x3e
+ 240 0159 08        		.uleb128 0x8
+ 241 015a 4139 00   		.string	"A9"
+ 242 015d 02        		.byte	0x2
+ 243 015e 35        		.byte	0x35
+ 244 015f 7900 0000 		.long	0x79
+ 245 0163 3F        		.byte	0x3f
+ 246 0164 08        		.uleb128 0x8
+ 247 0165 4131 3000 		.string	"A10"
+ 248 0169 02        		.byte	0x2
+ 249 016a 36        		.byte	0x36
+ 250 016b 7900 0000 		.long	0x79
+ 251 016f 40        		.byte	0x40
+ 252 0170 08        		.uleb128 0x8
+ 253 0171 4131 3100 		.string	"A11"
+ 254 0175 02        		.byte	0x2
+ 255 0176 37        		.byte	0x37
+ 256 0177 7900 0000 		.long	0x79
+ 257 017b 41        		.byte	0x41
+ 258 017c 08        		.uleb128 0x8
+ 259 017d 4131 3200 		.string	"A12"
+ 260 0181 02        		.byte	0x2
+ 261 0182 38        		.byte	0x38
+ 262 0183 7900 0000 		.long	0x79
+ 263 0187 42        		.byte	0x42
+ 264 0188 08        		.uleb128 0x8
+ 265 0189 4131 3300 		.string	"A13"
+ 266 018d 02        		.byte	0x2
+ 267 018e 39        		.byte	0x39
+ 268 018f 7900 0000 		.long	0x79
+ 269 0193 43        		.byte	0x43
+ 270 0194 08        		.uleb128 0x8
+ 271 0195 4131 3400 		.string	"A14"
+ 272 0199 02        		.byte	0x2
+ 273 019a 3A        		.byte	0x3a
+ 274 019b 7900 0000 		.long	0x79
+ 275 019f 44        		.byte	0x44
+ 276 01a0 08        		.uleb128 0x8
+ 277 01a1 4131 3500 		.string	"A15"
+ 278 01a5 02        		.byte	0x2
+ 279 01a6 3B        		.byte	0x3b
+ 280 01a7 7900 0000 		.long	0x79
+ 281 01ab 45        		.byte	0x45
+ 282 01ac 00        		.byte	0x0
+ 283               		.section	.debug_abbrev
+ 284 0000 01        		.uleb128 0x1
+ 285 0001 11        		.uleb128 0x11
+GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s 			page 6
+
+
+ 286 0002 01        		.byte	0x1
+ 287 0003 25        		.uleb128 0x25
+ 288 0004 0E        		.uleb128 0xe
+ 289 0005 13        		.uleb128 0x13
+ 290 0006 0B        		.uleb128 0xb
+ 291 0007 03        		.uleb128 0x3
+ 292 0008 0E        		.uleb128 0xe
+ 293 0009 1B        		.uleb128 0x1b
+ 294 000a 0E        		.uleb128 0xe
+ 295 000b 11        		.uleb128 0x11
+ 296 000c 01        		.uleb128 0x1
+ 297 000d 52        		.uleb128 0x52
+ 298 000e 01        		.uleb128 0x1
+ 299 000f 55        		.uleb128 0x55
+ 300 0010 06        		.uleb128 0x6
+ 301 0011 10        		.uleb128 0x10
+ 302 0012 06        		.uleb128 0x6
+ 303 0013 00        		.byte	0x0
+ 304 0014 00        		.byte	0x0
+ 305 0015 02        		.uleb128 0x2
+ 306 0016 24        		.uleb128 0x24
+ 307 0017 00        		.byte	0x0
+ 308 0018 0B        		.uleb128 0xb
+ 309 0019 0B        		.uleb128 0xb
+ 310 001a 3E        		.uleb128 0x3e
+ 311 001b 0B        		.uleb128 0xb
+ 312 001c 03        		.uleb128 0x3
+ 313 001d 0E        		.uleb128 0xe
+ 314 001e 00        		.byte	0x0
+ 315 001f 00        		.byte	0x0
+ 316 0020 03        		.uleb128 0x3
+ 317 0021 24        		.uleb128 0x24
+ 318 0022 00        		.byte	0x0
+ 319 0023 0B        		.uleb128 0xb
+ 320 0024 0B        		.uleb128 0xb
+ 321 0025 3E        		.uleb128 0x3e
+ 322 0026 0B        		.uleb128 0xb
+ 323 0027 03        		.uleb128 0x3
+ 324 0028 08        		.uleb128 0x8
+ 325 0029 00        		.byte	0x0
+ 326 002a 00        		.byte	0x0
+ 327 002b 04        		.uleb128 0x4
+ 328 002c 16        		.uleb128 0x16
+ 329 002d 00        		.byte	0x0
+ 330 002e 03        		.uleb128 0x3
+ 331 002f 0E        		.uleb128 0xe
+ 332 0030 3A        		.uleb128 0x3a
+ 333 0031 0B        		.uleb128 0xb
+ 334 0032 3B        		.uleb128 0x3b
+ 335 0033 0B        		.uleb128 0xb
+ 336 0034 49        		.uleb128 0x49
+ 337 0035 13        		.uleb128 0x13
+ 338 0036 00        		.byte	0x0
+ 339 0037 00        		.byte	0x0
+ 340 0038 05        		.uleb128 0x5
+ 341 0039 24        		.uleb128 0x24
+ 342 003a 00        		.byte	0x0
+GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s 			page 7
+
+
+ 343 003b 0B        		.uleb128 0xb
+ 344 003c 0B        		.uleb128 0xb
+ 345 003d 3E        		.uleb128 0x3e
+ 346 003e 0B        		.uleb128 0xb
+ 347 003f 00        		.byte	0x0
+ 348 0040 00        		.byte	0x0
+ 349 0041 06        		.uleb128 0x6
+ 350 0042 26        		.uleb128 0x26
+ 351 0043 00        		.byte	0x0
+ 352 0044 49        		.uleb128 0x49
+ 353 0045 13        		.uleb128 0x13
+ 354 0046 00        		.byte	0x0
+ 355 0047 00        		.byte	0x0
+ 356 0048 07        		.uleb128 0x7
+ 357 0049 2E        		.uleb128 0x2e
+ 358 004a 00        		.byte	0x0
+ 359 004b 3F        		.uleb128 0x3f
+ 360 004c 0C        		.uleb128 0xc
+ 361 004d 03        		.uleb128 0x3
+ 362 004e 0E        		.uleb128 0xe
+ 363 004f 3A        		.uleb128 0x3a
+ 364 0050 0B        		.uleb128 0xb
+ 365 0051 3B        		.uleb128 0x3b
+ 366 0052 0B        		.uleb128 0xb
+ 367 0053 49        		.uleb128 0x49
+ 368 0054 13        		.uleb128 0x13
+ 369 0055 11        		.uleb128 0x11
+ 370 0056 01        		.uleb128 0x1
+ 371 0057 12        		.uleb128 0x12
+ 372 0058 01        		.uleb128 0x1
+ 373 0059 40        		.uleb128 0x40
+ 374 005a 0A        		.uleb128 0xa
+ 375 005b 00        		.byte	0x0
+ 376 005c 00        		.byte	0x0
+ 377 005d 08        		.uleb128 0x8
+ 378 005e 34        		.uleb128 0x34
+ 379 005f 00        		.byte	0x0
+ 380 0060 03        		.uleb128 0x3
+ 381 0061 08        		.uleb128 0x8
+ 382 0062 3A        		.uleb128 0x3a
+ 383 0063 0B        		.uleb128 0xb
+ 384 0064 3B        		.uleb128 0x3b
+ 385 0065 0B        		.uleb128 0xb
+ 386 0066 49        		.uleb128 0x49
+ 387 0067 13        		.uleb128 0x13
+ 388 0068 1C        		.uleb128 0x1c
+ 389 0069 0B        		.uleb128 0xb
+ 390 006a 00        		.byte	0x0
+ 391 006b 00        		.byte	0x0
+ 392 006c 09        		.uleb128 0x9
+ 393 006d 34        		.uleb128 0x34
+ 394 006e 00        		.byte	0x0
+ 395 006f 03        		.uleb128 0x3
+ 396 0070 0E        		.uleb128 0xe
+ 397 0071 3A        		.uleb128 0x3a
+ 398 0072 0B        		.uleb128 0xb
+ 399 0073 3B        		.uleb128 0x3b
+GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s 			page 8
+
+
+ 400 0074 0B        		.uleb128 0xb
+ 401 0075 49        		.uleb128 0x49
+ 402 0076 13        		.uleb128 0x13
+ 403 0077 1C        		.uleb128 0x1c
+ 404 0078 0B        		.uleb128 0xb
+ 405 0079 00        		.byte	0x0
+ 406 007a 00        		.byte	0x0
+ 407 007b 00        		.byte	0x0
+ 408               		.section	.debug_pubnames,"",@progbits
+ 409 0000 1700 0000 		.long	0x17
+ 410 0004 0200      		.word	0x2
+ 411 0006 0000 0000 		.long	.Ldebug_info0
+ 412 000a AD01 0000 		.long	0x1ad
+ 413 000e 8C00 0000 		.long	0x8c
+ 414 0012 6D61 696E 		.string	"main"
+ 414      00
+ 415 0017 0000 0000 		.long	0x0
+ 416               		.section	.debug_aranges,"",@progbits
+ 417 0000 1C00 0000 		.long	0x1c
+ 418 0004 0200      		.word	0x2
+ 419 0006 0000 0000 		.long	.Ldebug_info0
+ 420 000a 04        		.byte	0x4
+ 421 000b 00        		.byte	0x0
+ 422 000c 0000      		.word	0x0
+ 423 000e 0000      		.word	0x0
+ 424 0010 0000 0000 		.long	.LFB75
+ 425 0014 0E00 0000 		.long	.LFE75-.LFB75
+ 426 0018 0000 0000 		.long	0x0
+ 427 001c 0000 0000 		.long	0x0
+ 428               		.section	.debug_ranges,"",@progbits
+ 429               	.Ldebug_ranges0:
+ 430 0000 0000 0000 		.long	.Ltext0
+ 431 0004 0000 0000 		.long	.Letext0
+ 432 0008 0000 0000 		.long	.LFB75
+ 433 000c 0000 0000 		.long	.LFE75
+ 434 0010 0000 0000 		.long	0x0
+ 435 0014 0000 0000 		.long	0x0
+ 436               		.section	.debug_line
+ 437 0000 4701 0000 		.long	.LELT0-.LSLT0
+ 438               	.LSLT0:
+ 439 0004 0200      		.word	0x2
+ 440 0006 0D01 0000 		.long	.LELTP0-.LASLTP0
+ 441               	.LASLTP0:
+ 442 000a 01        		.byte	0x1
+ 443 000b 01        		.byte	0x1
+ 444 000c F6        		.byte	0xf6
+ 445 000d F5        		.byte	0xf5
+ 446 000e 0A        		.byte	0xa
+ 447 000f 00        		.byte	0x0
+ 448 0010 01        		.byte	0x1
+ 449 0011 01        		.byte	0x1
+ 450 0012 01        		.byte	0x1
+ 451 0013 01        		.byte	0x1
+ 452 0014 00        		.byte	0x0
+ 453 0015 00        		.byte	0x0
+ 454 0016 00        		.byte	0x0
+ 455 0017 01        		.byte	0x1
+GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s 			page 9
+
+
+ 456 0018 2F41 7070 		.ascii	"/Applications/Arduino.app/Contents/Resources/Java/hardware/a"
+ 456      6C69 6361 
+ 456      7469 6F6E 
+ 456      732F 4172 
+ 456      6475 696E 
+ 457 0054 7264 7569 		.ascii	"rduino/avr/variants/mega"
+ 457      6E6F 2F61 
+ 457      7672 2F76 
+ 457      6172 6961 
+ 457      6E74 732F 
+ 458 006c 00        		.byte	0
+ 459 006d 2F41 7070 		.ascii	"/Applications/Arduino.app/Contents/Resources/Java/hardware/t"
+ 459      6C69 6361 
+ 459      7469 6F6E 
+ 459      732F 4172 
+ 459      6475 696E 
+ 460 00a9 6F6F 6C73 		.ascii	"ools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/include"
+ 460      2F61 7672 
+ 460      2F62 696E 
+ 460      2F2E 2E2F 
+ 460      6C69 622F 
+ 461 00e2 00        		.byte	0
+ 462 00e3 636F 6465 		.ascii	"code/RTOS"
+ 462      2F52 544F 
+ 462      53
+ 463 00ec 00        		.byte	0
+ 464 00ed 00        		.byte	0x0
+ 465 00ee 6D61 696E 		.string	"main.c"
+ 465      2E63 00
+ 466 00f5 03        		.uleb128 0x3
+ 467 00f6 00        		.uleb128 0x0
+ 468 00f7 00        		.uleb128 0x0
+ 469 00f8 7069 6E73 		.string	"pins_arduino.h"
+ 469      5F61 7264 
+ 469      7569 6E6F 
+ 469      2E68 00
+ 470 0107 01        		.uleb128 0x1
+ 471 0108 00        		.uleb128 0x0
+ 472 0109 00        		.uleb128 0x0
+ 473 010a 7374 6469 		.string	"stdint.h"
+ 473      6E74 2E68 
+ 473      00
+ 474 0113 02        		.uleb128 0x2
+ 475 0114 00        		.uleb128 0x0
+ 476 0115 00        		.uleb128 0x0
+ 477 0116 00        		.byte	0x0
+ 478               	.LELTP0:
+ 479 0117 00        		.byte	0x0
+ 480 0118 05        		.uleb128 0x5
+ 481 0119 02        		.byte	0x2
+ 482 011a 0000 0000 		.long	.Letext0
+ 483 011e 00        		.byte	0x0
+ 484 011f 01        		.uleb128 0x1
+ 485 0120 01        		.byte	0x1
+ 486 0121 00        		.byte	0x0
+ 487 0122 05        		.uleb128 0x5
+ 488 0123 02        		.byte	0x2
+GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s 			page 10
+
+
+ 489 0124 0000 0000 		.long	.LSM0
+ 490 0128 18        		.byte	0x18
+ 491 0129 00        		.byte	0x0
+ 492 012a 05        		.uleb128 0x5
+ 493 012b 02        		.byte	0x2
+ 494 012c 0000 0000 		.long	.LSM1
+ 495 0130 16        		.byte	0x16
+ 496 0131 00        		.byte	0x0
+ 497 0132 05        		.uleb128 0x5
+ 498 0133 02        		.byte	0x2
+ 499 0134 0000 0000 		.long	.LSM2
+ 500 0138 1B        		.byte	0x1b
+ 501 0139 00        		.byte	0x0
+ 502 013a 05        		.uleb128 0x5
+ 503 013b 02        		.byte	0x2
+ 504 013c 0000 0000 		.long	.LSM3
+ 505 0140 18        		.byte	0x18
+ 506 0141 00        		.byte	0x0
+ 507 0142 05        		.uleb128 0x5
+ 508 0143 02        		.byte	0x2
+ 509 0144 0000 0000 		.long	.LFE75
+ 510 0148 00        		.byte	0x0
+ 511 0149 01        		.uleb128 0x1
+ 512 014a 01        		.byte	0x1
+ 513               	.LELT0:
+ 514 014b 1900 0000 		.section	.debug_str,"MS",@progbits,1
+ 514      0200 1300 
+ 514      0000 0101 
+ 514      FB0E 0D00 
+ 514      0101 0101 
+ 515               	.LASF12:
+ 516 0000 4C45 445F 		.string	"LED_BUILTIN"
+ 516      4255 494C 
+ 516      5449 4E00 
+ 517               	.LASF15:
+ 518 000c 2F55 7365 		.string	"/Users/andrek/git/RTuinOS3"
+ 518      7273 2F61 
+ 518      6E64 7265 
+ 518      6B2F 6769 
+ 518      742F 5254 
+ 519               	.LASF8:
+ 520 0027 626F 6F6C 		.string	"bool"
+ 520      00
+ 521               	.LASF13:
+ 522 002c 474E 5520 		.string	"GNU C++ 4.3.2"
+ 522      432B 2B20 
+ 522      342E 332E 
+ 522      3200 
+ 523               	.LASF9:
+ 524 003a 666C 6F61 		.string	"float"
+ 524      7400 
+ 525               	.LASF14:
+ 526 0040 636F 6465 		.string	"code/RTOS/main.c"
+ 526      2F52 544F 
+ 526      532F 6D61 
+ 526      696E 2E63 
+ 526      00
+GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s 			page 11
+
+
+ 527               	.LASF3:
+ 528 0051 756E 7369 		.string	"unsigned char"
+ 528      676E 6564 
+ 528      2063 6861 
+ 528      7200 
+ 529               	.LASF4:
+ 530 005f 6C6F 6E67 		.string	"long unsigned int"
+ 530      2075 6E73 
+ 530      6967 6E65 
+ 530      6420 696E 
+ 530      7400 
+ 531               	.LASF17:
+ 532 0071 6D61 696E 		.string	"main"
+ 532      00
+ 533               	.LASF11:
+ 534 0076 4D49 534F 		.string	"MISO"
+ 534      00
+ 535               	.LASF10:
+ 536 007b 4D4F 5349 		.string	"MOSI"
+ 536      00
+ 537               	.LASF0:
+ 538 0080 756E 7369 		.string	"unsigned int"
+ 538      676E 6564 
+ 538      2069 6E74 
+ 538      00
+ 539               	.LASF6:
+ 540 008d 6C6F 6E67 		.string	"long long unsigned int"
+ 540      206C 6F6E 
+ 540      6720 756E 
+ 540      7369 676E 
+ 540      6564 2069 
+ 541               	.LASF16:
+ 542 00a4 7569 6E74 		.string	"uint8_t"
+ 542      385F 7400 
+ 543               	.LASF5:
+ 544 00ac 6C6F 6E67 		.string	"long long int"
+ 544      206C 6F6E 
+ 544      6720 696E 
+ 544      7400 
+ 545               	.LASF7:
+ 546 00ba 6368 6172 		.string	"char"
+ 546      00
+ 547               	.LASF1:
+ 548 00bf 6C6F 6E67 		.string	"long int"
+ 548      2069 6E74 
+ 548      00
+ 549               	.LASF2:
+ 550 00c8 7369 676E 		.string	"signed char"
+ 550      6564 2063 
+ 550      6861 7200 
+GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s 			page 12
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s:2      *ABS*:0000003f __SREG__
+/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s:3      *ABS*:0000003e __SP_H__
+/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s:4      *ABS*:0000003d __SP_L__
+/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s:5      *ABS*:00000034 __CCP__
+/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s:6      *ABS*:00000000 __tmp_reg__
+/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s:7      *ABS*:00000001 __zero_reg__
+/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccmXzs0N.s:21     .text.main:00000000 main
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss
+init
+_Z13rtos_initRTOSv
