@@ -1,0 +1,42 @@
+\hypertarget{gsl__system_load_8h}{\section{/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/gsl\-\_\-system\-Load.h File Reference}
+\label{gsl__system_load_8h}\index{/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/gsl\-\_\-system\-Load.\-h@{/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/gsl\-\_\-system\-Load.\-h}}
+}
+This graph shows which files directly or indirectly include this file\-:
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+uint8\-\_\-t \hyperlink{gsl__system_load_8h_a7ab86cdb0a428a943e4a183aadeed63e}{gsl\-\_\-get\-System\-Load} (void)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Definition of global interface of module \hyperlink{gsl__system_load_8c}{gsl\-\_\-system\-Load.\-c}
+
+Copyright (C) 2012 Peter Vranken (\href{mailto:Peter_Vranken@Yahoo.de}{\tt Peter\-\_\-\-Vranken@\-Yahoo.\-de})
+
+This program is free software\-: you can redistribute it and/or modify it under the terms of the G\-N\-U Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+
+This program is distributed in the hope that it will be useful, but W\-I\-T\-H\-O\-U\-T A\-N\-Y W\-A\-R\-R\-A\-N\-T\-Y; without even the implied warranty of M\-E\-R\-C\-H\-A\-N\-T\-A\-B\-I\-L\-I\-T\-Y or F\-I\-T\-N\-E\-S\-S F\-O\-R A P\-A\-R\-T\-I\-C\-U\-L\-A\-R P\-U\-R\-P\-O\-S\-E. See the G\-N\-U Lesser General Public License for more details.
+
+You should have received a copy of the G\-N\-U Lesser General Public License along with this program. If not, see \href{http://www.gnu.org/licenses/}{\tt http\-://www.\-gnu.\-org/licenses/}. 
+
+\subsection{Function Documentation}
+\hypertarget{gsl__system_load_8h_a7ab86cdb0a428a943e4a183aadeed63e}{\index{gsl\-\_\-system\-Load.\-h@{gsl\-\_\-system\-Load.\-h}!gsl\-\_\-get\-System\-Load@{gsl\-\_\-get\-System\-Load}}
+\index{gsl\-\_\-get\-System\-Load@{gsl\-\_\-get\-System\-Load}!gsl_systemLoad.h@{gsl\-\_\-system\-Load.\-h}}
+\subsubsection[{gsl\-\_\-get\-System\-Load}]{\setlength{\rightskip}{0pt plus 5cm}uint8\-\_\-t gsl\-\_\-get\-System\-Load (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{gsl__system_load_8h_a7ab86cdb0a428a943e4a183aadeed63e}
+Estimate the current system load. Must be used from the idle task only and takes above one second to execute.
+
+A diagnostic function, which can be used to estimate the current system load. The function executes some test code of known C\-P\-U execution time and relates this known time to the measured, actually elapsed world time. The function needs to be called from the idle task only. Now the mentioned ratio is a measure for the system load\-: The less the system idles the longer it'll take to execute the test code.\par
+ On principal, the execution time of the function depends on the system load and can raise to infinite if the load approaches 100\%. This effect is lowered by splitting the test code in pieces and ending the measurement if enough pieces have been executed to get the desired resolution. Nonetheless, the effect remains and no upper boundary can be given for the execution time of this function if the system load is close to 100\%.\par
+ Normally, the execution time of this function is about 1 second. This long time is needed to have a sufficient averaging effect; typically the C\-P\-U consumption by the tasks is quite irregular due to the complex task activation pattern of the scheduler. The averaging time can be changed at compile time, please see macro \hyperlink{gsl__system_load_8c_adb862a6542af241e12be0c4d02014780}{T\-I\-\_\-\-W\-I\-N\-D\-O\-W\-\_\-\-L\-E\-N}. \begin{DoxyReturn}{Returns}
+The system load is returned with a resolution 0.\-5\%, i.\-e. as an integer number in the range 0..200. 
+\end{DoxyReturn}
+\begin{DoxyRemark}{Remarks}
+The function execution takes a long time (above 1s). It must only be called from the idle task and only if there are no other essential jobs for the idle task. 
+
+The function will never return if the C\-P\-U load is 100\% and it might take an arbitrary long time to return if it is close to 100\%. The calling code must anticipate this, e.\-g. by presetting the result variable with 100\% prior to calling this function. 
+\end{DoxyRemark}

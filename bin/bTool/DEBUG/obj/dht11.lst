@@ -1,4 +1,4 @@
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 1
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 1
 
 
    1               		.file	"dht11.cpp"
@@ -58,7 +58,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
   41      5543 5F4D 
   41      494E 4F52 
   41      5F5F 2033 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 2
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 2
 
 
   41      00
@@ -118,7 +118,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
   65      414B 5F5F 
   65      2030 00
   66 013a 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 3
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 3
 
 
   67 013b 00        		.uleb128 0x0
@@ -178,7 +178,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
   90 0204 01        		.byte	0x1
   91 0205 00        		.uleb128 0x0
   92 0206 5F5F 5743 		.string	"__WCHAR_MAX__ 32767"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 4
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 4
 
 
   92      4841 525F 
@@ -238,7 +238,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  116      4E5F 4558 
  116      505F 5F20 
  116      282D 3132 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 5
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 5
 
 
  117 02d3 01        		.byte	0x1
@@ -298,7 +298,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  140      4E4F 524D 
  140      5F5F 2031 
  141 03b5 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 6
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 6
 
 
  142 03b6 00        		.uleb128 0x0
@@ -358,7 +358,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  165 0470 01        		.byte	0x1
  166 0471 00        		.uleb128 0x0
  167 0472 5F5F 4442 		.string	"__DBL_MAX__ 3.40282347e+38"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 7
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 7
 
 
  167      4C5F 4D41 
@@ -418,7 +418,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  190 0550 00        		.uleb128 0x0
  191 0551 5F5F 4C44 		.string	"__LDBL_DIG__ 6"
  191      424C 5F44 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 8
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 8
 
 
  191      4947 5F5F 
@@ -478,7 +478,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  215      424C 5F45 
  215      5053 494C 
  215      4F4E 5F5F 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 9
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 9
 
 
  215      2031 2E31 
@@ -538,7 +538,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  239      4D49 4E5F 
  239      5F20 3145 
  239      2D39 3544 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 10
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 10
 
 
  240 070d 01        		.byte	0x1
@@ -598,7 +598,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  263      5F20 392E 
  263      3939 3939 
  264 07f1 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 11
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 11
 
 
  265 07f2 00        		.uleb128 0x0
@@ -658,7 +658,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  287      5F5F 2031 
  288 08fa 01        		.byte	0x1
  289 08fb 00        		.uleb128 0x0
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 12
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 12
 
 
  290 08fc 5F5F 4445 		.string	"__DEC128_DEN__ 0.000000000000000000000000000000001E-6143DL"
@@ -718,7 +718,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  313 09d3 00        		.uleb128 0x0
  314 09d4 5F5F 5349 		.string	"__SIZEOF_LONG__ 4"
  314      5A45 4F46 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 13
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 13
 
 
  314      5F4C 4F4E 
@@ -778,7 +778,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  338 0a89 5F5F 5349 		.string	"__SIZEOF_WINT_T__ 2"
  338      5A45 4F46 
  338      5F57 494E 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 14
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 14
 
 
  338      545F 545F 
@@ -838,7 +838,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  365      4C50 4D5F 
  365      5F20 3100 
  366 0b40 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 15
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 15
 
 
  367 0b41 00        		.uleb128 0x0
@@ -898,7 +898,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  389      2031 00
  390 0bf1 01        		.byte	0x1
  391 0bf2 00        		.uleb128 0x0
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 16
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 16
 
 
  392 0bf3 5F5F 4156 		.string	"__AVR_MEGA__ 1"
@@ -958,7 +958,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  419 0c9a 02        		.uleb128 0x2
  420 0c9b 03        		.byte	0x3
  421 0c9c 11        		.uleb128 0x11
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 17
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 17
 
 
  422 0c9d 03        		.uleb128 0x3
@@ -1018,7 +1018,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  455      5F53 495A 
  455      455F 545F 
  455      4820 00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 18
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 18
 
 
  456 0d2e 01        		.byte	0x1
@@ -1078,7 +1078,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  483 0dc9 01        		.byte	0x1
  484 0dca CA01      		.uleb128 0xca
  485 0dcc 5F5F 5F69 		.string	"___int_size_t_h "
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 19
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 19
 
 
  485      6E74 5F73 
@@ -1138,7 +1138,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  514 0e60 8E02      		.uleb128 0x10e
  515 0e62 5F5F 5743 		.string	"__WCHAR_T "
  515      4841 525F 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 20
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 20
 
 
  515      5420 00
@@ -1198,7 +1198,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  542      4152 5F54 
  542      5F44 4543 
  542      4C41 5245 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 21
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 21
 
 
  542      4420 00
@@ -1258,7 +1258,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  570      5F20 5F5F 
  571 0ffe 01        		.byte	0x1
  572 0fff 61        		.uleb128 0x61
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 22
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 22
 
 
  573 1000 5F5F 4154 		.string	"__ATTR_PURE__ __attribute__((__pure__))"
@@ -1318,7 +1318,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  596 10e0 03        		.byte	0x3
  597 10e1 05        		.uleb128 0x5
  598 10e2 06        		.uleb128 0x6
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 23
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 23
 
 
  599 10e3 01        		.byte	0x1
@@ -1378,7 +1378,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  628 11c7 2026 2030 		.ascii	" & 0200 ? 8 : (x) & 0400 ? 9 : (x) & 01000 ? 10 : (x) & 0200"
  628      3230 3020 
  628      3F20 3820 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 24
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 24
 
 
  628      3A20 2878 
@@ -1438,7 +1438,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  655 1304 4D        		.uleb128 0x4d
  656 1305 5F5F 5047 		.string	"__PGMSPACE_H_ 1"
  656      4D53 5041 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 25
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 25
 
 
  656      4345 5F48 
@@ -1498,7 +1498,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  688      6564 5F73 
  688      697A 655F 
  688      7400 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 26
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 26
 
 
  689 13d2 02        		.byte	0x2
@@ -1558,7 +1558,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  719 14d3 5F5F 5346 		.string	"__SFR_OFFSET 0x20"
  719      525F 4F46 
  719      4653 4554 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 27
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 27
 
 
  719      2030 7832 
@@ -1618,7 +1618,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  743      5F49 4F5F 
  743      5245 475F 
  743      5028 7366 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 28
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 28
 
 
  743      7229 2028 
@@ -1678,7 +1678,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  767      6C65 6172 
  767      2873 6672 
  767      2C62 6974 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 29
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 29
 
 
  768 17d4 01        		.byte	0x1
@@ -1738,7 +1738,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  797      525F 494F 
  797      3828 3058 
  797      3030 2900 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 30
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 30
 
 
  798 18d9 01        		.byte	0x1
@@ -1798,7 +1798,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  836      2034 00
  837 1963 01        		.byte	0x1
  838 1964 4A        		.uleb128 0x4a
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 31
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 31
 
 
  839 1965 4444 4133 		.string	"DDA3 3"
@@ -1858,7 +1858,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  877 19df 59        		.uleb128 0x59
  878 19e0 5049 4E42 		.string	"PINB _SFR_IO8(0X03)"
  878      205F 5346 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 32
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 32
 
 
  878      525F 494F 
@@ -1918,7 +1918,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  915 1a75 01        		.byte	0x1
  916 1a76 67        		.uleb128 0x67
  917 1a77 4444 4234 		.string	"DDB4 4"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 33
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 33
 
 
  917      2034 00
@@ -1978,7 +1978,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  956 1af3 5042 3020 		.string	"PB0 0"
  956      3000 
  957 1af9 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 34
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 34
 
 
  958 1afa 77        		.uleb128 0x77
@@ -2038,7 +2038,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  994 1b8b 8401      		.uleb128 0x84
  995 1b8d 4444 4335 		.string	"DDC5 5"
  995      2035 00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 35
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 35
 
 
  996 1b94 01        		.byte	0x1
@@ -2098,7 +2098,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1034      3100 
  1035 1c1d 01        		.byte	0x1
  1036 1c1e 9301      		.uleb128 0x93
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 36
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 36
 
 
  1037 1c20 5043 3020 		.string	"PC0 0"
@@ -2158,7 +2158,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1073 1cb9 4444 4436 		.string	"DDD6 6"
  1073      2036 00
  1074 1cc0 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 37
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 37
 
 
  1075 1cc1 A201      		.uleb128 0xa2
@@ -2218,7 +2218,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1113 1d4a 01        		.byte	0x1
  1114 1d4b B001      		.uleb128 0xb0
  1115 1d4d 5044 3120 		.string	"PD1 1"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 38
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 38
 
 
  1115      3100 
@@ -2278,7 +2278,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1151      2037 00
  1152 1dec 01        		.byte	0x1
  1153 1ded BF01      		.uleb128 0xbf
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 39
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 39
 
 
  1154 1def 4444 4536 		.string	"DDE6 6"
@@ -2338,7 +2338,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1192 1e78 CD01      		.uleb128 0xcd
  1193 1e7a 5045 3220 		.string	"PE2 2"
  1193      3200 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 40
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 40
 
 
  1194 1e80 01        		.byte	0x1
@@ -2398,7 +2398,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1230 1f18 01        		.byte	0x1
  1231 1f19 DC01      		.uleb128 0xdc
  1232 1f1b 4444 4637 		.string	"DDF7 7"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 41
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 41
 
 
  1232      2037 00
@@ -2458,7 +2458,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1271 1fa7 5046 3320 		.string	"PF3 3"
  1271      3300 
  1272 1fad 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 42
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 42
 
 
  1273 1fae EB01      		.uleb128 0xeb
@@ -2518,7 +2518,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1309 2043 F901      		.uleb128 0xf9
  1310 2045 4444 4734 		.string	"DDG4 4"
  1310      2034 00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 43
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 43
 
 
  1311 204c 01        		.byte	0x1
@@ -2578,7 +2578,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1347 20da 01        		.byte	0x1
  1348 20db 8802      		.uleb128 0x108
  1349 20dd 4F43 4630 		.string	"OCF0B 2"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 44
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 44
 
 
  1349      4220 3200 
@@ -2638,7 +2638,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1385      2030 00
  1386 217f 01        		.byte	0x1
  1387 2180 9802      		.uleb128 0x118
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 45
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 45
 
 
  1388 2182 5449 4652 		.string	"TIFR3 _SFR_IO8(0x18)"
@@ -2698,7 +2698,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1424 221c 5449 4652 		.string	"TIFR5 _SFR_IO8(0x1A)"
  1424      3520 5F53 
  1424      4652 5F49 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 46
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 46
 
 
  1424      4F38 2830 
@@ -2758,7 +2758,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1460 22c4 494E 5446 		.string	"INTF6 6"
  1460      3620 3600 
  1461 22cc 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 47
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 47
 
 
  1462 22cd B702      		.uleb128 0x137
@@ -2818,7 +2818,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1500 2362 01        		.byte	0x1
  1501 2363 C502      		.uleb128 0x145
  1502 2365 494E 5431 		.string	"INT1 1"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 48
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 48
 
 
  1502      2031 00
@@ -2878,7 +2878,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1535      525F 494F 
  1535      3136 2830 
  1535      7832 3129 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 49
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 49
 
 
  1536 2415 01        		.byte	0x1
@@ -2938,7 +2938,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1563 24c7 01        		.byte	0x1
  1564 24c8 E902      		.uleb128 0x169
  1565 24ca 434F 4D30 		.string	"COM0A0 6"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 50
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 50
 
 
  1565      4130 2036 
@@ -2998,7 +2998,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1601      3020 5F53 
  1601      4652 5F49 
  1601      4F38 2830 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 51
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 51
 
 
  1601      5832 3629 
@@ -3058,7 +3058,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1631 2614 4350 4F4C 		.string	"CPOL 3"
  1631      2033 00
  1632 261b 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 52
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 52
 
 
  1633 261c 8903      		.uleb128 0x189
@@ -3118,7 +3118,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1667 26b3 4143 4F20 		.string	"ACO 5"
  1667      3500 
  1668 26b9 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 53
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 53
 
 
  1669 26ba 9A03      		.uleb128 0x19a
@@ -3178,7 +3178,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1705 2752 A703      		.uleb128 0x1a7
  1706 2754 4F43 4452 		.string	"OCDR3 3"
  1706      3320 3300 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 54
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 54
 
 
  1707 275c 01        		.byte	0x1
@@ -3238,7 +3238,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1743 27ed 01        		.byte	0x1
  1744 27ee B803      		.uleb128 0x1b8
  1745 27f0 4558 5452 		.string	"EXTRF 1"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 55
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 55
 
 
  1745      4620 3100 
@@ -3298,7 +3298,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1781 288a 424C 4253 		.string	"BLBSET 3"
  1781      4554 2033 
  1781      00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 56
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 56
 
 
  1782 2893 01        		.byte	0x1
@@ -3358,7 +3358,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1815 2932 01        		.byte	0x1
  1816 2933 DC03      		.uleb128 0x1dc
  1817 2935 5744 4345 		.string	"WDCE 4"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 57
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 57
 
 
  1817      2034 00
@@ -3418,7 +3418,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1850      4D38 2830 
  1850      7836 3429 
  1851 29d0 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 58
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 58
 
 
  1852 29d1 EC03      		.uleb128 0x1ec
@@ -3478,7 +3478,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1885 2a60 F803      		.uleb128 0x1f8
  1886 2a62 5052 5553 		.string	"PRUSART3 2"
  1886      4152 5433 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 59
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 59
 
 
  1886      2032 00
@@ -3538,7 +3538,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1919 2b0f 4953 4332 		.string	"ISC21 5"
  1919      3120 3500 
  1920 2b17 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 60
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 60
 
 
  1921 2b18 8B04      		.uleb128 0x20b
@@ -3598,7 +3598,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1959 2bb4 01        		.byte	0x1
  1960 2bb5 9904      		.uleb128 0x219
  1961 2bb7 4953 4334 		.string	"ISC40 0"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 61
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 61
 
 
  1961      3020 3000 
@@ -3658,7 +3658,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  1991      2830 7836 
  1992 2c53 01        		.byte	0x1
  1993 2c54 A604      		.uleb128 0x226
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 62
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 62
 
 
  1994 2c56 5043 494E 		.string	"PCINT15 7"
@@ -3718,7 +3718,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2024      3600 
  2025 2ced 01        		.byte	0x1
  2026 2cee B304      		.uleb128 0x233
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 63
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 63
 
 
  2027 2cf0 5043 494E 		.string	"PCINT21 5"
@@ -3778,7 +3778,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2057      4D45 4D38 
  2057      2830 7836 
  2058 2d92 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 64
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 64
 
 
  2059 2d93 C104      		.uleb128 0x241
@@ -3838,7 +3838,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2091 2e2e 01        		.byte	0x1
  2092 2e2f CE04      		.uleb128 0x24e
  2093 2e31 4F43 4945 		.string	"OCIE3C 3"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 65
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 65
 
 
  2093      3343 2033 
@@ -3898,7 +3898,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2125 2ecc DB04      		.uleb128 0x25b
  2126 2ece 4943 4945 		.string	"ICIE5 5"
  2126      3520 3500 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 66
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 66
 
 
  2127 2ed6 01        		.byte	0x1
@@ -3958,7 +3958,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2163 2f66 01        		.byte	0x1
  2164 2f67 E904      		.uleb128 0x269
  2165 2f69 5352 5730 		.string	"SRW00 0"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 67
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 67
 
 
  2165      3020 3000 
@@ -4018,7 +4018,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2195 3016 4144 4353 		.string	"ADCSRA _SFR_MEM8(0x7A)"
  2195      5241 205F 
  2195      5346 525F 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 68
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 68
 
 
  2195      4D45 4D38 
@@ -4078,7 +4078,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2233 30bb 8B05      		.uleb128 0x28b
  2234 30bd 4144 5453 		.string	"ADTS1 1"
  2234      3120 3100 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 69
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 69
 
 
  2235 30c5 01        		.byte	0x1
@@ -4138,7 +4138,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2270      00
  2271 3161 01        		.byte	0x1
  2272 3162 9A05      		.uleb128 0x29a
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 70
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 70
 
 
  2273 3164 4144 4331 		.string	"ADC14D 6"
@@ -4198,7 +4198,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2307 31f8 01        		.byte	0x1
  2308 31f9 A705      		.uleb128 0x2a7
  2309 31fb 4144 4333 		.string	"ADC3D 3"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 71
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 71
 
 
  2309      4420 3300 
@@ -4258,7 +4258,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2342      00
  2343 329d 01        		.byte	0x1
  2344 329e B505      		.uleb128 0x2b5
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 72
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 72
 
 
  2345 32a0 434F 4D31 		.string	"COM1C1 3"
@@ -4318,7 +4318,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2381      3143 205F 
  2381      5346 525F 
  2381      4D45 4D38 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 73
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 73
 
 
  2381      2830 7838 
@@ -4378,7 +4378,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2408      3078 3837 
  2409 3403 01        		.byte	0x1
  2410 3404 D705      		.uleb128 0x2d7
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 74
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 74
 
 
  2411 3406 4F43 5231 		.string	"OCR1A _SFR_MEM16(0x88)"
@@ -4438,7 +4438,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2433 34d3 01        		.byte	0x1
  2434 34d4 E605      		.uleb128 0x2e6
  2435 34d6 4F43 5231 		.string	"OCR1CH _SFR_MEM8(0x8D)"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 75
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 75
 
 
  2435      4348 205F 
@@ -4498,7 +4498,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2465      4D45 4D38 
  2465      2830 7839 
  2466 357f 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 76
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 76
 
 
  2467 3580 F505      		.uleb128 0x2f5
@@ -4558,7 +4558,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2503 361f 8706      		.uleb128 0x307
  2504 3621 5443 4E54 		.string	"TCNT3L _SFR_MEM8(0x94)"
  2504      334C 205F 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 77
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 77
 
 
  2504      5346 525F 
@@ -4618,7 +4618,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2528 36ee 4F43 5233 		.string	"OCR3B _SFR_MEM16(0x9A)"
  2528      4220 5F53 
  2528      4652 5F4D 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 78
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 78
 
 
  2528      454D 3136 
@@ -4678,7 +4678,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2553 37b9 01        		.byte	0x1
  2554 37ba A706      		.uleb128 0x327
  2555 37bc 434F 4D34 		.string	"COM4B1 5"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 79
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 79
 
 
  2555      4231 2035 
@@ -4738,7 +4738,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2591 3852 4353 3431 		.string	"CS41 1"
  2591      2031 00
  2592 3859 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 80
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 80
 
 
  2593 385a B506      		.uleb128 0x335
@@ -4798,7 +4798,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2621      4652 5F4D 
  2621      454D 3828 
  2621      3078 4136 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 81
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 81
 
 
  2622 391e 01        		.byte	0x1
@@ -4858,7 +4858,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2645      454D 3136 
  2645      2830 7841 
  2646 39ed 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 82
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 82
 
 
  2647 39ee D906      		.uleb128 0x359
@@ -4918,7 +4918,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2675      2830 7842 
  2676 3a9b 01        		.byte	0x1
  2677 3a9c E706      		.uleb128 0x367
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 83
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 83
 
 
  2678 3a9e 464F 4332 		.string	"FOC2A 7"
@@ -4978,7 +4978,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2709 3b48 01        		.byte	0x1
  2710 3b49 F806      		.uleb128 0x378
  2711 3b4b 4153 3220 		.string	"AS2 5"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 84
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 84
 
 
  2711      3500 
@@ -5038,7 +5038,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2744 3be2 5457 5334 		.string	"TWS4 4"
  2744      2034 00
  2745 3be9 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 85
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 85
 
 
  2746 3bea 8807      		.uleb128 0x388
@@ -5098,7 +5098,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2783      525F 4D45 
  2783      4D38 2830 
  2783      7842 4229 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 86
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 86
 
 
  2784 3c8a 01        		.byte	0x1
@@ -5158,7 +5158,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2820 3d25 01        		.byte	0x1
  2821 3d26 A507      		.uleb128 0x3a5
  2822 3d28 5457 414D 		.string	"TWAM3 4"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 87
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 87
 
 
  2822      3320 3400 
@@ -5218,7 +5218,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2861 3dbf 5543 5352 		.string	"UCSR0B _SFR_MEM8(0XC1)"
  2861      3042 205F 
  2861      5346 525F 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 88
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 88
 
 
  2861      4D45 4D38 
@@ -5278,7 +5278,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2894      3600 
  2895 3e66 01        		.byte	0x1
  2896 3e67 C307      		.uleb128 0x3c3
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 89
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 89
 
 
  2897 3e69 5550 4D30 		.string	"UPM01 5"
@@ -5338,7 +5338,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2926 3f12 D607      		.uleb128 0x3d6
  2927 3f14 5543 5352 		.string	"UCSR1A _SFR_MEM8(0xC8)"
  2927      3141 205F 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 90
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 90
 
 
  2927      5346 525F 
@@ -5398,7 +5398,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2963 3fb1 5544 5249 		.string	"UDRIE1 5"
  2963      4531 2035 
  2963      00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 91
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 91
 
 
  2964 3fba 01        		.byte	0x1
@@ -5458,7 +5458,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  2999      00
  3000 4053 01        		.byte	0x1
  3001 4054 F107      		.uleb128 0x3f1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 92
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 92
 
 
  3002 4056 5543 535A 		.string	"UCSZ10 1"
@@ -5518,7 +5518,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3029      3220 3500 
  3030 410a 01        		.byte	0x1
  3031 410b 8608      		.uleb128 0x406
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 93
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 93
 
 
  3032 410d 4645 3220 		.string	"FE2 4"
@@ -5578,7 +5578,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3067 419d 9308      		.uleb128 0x413
  3068 419f 5258 4238 		.string	"RXB82 1"
  3068      3220 3100 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 94
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 94
 
 
  3069 41a7 01        		.byte	0x1
@@ -5638,7 +5638,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3101      2830 7844 
  3102 4245 01        		.byte	0x1
  3103 4246 A508      		.uleb128 0x425
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 95
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 95
 
 
  3104 4248 5542 5252 		.string	"UBRR2L _SFR_MEM8(0xD4)"
@@ -5698,7 +5698,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3135 42f7 01        		.byte	0x1
  3136 42f8 B808      		.uleb128 0x438
  3137 42fa 5049 4E48 		.string	"PINH0 0"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 96
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 96
 
 
  3137      3020 3000 
@@ -5758,7 +5758,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3173      3600 
  3174 4397 01        		.byte	0x1
  3175 4398 C708      		.uleb128 0x447
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 97
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 97
 
 
  3176 439a 5048 3520 		.string	"PH5 5"
@@ -5818,7 +5818,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3214 4429 D508      		.uleb128 0x455
  3215 442b 5049 4E4A 		.string	"PINJ1 1"
  3215      3120 3100 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 98
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 98
 
 
  3216 4433 01        		.byte	0x1
@@ -5878,7 +5878,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3252 44ca 01        		.byte	0x1
  3253 44cb E408      		.uleb128 0x464
  3254 44cd 504A 3620 		.string	"PJ6 6"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 99
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 99
 
 
  3254      3600 
@@ -5938,7 +5938,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3293 455c 5049 4E4B 		.string	"PINK2 2"
  3293      3220 3200 
  3294 4564 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 100
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 100
 
 
  3295 4565 F308      		.uleb128 0x473
@@ -5998,7 +5998,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3331 45fe 8109      		.uleb128 0x481
  3332 4600 504B 3720 		.string	"PK7 7"
  3332      3700 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 101
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 101
 
 
  3333 4606 01        		.byte	0x1
@@ -6058,7 +6058,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3371      3320 3300 
  3372 4695 01        		.byte	0x1
  3373 4696 9009      		.uleb128 0x490
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 102
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 102
 
 
  3374 4698 5049 4E4C 		.string	"PINL2 2"
@@ -6118,7 +6118,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3410      454D 3828 
  3410      3078 3130 
  3411 4739 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 103
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 103
 
 
  3412 473a 9F09      		.uleb128 0x49f
@@ -6178,7 +6178,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3448 47c1 B009      		.uleb128 0x4b0
  3449 47c3 434F 4D35 		.string	"COM5B0 4"
  3449      4230 2034 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 104
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 104
 
 
  3449      00
@@ -6238,7 +6238,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3486 485f 01        		.byte	0x1
  3487 4860 BF09      		.uleb128 0x4bf
  3488 4862 5443 4352 		.string	"TCCR5C _SFR_MEM8(0x122)"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 105
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 105
 
 
  3488      3543 205F 
@@ -6298,7 +6298,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3515      4820 5F53 
  3515      4652 5F4D 
  3515      454D 3828 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 106
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 106
 
 
  3515      3078 3132 
@@ -6358,7 +6358,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3539      5346 525F 
  3539      4D45 4D38 
  3539      2830 7831 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 107
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 107
 
 
  3540 4a12 01        		.byte	0x1
@@ -6418,7 +6418,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3574 4ab5 F309      		.uleb128 0x4f3
  3575 4ab7 5258 4349 		.string	"RXCIE3 7"
  3575      4533 2037 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 108
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 108
 
 
  3575      00
@@ -6478,7 +6478,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3610 4b51 800A      		.uleb128 0x500
  3611 4b53 5550 4D33 		.string	"UPM30 4"
  3611      3020 3400 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 109
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 109
 
 
  3612 4b5b 01        		.byte	0x1
@@ -6538,7 +6538,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3639 4c0c 01        		.byte	0x1
  3640 4c0d 980A      		.uleb128 0x518
  3641 4c0f 5349 475F 		.string	"SIG_INTERRUPT0 _VECTOR(1)"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 110
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 110
 
 
  3641      494E 5445 
@@ -6598,7 +6598,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3664 4ce1 A80A      		.uleb128 0x528
  3665 4ce3 5349 475F 		.string	"SIG_INTERRUPT4 _VECTOR(5)"
  3665      494E 5445 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 111
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 111
 
 
  3665      5252 5550 
@@ -6658,7 +6658,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3689 4db9 5349 475F 		.string	"SIG_PIN_CHANGE0 _VECTOR(9)"
  3689      5049 4E5F 
  3689      4348 414E 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 112
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 112
 
 
  3689      4745 3020 
@@ -6718,7 +6718,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3713      4F55 5450 
  3713      5554 5F43 
  3713      4F4D 5041 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 113
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 113
 
 
  3713      5245 3241 
@@ -6778,7 +6778,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3737      5554 5F43 
  3737      4F4D 5041 
  3737      5245 3141 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 114
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 114
 
 
  3738 4fd1 01        		.byte	0x1
@@ -6838,7 +6838,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3761      4F4D 5041 
  3761      5245 3041 
  3762 50dc 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 115
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 115
 
 
  3763 50dd EE0A      		.uleb128 0x56e
@@ -6898,7 +6898,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3785      5F56 4543 
  3786 51cd 01        		.byte	0x1
  3787 51ce FE0A      		.uleb128 0x57e
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 116
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 116
 
 
  3788 51d0 5553 4152 		.string	"USART0_UDRE_vect _VECTOR(26)"
@@ -6958,7 +6958,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3810 52b7 01        		.byte	0x1
  3811 52b8 8E0B      		.uleb128 0x58e
  3812 52ba 4545 5F52 		.string	"EE_READY_vect _VECTOR(30)"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 117
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 117
 
 
  3812      4541 4459 
@@ -7018,7 +7018,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3835 53c1 9E0B      		.uleb128 0x59e
  3836 53c3 5449 4D45 		.string	"TIMER3_COMPC_vect _VECTOR(34)"
  3836      5233 5F43 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 118
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 118
 
 
  3836      4F4D 5043 
@@ -7078,7 +7078,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3860 54c0 5553 4152 		.string	"USART1_TX_vect _VECTOR(38)"
  3860      5431 5F54 
  3860      585F 7665 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 119
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 119
 
 
  3860      6374 205F 
@@ -7138,7 +7138,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3884      5234 5F43 
  3884      4F4D 5041 
  3884      5F76 6563 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 120
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 120
 
 
  3884      7420 5F56 
@@ -7198,7 +7198,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3908      4150 545F 
  3908      7665 6374 
  3908      205F 5645 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 121
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 121
 
 
  3909 56db 01        		.byte	0x1
@@ -7258,7 +7258,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3932      6563 7420 
  3932      5F56 4543 
  3933 57eb 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 122
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 122
 
 
  3934 57ec E50B      		.uleb128 0x5e5
@@ -7318,7 +7318,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3956      5645 4354 
  3957 58e0 01        		.byte	0x1
  3958 58e1 FB0B      		.uleb128 0x5fb
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 123
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 123
 
 
  3959 58e3 5349 475F 		.string	"SIG_USART3_RECV _VECTOR(54)"
@@ -7378,7 +7378,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  3982 59b6 01        		.byte	0x1
  3983 59b7 2A        		.uleb128 0x2a
  3984 59b8 5241 4D45 		.string	"RAMEND 0x21FF"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 124
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 124
 
 
  3984      4E44 2030 
@@ -7438,7 +7438,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4008      6967 6E65 
  4009 5a8b 01        		.byte	0x1
  4010 5a8c 39        		.uleb128 0x39
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 125
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 125
 
 
  4011 5a8d 4655 5345 		.string	"FUSE_CKSEL3 (unsigned char)~_BV(3)"
@@ -7498,7 +7498,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4033 5bbb 4655 5345 		.string	"FUSE_BOOTSZ0 (unsigned char)~_BV(1)"
  4033      5F42 4F4F 
  4033      5453 5A30 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 126
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 126
 
 
  4033      2028 756E 
@@ -7558,7 +7558,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4057 5d05 4C        		.uleb128 0x4c
  4058 5d06 4655 5345 		.string	"FUSE_BODLEVEL0 (unsigned char)~_BV(0)"
  4058      5F42 4F44 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 127
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 127
 
 
  4058      4C45 5645 
@@ -7618,7 +7618,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4082 5df5 5349 474E 		.string	"SIGNATURE_1 0x98"
  4082      4154 5552 
  4082      455F 3120 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 128
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 128
 
 
  4082      3078 3938 
@@ -7678,7 +7678,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4119 5e85 4444 3720 		.string	"DD7 7"
  4119      3700 
  4120 5e8b 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 129
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 129
 
 
  4121 5e8c 38        		.uleb128 0x38
@@ -7738,7 +7738,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4161      2031 00
  4162 5f02 01        		.byte	0x1
  4163 5f03 48        		.uleb128 0x48
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 130
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 130
 
 
  4164 5f04 5049 4E30 		.string	"PIN0 0"
@@ -7798,7 +7798,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4197 5f8f 504F 5254 		.string	"PORTB2 PB2"
  4197      4232 2050 
  4197      4232 00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 131
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 131
 
 
  4198 5f9a 01        		.byte	0x1
@@ -7858,7 +7858,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4230      4335 00
  4231 602f 01        		.byte	0x1
  4232 6030 9701      		.uleb128 0x97
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 132
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 132
 
 
  4233 6032 504F 5254 		.string	"PORTC6 PC6"
@@ -7918,7 +7918,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4265 60ca BE01      		.uleb128 0xbe
  4266 60cc 504F 5254 		.string	"PORTE1 PE1"
  4266      4531 2050 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 133
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 133
 
 
  4266      4531 00
@@ -7978,7 +7978,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4299      4634 2050 
  4299      4634 00
  4300 6171 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 134
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 134
 
 
  4301 6172 E501      		.uleb128 0xe5
@@ -8038,7 +8038,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4333 620b 01        		.byte	0x1
  4334 620c 9202      		.uleb128 0x112
  4335 620e 504F 5254 		.string	"PORTH2 PH2"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 135
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 135
 
 
  4335      4832 2050 
@@ -8098,7 +8098,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4368 62a8 504F 5254 		.string	"PORTJ5 PJ5"
  4368      4A35 2050 
  4368      4A35 00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 136
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 136
 
 
  4369 62b3 01        		.byte	0x1
@@ -8158,7 +8158,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4401      4C30 00
  4402 634d 01        		.byte	0x1
  4403 634e E002      		.uleb128 0x160
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 137
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 137
 
 
  4404 6350 504F 5254 		.string	"PORTL1 PL1"
@@ -8218,7 +8218,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4435      494F 3136 
  4435      2830 7833 
  4435      4429 00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 138
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 138
 
 
  4436 63ef 01        		.byte	0x1
@@ -8278,7 +8278,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4466 6484 01        		.byte	0x1
  4467 6485 CB01      		.uleb128 0xcb
  4468 6487 584C 2072 		.string	"XL r26"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 139
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 139
 
 
  4468      3236 00
@@ -8338,7 +8338,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4498      4143 4B5F 
  4498      504F 494E 
  4499 6564 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 140
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 140
 
 
  4500 6565 EB01      		.uleb128 0xeb
@@ -8398,7 +8398,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4522      4952 4543 
  4523 6692 04        		.byte	0x4
  4524 6693 03        		.byte	0x3
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 141
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 141
 
 
  4525 6694 D202      		.uleb128 0x152
@@ -8458,7 +8458,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4550      525F 4C49 
  4550      4243 5F52 
  4550      4556 4953 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 142
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 142
 
 
  4550      494F 4E5F 
@@ -8518,7 +8518,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4579      7846 4629 
  4579      00
  4580 6861 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 143
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 143
 
 
  4581 6862 CB01      		.uleb128 0xcb
@@ -8578,7 +8578,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4603      4629 00
  4604 690d 01        		.byte	0x1
  4605 690e D901      		.uleb128 0xd9
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 144
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 144
 
 
  4606 6910 424C 4231 		.string	"BLB1_MODE_3 (0xCF)"
@@ -8638,7 +8638,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4628      2075 696E 
  4629 6a5f 7422 2022 		.ascii	"t\" \"mov %0, r0\" \""
  4629      6D6F 7620 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 145
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 145
 
 
  4629      2530 2C20 
@@ -8698,7 +8698,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4645 6c7d AA02      		.uleb128 0x12a
  4646 6c7f 5F5F 4C50 		.ascii	"__LPM_word_enhanced__(addr) (__extension__({ uint16_t __addr"
  4646      4D5F 776F 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 146
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 146
 
 
  4646      7264 5F65 
@@ -8758,7 +8758,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4658      2220 285F 
  4659 6ea2 6573 756C 		.string	"esult), \"=z\" (__addr16) : \"1\" (__addr16) : \"r0\" ); __result; }))"
  4659      7429 2C20 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 147
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 147
 
 
  4659      223D 7A22 
@@ -8818,7 +8818,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4673      2022 6C70 
  4673      6D22 2022 
  4673      5C6E 5C74 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 148
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 148
 
 
  4674 70ef 2261 6469 		.ascii	"\"adiw r30, 1\" \"\\n\\t\" \"lpm\" \"\\n\\t\" \"mov %D0, r0\""
@@ -8878,7 +8878,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4689      6464 7229 
  4689      205F 5F4C 
  4690 72d1 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 149
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 149
 
 
  4691 72d2 8B03      		.uleb128 0x18b
@@ -8938,7 +8938,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4714      6C61 7373 
  4714      6963 5F5F 
  4714      2861 6464 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 150
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 150
 
 
  4715 749f 2875 696E 		.ascii	"(uint32_t)(addr); uint8_t __result; __asm__ ( \"out %2, %C1\""
@@ -8998,7 +8998,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4729 76a3 5F5F 454C 		.ascii	"__ELPM_word_classic__(addr) (__extension__({ uint32_t __addr"
  4729      504D 5F77 
  4729      6F72 645F 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 151
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 151
 
 
  4729      636C 6173 
@@ -9058,7 +9058,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4742 78d2 322C 2025 		.ascii	"2, %C1\" \"\\n\\t\" \"movw r30, %1\" \"\\n\\t\" \"elpm %A0, "
  4742      4331 2220 
  4742      225C 6E5C 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 152
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 152
 
 
  4742      7422 2022 
@@ -9118,7 +9118,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4755      2220 2261 
  4755      6469 7720 
  4755      7233 302C 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 153
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 153
 
 
  4755      2031 2220 
@@ -9178,7 +9178,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4768      5C74 2220 
  4768      2265 6C70 
  4768      6D20 2544 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 154
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 154
 
 
  4768      302C 205A 
@@ -9238,7 +9238,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4781      2C20 7230 
  4781      2220 225C 
  4782 7f48 4330 2C20 		.ascii	"C0, r0\" \"\\n\\t\" \"in r0, %2\" \"\\n\\t\" \"adiw r30, 1\""
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 155
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 155
 
 
  4782      7230 2220 
@@ -9298,7 +9298,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4795      292C 2022 
  4795      4922 2028 
  4795      5F53 4652 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 156
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 156
 
 
  4795      5F49 4F5F 
@@ -9358,7 +9358,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4819 8324 01        		.byte	0x1
  4820 8325 AD05      		.uleb128 0x2ad
  4821 8327 7067 6D5F 		.ascii	"pgm_rea"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 157
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 157
 
 
  4821      7265 61
@@ -9418,7 +9418,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4847 84bc 5F41 5652 		.string	"_AVR_INTERRUPT_H_ "
  4847      5F49 4E54 
  4847      4552 5255 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 158
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 158
 
 
  4847      5054 5F48 
@@ -9478,7 +9478,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4868 863b 01        		.byte	0x1
  4869 863c AD01      		.uleb128 0xad
  4870 863e 454D 5054 		.ascii	"EMPTY_INTERRUPT(vector) extern \"C\" void vector(void) __att"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 159
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 159
 
 
  4870      595F 494E 
@@ -9538,7 +9538,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4889      4F43 4B20 
  4889      5F5F 6174 
  4889      7472 6962 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 160
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 160
 
 
  4890 8803 01        		.byte	0x1
@@ -9598,7 +9598,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4924 88b6 01        		.byte	0x1
  4925 88b7 0B        		.uleb128 0xb
  4926 88b8 4230 3030 		.string	"B00000000 0"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 161
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 161
 
 
  4926      3030 3030 
@@ -9658,7 +9658,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  4962      00
  4963 893e 01        		.byte	0x1
  4964 893f 18        		.uleb128 0x18
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 162
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 162
 
 
  4965 8940 4230 3030 		.string	"B000010 2"
@@ -9718,7 +9718,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5000 89c6 24        		.uleb128 0x24
  5001 89c7 4230 3031 		.string	"B00100 4"
  5001      3030 2034 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 163
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 163
 
 
  5001      00
@@ -9778,7 +9778,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5037 8a51 4230 3031 		.string	"B00110 6"
  5037      3130 2036 
  5037      00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 164
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 164
 
 
  5038 8a5a 01        		.byte	0x1
@@ -9838,7 +9838,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5073 8add 4230 3031 		.string	"B001000 8"
  5073      3030 3020 
  5073      3800 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 165
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 165
 
 
  5074 8ae7 01        		.byte	0x1
@@ -9898,7 +9898,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5107 8b70 01        		.byte	0x1
  5108 8b71 48        		.uleb128 0x48
  5109 8b72 4230 3030 		.string	"B00001010 10"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 166
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 166
 
 
  5109      3031 3031 
@@ -9958,7 +9958,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5139      00
  5140 8c01 01        		.byte	0x1
  5141 8c02 53        		.uleb128 0x53
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 167
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 167
 
 
  5142 8c03 4231 3130 		.string	"B1101 13"
@@ -10018,7 +10018,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5172      00
  5173 8c8e 01        		.byte	0x1
  5174 8c8f 5E        		.uleb128 0x5e
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 168
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 168
 
 
  5175 8c90 4230 3131 		.string	"B01111 15"
@@ -10078,7 +10078,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5205      2031 3700 
  5206 8d21 01        		.byte	0x1
  5207 8d22 69        		.uleb128 0x69
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 169
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 169
 
 
  5208 8d23 4230 3030 		.string	"B00010001 17"
@@ -10138,7 +10138,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5238      3130 3020 
  5238      3230 00
  5239 8db5 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 170
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 170
 
 
  5240 8db6 74        		.uleb128 0x74
@@ -10198,7 +10198,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5271 8e40 4231 3031 		.string	"B10111 23"
  5271      3131 2032 
  5271      3300 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 171
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 171
 
 
  5272 8e4a 01        		.byte	0x1
@@ -10258,7 +10258,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5304 8edd 4230 3030 		.string	"B00011001 25"
  5304      3131 3030 
  5304      3120 3235 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 172
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 172
 
 
  5304      00
@@ -10318,7 +10318,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5336 8f7a 9401      		.uleb128 0x94
  5337 8f7c 4230 3031 		.string	"B0011100 28"
  5337      3131 3030 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 173
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 173
 
 
  5337      2032 3800 
@@ -10378,7 +10378,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5368 9019 01        		.byte	0x1
  5369 901a 9F01      		.uleb128 0x9f
  5370 901c 4230 3131 		.string	"B011111 31"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 174
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 174
 
 
  5370      3131 3120 
@@ -10438,7 +10438,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5400      2033 3400 
  5401 90bd 01        		.byte	0x1
  5402 90be AA01      		.uleb128 0xaa
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 175
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 175
 
 
  5403 90c0 4230 3031 		.string	"B00100010 34"
@@ -10498,7 +10498,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5433 9157 4231 3030 		.string	"B100110 38"
  5433      3131 3020 
  5433      3338 00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 176
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 176
 
 
  5434 9162 01        		.byte	0x1
@@ -10558,7 +10558,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5465 91f9 BF01      		.uleb128 0xbf
  5466 91fb 4230 3031 		.string	"B00101001 41"
  5466      3031 3030 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 177
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 177
 
 
  5466      3120 3431 
@@ -10618,7 +10618,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5496      3435 00
  5497 929d 01        		.byte	0x1
  5498 929e CA01      		.uleb128 0xca
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 178
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 178
 
 
  5499 92a0 4230 3130 		.string	"B0101101 45"
@@ -10678,7 +10678,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5529      3130 3030 
  5529      3020 3438 
  5529      00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 179
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 179
 
 
  5530 9343 01        		.byte	0x1
@@ -10738,7 +10738,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5561 93d9 DF01      		.uleb128 0xdf
  5562 93db 4230 3131 		.string	"B0110100 52"
  5562      3031 3030 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 180
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 180
 
 
  5562      2035 3200 
@@ -10798,7 +10798,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5592      00
  5593 947e 01        		.byte	0x1
  5594 947f EA01      		.uleb128 0xea
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 181
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 181
 
 
  5595 9481 4231 3131 		.string	"B111000 56"
@@ -10858,7 +10858,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5625      3130 3131 
  5625      2035 3900 
  5626 9522 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 182
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 182
 
 
  5627 9523 F501      		.uleb128 0xf5
@@ -10918,7 +10918,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5657 95ba FF01      		.uleb128 0xff
  5658 95bc 4231 3131 		.string	"B111111 63"
  5658      3131 3120 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 183
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 183
 
 
  5658      3633 00
@@ -10978,7 +10978,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5688      3120 3637 
  5688      00
  5689 9662 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 184
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 184
 
 
  5690 9663 8A02      		.uleb128 0x10a
@@ -11038,7 +11038,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5719 96fd 01        		.byte	0x1
  5720 96fe 9402      		.uleb128 0x114
  5721 9700 4231 3030 		.string	"B1001001 73"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 185
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 185
 
 
  5721      3130 3031 
@@ -11098,7 +11098,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5751 979b 4231 3030 		.string	"B1001110 78"
  5751      3131 3130 
  5751      2037 3800 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 186
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 186
 
 
  5752 97a7 01        		.byte	0x1
@@ -11158,7 +11158,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5781      2038 3300 
  5782 9842 01        		.byte	0x1
  5783 9843 A902      		.uleb128 0x129
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 187
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 187
 
 
  5784 9845 4230 3130 		.string	"B01010011 83"
@@ -11218,7 +11218,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5813 98de B302      		.uleb128 0x133
  5814 98e0 4230 3130 		.string	"B01011000 88"
  5814      3131 3030 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 188
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 188
 
 
  5814      3020 3838 
@@ -11278,7 +11278,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5844      3131 3130 
  5844      3120 3933 
  5844      00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 189
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 189
 
 
  5845 9988 01        		.byte	0x1
@@ -11338,7 +11338,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5874      00
  5875 9a23 01        		.byte	0x1
  5876 9a24 C802      		.uleb128 0x148
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 190
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 190
 
 
  5877 9a26 4231 3130 		.string	"B1100011 99"
@@ -11398,7 +11398,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5904      3030 3131 
  5904      3120 3130 
  5904      3300 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 191
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 191
 
 
  5905 9ac6 01        		.byte	0x1
@@ -11458,7 +11458,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5932 9b5a 01        		.byte	0x1
  5933 9b5b DB02      		.uleb128 0x15b
  5934 9b5d 4230 3131 		.string	"B01101100 108"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 192
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 192
 
 
  5934      3031 3130 
@@ -11518,7 +11518,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5961      3030 3031 
  5961      2031 3133 
  5961      00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 193
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 193
 
 
  5962 9bff 01        		.byte	0x1
@@ -11578,7 +11578,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  5989 9c94 01        		.byte	0x1
  5990 9c95 EE02      		.uleb128 0x16e
  5991 9c97 4231 3131 		.string	"B1110110 118"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 194
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 194
 
 
  5991      3031 3130 
@@ -11638,7 +11638,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6018      3131 3031 
  6018      3020 3132 
  6018      3200 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 195
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 195
 
 
  6019 9d39 01        		.byte	0x1
@@ -11698,7 +11698,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6046 9dcd 01        		.byte	0x1
  6047 9dce 8103      		.uleb128 0x181
  6048 9dd0 4230 3131 		.string	"B01111111 127"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 196
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 196
 
 
  6048      3131 3131 
@@ -11758,7 +11758,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6075      3031 3030 
  6075      3020 3133 
  6075      3600 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 197
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 197
 
 
  6076 9e77 01        		.byte	0x1
@@ -11818,7 +11818,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6103 9f10 01        		.byte	0x1
  6104 9f11 9403      		.uleb128 0x194
  6105 9f13 4231 3030 		.string	"B10010010 146"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 198
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 198
 
 
  6105      3130 3031 
@@ -11878,7 +11878,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6132      3131 3031 
  6132      3120 3135 
  6132      3500 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 199
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 199
 
 
  6133 9fba 01        		.byte	0x1
@@ -11938,7 +11938,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6160 a053 01        		.byte	0x1
  6161 a054 A703      		.uleb128 0x1a7
  6162 a056 4231 3031 		.string	"B10100101 165"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 200
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 200
 
 
  6162      3030 3130 
@@ -11998,7 +11998,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6189      3031 3131 
  6189      3020 3137 
  6189      3400 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 201
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 201
 
 
  6190 a0fd 01        		.byte	0x1
@@ -12058,7 +12058,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6217 a196 01        		.byte	0x1
  6218 a197 BA03      		.uleb128 0x1ba
  6219 a199 4231 3031 		.string	"B10111000 184"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 202
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 202
 
 
  6219      3131 3030 
@@ -12118,7 +12118,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6246      3030 3030 
  6246      3120 3139 
  6246      3300 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 203
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 203
 
 
  6247 a240 01        		.byte	0x1
@@ -12178,7 +12178,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6274 a2d9 01        		.byte	0x1
  6275 a2da CD03      		.uleb128 0x1cd
  6276 a2dc 4231 3130 		.string	"B11001011 203"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 204
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 204
 
 
  6276      3031 3031 
@@ -12238,7 +12238,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6303      3130 3130 
  6303      3020 3231 
  6303      3200 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 205
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 205
 
 
  6304 a383 01        		.byte	0x1
@@ -12298,7 +12298,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6331 a41c 01        		.byte	0x1
  6332 a41d E003      		.uleb128 0x1e0
  6333 a41f 4231 3130 		.string	"B11011110 222"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 206
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 206
 
 
  6333      3131 3131 
@@ -12358,7 +12358,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6360      3030 3131 
  6360      3120 3233 
  6360      3100 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 207
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 207
 
 
  6361 a4c6 01        		.byte	0x1
@@ -12418,7 +12418,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6388 a55f 01        		.byte	0x1
  6389 a560 F303      		.uleb128 0x1f3
  6390 a562 4231 3131 		.string	"B11110001 241"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 208
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 208
 
 
  6390      3130 3030 
@@ -12478,7 +12478,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6417      3131 3031 
  6417      3020 3235 
  6417      3000 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 209
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 209
 
 
  6418 a609 01        		.byte	0x1
@@ -12513,152 +12513,152 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6432      3500 
  6433 a65e 04        		.byte	0x4
  6434 a65f 01        		.byte	0x1
- 6435 a660 14        		.uleb128 0x14
+ 6435 a660 12        		.uleb128 0x12
  6436 a661 4849 4748 		.string	"HIGH 0x1"
  6436      2030 7831 
  6436      00
  6437 a66a 01        		.byte	0x1
- 6438 a66b 15        		.uleb128 0x15
+ 6438 a66b 13        		.uleb128 0x13
  6439 a66c 4C4F 5720 		.string	"LOW 0x0"
  6439      3078 3000 
  6440 a674 01        		.byte	0x1
- 6441 a675 17        		.uleb128 0x17
+ 6441 a675 15        		.uleb128 0x15
  6442 a676 494E 5055 		.string	"INPUT 0x0"
  6442      5420 3078 
  6442      3000 
  6443 a680 01        		.byte	0x1
- 6444 a681 18        		.uleb128 0x18
+ 6444 a681 16        		.uleb128 0x16
  6445 a682 4F55 5450 		.string	"OUTPUT 0x1"
  6445      5554 2030 
  6445      7831 00
  6446 a68d 01        		.byte	0x1
- 6447 a68e 19        		.uleb128 0x19
+ 6447 a68e 17        		.uleb128 0x17
  6448 a68f 494E 5055 		.string	"INPUT_PULLUP 0x2"
  6448      545F 5055 
  6448      4C4C 5550 
  6448      2030 7832 
  6448      00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 210
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 210
 
 
  6449 a6a0 01        		.byte	0x1
- 6450 a6a1 1B        		.uleb128 0x1b
+ 6450 a6a1 19        		.uleb128 0x19
  6451 a6a2 7472 7565 		.string	"true 0x1"
  6451      2030 7831 
  6451      00
  6452 a6ab 01        		.byte	0x1
- 6453 a6ac 1C        		.uleb128 0x1c
+ 6453 a6ac 1A        		.uleb128 0x1a
  6454 a6ad 6661 6C73 		.string	"false 0x0"
  6454      6520 3078 
  6454      3000 
  6455 a6b7 01        		.byte	0x1
- 6456 a6b8 1E        		.uleb128 0x1e
+ 6456 a6b8 1C        		.uleb128 0x1c
  6457 a6b9 5049 2033 		.string	"PI 3.1415926535897932384626433832795"
  6457      2E31 3431 
  6457      3539 3236 
  6457      3533 3538 
  6457      3937 3933 
  6458 a6de 01        		.byte	0x1
- 6459 a6df 1F        		.uleb128 0x1f
+ 6459 a6df 1D        		.uleb128 0x1d
  6460 a6e0 4841 4C46 		.string	"HALF_PI 1.5707963267948966192313216916398"
  6460      5F50 4920 
  6460      312E 3537 
  6460      3037 3936 
  6460      3332 3637 
  6461 a70a 01        		.byte	0x1
- 6462 a70b 20        		.uleb128 0x20
+ 6462 a70b 1E        		.uleb128 0x1e
  6463 a70c 5457 4F5F 		.string	"TWO_PI 6.283185307179586476925286766559"
  6463      5049 2036 
  6463      2E32 3833 
  6463      3138 3533 
  6463      3037 3137 
  6464 a734 01        		.byte	0x1
- 6465 a735 21        		.uleb128 0x21
+ 6465 a735 1F        		.uleb128 0x1f
  6466 a736 4445 475F 		.string	"DEG_TO_RAD 0.017453292519943295769236907684886"
  6466      544F 5F52 
  6466      4144 2030 
  6466      2E30 3137 
  6466      3435 3332 
  6467 a765 01        		.byte	0x1
- 6468 a766 22        		.uleb128 0x22
+ 6468 a766 20        		.uleb128 0x20
  6469 a767 5241 445F 		.string	"RAD_TO_DEG 57.295779513082320876798154814105"
  6469      544F 5F44 
  6469      4547 2035 
  6469      372E 3239 
  6469      3537 3739 
  6470 a794 01        		.byte	0x1
- 6471 a795 24        		.uleb128 0x24
+ 6471 a795 22        		.uleb128 0x22
  6472 a796 5345 5249 		.string	"SERIAL 0x0"
  6472      414C 2030 
  6472      7830 00
  6473 a7a1 01        		.byte	0x1
- 6474 a7a2 25        		.uleb128 0x25
+ 6474 a7a2 23        		.uleb128 0x23
  6475 a7a3 4449 5350 		.string	"DISPLAY 0x1"
  6475      4C41 5920 
  6475      3078 3100 
  6476 a7af 01        		.byte	0x1
- 6477 a7b0 27        		.uleb128 0x27
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 211
+ 6477 a7b0 25        		.uleb128 0x25
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 211
 
 
  6478 a7b1 4C53 4246 		.string	"LSBFIRST 0"
  6478      4952 5354 
  6478      2030 00
  6479 a7bc 01        		.byte	0x1
- 6480 a7bd 28        		.uleb128 0x28
+ 6480 a7bd 26        		.uleb128 0x26
  6481 a7be 4D53 4246 		.string	"MSBFIRST 1"
  6481      4952 5354 
  6481      2031 00
  6482 a7c9 01        		.byte	0x1
- 6483 a7ca 2A        		.uleb128 0x2a
+ 6483 a7ca 28        		.uleb128 0x28
  6484 a7cb 4348 414E 		.string	"CHANGE 1"
  6484      4745 2031 
  6484      00
  6485 a7d4 01        		.byte	0x1
- 6486 a7d5 2B        		.uleb128 0x2b
+ 6486 a7d5 29        		.uleb128 0x29
  6487 a7d6 4641 4C4C 		.string	"FALLING 2"
  6487      494E 4720 
  6487      3200 
  6488 a7e0 01        		.byte	0x1
- 6489 a7e1 2C        		.uleb128 0x2c
+ 6489 a7e1 2A        		.uleb128 0x2a
  6490 a7e2 5249 5349 		.string	"RISING 3"
  6490      4E47 2033 
  6490      00
  6491 a7eb 01        		.byte	0x1
- 6492 a7ec 34        		.uleb128 0x34
+ 6492 a7ec 32        		.uleb128 0x32
  6493 a7ed 494E 5445 		.string	"INTERNAL1V1 2"
  6493      524E 414C 
  6493      3156 3120 
  6493      3200 
  6494 a7fb 01        		.byte	0x1
- 6495 a7fc 35        		.uleb128 0x35
+ 6495 a7fc 33        		.uleb128 0x33
  6496 a7fd 494E 5445 		.string	"INTERNAL2V56 3"
  6496      524E 414C 
  6496      3256 3536 
  6496      2033 00
  6497 a80c 01        		.byte	0x1
- 6498 a80d 39        		.uleb128 0x39
+ 6498 a80d 37        		.uleb128 0x37
  6499 a80e 4445 4641 		.string	"DEFAULT 1"
  6499      554C 5420 
  6499      3100 
  6500 a818 01        		.byte	0x1
- 6501 a819 3A        		.uleb128 0x3a
+ 6501 a819 38        		.uleb128 0x38
  6502 a81a 4558 5445 		.string	"EXTERNAL 0"
  6502      524E 414C 
  6502      2030 00
  6503 a825 02        		.byte	0x2
- 6504 a826 3F        		.uleb128 0x3f
+ 6504 a826 3D        		.uleb128 0x3d
  6505 a827 6162 7300 		.string	"abs"
  6506 a82b 01        		.byte	0x1
- 6507 a82c 42        		.uleb128 0x42
+ 6507 a82c 40        		.uleb128 0x40
  6508 a82d 6D69 6E28 		.string	"min(a,b) ((a)<(b)?(a):(b))"
  6508      612C 6229 
  6508      2028 2861 
  6508      293C 2862 
  6508      293F 2861 
  6509 a848 01        		.byte	0x1
- 6510 a849 43        		.uleb128 0x43
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 212
+ 6510 a849 41        		.uleb128 0x41
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 212
 
 
  6511 a84a 6D61 7828 		.string	"max(a,b) ((a)>(b)?(a):(b))"
@@ -12667,14 +12667,14 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6511      293E 2862 
  6511      293F 2861 
  6512 a865 01        		.byte	0x1
- 6513 a866 44        		.uleb128 0x44
+ 6513 a866 42        		.uleb128 0x42
  6514 a867 6162 7328 		.string	"abs(x) ((x)>0?(x):-(x))"
  6514      7829 2028 
  6514      2878 293E 
  6514      303F 2878 
  6514      293A 2D28 
  6515 a87f 01        		.byte	0x1
- 6516 a880 45        		.uleb128 0x45
+ 6516 a880 43        		.uleb128 0x43
  6517 a881 636F 6E73 		.ascii	"constra"
  6517      7472 61
  6518 a888 696E 2861 		.string	"in(amt,low,high) ((amt)<(low)?(low):((amt)>(high)?(high):(amt)))"
@@ -12683,42 +12683,42 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6518      6967 6829 
  6518      2028 2861 
  6519 a8c9 01        		.byte	0x1
- 6520 a8ca 46        		.uleb128 0x46
+ 6520 a8ca 44        		.uleb128 0x44
  6521 a8cb 726F 756E 		.string	"round(x) ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))"
  6521      6428 7829 
  6521      2028 2878 
  6521      293E 3D30 
  6521      3F28 6C6F 
  6522 a8fd 01        		.byte	0x1
- 6523 a8fe 47        		.uleb128 0x47
+ 6523 a8fe 45        		.uleb128 0x45
  6524 a8ff 7261 6469 		.string	"radians(deg) ((deg)*DEG_TO_RAD)"
  6524      616E 7328 
  6524      6465 6729 
  6524      2028 2864 
  6524      6567 292A 
  6525 a91f 01        		.byte	0x1
- 6526 a920 48        		.uleb128 0x48
+ 6526 a920 46        		.uleb128 0x46
  6527 a921 6465 6772 		.string	"degrees(rad) ((rad)*RAD_TO_DEG)"
  6527      6565 7328 
  6527      7261 6429 
  6527      2028 2872 
  6527      6164 292A 
  6528 a941 01        		.byte	0x1
- 6529 a942 49        		.uleb128 0x49
+ 6529 a942 47        		.uleb128 0x47
  6530 a943 7371 2878 		.string	"sq(x) ((x)*(x))"
  6530      2920 2828 
  6530      7829 2A28 
  6530      7829 2900 
  6531 a953 01        		.byte	0x1
- 6532 a954 4B        		.uleb128 0x4b
+ 6532 a954 49        		.uleb128 0x49
  6533 a955 696E 7465 		.string	"interrupts() sei()"
  6533      7272 7570 
  6533      7473 2829 
  6533      2073 6569 
  6533      2829 00
  6534 a968 01        		.byte	0x1
- 6535 a969 4C        		.uleb128 0x4c
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 213
+ 6535 a969 4A        		.uleb128 0x4a
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 213
 
 
  6536 a96a 6E6F 496E 		.string	"noInterrupts() cli()"
@@ -12727,14 +12727,14 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6536      2829 2063 
  6536      6C69 2829 
  6537 a97f 01        		.byte	0x1
- 6538 a980 4E        		.uleb128 0x4e
+ 6538 a980 4C        		.uleb128 0x4c
  6539 a981 636C 6F63 		.string	"clockCyclesPerMicrosecond() ( F_CPU / 1000000L )"
  6539      6B43 7963 
  6539      6C65 7350 
  6539      6572 4D69 
  6539      6372 6F73 
  6540 a9b2 01        		.byte	0x1
- 6541 a9b3 4F        		.uleb128 0x4f
+ 6541 a9b3 4D        		.uleb128 0x4d
  6542 a9b4 636C      		.ascii	"cl"
  6543 a9b6 6F63 6B43 		.string	"ockCyclesToMicroseconds(a) ( (a) / clockCyclesPerMicrosecond() )"
  6543      7963 6C65 
@@ -12742,7 +12742,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6543      6963 726F 
  6543      7365 636F 
  6544 a9f7 01        		.byte	0x1
- 6545 a9f8 50        		.uleb128 0x50
+ 6545 a9f8 4E        		.uleb128 0x4e
  6546 a9f9 6D69      		.ascii	"mi"
  6547 a9fb 6372 6F73 		.string	"crosecondsToClockCycles(a) ( (a) * clockCyclesPerMicrosecond() )"
  6547      6563 6F6E 
@@ -12750,45 +12750,45 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6547      436C 6F63 
  6547      6B43 7963 
  6548 aa3c 01        		.byte	0x1
- 6549 aa3d 52        		.uleb128 0x52
+ 6549 aa3d 50        		.uleb128 0x50
  6550 aa3e 6C6F 7742 		.string	"lowByte(w) ((uint8_t) ((w) & 0xff))"
  6550      7974 6528 
  6550      7729 2028 
  6550      2875 696E 
  6550      7438 5F74 
  6551 aa62 01        		.byte	0x1
- 6552 aa63 53        		.uleb128 0x53
+ 6552 aa63 51        		.uleb128 0x51
  6553 aa64 6869 6768 		.string	"highByte(w) ((uint8_t) ((w) >> 8))"
  6553      4279 7465 
  6553      2877 2920 
  6553      2828 7569 
  6553      6E74 385F 
  6554 aa87 01        		.byte	0x1
- 6555 aa88 55        		.uleb128 0x55
+ 6555 aa88 53        		.uleb128 0x53
  6556 aa89 6269 7452 		.string	"bitRead(value,bit) (((value) >> (bit)) & 0x01)"
  6556      6561 6428 
  6556      7661 6C75 
  6556      652C 6269 
  6556      7429 2028 
  6557 aab8 01        		.byte	0x1
- 6558 aab9 56        		.uleb128 0x56
+ 6558 aab9 54        		.uleb128 0x54
  6559 aaba 6269 7453 		.string	"bitSet(value,bit) ((value) |= (1UL << (bit)))"
  6559      6574 2876 
  6559      616C 7565 
  6559      2C62 6974 
  6559      2920 2828 
  6560 aae8 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 214
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 214
 
 
- 6561 aae9 57        		.uleb128 0x57
+ 6561 aae9 55        		.uleb128 0x55
  6562 aaea 6269 7443 		.string	"bitClear(value,bit) ((value) &= ~(1UL << (bit)))"
  6562      6C65 6172 
  6562      2876 616C 
  6562      7565 2C62 
  6562      6974 2920 
  6563 ab1b 01        		.byte	0x1
- 6564 ab1c 58        		.uleb128 0x58
+ 6564 ab1c 56        		.uleb128 0x56
  6565 ab1d 6269 7457 		.ascii	"bitWrite(value,bit,"
  6565      7269 7465 
  6565      2876 616C 
@@ -12800,21 +12800,21 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6566      6974 7661 
  6566      6C75 6520 
  6567 ab71 01        		.byte	0x1
- 6568 ab72 5D        		.uleb128 0x5d
+ 6568 ab72 5B        		.uleb128 0x5b
  6569 ab73 6269 7428 		.string	"bit(b) (1UL << (b))"
  6569      6229 2028 
  6569      3155 4C20 
  6569      3C3C 2028 
  6569      6229 2900 
  6570 ab87 01        		.byte	0x1
- 6571 ab88 7D        		.uleb128 0x7d
+ 6571 ab88 7B        		.uleb128 0x7b
  6572 ab89 616E 616C 		.string	"analogInPinToBit(P) (P)"
  6572      6F67 496E 
  6572      5069 6E54 
  6572      6F42 6974 
  6572      2850 2920 
  6573 aba1 01        		.byte	0x1
- 6574 aba2 8F01      		.uleb128 0x8f
+ 6574 aba2 8D01      		.uleb128 0x8d
  6575 aba4 6469 6769 		.ascii	"digita"
  6575      7461 
  6576 abaa 6C50 696E 		.string	"lPinToPort(P) ( pgm_read_byte( digital_pin_to_port_PGM + (P) ) )"
@@ -12823,7 +12823,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6576      2920 2820 
  6576      7067 6D5F 
  6577 abeb 01        		.byte	0x1
- 6578 abec 9001      		.uleb128 0x90
+ 6578 abec 8E01      		.uleb128 0x8e
  6579 abee 6469 6769 		.ascii	"digitalPinToB"
  6579      7461 6C50 
  6579      696E 546F 
@@ -12834,11 +12834,11 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6580      7067 6D5F 
  6580      7265 6164 
  6581 ac3c 01        		.byte	0x1
- 6582 ac3d 9101      		.uleb128 0x91
+ 6582 ac3d 8F01      		.uleb128 0x8f
  6583 ac3f 6469 6769 		.ascii	"digitalP"
  6583      7461 6C50 
  6584 ac47 696E 546F 		.string	"inToTimer(P) ( pgm_read_byte( digital_pin_to_timer_PGM + (P) ) )"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 215
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 215
 
 
  6584      5469 6D65 
@@ -12846,14 +12846,14 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6584      2028 2070 
  6584      676D 5F72 
  6585 ac88 01        		.byte	0x1
- 6586 ac89 9201      		.uleb128 0x92
+ 6586 ac89 9001      		.uleb128 0x90
  6587 ac8b 616E 616C 		.string	"analogInPinToBit(P) (P)"
  6587      6F67 496E 
  6587      5069 6E54 
  6587      6F42 6974 
  6587      2850 2920 
  6588 aca3 01        		.byte	0x1
- 6589 aca4 9301      		.uleb128 0x93
+ 6589 aca4 9101      		.uleb128 0x91
  6590 aca6 706F 7274 		.ascii	"portOutputRegister(P) ( ("
  6590      4F75 7470 
  6590      7574 5265 
@@ -12865,7 +12865,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6591      7438 5F74 
  6591      202A 2928 
  6592 ad00 01        		.byte	0x1
- 6593 ad01 9401      		.uleb128 0x94
+ 6593 ad01 9201      		.uleb128 0x92
  6594 ad03 706F 7274 		.ascii	"portInputRegister(P) ( "
  6594      496E 7075 
  6594      7452 6567 
@@ -12877,7 +12877,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6595      6E74 385F 
  6595      7420 2A29 
  6596 ad5b 01        		.byte	0x1
- 6597 ad5c 9501      		.uleb128 0x95
+ 6597 ad5c 9301      		.uleb128 0x93
  6598 ad5e 706F 7274 		.ascii	"portModeRegister(P) ("
  6598      4D6F 6465 
  6598      5265 6769 
@@ -12889,115 +12889,115 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6599      696E 7438 
  6599      5F74 202A 
  6600 adb4 01        		.byte	0x1
- 6601 adb5 9701      		.uleb128 0x97
+ 6601 adb5 9501      		.uleb128 0x95
  6602 adb7 4E4F 545F 		.string	"NOT_A_PIN 0"
  6602      415F 5049 
  6602      4E20 3000 
  6603 adc3 01        		.byte	0x1
- 6604 adc4 9801      		.uleb128 0x98
+ 6604 adc4 9601      		.uleb128 0x96
  6605 adc6 4E4F 545F 		.string	"NOT_A_PORT 0"
  6605      415F 504F 
  6605      5254 2030 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 216
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 216
 
 
  6605      00
  6606 add3 01        		.byte	0x1
- 6607 add4 A801      		.uleb128 0xa8
+ 6607 add4 A601      		.uleb128 0xa6
  6608 add6 4E4F 545F 		.string	"NOT_ON_TIMER 0"
  6608      4F4E 5F54 
  6608      494D 4552 
  6608      2030 00
  6609 ade5 01        		.byte	0x1
- 6610 ade6 A901      		.uleb128 0xa9
+ 6610 ade6 A701      		.uleb128 0xa7
  6611 ade8 5449 4D45 		.string	"TIMER0A 1"
  6611      5230 4120 
  6611      3100 
  6612 adf2 01        		.byte	0x1
- 6613 adf3 AA01      		.uleb128 0xaa
+ 6613 adf3 A801      		.uleb128 0xa8
  6614 adf5 5449 4D45 		.string	"TIMER0B 2"
  6614      5230 4220 
  6614      3200 
  6615 adff 01        		.byte	0x1
- 6616 ae00 AB01      		.uleb128 0xab
+ 6616 ae00 A901      		.uleb128 0xa9
  6617 ae02 5449 4D45 		.string	"TIMER1A 3"
  6617      5231 4120 
  6617      3300 
  6618 ae0c 01        		.byte	0x1
- 6619 ae0d AC01      		.uleb128 0xac
+ 6619 ae0d AA01      		.uleb128 0xaa
  6620 ae0f 5449 4D45 		.string	"TIMER1B 4"
  6620      5231 4220 
  6620      3400 
  6621 ae19 01        		.byte	0x1
- 6622 ae1a AD01      		.uleb128 0xad
+ 6622 ae1a AB01      		.uleb128 0xab
  6623 ae1c 5449 4D45 		.string	"TIMER2 5"
  6623      5232 2035 
  6623      00
  6624 ae25 01        		.byte	0x1
- 6625 ae26 AE01      		.uleb128 0xae
+ 6625 ae26 AC01      		.uleb128 0xac
  6626 ae28 5449 4D45 		.string	"TIMER2A 6"
  6626      5232 4120 
  6626      3600 
  6627 ae32 01        		.byte	0x1
- 6628 ae33 AF01      		.uleb128 0xaf
+ 6628 ae33 AD01      		.uleb128 0xad
  6629 ae35 5449 4D45 		.string	"TIMER2B 7"
  6629      5232 4220 
  6629      3700 
  6630 ae3f 01        		.byte	0x1
- 6631 ae40 B101      		.uleb128 0xb1
+ 6631 ae40 AF01      		.uleb128 0xaf
  6632 ae42 5449 4D45 		.string	"TIMER3A 8"
  6632      5233 4120 
  6632      3800 
  6633 ae4c 01        		.byte	0x1
- 6634 ae4d B201      		.uleb128 0xb2
+ 6634 ae4d B001      		.uleb128 0xb0
  6635 ae4f 5449 4D45 		.string	"TIMER3B 9"
  6635      5233 4220 
  6635      3900 
  6636 ae59 01        		.byte	0x1
- 6637 ae5a B301      		.uleb128 0xb3
+ 6637 ae5a B101      		.uleb128 0xb1
  6638 ae5c 5449 4D45 		.string	"TIMER3C 10"
  6638      5233 4320 
  6638      3130 00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 217
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 217
 
 
  6639 ae67 01        		.byte	0x1
- 6640 ae68 B401      		.uleb128 0xb4
+ 6640 ae68 B201      		.uleb128 0xb2
  6641 ae6a 5449 4D45 		.string	"TIMER4A 11"
  6641      5234 4120 
  6641      3131 00
  6642 ae75 01        		.byte	0x1
- 6643 ae76 B501      		.uleb128 0xb5
+ 6643 ae76 B301      		.uleb128 0xb3
  6644 ae78 5449 4D45 		.string	"TIMER4B 12"
  6644      5234 4220 
  6644      3132 00
  6645 ae83 01        		.byte	0x1
- 6646 ae84 B601      		.uleb128 0xb6
+ 6646 ae84 B401      		.uleb128 0xb4
  6647 ae86 5449 4D45 		.string	"TIMER4C 13"
  6647      5234 4320 
  6647      3133 00
  6648 ae91 01        		.byte	0x1
- 6649 ae92 B701      		.uleb128 0xb7
+ 6649 ae92 B501      		.uleb128 0xb5
  6650 ae94 5449 4D45 		.string	"TIMER4D 14"
  6650      5234 4420 
  6650      3134 00
  6651 ae9f 01        		.byte	0x1
- 6652 aea0 B801      		.uleb128 0xb8
+ 6652 aea0 B601      		.uleb128 0xb6
  6653 aea2 5449 4D45 		.string	"TIMER5A 15"
  6653      5235 4120 
  6653      3135 00
  6654 aead 01        		.byte	0x1
- 6655 aeae B901      		.uleb128 0xb9
+ 6655 aeae B701      		.uleb128 0xb7
  6656 aeb0 5449 4D45 		.string	"TIMER5B 16"
  6656      5235 4220 
  6656      3136 00
  6657 aebb 01        		.byte	0x1
- 6658 aebc BA01      		.uleb128 0xba
+ 6658 aebc B801      		.uleb128 0xb8
  6659 aebe 5449 4D45 		.string	"TIMER5C 17"
  6659      5235 4320 
  6659      3137 00
  6660 aec9 03        		.byte	0x3
- 6661 aeca C101      		.uleb128 0xc1
+ 6661 aeca BF01      		.uleb128 0xbf
  6662 aecc 16        		.uleb128 0x16
  6663 aecd 01        		.byte	0x1
  6664 aece 15        		.uleb128 0x15
@@ -13017,8 +13017,8 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6672 aeee 04        		.byte	0x4
  6673 aeef 04        		.byte	0x4
  6674 aef0 03        		.byte	0x3
- 6675 aef1 C201      		.uleb128 0xc2
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 218
+ 6675 aef1 C001      		.uleb128 0xc0
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 218
 
 
  6676 aef3 18        		.uleb128 0x18
@@ -13042,7 +13042,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6683      7374 205F 
  6684 af60 04        		.byte	0x4
  6685 af61 03        		.byte	0x3
- 6686 af62 C301      		.uleb128 0xc3
+ 6686 af62 C101      		.uleb128 0xc1
  6687 af64 19        		.uleb128 0x19
  6688 af65 01        		.byte	0x1
  6689 af66 18        		.uleb128 0x18
@@ -13078,7 +13078,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6709 afa7 03        		.byte	0x3
  6710 afa8 2D        		.uleb128 0x2d
  6711 afa9 1D        		.uleb128 0x1d
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 219
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 219
 
 
  6712 afaa 01        		.byte	0x1
@@ -13138,7 +13138,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6737 b082 38        		.uleb128 0x38
  6738 b083 5F5F 7661 		.string	"__va_copy(d,s) __builtin_va_copy(d,s)"
  6738      5F63 6F70 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 220
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 220
 
 
  6738      7928 642C 
@@ -13198,7 +13198,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6767 b12a 02        		.byte	0x2
  6768 b12b 8E03      		.uleb128 0x18e
  6769 b12d 4E55 4C4C 		.string	"NULL"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 221
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 221
 
 
  6769      00
@@ -13258,7 +13258,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6798 b1c7 01        		.byte	0x1
  6799 b1c8 FD01      		.uleb128 0xfd
  6800 b1ca 5F5F 534D 		.string	"__SMALLOC 0x80"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 222
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 222
 
 
  6800      414C 4C4F 
@@ -13318,7 +13318,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6824      7570 5F73 
  6824      7472 6561 
  6824      6D28 7374 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 223
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 223
 
 
  6825 b2e5 6561 6D   		.ascii	"eam"
@@ -13378,7 +13378,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6848      6F69 6429 
  6849 b408 01        		.byte	0x1
  6850 b409 FE04      		.uleb128 0x27e
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 224
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 224
 
 
  6851 b40b 7075 7463 		.string	"putc(__c,__stream) fputc(__c, __stream)"
@@ -13438,7 +13438,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6875 b52a 5345 454B 		.string	"SEEK_CUR 1"
  6875      5F43 5552 
  6875      2031 00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 225
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 225
 
 
  6876 b535 01        		.byte	0x1
@@ -13498,7 +13498,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6914 b5ac 01        		.byte	0x1
  6915 b5ad 4A        		.uleb128 0x4a
  6916 b5ae 5345 5249 		.string	"SERIAL_7N1 0x04"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 226
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 226
 
 
  6916      414C 5F37 
@@ -13558,7 +13558,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6943      414C 5F38 
  6943      4531 2030 
  6943      7832 3600 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 227
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 227
 
 
  6944 b660 01        		.byte	0x1
@@ -13618,7 +13618,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6971 b702 01        		.byte	0x1
  6972 b703 5D        		.uleb128 0x5d
  6973 b704 5345 5249 		.string	"SERIAL_6O2 0x3A"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 228
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 228
 
 
  6973      414C 5F36 
@@ -13638,14 +13638,14 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  6979      7833 4500 
  6980 b738 04        		.byte	0x4
  6981 b739 01        		.byte	0x1
- 6982 b73a C801      		.uleb128 0xc8
+ 6982 b73a C601      		.uleb128 0xc6
  6983 b73c 776F 7264 		.string	"word(...) makeWord(__VA_ARGS__)"
  6983      282E 2E2E 
  6983      2920 6D61 
  6983      6B65 576F 
  6983      7264 285F 
  6984 b75c 03        		.byte	0x3
- 6985 b75d D701      		.uleb128 0xd7
+ 6985 b75d D501      		.uleb128 0xd5
  6986 b75f 20        		.uleb128 0x20
  6987 b760 01        		.byte	0x1
  6988 b761 1A        		.uleb128 0x1a
@@ -13678,7 +13678,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7000 b7d8 21        		.uleb128 0x21
  7001 b7d9 6469 6769 		.ascii	"digitalP"
  7001      7461 6C50 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 229
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 229
 
 
  7002 b7e1 696E 4861 		.string	"inHasPWM(p) (((p) >= 2 && (p) <= 13) || ((p) >= 44 && (p)<= 46))"
@@ -13738,7 +13738,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7018 b9e4 01        		.byte	0x1
  7019 b9e5 4E        		.uleb128 0x4e
  7020 b9e6 6469 6769 		.ascii	"digitalPinToPCMSKbit(p) ( (((p) >= 10) && ((p) <= 13)) ? ((p"
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 230
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 230
 
 
  7020      7461 6C50 
@@ -13780,7 +13780,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7035               	.global	_ZN5dht114readEi
  7036               		.type	_ZN5dht114readEi, @function
  7037               	_ZN5dht114readEi:
- 7038               	.LFB75:
+ 7038               	.LFB76:
  7039               	.LSM0:
  7040               	.LVL0:
  7041 0000 2F92      		push r2
@@ -13798,7 +13798,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7053 0018 FF92      		push r15
  7054 001a 0F93      		push r16
  7055 001c 1F93      		push r17
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 231
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 231
 
 
  7056 001e DF93      		push r29
@@ -13858,7 +13858,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7110 0076 1F4F      		sbci r17,hi8(-(1))
  7111               	.LSM9:
  7112 0078 87E2      		ldi r24,hi8(10001)
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 232
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 232
 
 
  7113 007a 0131      		cpi r16,lo8(10001)
@@ -13918,7 +13918,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7167 00c4 1F4F      		sbci r17,hi8(-(1))
  7168               	.LBB8:
  7169               	.LBB12:
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 233
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 233
 
 
  7170               	.LSM17:
@@ -13978,7 +13978,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7224 0126 0A94      	2:	dec r0
  7225 0128 02F4      		brpl 1b
  7226 012a 8081      		ld r24,Z
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 234
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 234
 
 
  7227 012c 822B      		or r24,r18
@@ -14038,7 +14038,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7281 016e 0F90      		pop __tmp_reg__
  7282 0170 0F90      		pop __tmp_reg__
  7283 0172 0F90      		pop __tmp_reg__
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 235
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 235
 
 
  7284 0174 0F90      		pop __tmp_reg__
@@ -14081,7 +14081,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7321 01a0 30E0      		ldi r19,hi8(0)
  7322 01a2 00C0      		rjmp .L3
  7323               	.LBE16:
- 7324               	.LFE75:
+ 7324               	.LFE76:
  7325               		.size	_ZN5dht114readEi, .-_ZN5dht114readEi
  7326               		.section	.debug_frame,"",@progbits
  7327               	.Lframe0:
@@ -14098,15 +14098,15 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7338 000f 00        		.uleb128 0x0
  7339               		.p2align	2
  7340               	.LECIE0:
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 236
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 236
 
 
  7341               	.LSFDE0:
  7342 0010 0C00 0000 		.long	.LEFDE0-.LASFDE0
  7343               	.LASFDE0:
  7344 0014 0000 0000 		.long	.Lframe0
- 7345 0018 0000 0000 		.long	.LFB75
- 7346 001c A401 0000 		.long	.LFE75-.LFB75
+ 7345 0018 0000 0000 		.long	.LFB76
+ 7346 001c A401 0000 		.long	.LFE76-.LFB76
  7347               		.p2align	2
  7348               	.LEFDE0:
  7349               		.text
@@ -14133,7 +14133,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7370 001e 93        		.byte	0x93
  7371 001f 01        		.uleb128 0x1
  7372 0020 0000 0000 		.long	.LVL11
- 7373 0024 0000 0000 		.long	.LFE75
+ 7373 0024 0000 0000 		.long	.LFE76
  7374 0028 0600      		.word	0x6
  7375 002a 54        		.byte	0x54
  7376 002b 93        		.byte	0x93
@@ -14158,13 +14158,13 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7395               	.LLST3:
  7396 0050 0000 0000 		.long	.LVL3
  7397 0054 0000 0000 		.long	.LVL7
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 237
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 237
 
 
  7398 0058 0100      		.word	0x1
  7399 005a 5E        		.byte	0x5e
  7400 005b 0000 0000 		.long	.LVL11
- 7401 005f 0000 0000 		.long	.LFE75
+ 7401 005f 0000 0000 		.long	.LFE76
  7402 0063 0100      		.word	0x1
  7403 0065 5E        		.byte	0x5e
  7404 0066 0000 0000 		.long	0x0
@@ -14175,7 +14175,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7409 0076 0100      		.word	0x1
  7410 0078 57        		.byte	0x57
  7411 0079 0000 0000 		.long	.LVL11
- 7412 007d 0000 0000 		.long	.LFE75
+ 7412 007d 0000 0000 		.long	.LFE76
  7413 0081 0100      		.word	0x1
  7414 0083 57        		.byte	0x57
  7415 0084 0000 0000 		.long	0x0
@@ -14197,7 +14197,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7431 00a0 93        		.byte	0x93
  7432 00a1 01        		.uleb128 0x1
  7433 00a2 0000 0000 		.long	.LVL11
- 7434 00a6 0000 0000 		.long	.LFE75
+ 7434 00a6 0000 0000 		.long	.LFE76
  7435 00aa 0C00      		.word	0xc
  7436 00ac 5A        		.byte	0x5a
  7437 00ad 93        		.byte	0x93
@@ -14218,7 +14218,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7452 0004 0200      		.word	0x2
  7453 0006 0000 0000 		.long	.Ldebug_abbrev0
  7454 000a 04        		.byte	0x4
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 238
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 238
 
 
  7455 000b 01        		.uleb128 0x1
@@ -14278,7 +14278,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7509 0077 01        		.byte	0x1
  7510 0078 06        		.byte	0x6
  7511 0079 0000 0000 		.long	.LASF7
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 239
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 239
 
 
  7512 007d 06        		.uleb128 0x6
@@ -14335,10 +14335,10 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7563 00dd AA00 0000 		.long	0xaa
  7564 00e1 01        		.byte	0x1
  7565 00e2 18        		.byte	0x18
- 7566 00e3 0000 0000 		.long	.LFB75
- 7567 00e7 0000 0000 		.long	.LFE75
+ 7566 00e3 0000 0000 		.long	.LFB76
+ 7567 00e7 0000 0000 		.long	.LFE76
  7568 00eb 02        		.byte	0x2
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 240
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 240
 
 
  7569 00ec 90        		.byte	0x90
@@ -14398,7 +14398,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7623 0168 11        		.uleb128 0x11
  7624 0169 7400      		.string	"t"
  7625 016b 01        		.byte	0x1
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 241
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 241
 
 
  7626 016c 3A        		.byte	0x3a
@@ -14458,7 +14458,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7680 01d8 28        		.byte	0x28
  7681 01d9 7D00 0000 		.long	0x7d
  7682 01dd 14        		.byte	0x14
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 242
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 242
 
 
  7683 01de 19        		.uleb128 0x19
@@ -14518,7 +14518,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7737 0243 19        		.uleb128 0x19
  7738 0244 4137 00   		.string	"A7"
  7739 0247 20        		.byte	0x20
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 243
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 243
 
 
  7740 0248 33        		.byte	0x33
@@ -14578,7 +14578,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7794 0001 11        		.uleb128 0x11
  7795 0002 01        		.byte	0x1
  7796 0003 25        		.uleb128 0x25
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 244
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 244
 
 
  7797 0004 0E        		.uleb128 0xe
@@ -14638,7 +14638,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7851 003a 05        		.uleb128 0x5
  7852 003b 24        		.uleb128 0x24
  7853 003c 00        		.byte	0x0
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 245
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 245
 
 
  7854 003d 0B        		.uleb128 0xb
@@ -14698,7 +14698,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7908 0073 8740      		.uleb128 0x2007
  7909 0075 0E        		.uleb128 0xe
  7910 0076 49        		.uleb128 0x49
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 246
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 246
 
 
  7911 0077 13        		.uleb128 0x13
@@ -14758,7 +14758,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  7965 00ad 49        		.uleb128 0x49
  7966 00ae 13        		.uleb128 0x13
  7967 00af 34        		.uleb128 0x34
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 247
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 247
 
 
  7968 00b0 0C        		.uleb128 0xc
@@ -14818,7 +14818,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  8022 00e6 0E        		.uleb128 0xe
  8023 00e7 3A        		.uleb128 0x3a
  8024 00e8 0B        		.uleb128 0xb
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 248
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 248
 
 
  8025 00e9 3B        		.uleb128 0x3b
@@ -14878,7 +14878,7 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  8079 011f 21        		.uleb128 0x21
  8080 0120 00        		.byte	0x0
  8081 0121 49        		.uleb128 0x49
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 249
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 249
 
 
  8082 0122 13        		.uleb128 0x13
@@ -14935,10 +14935,10 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  8131 000b 00        		.byte	0x0
  8132 000c 0000      		.word	0x0
  8133 000e 0000      		.word	0x0
- 8134 0010 0000 0000 		.long	.LFB75
- 8135 0014 A401 0000 		.long	.LFE75-.LFB75
+ 8134 0010 0000 0000 		.long	.LFB76
+ 8135 0014 A401 0000 		.long	.LFE76-.LFB76
  8136 0018 0000 0000 		.long	0x0
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 250
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 250
 
 
  8137 001c 0000 0000 		.long	0x0
@@ -14966,15 +14966,15 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  8159 004c 0000 0000 		.long	0x0
  8160 0050 0000 0000 		.long	.Ltext0
  8161 0054 0000 0000 		.long	.Letext0
- 8162 0058 0000 0000 		.long	.LFB75
- 8163 005c 0000 0000 		.long	.LFE75
+ 8162 0058 0000 0000 		.long	.LFB76
+ 8163 005c 0000 0000 		.long	.LFE76
  8164 0060 0000 0000 		.long	0x0
  8165 0064 0000 0000 		.long	0x0
  8166               		.section	.debug_line
- 8167 0000 2205 0000 		.long	.LELT0-.LSLT0
+ 8167 0000 1A05 0000 		.long	.LELT0-.LSLT0
  8168               	.LSLT0:
  8169 0004 0200      		.word	0x2
- 8170 0006 EA03 0000 		.long	.LELTP0-.LASLTP0
+ 8170 0006 E203 0000 		.long	.LELTP0-.LASLTP0
  8171               	.LASLTP0:
  8172 000a 01        		.byte	0x1
  8173 000b 01        		.byte	0x1
@@ -14995,490 +14995,490 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  8186      7469 6F6E 
  8186      732F 4172 
  8186      6475 696E 
- 8187 0054 7264 7569 		.ascii	"rduino/avr/cores/arduino"
- 8187      6E6F 2F61 
- 8187      7672 2F63 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 251
-
-
+ 8187 0054 7264 7569 		.ascii	"rduino/cores/arduino"
+ 8187      6E6F 2F63 
  8187      6F72 6573 
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 251
+
+
  8187      2F61 7264 
- 8188 006c 00        		.byte	0
- 8189 006d 2F41 7070 		.ascii	"/Applications/Arduino.app/Contents/Resources/Java/hardware/a"
+ 8187      7569 6E6F 
+ 8188 0068 00        		.byte	0
+ 8189 0069 2F41 7070 		.ascii	"/Applications/Arduino.app/Contents/Resources/Java/hardware/a"
  8189      6C69 6361 
  8189      7469 6F6E 
  8189      732F 4172 
  8189      6475 696E 
- 8190 00a9 7264 7569 		.ascii	"rduino/avr/variants/mega"
- 8190      6E6F 2F61 
- 8190      7672 2F76 
+ 8190 00a5 7264 7569 		.ascii	"rduino/variants/mega"
+ 8190      6E6F 2F76 
  8190      6172 6961 
  8190      6E74 732F 
- 8191 00c1 00        		.byte	0
- 8192 00c2 2F41 7070 		.ascii	"/Applications/Arduino.app/Contents/Resources/Java/hardware/t"
+ 8190      6D65 6761 
+ 8191 00b9 00        		.byte	0
+ 8192 00ba 2F41 7070 		.ascii	"/Applications/Arduino.app/Contents/Resources/Java/hardware/t"
  8192      6C69 6361 
  8192      7469 6F6E 
  8192      732F 4172 
  8192      6475 696E 
- 8193 00fe 6F6F 6C73 		.ascii	"ools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/include"
+ 8193 00f6 6F6F 6C73 		.ascii	"ools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/include"
  8193      2F61 7672 
  8193      2F62 696E 
  8193      2F2E 2E2F 
  8193      6C69 622F 
- 8194 0137 00        		.byte	0
- 8195 0138 2F41 7070 		.ascii	"/Applications/Arduino.app/Contents/Resources/Java/hardware/t"
+ 8194 012f 00        		.byte	0
+ 8195 0130 2F41 7070 		.ascii	"/Applications/Arduino.app/Contents/Resources/Java/hardware/t"
  8195      6C69 6361 
  8195      7469 6F6E 
  8195      732F 4172 
  8195      6475 696E 
- 8196 0174 6F6F 6C73 		.ascii	"ools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/include/av"
+ 8196 016c 6F6F 6C73 		.ascii	"ools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/include/av"
  8196      2F61 7672 
  8196      2F62 696E 
  8196      2F2E 2E2F 
  8196      6C69 622F 
- 8197 01b0 72        		.ascii	"r"
- 8198 01b1 00        		.byte	0
- 8199 01b2 2F41 7070 		.ascii	"/Applications/Arduino.app/Contents/Resources/Java/hardware/t"
+ 8197 01a8 72        		.ascii	"r"
+ 8198 01a9 00        		.byte	0
+ 8199 01aa 2F41 7070 		.ascii	"/Applications/Arduino.app/Contents/Resources/Java/hardware/t"
  8199      6C69 6361 
  8199      7469 6F6E 
  8199      732F 4172 
  8199      6475 696E 
- 8200 01ee 6F6F 6C73 		.ascii	"ools/avr/bin/../lib/gcc/avr/4.3.2/include"
+ 8200 01e6 6F6F 6C73 		.ascii	"ools/avr/bin/../lib/gcc/avr/4.3.2/include"
  8200      2F61 7672 
  8200      2F62 696E 
  8200      2F2E 2E2F 
  8200      6C69 622F 
- 8201 0217 00        		.byte	0
- 8202 0218 636F 6465 		.ascii	"code/applications/bTool"
+ 8201 020f 00        		.byte	0
+ 8202 0210 636F 6465 		.ascii	"code/applications/btool"
  8202      2F61 7070 
  8202      6C69 6361 
  8202      7469 6F6E 
- 8202      732F 6254 
- 8203 022f 00        		.byte	0
- 8204 0230 00        		.byte	0x0
- 8205 0231 6468 7431 		.string	"dht11.cpp"
+ 8202      732F 6274 
+ 8203 0227 00        		.byte	0
+ 8204 0228 00        		.byte	0x0
+ 8205 0229 6468 7431 		.string	"dht11.cpp"
  8205      312E 6370 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 252
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 252
 
 
  8205      7000 
- 8206 023b 06        		.uleb128 0x6
- 8207 023c 00        		.uleb128 0x0
- 8208 023d 00        		.uleb128 0x0
- 8209 023e 6468 7431 		.string	"dht11.h"
+ 8206 0233 06        		.uleb128 0x6
+ 8207 0234 00        		.uleb128 0x0
+ 8208 0235 00        		.uleb128 0x0
+ 8209 0236 6468 7431 		.string	"dht11.h"
  8209      312E 6800 
- 8210 0246 06        		.uleb128 0x6
- 8211 0247 00        		.uleb128 0x0
- 8212 0248 00        		.uleb128 0x0
- 8213 0249 4172 6475 		.string	"Arduino.h"
+ 8210 023e 06        		.uleb128 0x6
+ 8211 023f 00        		.uleb128 0x0
+ 8212 0240 00        		.uleb128 0x0
+ 8213 0241 4172 6475 		.string	"Arduino.h"
  8213      696E 6F2E 
  8213      6800 
- 8214 0253 01        		.uleb128 0x1
- 8215 0254 00        		.uleb128 0x0
- 8216 0255 00        		.uleb128 0x0
- 8217 0256 7374 646C 		.string	"stdlib.h"
+ 8214 024b 01        		.uleb128 0x1
+ 8215 024c 00        		.uleb128 0x0
+ 8216 024d 00        		.uleb128 0x0
+ 8217 024e 7374 646C 		.string	"stdlib.h"
  8217      6962 2E68 
  8217      00
- 8218 025f 03        		.uleb128 0x3
- 8219 0260 00        		.uleb128 0x0
- 8220 0261 00        		.uleb128 0x0
- 8221 0262 7374 6464 		.string	"stddef.h"
+ 8218 0257 03        		.uleb128 0x3
+ 8219 0258 00        		.uleb128 0x0
+ 8220 0259 00        		.uleb128 0x0
+ 8221 025a 7374 6464 		.string	"stddef.h"
  8221      6566 2E68 
  8221      00
- 8222 026b 05        		.uleb128 0x5
- 8223 026c 00        		.uleb128 0x0
- 8224 026d 00        		.uleb128 0x0
- 8225 026e 7374 7269 		.string	"string.h"
+ 8222 0263 05        		.uleb128 0x5
+ 8223 0264 00        		.uleb128 0x0
+ 8224 0265 00        		.uleb128 0x0
+ 8225 0266 7374 7269 		.string	"string.h"
  8225      6E67 2E68 
  8225      00
- 8226 0277 03        		.uleb128 0x3
- 8227 0278 00        		.uleb128 0x0
- 8228 0279 00        		.uleb128 0x0
- 8229 027a 6D61 7468 		.string	"math.h"
+ 8226 026f 03        		.uleb128 0x3
+ 8227 0270 00        		.uleb128 0x0
+ 8228 0271 00        		.uleb128 0x0
+ 8229 0272 6D61 7468 		.string	"math.h"
  8229      2E68 00
- 8230 0281 03        		.uleb128 0x3
- 8231 0282 00        		.uleb128 0x0
- 8232 0283 00        		.uleb128 0x0
- 8233 0284 6176 722F 		.string	"avr/pgmspace.h"
+ 8230 0279 03        		.uleb128 0x3
+ 8231 027a 00        		.uleb128 0x0
+ 8232 027b 00        		.uleb128 0x0
+ 8233 027c 6176 722F 		.string	"avr/pgmspace.h"
  8233      7067 6D73 
  8233      7061 6365 
  8233      2E68 00
- 8234 0293 03        		.uleb128 0x3
- 8235 0294 00        		.uleb128 0x0
- 8236 0295 00        		.uleb128 0x0
- 8237 0296 696E 7474 		.string	"inttypes.h"
+ 8234 028b 03        		.uleb128 0x3
+ 8235 028c 00        		.uleb128 0x0
+ 8236 028d 00        		.uleb128 0x0
+ 8237 028e 696E 7474 		.string	"inttypes.h"
  8237      7970 6573 
  8237      2E68 00
- 8238 02a1 03        		.uleb128 0x3
- 8239 02a2 00        		.uleb128 0x0
- 8240 02a3 00        		.uleb128 0x0
- 8241 02a4 7374 6469 		.string	"stdint.h"
+ 8238 0299 03        		.uleb128 0x3
+ 8239 029a 00        		.uleb128 0x0
+ 8240 029b 00        		.uleb128 0x0
+ 8241 029c 7374 6469 		.string	"stdint.h"
  8241      6E74 2E68 
  8241      00
- 8242 02ad 03        		.uleb128 0x3
- 8243 02ae 00        		.uleb128 0x0
- 8244 02af 00        		.uleb128 0x0
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 253
+ 8242 02a5 03        		.uleb128 0x3
+ 8243 02a6 00        		.uleb128 0x0
+ 8244 02a7 00        		.uleb128 0x0
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 253
 
 
- 8245 02b0 6176 722F 		.string	"avr/io.h"
+ 8245 02a8 6176 722F 		.string	"avr/io.h"
  8245      696F 2E68 
  8245      00
- 8246 02b9 03        		.uleb128 0x3
- 8247 02ba 00        		.uleb128 0x0
- 8248 02bb 00        		.uleb128 0x0
- 8249 02bc 6176 722F 		.string	"avr/sfr_defs.h"
+ 8246 02b1 03        		.uleb128 0x3
+ 8247 02b2 00        		.uleb128 0x0
+ 8248 02b3 00        		.uleb128 0x0
+ 8249 02b4 6176 722F 		.string	"avr/sfr_defs.h"
  8249      7366 725F 
  8249      6465 6673 
  8249      2E68 00
- 8250 02cb 03        		.uleb128 0x3
- 8251 02cc 00        		.uleb128 0x0
- 8252 02cd 00        		.uleb128 0x0
- 8253 02ce 6176 722F 		.string	"avr/iom2560.h"
+ 8250 02c3 03        		.uleb128 0x3
+ 8251 02c4 00        		.uleb128 0x0
+ 8252 02c5 00        		.uleb128 0x0
+ 8253 02c6 6176 722F 		.string	"avr/iom2560.h"
  8253      696F 6D32 
  8253      3536 302E 
  8253      6800 
- 8254 02dc 03        		.uleb128 0x3
- 8255 02dd 00        		.uleb128 0x0
- 8256 02de 00        		.uleb128 0x0
- 8257 02df 6176 722F 		.string	"avr/iomxx0_1.h"
+ 8254 02d4 03        		.uleb128 0x3
+ 8255 02d5 00        		.uleb128 0x0
+ 8256 02d6 00        		.uleb128 0x0
+ 8257 02d7 6176 722F 		.string	"avr/iomxx0_1.h"
  8257      696F 6D78 
  8257      7830 5F31 
  8257      2E68 00
- 8258 02ee 03        		.uleb128 0x3
- 8259 02ef 00        		.uleb128 0x0
- 8260 02f0 00        		.uleb128 0x0
- 8261 02f1 6176 722F 		.string	"avr/portpins.h"
+ 8258 02e6 03        		.uleb128 0x3
+ 8259 02e7 00        		.uleb128 0x0
+ 8260 02e8 00        		.uleb128 0x0
+ 8261 02e9 6176 722F 		.string	"avr/portpins.h"
  8261      706F 7274 
  8261      7069 6E73 
  8261      2E68 00
- 8262 0300 03        		.uleb128 0x3
- 8263 0301 00        		.uleb128 0x0
- 8264 0302 00        		.uleb128 0x0
- 8265 0303 6176 722F 		.string	"avr/common.h"
+ 8262 02f8 03        		.uleb128 0x3
+ 8263 02f9 00        		.uleb128 0x0
+ 8264 02fa 00        		.uleb128 0x0
+ 8265 02fb 6176 722F 		.string	"avr/common.h"
  8265      636F 6D6D 
  8265      6F6E 2E68 
  8265      00
- 8266 0310 03        		.uleb128 0x3
- 8267 0311 00        		.uleb128 0x0
- 8268 0312 00        		.uleb128 0x0
- 8269 0313 6176 722F 		.string	"avr/version.h"
+ 8266 0308 03        		.uleb128 0x3
+ 8267 0309 00        		.uleb128 0x0
+ 8268 030a 00        		.uleb128 0x0
+ 8269 030b 6176 722F 		.string	"avr/version.h"
  8269      7665 7273 
  8269      696F 6E2E 
  8269      6800 
- 8270 0321 03        		.uleb128 0x3
- 8271 0322 00        		.uleb128 0x0
- 8272 0323 00        		.uleb128 0x0
- 8273 0324 6176 722F 		.string	"avr/fuse.h"
+ 8270 0319 03        		.uleb128 0x3
+ 8271 031a 00        		.uleb128 0x0
+ 8272 031b 00        		.uleb128 0x0
+ 8273 031c 6176 722F 		.string	"avr/fuse.h"
  8273      6675 7365 
  8273      2E68 00
- 8274 032f 03        		.uleb128 0x3
- 8275 0330 00        		.uleb128 0x0
- 8276 0331 00        		.uleb128 0x0
- 8277 0332 6176 722F 		.string	"avr/lock.h"
+ 8274 0327 03        		.uleb128 0x3
+ 8275 0328 00        		.uleb128 0x0
+ 8276 0329 00        		.uleb128 0x0
+ 8277 032a 6176 722F 		.string	"avr/lock.h"
  8277      6C6F 636B 
  8277      2E68 00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 254
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 254
 
 
- 8278 033d 03        		.uleb128 0x3
- 8279 033e 00        		.uleb128 0x0
- 8280 033f 00        		.uleb128 0x0
- 8281 0340 6176 722F 		.string	"avr/interrupt.h"
+ 8278 0335 03        		.uleb128 0x3
+ 8279 0336 00        		.uleb128 0x0
+ 8280 0337 00        		.uleb128 0x0
+ 8281 0338 6176 722F 		.string	"avr/interrupt.h"
  8281      696E 7465 
  8281      7272 7570 
  8281      742E 6800 
- 8282 0350 03        		.uleb128 0x3
- 8283 0351 00        		.uleb128 0x0
- 8284 0352 00        		.uleb128 0x0
- 8285 0353 6269 6E61 		.string	"binary.h"
+ 8282 0348 03        		.uleb128 0x3
+ 8283 0349 00        		.uleb128 0x0
+ 8284 034a 00        		.uleb128 0x0
+ 8285 034b 6269 6E61 		.string	"binary.h"
  8285      7279 2E68 
  8285      00
- 8286 035c 01        		.uleb128 0x1
- 8287 035d 00        		.uleb128 0x0
- 8288 035e 00        		.uleb128 0x0
- 8289 035f 5743 6861 		.string	"WCharacter.h"
+ 8286 0354 01        		.uleb128 0x1
+ 8287 0355 00        		.uleb128 0x0
+ 8288 0356 00        		.uleb128 0x0
+ 8289 0357 5743 6861 		.string	"WCharacter.h"
  8289      7261 6374 
  8289      6572 2E68 
  8289      00
- 8290 036c 01        		.uleb128 0x1
- 8291 036d 00        		.uleb128 0x0
- 8292 036e 00        		.uleb128 0x0
- 8293 036f 6374 7970 		.string	"ctype.h"
+ 8290 0364 01        		.uleb128 0x1
+ 8291 0365 00        		.uleb128 0x0
+ 8292 0366 00        		.uleb128 0x0
+ 8293 0367 6374 7970 		.string	"ctype.h"
  8293      652E 6800 
- 8294 0377 03        		.uleb128 0x3
- 8295 0378 00        		.uleb128 0x0
- 8296 0379 00        		.uleb128 0x0
- 8297 037a 5753 7472 		.string	"WString.h"
+ 8294 036f 03        		.uleb128 0x3
+ 8295 0370 00        		.uleb128 0x0
+ 8296 0371 00        		.uleb128 0x0
+ 8297 0372 5753 7472 		.string	"WString.h"
  8297      696E 672E 
  8297      6800 
- 8298 0384 01        		.uleb128 0x1
- 8299 0385 00        		.uleb128 0x0
- 8300 0386 00        		.uleb128 0x0
- 8301 0387 4861 7264 		.string	"HardwareSerial.h"
+ 8298 037c 01        		.uleb128 0x1
+ 8299 037d 00        		.uleb128 0x0
+ 8300 037e 00        		.uleb128 0x0
+ 8301 037f 4861 7264 		.string	"HardwareSerial.h"
  8301      7761 7265 
  8301      5365 7269 
  8301      616C 2E68 
  8301      00
- 8302 0398 01        		.uleb128 0x1
- 8303 0399 00        		.uleb128 0x0
- 8304 039a 00        		.uleb128 0x0
- 8305 039b 5374 7265 		.string	"Stream.h"
+ 8302 0390 01        		.uleb128 0x1
+ 8303 0391 00        		.uleb128 0x0
+ 8304 0392 00        		.uleb128 0x0
+ 8305 0393 5374 7265 		.string	"Stream.h"
  8305      616D 2E68 
  8305      00
- 8306 03a4 01        		.uleb128 0x1
- 8307 03a5 00        		.uleb128 0x0
- 8308 03a6 00        		.uleb128 0x0
- 8309 03a7 5072 696E 		.string	"Print.h"
+ 8306 039c 01        		.uleb128 0x1
+ 8307 039d 00        		.uleb128 0x0
+ 8308 039e 00        		.uleb128 0x0
+ 8309 039f 5072 696E 		.string	"Print.h"
  8309      742E 6800 
- 8310 03af 01        		.uleb128 0x1
- 8311 03b0 00        		.uleb128 0x0
- 8312 03b1 00        		.uleb128 0x0
- 8313 03b2 7374 6469 		.string	"stdio.h"
+ 8310 03a7 01        		.uleb128 0x1
+ 8311 03a8 00        		.uleb128 0x0
+ 8312 03a9 00        		.uleb128 0x0
+ 8313 03aa 7374 6469 		.string	"stdio.h"
  8313      6F2E 6800 
- 8314 03ba 03        		.uleb128 0x3
- 8315 03bb 00        		.uleb128 0x0
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 255
+ 8314 03b2 03        		.uleb128 0x3
+ 8315 03b3 00        		.uleb128 0x0
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 255
 
 
- 8316 03bc 00        		.uleb128 0x0
- 8317 03bd 7374 6461 		.string	"stdarg.h"
+ 8316 03b4 00        		.uleb128 0x0
+ 8317 03b5 7374 6461 		.string	"stdarg.h"
  8317      7267 2E68 
  8317      00
- 8318 03c6 05        		.uleb128 0x5
- 8319 03c7 00        		.uleb128 0x0
- 8320 03c8 00        		.uleb128 0x0
- 8321 03c9 5072 696E 		.string	"Printable.h"
+ 8318 03be 05        		.uleb128 0x5
+ 8319 03bf 00        		.uleb128 0x0
+ 8320 03c0 00        		.uleb128 0x0
+ 8321 03c1 5072 696E 		.string	"Printable.h"
  8321      7461 626C 
  8321      652E 6800 
- 8322 03d5 01        		.uleb128 0x1
- 8323 03d6 00        		.uleb128 0x0
- 8324 03d7 00        		.uleb128 0x0
- 8325 03d8 6E65 772E 		.string	"new.h"
+ 8322 03cd 01        		.uleb128 0x1
+ 8323 03ce 00        		.uleb128 0x0
+ 8324 03cf 00        		.uleb128 0x0
+ 8325 03d0 6E65 772E 		.string	"new.h"
  8325      6800 
- 8326 03de 01        		.uleb128 0x1
- 8327 03df 00        		.uleb128 0x0
- 8328 03e0 00        		.uleb128 0x0
- 8329 03e1 7069 6E73 		.string	"pins_arduino.h"
+ 8326 03d6 01        		.uleb128 0x1
+ 8327 03d7 00        		.uleb128 0x0
+ 8328 03d8 00        		.uleb128 0x0
+ 8329 03d9 7069 6E73 		.string	"pins_arduino.h"
  8329      5F61 7264 
  8329      7569 6E6F 
  8329      2E68 00
- 8330 03f0 02        		.uleb128 0x2
- 8331 03f1 00        		.uleb128 0x0
- 8332 03f2 00        		.uleb128 0x0
- 8333 03f3 00        		.byte	0x0
+ 8330 03e8 02        		.uleb128 0x2
+ 8331 03e9 00        		.uleb128 0x0
+ 8332 03ea 00        		.uleb128 0x0
+ 8333 03eb 00        		.byte	0x0
  8334               	.LELTP0:
- 8335 03f4 00        		.byte	0x0
- 8336 03f5 05        		.uleb128 0x5
- 8337 03f6 02        		.byte	0x2
- 8338 03f7 0000 0000 		.long	.Letext0
- 8339 03fb 00        		.byte	0x0
- 8340 03fc 01        		.uleb128 0x1
- 8341 03fd 01        		.byte	0x1
- 8342 03fe 00        		.byte	0x0
- 8343 03ff 05        		.uleb128 0x5
- 8344 0400 02        		.byte	0x2
- 8345 0401 0000 0000 		.long	.LSM0
- 8346 0405 2B        		.byte	0x2b
- 8347 0406 00        		.byte	0x0
- 8348 0407 05        		.uleb128 0x5
- 8349 0408 02        		.byte	0x2
- 8350 0409 0000 0000 		.long	.LSM1
- 8351 040d 1C        		.byte	0x1c
- 8352 040e 00        		.byte	0x0
- 8353 040f 05        		.uleb128 0x5
- 8354 0410 02        		.byte	0x2
- 8355 0411 0000 0000 		.long	.LSM2
- 8356 0415 17        		.byte	0x17
- 8357 0416 00        		.byte	0x0
- 8358 0417 05        		.uleb128 0x5
- 8359 0418 02        		.byte	0x2
- 8360 0419 0000 0000 		.long	.LSM3
- 8361 041d 15        		.byte	0x15
- 8362 041e 00        		.byte	0x0
- 8363 041f 05        		.uleb128 0x5
- 8364 0420 02        		.byte	0x2
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 256
+ 8335 03ec 00        		.byte	0x0
+ 8336 03ed 05        		.uleb128 0x5
+ 8337 03ee 02        		.byte	0x2
+ 8338 03ef 0000 0000 		.long	.Letext0
+ 8339 03f3 00        		.byte	0x0
+ 8340 03f4 01        		.uleb128 0x1
+ 8341 03f5 01        		.byte	0x1
+ 8342 03f6 00        		.byte	0x0
+ 8343 03f7 05        		.uleb128 0x5
+ 8344 03f8 02        		.byte	0x2
+ 8345 03f9 0000 0000 		.long	.LSM0
+ 8346 03fd 2B        		.byte	0x2b
+ 8347 03fe 00        		.byte	0x0
+ 8348 03ff 05        		.uleb128 0x5
+ 8349 0400 02        		.byte	0x2
+ 8350 0401 0000 0000 		.long	.LSM1
+ 8351 0405 1C        		.byte	0x1c
+ 8352 0406 00        		.byte	0x0
+ 8353 0407 05        		.uleb128 0x5
+ 8354 0408 02        		.byte	0x2
+ 8355 0409 0000 0000 		.long	.LSM2
+ 8356 040d 17        		.byte	0x17
+ 8357 040e 00        		.byte	0x0
+ 8358 040f 05        		.uleb128 0x5
+ 8359 0410 02        		.byte	0x2
+ 8360 0411 0000 0000 		.long	.LSM3
+ 8361 0415 15        		.byte	0x15
+ 8362 0416 00        		.byte	0x0
+ 8363 0417 05        		.uleb128 0x5
+ 8364 0418 02        		.byte	0x2
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 256
 
 
- 8365 0421 0000 0000 		.long	.LSM4
- 8366 0425 15        		.byte	0x15
- 8367 0426 00        		.byte	0x0
- 8368 0427 05        		.uleb128 0x5
- 8369 0428 02        		.byte	0x2
- 8370 0429 0000 0000 		.long	.LSM5
- 8371 042d 15        		.byte	0x15
- 8372 042e 00        		.byte	0x0
- 8373 042f 05        		.uleb128 0x5
- 8374 0430 02        		.byte	0x2
- 8375 0431 0000 0000 		.long	.LSM6
- 8376 0435 15        		.byte	0x15
- 8377 0436 00        		.byte	0x0
- 8378 0437 05        		.uleb128 0x5
- 8379 0438 02        		.byte	0x2
- 8380 0439 0000 0000 		.long	.LSM7
- 8381 043d 15        		.byte	0x15
- 8382 043e 00        		.byte	0x0
- 8383 043f 05        		.uleb128 0x5
- 8384 0440 02        		.byte	0x2
- 8385 0441 0000 0000 		.long	.LSM8
- 8386 0445 18        		.byte	0x18
- 8387 0446 00        		.byte	0x0
- 8388 0447 05        		.uleb128 0x5
- 8389 0448 02        		.byte	0x2
- 8390 0449 0000 0000 		.long	.LSM9
- 8391 044d 15        		.byte	0x15
- 8392 044e 00        		.byte	0x0
- 8393 044f 05        		.uleb128 0x5
- 8394 0450 02        		.byte	0x2
- 8395 0451 0000 0000 		.long	.LSM10
- 8396 0455 13        		.byte	0x13
- 8397 0456 00        		.byte	0x0
- 8398 0457 05        		.uleb128 0x5
- 8399 0458 02        		.byte	0x2
- 8400 0459 0000 0000 		.long	.LSM11
- 8401 045d 19        		.byte	0x19
- 8402 045e 00        		.byte	0x0
- 8403 045f 05        		.uleb128 0x5
- 8404 0460 02        		.byte	0x2
- 8405 0461 0000 0000 		.long	.LSM12
- 8406 0465 13        		.byte	0x13
- 8407 0466 00        		.byte	0x0
- 8408 0467 05        		.uleb128 0x5
- 8409 0468 02        		.byte	0x2
- 8410 0469 0000 0000 		.long	.LSM13
- 8411 046d 1C        		.byte	0x1c
- 8412 046e 00        		.byte	0x0
- 8413 046f 05        		.uleb128 0x5
- 8414 0470 02        		.byte	0x2
- 8415 0471 0000 0000 		.long	.LSM14
- 8416 0475 1C        		.byte	0x1c
- 8417 0476 00        		.byte	0x0
- 8418 0477 05        		.uleb128 0x5
- 8419 0478 02        		.byte	0x2
- 8420 0479 0000 0000 		.long	.LSM15
- 8421 047d 0C        		.byte	0xc
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 257
+ 8365 0419 0000 0000 		.long	.LSM4
+ 8366 041d 15        		.byte	0x15
+ 8367 041e 00        		.byte	0x0
+ 8368 041f 05        		.uleb128 0x5
+ 8369 0420 02        		.byte	0x2
+ 8370 0421 0000 0000 		.long	.LSM5
+ 8371 0425 15        		.byte	0x15
+ 8372 0426 00        		.byte	0x0
+ 8373 0427 05        		.uleb128 0x5
+ 8374 0428 02        		.byte	0x2
+ 8375 0429 0000 0000 		.long	.LSM6
+ 8376 042d 15        		.byte	0x15
+ 8377 042e 00        		.byte	0x0
+ 8378 042f 05        		.uleb128 0x5
+ 8379 0430 02        		.byte	0x2
+ 8380 0431 0000 0000 		.long	.LSM7
+ 8381 0435 15        		.byte	0x15
+ 8382 0436 00        		.byte	0x0
+ 8383 0437 05        		.uleb128 0x5
+ 8384 0438 02        		.byte	0x2
+ 8385 0439 0000 0000 		.long	.LSM8
+ 8386 043d 18        		.byte	0x18
+ 8387 043e 00        		.byte	0x0
+ 8388 043f 05        		.uleb128 0x5
+ 8389 0440 02        		.byte	0x2
+ 8390 0441 0000 0000 		.long	.LSM9
+ 8391 0445 15        		.byte	0x15
+ 8392 0446 00        		.byte	0x0
+ 8393 0447 05        		.uleb128 0x5
+ 8394 0448 02        		.byte	0x2
+ 8395 0449 0000 0000 		.long	.LSM10
+ 8396 044d 13        		.byte	0x13
+ 8397 044e 00        		.byte	0x0
+ 8398 044f 05        		.uleb128 0x5
+ 8399 0450 02        		.byte	0x2
+ 8400 0451 0000 0000 		.long	.LSM11
+ 8401 0455 19        		.byte	0x19
+ 8402 0456 00        		.byte	0x0
+ 8403 0457 05        		.uleb128 0x5
+ 8404 0458 02        		.byte	0x2
+ 8405 0459 0000 0000 		.long	.LSM12
+ 8406 045d 13        		.byte	0x13
+ 8407 045e 00        		.byte	0x0
+ 8408 045f 05        		.uleb128 0x5
+ 8409 0460 02        		.byte	0x2
+ 8410 0461 0000 0000 		.long	.LSM13
+ 8411 0465 1C        		.byte	0x1c
+ 8412 0466 00        		.byte	0x0
+ 8413 0467 05        		.uleb128 0x5
+ 8414 0468 02        		.byte	0x2
+ 8415 0469 0000 0000 		.long	.LSM14
+ 8416 046d 1C        		.byte	0x1c
+ 8417 046e 00        		.byte	0x0
+ 8418 046f 05        		.uleb128 0x5
+ 8419 0470 02        		.byte	0x2
+ 8420 0471 0000 0000 		.long	.LSM15
+ 8421 0475 0C        		.byte	0xc
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 257
 
 
- 8422 047e 00        		.byte	0x0
- 8423 047f 05        		.uleb128 0x5
- 8424 0480 02        		.byte	0x2
- 8425 0481 0000 0000 		.long	.LSM16
- 8426 0485 0C        		.byte	0xc
- 8427 0486 00        		.byte	0x0
- 8428 0487 05        		.uleb128 0x5
- 8429 0488 02        		.byte	0x2
- 8430 0489 0000 0000 		.long	.LSM17
- 8431 048d 1C        		.byte	0x1c
- 8432 048e 00        		.byte	0x0
- 8433 048f 05        		.uleb128 0x5
- 8434 0490 02        		.byte	0x2
- 8435 0491 0000 0000 		.long	.LSM18
- 8436 0495 13        		.byte	0x13
- 8437 0496 00        		.byte	0x0
- 8438 0497 05        		.uleb128 0x5
- 8439 0498 02        		.byte	0x2
- 8440 0499 0000 0000 		.long	.LSM19
- 8441 049d 17        		.byte	0x17
- 8442 049e 00        		.byte	0x0
- 8443 049f 05        		.uleb128 0x5
- 8444 04a0 02        		.byte	0x2
- 8445 04a1 0000 0000 		.long	.LSM20
- 8446 04a5 17        		.byte	0x17
- 8447 04a6 00        		.byte	0x0
- 8448 04a7 05        		.uleb128 0x5
- 8449 04a8 02        		.byte	0x2
- 8450 04a9 0000 0000 		.long	.LSM21
- 8451 04ad 15        		.byte	0x15
- 8452 04ae 00        		.byte	0x0
- 8453 04af 05        		.uleb128 0x5
- 8454 04b0 02        		.byte	0x2
- 8455 04b1 0000 0000 		.long	.LSM22
- 8456 04b5 13        		.byte	0x13
- 8457 04b6 00        		.byte	0x0
- 8458 04b7 05        		.uleb128 0x5
- 8459 04b8 02        		.byte	0x2
- 8460 04b9 0000 0000 		.long	.LSM23
- 8461 04bd 17        		.byte	0x17
- 8462 04be 00        		.byte	0x0
- 8463 04bf 05        		.uleb128 0x5
- 8464 04c0 02        		.byte	0x2
- 8465 04c1 0000 0000 		.long	.LSM24
- 8466 04c5 15        		.byte	0x15
- 8467 04c6 00        		.byte	0x0
- 8468 04c7 05        		.uleb128 0x5
- 8469 04c8 02        		.byte	0x2
- 8470 04c9 0000 0000 		.long	.LSM25
- 8471 04cd 17        		.byte	0x17
- 8472 04ce 00        		.byte	0x0
- 8473 04cf 05        		.uleb128 0x5
- 8474 04d0 02        		.byte	0x2
- 8475 04d1 0000 0000 		.long	.LSM26
- 8476 04d5 16        		.byte	0x16
- 8477 04d6 00        		.byte	0x0
- 8478 04d7 05        		.uleb128 0x5
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 258
+ 8422 0476 00        		.byte	0x0
+ 8423 0477 05        		.uleb128 0x5
+ 8424 0478 02        		.byte	0x2
+ 8425 0479 0000 0000 		.long	.LSM16
+ 8426 047d 0C        		.byte	0xc
+ 8427 047e 00        		.byte	0x0
+ 8428 047f 05        		.uleb128 0x5
+ 8429 0480 02        		.byte	0x2
+ 8430 0481 0000 0000 		.long	.LSM17
+ 8431 0485 1C        		.byte	0x1c
+ 8432 0486 00        		.byte	0x0
+ 8433 0487 05        		.uleb128 0x5
+ 8434 0488 02        		.byte	0x2
+ 8435 0489 0000 0000 		.long	.LSM18
+ 8436 048d 13        		.byte	0x13
+ 8437 048e 00        		.byte	0x0
+ 8438 048f 05        		.uleb128 0x5
+ 8439 0490 02        		.byte	0x2
+ 8440 0491 0000 0000 		.long	.LSM19
+ 8441 0495 17        		.byte	0x17
+ 8442 0496 00        		.byte	0x0
+ 8443 0497 05        		.uleb128 0x5
+ 8444 0498 02        		.byte	0x2
+ 8445 0499 0000 0000 		.long	.LSM20
+ 8446 049d 17        		.byte	0x17
+ 8447 049e 00        		.byte	0x0
+ 8448 049f 05        		.uleb128 0x5
+ 8449 04a0 02        		.byte	0x2
+ 8450 04a1 0000 0000 		.long	.LSM21
+ 8451 04a5 15        		.byte	0x15
+ 8452 04a6 00        		.byte	0x0
+ 8453 04a7 05        		.uleb128 0x5
+ 8454 04a8 02        		.byte	0x2
+ 8455 04a9 0000 0000 		.long	.LSM22
+ 8456 04ad 13        		.byte	0x13
+ 8457 04ae 00        		.byte	0x0
+ 8458 04af 05        		.uleb128 0x5
+ 8459 04b0 02        		.byte	0x2
+ 8460 04b1 0000 0000 		.long	.LSM23
+ 8461 04b5 17        		.byte	0x17
+ 8462 04b6 00        		.byte	0x0
+ 8463 04b7 05        		.uleb128 0x5
+ 8464 04b8 02        		.byte	0x2
+ 8465 04b9 0000 0000 		.long	.LSM24
+ 8466 04bd 15        		.byte	0x15
+ 8467 04be 00        		.byte	0x0
+ 8468 04bf 05        		.uleb128 0x5
+ 8469 04c0 02        		.byte	0x2
+ 8470 04c1 0000 0000 		.long	.LSM25
+ 8471 04c5 17        		.byte	0x17
+ 8472 04c6 00        		.byte	0x0
+ 8473 04c7 05        		.uleb128 0x5
+ 8474 04c8 02        		.byte	0x2
+ 8475 04c9 0000 0000 		.long	.LSM26
+ 8476 04cd 16        		.byte	0x16
+ 8477 04ce 00        		.byte	0x0
+ 8478 04cf 05        		.uleb128 0x5
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 258
 
 
- 8479 04d8 02        		.byte	0x2
- 8480 04d9 0000 0000 		.long	.LSM27
- 8481 04dd 03        		.byte	0x3
- 8482 04de 6E        		.sleb128 -18
- 8483 04df 01        		.byte	0x1
- 8484 04e0 00        		.byte	0x0
- 8485 04e1 05        		.uleb128 0x5
- 8486 04e2 02        		.byte	0x2
- 8487 04e3 0000 0000 		.long	.LSM28
- 8488 04e7 2B        		.byte	0x2b
- 8489 04e8 00        		.byte	0x0
- 8490 04e9 05        		.uleb128 0x5
- 8491 04ea 02        		.byte	0x2
- 8492 04eb 0000 0000 		.long	.LSM29
- 8493 04ef 15        		.byte	0x15
- 8494 04f0 00        		.byte	0x0
- 8495 04f1 05        		.uleb128 0x5
- 8496 04f2 02        		.byte	0x2
- 8497 04f3 0000 0000 		.long	.LSM30
- 8498 04f7 18        		.byte	0x18
- 8499 04f8 00        		.byte	0x0
- 8500 04f9 05        		.uleb128 0x5
- 8501 04fa 02        		.byte	0x2
- 8502 04fb 0000 0000 		.long	.LSM31
- 8503 04ff 03        		.byte	0x3
- 8504 0500 6E        		.sleb128 -18
- 8505 0501 01        		.byte	0x1
- 8506 0502 00        		.byte	0x0
- 8507 0503 05        		.uleb128 0x5
- 8508 0504 02        		.byte	0x2
- 8509 0505 0000 0000 		.long	.LSM32
- 8510 0509 28        		.byte	0x28
- 8511 050a 00        		.byte	0x0
- 8512 050b 05        		.uleb128 0x5
- 8513 050c 02        		.byte	0x2
- 8514 050d 0000 0000 		.long	.LSM33
- 8515 0511 03        		.byte	0x3
- 8516 0512 74        		.sleb128 -12
- 8517 0513 01        		.byte	0x1
- 8518 0514 00        		.byte	0x0
- 8519 0515 05        		.uleb128 0x5
- 8520 0516 02        		.byte	0x2
- 8521 0517 0000 0000 		.long	.LSM34
- 8522 051b 1E        		.byte	0x1e
- 8523 051c 00        		.byte	0x0
- 8524 051d 05        		.uleb128 0x5
- 8525 051e 02        		.byte	0x2
- 8526 051f 0000 0000 		.long	.LFE75
- 8527 0523 00        		.byte	0x0
- 8528 0524 01        		.uleb128 0x1
- 8529 0525 01        		.byte	0x1
+ 8479 04d0 02        		.byte	0x2
+ 8480 04d1 0000 0000 		.long	.LSM27
+ 8481 04d5 03        		.byte	0x3
+ 8482 04d6 6E        		.sleb128 -18
+ 8483 04d7 01        		.byte	0x1
+ 8484 04d8 00        		.byte	0x0
+ 8485 04d9 05        		.uleb128 0x5
+ 8486 04da 02        		.byte	0x2
+ 8487 04db 0000 0000 		.long	.LSM28
+ 8488 04df 2B        		.byte	0x2b
+ 8489 04e0 00        		.byte	0x0
+ 8490 04e1 05        		.uleb128 0x5
+ 8491 04e2 02        		.byte	0x2
+ 8492 04e3 0000 0000 		.long	.LSM29
+ 8493 04e7 15        		.byte	0x15
+ 8494 04e8 00        		.byte	0x0
+ 8495 04e9 05        		.uleb128 0x5
+ 8496 04ea 02        		.byte	0x2
+ 8497 04eb 0000 0000 		.long	.LSM30
+ 8498 04ef 18        		.byte	0x18
+ 8499 04f0 00        		.byte	0x0
+ 8500 04f1 05        		.uleb128 0x5
+ 8501 04f2 02        		.byte	0x2
+ 8502 04f3 0000 0000 		.long	.LSM31
+ 8503 04f7 03        		.byte	0x3
+ 8504 04f8 6E        		.sleb128 -18
+ 8505 04f9 01        		.byte	0x1
+ 8506 04fa 00        		.byte	0x0
+ 8507 04fb 05        		.uleb128 0x5
+ 8508 04fc 02        		.byte	0x2
+ 8509 04fd 0000 0000 		.long	.LSM32
+ 8510 0501 28        		.byte	0x28
+ 8511 0502 00        		.byte	0x0
+ 8512 0503 05        		.uleb128 0x5
+ 8513 0504 02        		.byte	0x2
+ 8514 0505 0000 0000 		.long	.LSM33
+ 8515 0509 03        		.byte	0x3
+ 8516 050a 74        		.sleb128 -12
+ 8517 050b 01        		.byte	0x1
+ 8518 050c 00        		.byte	0x0
+ 8519 050d 05        		.uleb128 0x5
+ 8520 050e 02        		.byte	0x2
+ 8521 050f 0000 0000 		.long	.LSM34
+ 8522 0513 1E        		.byte	0x1e
+ 8523 0514 00        		.byte	0x0
+ 8524 0515 05        		.uleb128 0x5
+ 8525 0516 02        		.byte	0x2
+ 8526 0517 0000 0000 		.long	.LFE76
+ 8527 051b 00        		.byte	0x0
+ 8528 051c 01        		.uleb128 0x1
+ 8529 051d 01        		.byte	0x1
  8530               	.LELT0:
- 8531 0526 1900 0000 		.section	.debug_macinfo
+ 8531 051e 1900 0000 		.section	.debug_macinfo
  8531      0200 1300 
  8531      0000 0101 
  8531      FB0E 0D00 
  8531      0101 0101 
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 259
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 259
 
 
  8532 bae1 00        		.byte	0x0
@@ -15491,116 +15491,116 @@ GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page
  8537 0009 4C45 445F 		.string	"LED_BUILTIN"
  8537      4255 494C 
  8537      5449 4E00 
- 8538               	.LASF19:
- 8539 0015 2F55 7365 		.string	"/Users/andrek/git/RTuinOS3"
- 8539      7273 2F61 
- 8539      6E64 7265 
- 8539      6B2F 6769 
- 8539      742F 5254 
- 8540               	.LASF11:
- 8541 0030 666C 6F61 		.string	"float"
- 8541      7400 
- 8542               	.LASF24:
- 8543 0036 7468 6973 		.string	"this"
- 8543      00
- 8544               	.LASF10:
- 8545 003b 626F 6F6C 		.string	"bool"
- 8545      00
- 8546               	.LASF17:
- 8547 0040 474E 5520 		.string	"GNU C++ 4.3.2"
- 8547      432B 2B20 
- 8547      342E 332E 
- 8547      3200 
- 8548               	.LASF9:
- 8549 004e 7465 6D70 		.string	"temperature"
- 8549      6572 6174 
- 8549      7572 6500 
- 8550               	.LASF18:
- 8551 005a 636F 6465 		.string	"code/applications/bTool/dht11.cpp"
- 8551      2F61 7070 
- 8551      6C69 6361 
- 8551      7469 6F6E 
- 8551      732F 6254 
- 8552               	.LASF3:
- 8553 007c 756E 7369 		.string	"unsigned char"
- 8553      676E 6564 
- 8553      2063 6861 
- 8553      7200 
- 8554               	.LASF4:
- 8555 008a 6C6F 6E67 		.string	"long unsigned int"
- 8555      2075 6E73 
- 8555      6967 6E65 
- 8555      6420 696E 
- 8555      7400 
- 8556               	.LASF22:
- 8557 009c 7265 6164 		.string	"read"
+ 8538               	.LASF11:
+ 8539 0015 666C 6F61 		.string	"float"
+ 8539      7400 
+ 8540               	.LASF10:
+ 8541 001b 626F 6F6C 		.string	"bool"
+ 8541      00
+ 8542               	.LASF17:
+ 8543 0020 474E 5520 		.string	"GNU C++ 4.3.2"
+ 8543      432B 2B20 
+ 8543      342E 332E 
+ 8543      3200 
+ 8544               	.LASF9:
+ 8545 002e 7465 6D70 		.string	"temperature"
+ 8545      6572 6174 
+ 8545      7572 6500 
+ 8546               	.LASF24:
+ 8547 003a 7468 6973 		.string	"this"
+ 8547      00
+ 8548               	.LASF3:
+ 8549 003f 756E 7369 		.string	"unsigned char"
+ 8549      676E 6564 
+ 8549      2063 6861 
+ 8549      7200 
+ 8550               	.LASF4:
+ 8551 004d 6C6F 6E67 		.string	"long unsigned int"
+ 8551      2075 6E73 
+ 8551      6967 6E65 
+ 8551      6420 696E 
+ 8551      7400 
+ 8552               	.LASF22:
+ 8553 005f 7265 6164 		.string	"read"
+ 8553      00
+ 8554               	.LASF15:
+ 8555 0064 4D49 534F 		.string	"MISO"
+ 8555      00
+ 8556               	.LASF23:
+ 8557 0069 5F5A 4E35 		.string	"_ZN5dht114readEi"
+ 8557      6468 7431 
+ 8557      3134 7265 
+ 8557      6164 4569 
  8557      00
- 8558               	.LASF15:
- 8559 00a1 4D49 534F 		.string	"MISO"
+ 8558               	.LASF0:
+ 8559 007a 756E 7369 		.string	"unsigned int"
+ 8559      676E 6564 
+ 8559      2069 6E74 
  8559      00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 260
+ 8560               	.LASF18:
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 260
 
 
- 8560               	.LASF23:
- 8561 00a6 5F5A 4E35 		.string	"_ZN5dht114readEi"
- 8561      6468 7431 
- 8561      3134 7265 
- 8561      6164 4569 
- 8561      00
- 8562               	.LASF0:
- 8563 00b7 756E 7369 		.string	"unsigned int"
- 8563      676E 6564 
- 8563      2069 6E74 
- 8563      00
- 8564               	.LASF6:
- 8565 00c4 6C6F 6E67 		.string	"long long unsigned int"
- 8565      206C 6F6E 
- 8565      6720 756E 
- 8565      7369 676E 
- 8565      6564 2069 
- 8566               	.LASF20:
- 8567 00db 7569 6E74 		.string	"uint8_t"
- 8567      385F 7400 
- 8568               	.LASF5:
- 8569 00e3 6C6F 6E67 		.string	"long long int"
- 8569      206C 6F6E 
- 8569      6720 696E 
- 8569      7400 
- 8570               	.LASF7:
- 8571 00f1 6368 6172 		.string	"char"
- 8571      00
- 8572               	.LASF13:
- 8573 00f6 6C6F 6F70 		.string	"loopCnt"
- 8573      436E 7400 
- 8574               	.LASF12:
- 8575 00fe 6269 7473 		.string	"bits"
- 8575      00
- 8576               	.LASF21:
- 8577 0103 6468 7431 		.string	"dht11"
- 8577      3100 
- 8578               	.LASF1:
- 8579 0109 6C6F 6E67 		.string	"long int"
- 8579      2069 6E74 
- 8579      00
- 8580               	.LASF2:
- 8581 0112 7369 676E 		.string	"signed char"
- 8581      6564 2063 
- 8581      6861 7200 
+ 8561 0087 636F 6465 		.string	"code/applications/btool/dht11.cpp"
+ 8561      2F61 7070 
+ 8561      6C69 6361 
+ 8561      7469 6F6E 
+ 8561      732F 6274 
+ 8562               	.LASF6:
+ 8563 00a9 6C6F 6E67 		.string	"long long unsigned int"
+ 8563      206C 6F6E 
+ 8563      6720 756E 
+ 8563      7369 676E 
+ 8563      6564 2069 
+ 8564               	.LASF20:
+ 8565 00c0 7569 6E74 		.string	"uint8_t"
+ 8565      385F 7400 
+ 8566               	.LASF5:
+ 8567 00c8 6C6F 6E67 		.string	"long long int"
+ 8567      206C 6F6E 
+ 8567      6720 696E 
+ 8567      7400 
+ 8568               	.LASF7:
+ 8569 00d6 6368 6172 		.string	"char"
+ 8569      00
+ 8570               	.LASF13:
+ 8571 00db 6C6F 6F70 		.string	"loopCnt"
+ 8571      436E 7400 
+ 8572               	.LASF12:
+ 8573 00e3 6269 7473 		.string	"bits"
+ 8573      00
+ 8574               	.LASF21:
+ 8575 00e8 6468 7431 		.string	"dht11"
+ 8575      3100 
+ 8576               	.LASF1:
+ 8577 00ee 6C6F 6E67 		.string	"long int"
+ 8577      2069 6E74 
+ 8577      00
+ 8578               	.LASF2:
+ 8579 00f7 7369 676E 		.string	"signed char"
+ 8579      6564 2063 
+ 8579      6861 7200 
+ 8580               	.LASF19:
+ 8581 0103 2F55 7365 		.string	"/Users/andrek/bTool"
+ 8581      7273 2F61 
+ 8581      6E64 7265 
+ 8581      6B2F 6254 
+ 8581      6F6F 6C00 
  8582               	.LASF14:
- 8583 011e 4D4F 5349 		.string	"MOSI"
+ 8583 0117 4D4F 5349 		.string	"MOSI"
  8583      00
-GAS LISTING /var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s 			page 261
+GAS LISTING /var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s 			page 261
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 dht11.cpp
-/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s:2      *ABS*:0000003f __SREG__
-/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s:3      *ABS*:0000003e __SP_H__
-/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s:4      *ABS*:0000003d __SP_L__
-/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s:5      *ABS*:00000034 __CCP__
-/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s:6      *ABS*:00000000 __tmp_reg__
-/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s:7      *ABS*:00000001 __zero_reg__
-/var/folders/1s/lqjcb7x5323625d47g9gdgmr0000gp/T//ccWHY4aP.s:7037   .text._ZN5dht114readEi:00000000 _ZN5dht114readEi
+/var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s:2      *ABS*:0000003f __SREG__
+/var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s:3      *ABS*:0000003e __SP_H__
+/var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s:4      *ABS*:0000003d __SP_L__
+/var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s:5      *ABS*:00000034 __CCP__
+/var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s:6      *ABS*:00000000 __tmp_reg__
+/var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s:7      *ABS*:00000001 __zero_reg__
+/var/folders/tk/t3q829qj5f15rcm5fqg_r_9m0000gn/T//ccqfGrth.s:7037   .text._ZN5dht114readEi:00000000 _ZN5dht114readEi
 
 UNDEFINED SYMBOLS
 __do_copy_data

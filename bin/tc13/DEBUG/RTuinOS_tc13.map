@@ -1,5 +1,6 @@
 Archive member included because of file (symbol)
 
+bin/core/core.a(wiring.o)     bin/tc13/DEBUG/obj/gsl_systemLoad.o (millis)
 bin/core/core.a(wiring_digital.o)
                               bin/tc13/DEBUG/obj/tc13_eventStates.o (pinMode)
 bin/core/core.a(HardwareSerial.o)
@@ -7,7 +8,6 @@ bin/core/core.a(HardwareSerial.o)
 bin/core/core.a(new.o)        bin/core/core.a(HardwareSerial.o) (__cxa_pure_virtual)
 bin/core/core.a(Print.o)      bin/core/core.a(HardwareSerial.o) (Print::write(unsigned char const*, unsigned int))
 bin/core/core.a(WString.o)    bin/core/core.a(Print.o) (String::operator[](unsigned int) const)
-bin/core/core.a(wiring.o)     bin/tc13/DEBUG/obj/gsl_systemLoad.o (millis)
 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
                               bin/core/core.a(Print.o) (__subsf3)
 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3x.o)
@@ -155,6 +155,10 @@ Discarded input sections
                 0x00000000        0x0 bin/tc13/DEBUG/obj/stdout.o
  .text          0x00000000        0x0 bin/tc13/DEBUG/obj/tc13_eventStates.o
  .bss           0x00000000        0x0 bin/tc13/DEBUG/obj/tc13_eventStates.o
+ .text          0x00000000        0x0 bin/core/core.a(wiring.o)
+ .data          0x00000000        0x0 bin/core/core.a(wiring.o)
+ .bss           0x00000000        0x0 bin/core/core.a(wiring.o)
+ .text.micros   0x00000000        0x0 bin/core/core.a(wiring.o)
  .text          0x00000000        0x0 bin/core/core.a(wiring_digital.o)
  .data          0x00000000        0x0 bin/core/core.a(wiring_digital.o)
  .bss           0x00000000        0x0 bin/core/core.a(wiring_digital.o)
@@ -396,10 +400,6 @@ Discarded input sections
                 0x00000000        0x0 bin/core/core.a(WString.o)
  .bss._ZZN6StringixEjE19dummy_writable_char
                 0x00000000        0x0 bin/core/core.a(WString.o)
- .text          0x00000000        0x0 bin/core/core.a(wiring.o)
- .data          0x00000000        0x0 bin/core/core.a(wiring.o)
- .bss           0x00000000        0x0 bin/core/core.a(wiring.o)
- .text.micros   0x00000000        0x0 bin/core/core.a(wiring.o)
  .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
  .data          0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
  .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libm.a(addsf3.o)
@@ -718,7 +718,7 @@ LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/..
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x451e
+.text           0x00000000     0x4514
  *(.vectors)
  .vectors       0x00000000       0xe4 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
                 0x00000000                __vectors
@@ -895,107 +895,107 @@ LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/..
  .text._ZL3tT1j
                 0x00002690      0x2fa bin/tc13/DEBUG/obj/tc13_eventStates.o
  .text._ZL3tT0j
-                0x0000298a      0xb72 bin/tc13/DEBUG/obj/tc13_eventStates.o
- .text.pinMode  0x000034fc       0x7e bin/core/core.a(wiring_digital.o)
-                0x000034fc                pinMode
- .text._ZL10turnOffPWMh
-                0x0000357a       0xe8 bin/core/core.a(wiring_digital.o)
- .text.digitalWrite
-                0x00003662       0x64 bin/core/core.a(wiring_digital.o)
-                0x00003662                digitalWrite
- .text.__vector_25
-                0x000036c6       0x7e bin/core/core.a(HardwareSerial.o)
-                0x000036c6                __vector_25
- .text.__vector_36
-                0x00003744       0x7e bin/core/core.a(HardwareSerial.o)
-                0x00003744                __vector_36
- .text.__vector_51
-                0x000037c2       0x7e bin/core/core.a(HardwareSerial.o)
-                0x000037c2                __vector_51
- .text.__vector_54
-                0x00003840       0x7e bin/core/core.a(HardwareSerial.o)
-                0x00003840                __vector_54
- .text.__vector_26
-                0x000038be       0x7e bin/core/core.a(HardwareSerial.o)
-                0x000038be                __vector_26
- .text.__vector_37
-                0x0000393c       0x7e bin/core/core.a(HardwareSerial.o)
-                0x0000393c                __vector_37
- .text.__vector_52
-                0x000039ba       0x7e bin/core/core.a(HardwareSerial.o)
-                0x000039ba                __vector_52
- .text.__vector_55
-                0x00003a38       0x7e bin/core/core.a(HardwareSerial.o)
-                0x00003a38                __vector_55
- .text._ZN14HardwareSerial5beginEm
-                0x00003ab6      0x10c bin/core/core.a(HardwareSerial.o)
-                0x00003ab6                HardwareSerial::begin(unsigned long)
- .text._ZN14HardwareSerial9availableEv
-                0x00003bc2       0x22 bin/core/core.a(HardwareSerial.o)
-                0x00003bc2                HardwareSerial::available()
- .text._ZN14HardwareSerial4peekEv
-                0x00003be4       0x40 bin/core/core.a(HardwareSerial.o)
-                0x00003be4                HardwareSerial::peek()
- .text._ZN14HardwareSerial4readEv
-                0x00003c24       0x52 bin/core/core.a(HardwareSerial.o)
-                0x00003c24                HardwareSerial::read()
- .text._ZN14HardwareSerial5flushEv
-                0x00003c76       0x20 bin/core/core.a(HardwareSerial.o)
-                0x00003c76                HardwareSerial::flush()
- .text._ZN14HardwareSerial5writeEh
-                0x00003c96       0x80 bin/core/core.a(HardwareSerial.o)
-                0x00003c96                HardwareSerial::write(unsigned char)
- .text._GLOBAL__I_rx_buffer
-                0x00003d16      0x26c bin/core/core.a(HardwareSerial.o)
- .text._ZN5Print5writeEPKhj
-                0x00003f82       0x54 bin/core/core.a(Print.o)
-                0x00003f82                Print::write(unsigned char const*, unsigned int)
- .text._ZN5Print7printlnEv
-                0x00003fd6       0x40 bin/core/core.a(Print.o)
-                0x00003fd6                Print::println()
- .text._ZN5Print5writeEPKc
-                0x00004016       0x38 bin/core/core.a(Print.o)
-                0x00004016                Print::write(char const*)
- .text._ZN5Print11printNumberEmh
-                0x0000404e       0xc2 bin/core/core.a(Print.o)
-                0x0000404e                Print::printNumber(unsigned long, unsigned char)
- .text._ZN5Print5printEli
-                0x00004110       0x7c bin/core/core.a(Print.o)
-                0x00004110                Print::print(long, int)
- .text._ZN5Print7printlnEii
-                0x0000418c       0x3a bin/core/core.a(Print.o)
-                0x0000418c                Print::println(int, int)
- .text._ZN5Print5printEPKc
-                0x000041c6        0x4 bin/core/core.a(Print.o)
-                0x000041c6                Print::print(char const*)
+                0x0000298a      0xb86 bin/tc13/DEBUG/obj/tc13_eventStates.o
  .text.__vector_23
-                0x000041ca       0x90 bin/core/core.a(wiring.o)
-                0x000041ca                __vector_23
- .text.millis   0x0000425a       0x1c bin/core/core.a(wiring.o)
-                0x0000425a                millis
+                0x00003510       0x90 bin/core/core.a(wiring.o)
+                0x00003510                __vector_23
+ .text.millis   0x000035a0       0x1c bin/core/core.a(wiring.o)
+                0x000035a0                millis
+ .text.delay    0x000035bc       0xb2 bin/core/core.a(wiring.o)
+                0x000035bc                delay
  .text.delayMicroseconds
-                0x00004276       0x14 bin/core/core.a(wiring.o)
-                0x00004276                delayMicroseconds
- .text.init     0x0000428a       0xc4 bin/core/core.a(wiring.o)
-                0x0000428a                init
- .text.delay    0x0000434e       0xd0 bin/core/core.a(wiring.o)
-                0x0000434e                delay
- .text.libgcc   0x0000441e       0x3e /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_mulsi3.o)
-                0x0000441e                __mulsi3
- .text.libgcc   0x0000445c       0x44 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
-                0x0000445c                __udivmodsi4
- .text.libgcc   0x000044a0        0xc /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_tablejump.o)
-                0x000044a4                __tablejump__
-                0x000044a0                __tablejump2__
- .text.libgcc   0x000044ac       0x38 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
-                0x000044ac                __prologue_saves__
- .text.libgcc   0x000044e4       0x36 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
-                0x000044e4                __epilogue_restores__
-                0x0000451a                . = ALIGN (0x2)
+                0x0000366e       0x14 bin/core/core.a(wiring.o)
+                0x0000366e                delayMicroseconds
+ .text.init     0x00003682       0xc4 bin/core/core.a(wiring.o)
+                0x00003682                init
+ .text.pinMode  0x00003746       0x7e bin/core/core.a(wiring_digital.o)
+                0x00003746                pinMode
+ .text._ZL10turnOffPWMh
+                0x000037c4       0xe8 bin/core/core.a(wiring_digital.o)
+ .text.digitalWrite
+                0x000038ac       0x64 bin/core/core.a(wiring_digital.o)
+                0x000038ac                digitalWrite
+ .text.__vector_25
+                0x00003910       0x7e bin/core/core.a(HardwareSerial.o)
+                0x00003910                __vector_25
+ .text.__vector_36
+                0x0000398e       0x7e bin/core/core.a(HardwareSerial.o)
+                0x0000398e                __vector_36
+ .text.__vector_51
+                0x00003a0c       0x7e bin/core/core.a(HardwareSerial.o)
+                0x00003a0c                __vector_51
+ .text.__vector_54
+                0x00003a8a       0x7e bin/core/core.a(HardwareSerial.o)
+                0x00003a8a                __vector_54
+ .text.__vector_26
+                0x00003b08       0x7e bin/core/core.a(HardwareSerial.o)
+                0x00003b08                __vector_26
+ .text.__vector_37
+                0x00003b86       0x7e bin/core/core.a(HardwareSerial.o)
+                0x00003b86                __vector_37
+ .text.__vector_52
+                0x00003c04       0x7e bin/core/core.a(HardwareSerial.o)
+                0x00003c04                __vector_52
+ .text.__vector_55
+                0x00003c82       0x7e bin/core/core.a(HardwareSerial.o)
+                0x00003c82                __vector_55
+ .text._ZN14HardwareSerial5beginEm
+                0x00003d00      0x10c bin/core/core.a(HardwareSerial.o)
+                0x00003d00                HardwareSerial::begin(unsigned long)
+ .text._ZN14HardwareSerial9availableEv
+                0x00003e0c       0x22 bin/core/core.a(HardwareSerial.o)
+                0x00003e0c                HardwareSerial::available()
+ .text._ZN14HardwareSerial4peekEv
+                0x00003e2e       0x40 bin/core/core.a(HardwareSerial.o)
+                0x00003e2e                HardwareSerial::peek()
+ .text._ZN14HardwareSerial4readEv
+                0x00003e6e       0x52 bin/core/core.a(HardwareSerial.o)
+                0x00003e6e                HardwareSerial::read()
+ .text._ZN14HardwareSerial5flushEv
+                0x00003ec0       0x20 bin/core/core.a(HardwareSerial.o)
+                0x00003ec0                HardwareSerial::flush()
+ .text._ZN14HardwareSerial5writeEh
+                0x00003ee0       0x80 bin/core/core.a(HardwareSerial.o)
+                0x00003ee0                HardwareSerial::write(unsigned char)
+ .text._GLOBAL__I_rx_buffer
+                0x00003f60      0x26c bin/core/core.a(HardwareSerial.o)
+ .text._ZN5Print5writeEPKhj
+                0x000041cc       0x54 bin/core/core.a(Print.o)
+                0x000041cc                Print::write(unsigned char const*, unsigned int)
+ .text._ZN5Print7printlnEv
+                0x00004220       0x40 bin/core/core.a(Print.o)
+                0x00004220                Print::println()
+ .text._ZN5Print5writeEPKc
+                0x00004260       0x38 bin/core/core.a(Print.o)
+                0x00004260                Print::write(char const*)
+ .text._ZN5Print11printNumberEmh
+                0x00004298       0xc2 bin/core/core.a(Print.o)
+                0x00004298                Print::printNumber(unsigned long, unsigned char)
+ .text._ZN5Print5printEli
+                0x0000435a       0x7c bin/core/core.a(Print.o)
+                0x0000435a                Print::print(long, int)
+ .text._ZN5Print7printlnEii
+                0x000043d6       0x3a bin/core/core.a(Print.o)
+                0x000043d6                Print::println(int, int)
+ .text._ZN5Print5printEPKc
+                0x00004410        0x4 bin/core/core.a(Print.o)
+                0x00004410                Print::print(char const*)
+ .text.libgcc   0x00004414       0x3e /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_mulsi3.o)
+                0x00004414                __mulsi3
+ .text.libgcc   0x00004452       0x44 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_udivmodsi4.o)
+                0x00004452                __udivmodsi4
+ .text.libgcc   0x00004496        0xc /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_tablejump.o)
+                0x0000449a                __tablejump__
+                0x00004496                __tablejump2__
+ .text.libgcc   0x000044a2       0x38 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_prologue.o)
+                0x000044a2                __prologue_saves__
+ .text.libgcc   0x000044da       0x36 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_epilogue.o)
+                0x000044da                __epilogue_restores__
+                0x00004510                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000451a        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
-                0x0000451a                exit
-                0x0000451a                _exit
+ .fini9         0x00004510        0x0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+                0x00004510                exit
+                0x00004510                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -1014,11 +1014,11 @@ LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/..
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000451a        0x4 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
+ .fini0         0x00004510        0x4 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6/libgcc.a(_exit.o)
  *(.fini0)
-                0x0000451e                _etext = .
+                0x00004514                _etext = .
 
-.data           0x00800200      0x24a load address 0x0000451e
+.data           0x00800200      0x24a load address 0x00004514
                 0x00800200                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800200       0x3b bin/tc13/DEBUG/obj/gsl_systemLoad.o
@@ -1089,52 +1089,52 @@ LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/..
                 0x008008d1        0x4 bin/tc13/DEBUG/obj/tc13_eventStates.o
  .bss._ZL15_noTestCyclesT2
                 0x008008d5        0x4 bin/tc13/DEBUG/obj/tc13_eventStates.o
- .bss.rx_buffer
-                0x008008d9       0x44 bin/core/core.a(HardwareSerial.o)
-                0x008008d9                rx_buffer
- .bss.tx_buffer
-                0x0080091d       0x44 bin/core/core.a(HardwareSerial.o)
-                0x0080091d                tx_buffer
- .bss.rx_buffer1
-                0x00800961       0x44 bin/core/core.a(HardwareSerial.o)
-                0x00800961                rx_buffer1
- .bss.tx_buffer1
-                0x008009a5       0x44 bin/core/core.a(HardwareSerial.o)
-                0x008009a5                tx_buffer1
- .bss.rx_buffer2
-                0x008009e9       0x44 bin/core/core.a(HardwareSerial.o)
-                0x008009e9                rx_buffer2
- .bss.tx_buffer2
-                0x00800a2d       0x44 bin/core/core.a(HardwareSerial.o)
-                0x00800a2d                tx_buffer2
- .bss.rx_buffer3
-                0x00800a71       0x44 bin/core/core.a(HardwareSerial.o)
-                0x00800a71                rx_buffer3
- .bss.tx_buffer3
-                0x00800ab5       0x44 bin/core/core.a(HardwareSerial.o)
-                0x00800ab5                tx_buffer3
- .bss.Serial    0x00800af9       0x22 bin/core/core.a(HardwareSerial.o)
-                0x00800af9                Serial
- .bss.Serial1   0x00800b1b       0x22 bin/core/core.a(HardwareSerial.o)
-                0x00800b1b                Serial1
- .bss.Serial2   0x00800b3d       0x22 bin/core/core.a(HardwareSerial.o)
-                0x00800b3d                Serial2
- .bss.Serial3   0x00800b5f       0x22 bin/core/core.a(HardwareSerial.o)
-                0x00800b5f                Serial3
  .bss.timer0_overflow_count
-                0x00800b81        0x4 bin/core/core.a(wiring.o)
-                0x00800b81                timer0_overflow_count
+                0x008008d9        0x4 bin/core/core.a(wiring.o)
+                0x008008d9                timer0_overflow_count
  .bss.timer0_millis
-                0x00800b85        0x4 bin/core/core.a(wiring.o)
-                0x00800b85                timer0_millis
+                0x008008dd        0x4 bin/core/core.a(wiring.o)
+                0x008008dd                timer0_millis
  .bss._ZL12timer0_fract
-                0x00800b89        0x1 bin/core/core.a(wiring.o)
+                0x008008e1        0x1 bin/core/core.a(wiring.o)
+ .bss.rx_buffer
+                0x008008e2       0x44 bin/core/core.a(HardwareSerial.o)
+                0x008008e2                rx_buffer
+ .bss.tx_buffer
+                0x00800926       0x44 bin/core/core.a(HardwareSerial.o)
+                0x00800926                tx_buffer
+ .bss.rx_buffer1
+                0x0080096a       0x44 bin/core/core.a(HardwareSerial.o)
+                0x0080096a                rx_buffer1
+ .bss.tx_buffer1
+                0x008009ae       0x44 bin/core/core.a(HardwareSerial.o)
+                0x008009ae                tx_buffer1
+ .bss.rx_buffer2
+                0x008009f2       0x44 bin/core/core.a(HardwareSerial.o)
+                0x008009f2                rx_buffer2
+ .bss.tx_buffer2
+                0x00800a36       0x44 bin/core/core.a(HardwareSerial.o)
+                0x00800a36                tx_buffer2
+ .bss.rx_buffer3
+                0x00800a7a       0x44 bin/core/core.a(HardwareSerial.o)
+                0x00800a7a                rx_buffer3
+ .bss.tx_buffer3
+                0x00800abe       0x44 bin/core/core.a(HardwareSerial.o)
+                0x00800abe                tx_buffer3
+ .bss.Serial    0x00800b02       0x22 bin/core/core.a(HardwareSerial.o)
+                0x00800b02                Serial
+ .bss.Serial1   0x00800b24       0x22 bin/core/core.a(HardwareSerial.o)
+                0x00800b24                Serial1
+ .bss.Serial2   0x00800b46       0x22 bin/core/core.a(HardwareSerial.o)
+                0x00800b46                Serial2
+ .bss.Serial3   0x00800b68       0x22 bin/core/core.a(HardwareSerial.o)
+                0x00800b68                Serial3
  *(COMMON)
  COMMON         0x00800b8a        0x6 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(iob.o)
                 0x00800b8a                __iob
                 0x00800b90                PROVIDE (__bss_end, .)
-                0x0000451e                __data_load_start = LOADADDR (.data)
-                0x00004768                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00004514                __data_load_start = LOADADDR (.data)
+                0x0000475e                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800b90        0x0
                 0x00800b90                PROVIDE (__noinit_start, .)
@@ -1205,17 +1205,17 @@ LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/..
  .debug_aranges
                 0x000000e0       0x48 bin/tc13/DEBUG/obj/tc13_eventStates.o
  .debug_aranges
-                0x00000128       0x38 bin/core/core.a(wiring_digital.o)
+                0x00000128       0x48 bin/core/core.a(wiring.o)
  .debug_aranges
-                0x00000160       0xe0 bin/core/core.a(HardwareSerial.o)
+                0x00000170       0x38 bin/core/core.a(wiring_digital.o)
  .debug_aranges
-                0x00000240       0x58 bin/core/core.a(new.o)
+                0x000001a8       0xe0 bin/core/core.a(HardwareSerial.o)
  .debug_aranges
-                0x00000298       0xf0 bin/core/core.a(Print.o)
+                0x00000288       0x58 bin/core/core.a(new.o)
  .debug_aranges
-                0x00000388      0x260 bin/core/core.a(WString.o)
+                0x000002e0       0xf0 bin/core/core.a(Print.o)
  .debug_aranges
-                0x000005e8       0x48 bin/core/core.a(wiring.o)
+                0x000003d0      0x260 bin/core/core.a(WString.o)
  .debug_aranges
                 0x00000630       0x20 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
  .debug_aranges
@@ -1243,17 +1243,17 @@ LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/..
  .debug_pubnames
                 0x00000185       0x3b bin/tc13/DEBUG/obj/tc13_eventStates.o
  .debug_pubnames
-                0x000001c0       0xda bin/core/core.a(wiring_digital.o)
+                0x000001c0       0x8d bin/core/core.a(wiring.o)
  .debug_pubnames
-                0x0000029a      0x2c5 bin/core/core.a(HardwareSerial.o)
+                0x0000024d       0xda bin/core/core.a(wiring_digital.o)
  .debug_pubnames
-                0x0000055f       0xbf bin/core/core.a(new.o)
+                0x00000327      0x2c5 bin/core/core.a(HardwareSerial.o)
  .debug_pubnames
-                0x0000061e      0x200 bin/core/core.a(Print.o)
+                0x000005ec       0xbf bin/core/core.a(new.o)
  .debug_pubnames
-                0x0000081e      0x5bf bin/core/core.a(WString.o)
+                0x000006ab      0x200 bin/core/core.a(Print.o)
  .debug_pubnames
-                0x00000ddd       0x8d bin/core/core.a(wiring.o)
+                0x000008ab      0x5bf bin/core/core.a(WString.o)
  .debug_pubnames
                 0x00000e6a       0x7f /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
  .debug_pubnames
@@ -1269,26 +1269,26 @@ LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/..
  .debug_pubnames
                 0x00000f77       0x1f /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
 
-.debug_info     0x00000000     0x911c
+.debug_info     0x00000000     0x911f
  *(.debug_info)
  .debug_info    0x00000000      0x230 bin/tc13/DEBUG/obj/gsl_systemLoad.o
  .debug_info    0x00000230      0x1b1 bin/tc13/DEBUG/obj/main.o
  .debug_info    0x000003e1      0xc52 bin/tc13/DEBUG/obj/rtos.o
  .debug_info    0x00001033      0x412 bin/tc13/DEBUG/obj/stdout.o
  .debug_info    0x00001445      0x918 bin/tc13/DEBUG/obj/tc13_eventStates.o
- .debug_info    0x00001d5d      0x5dd bin/core/core.a(wiring_digital.o)
- .debug_info    0x0000233a     0x1f05 bin/core/core.a(HardwareSerial.o)
- .debug_info    0x0000423f      0x195 bin/core/core.a(new.o)
- .debug_info    0x000043d4     0x1b2f bin/core/core.a(Print.o)
- .debug_info    0x00005f03     0x21c5 bin/core/core.a(WString.o)
- .debug_info    0x000080c8      0x36b bin/core/core.a(wiring.o)
- .debug_info    0x00008433      0x204 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
- .debug_info    0x00008637      0x199 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
- .debug_info    0x000087d0      0x166 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
- .debug_info    0x00008936      0x156 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(iob.o)
- .debug_info    0x00008a8c      0x1b0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(printf.o)
- .debug_info    0x00008c3c      0x19c /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(puts.o)
- .debug_info    0x00008dd8      0x344 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .debug_info    0x00001d5d      0x36e bin/core/core.a(wiring.o)
+ .debug_info    0x000020cb      0x5dd bin/core/core.a(wiring_digital.o)
+ .debug_info    0x000026a8     0x1f05 bin/core/core.a(HardwareSerial.o)
+ .debug_info    0x000045ad      0x195 bin/core/core.a(new.o)
+ .debug_info    0x00004742     0x1b2f bin/core/core.a(Print.o)
+ .debug_info    0x00006271     0x21c5 bin/core/core.a(WString.o)
+ .debug_info    0x00008436      0x204 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .debug_info    0x0000863a      0x199 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+ .debug_info    0x000087d3      0x166 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+ .debug_info    0x00008939      0x156 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(iob.o)
+ .debug_info    0x00008a8f      0x1b0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(printf.o)
+ .debug_info    0x00008c3f      0x19c /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(puts.o)
+ .debug_info    0x00008ddb      0x344 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev   0x00000000     0x1e5e
@@ -1298,12 +1298,12 @@ LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/..
  .debug_abbrev  0x00000149      0x2bc bin/tc13/DEBUG/obj/rtos.o
  .debug_abbrev  0x00000405      0x237 bin/tc13/DEBUG/obj/stdout.o
  .debug_abbrev  0x0000063c      0x21b bin/tc13/DEBUG/obj/tc13_eventStates.o
- .debug_abbrev  0x00000857      0x161 bin/core/core.a(wiring_digital.o)
- .debug_abbrev  0x000009b8      0x48e bin/core/core.a(HardwareSerial.o)
- .debug_abbrev  0x00000e46       0xf7 bin/core/core.a(new.o)
- .debug_abbrev  0x00000f3d      0x336 bin/core/core.a(Print.o)
- .debug_abbrev  0x00001273      0x343 bin/core/core.a(WString.o)
- .debug_abbrev  0x000015b6      0x16c bin/core/core.a(wiring.o)
+ .debug_abbrev  0x00000857      0x16c bin/core/core.a(wiring.o)
+ .debug_abbrev  0x000009c3      0x161 bin/core/core.a(wiring_digital.o)
+ .debug_abbrev  0x00000b24      0x48e bin/core/core.a(HardwareSerial.o)
+ .debug_abbrev  0x00000fb2       0xf7 bin/core/core.a(new.o)
+ .debug_abbrev  0x000010a9      0x336 bin/core/core.a(Print.o)
+ .debug_abbrev  0x000013df      0x343 bin/core/core.a(WString.o)
  .debug_abbrev  0x00001722      0x10d /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
  .debug_abbrev  0x0000182f       0xe7 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
  .debug_abbrev  0x00001916       0xd9 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
@@ -1312,26 +1312,26 @@ LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/..
  .debug_abbrev  0x00001bcc      0x101 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(puts.o)
  .debug_abbrev  0x00001ccd      0x191 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
 
-.debug_line     0x00000000     0x5f7b
+.debug_line     0x00000000     0x5f4b
  *(.debug_line)
- .debug_line    0x00000000      0x4c4 bin/tc13/DEBUG/obj/gsl_systemLoad.o
- .debug_line    0x000004c4      0x45b bin/tc13/DEBUG/obj/main.o
- .debug_line    0x0000091f      0xd7e bin/tc13/DEBUG/obj/rtos.o
- .debug_line    0x0000169d      0x4f5 bin/tc13/DEBUG/obj/stdout.o
- .debug_line    0x00001b92      0x90b bin/tc13/DEBUG/obj/tc13_eventStates.o
- .debug_line    0x0000249d      0x3a3 bin/core/core.a(wiring_digital.o)
- .debug_line    0x00002840      0xbc2 bin/core/core.a(HardwareSerial.o)
- .debug_line    0x00003402      0x20c bin/core/core.a(new.o)
- .debug_line    0x0000360e      0x7b5 bin/core/core.a(Print.o)
- .debug_line    0x00003dc3     0x1129 bin/core/core.a(WString.o)
- .debug_line    0x00004eec      0x45b bin/core/core.a(wiring.o)
- .debug_line    0x00005347      0x297 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
- .debug_line    0x000055de      0x21c /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
- .debug_line    0x000057fa       0xd0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
- .debug_line    0x000058ca       0x86 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(iob.o)
- .debug_line    0x00005950       0xfc /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(printf.o)
- .debug_line    0x00005a4c       0xb7 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(puts.o)
- .debug_line    0x00005b03      0x478 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .debug_line    0x00000000      0x4bc bin/tc13/DEBUG/obj/gsl_systemLoad.o
+ .debug_line    0x000004bc      0x453 bin/tc13/DEBUG/obj/main.o
+ .debug_line    0x0000090f      0xd76 bin/tc13/DEBUG/obj/rtos.o
+ .debug_line    0x00001685      0x4ed bin/tc13/DEBUG/obj/stdout.o
+ .debug_line    0x00001b72      0x903 bin/tc13/DEBUG/obj/tc13_eventStates.o
+ .debug_line    0x00002475      0x453 bin/core/core.a(wiring.o)
+ .debug_line    0x000028c8      0x3a3 bin/core/core.a(wiring_digital.o)
+ .debug_line    0x00002c6b      0xbc2 bin/core/core.a(HardwareSerial.o)
+ .debug_line    0x0000382d      0x20c bin/core/core.a(new.o)
+ .debug_line    0x00003a39      0x7b5 bin/core/core.a(Print.o)
+ .debug_line    0x000041ee     0x1129 bin/core/core.a(WString.o)
+ .debug_line    0x00005317      0x297 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .debug_line    0x000055ae      0x21c /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+ .debug_line    0x000057ca       0xd0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+ .debug_line    0x0000589a       0x86 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(iob.o)
+ .debug_line    0x00005920       0xfc /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(printf.o)
+ .debug_line    0x00005a1c       0xb7 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(puts.o)
+ .debug_line    0x00005ad3      0x478 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
 
 .debug_frame    0x00000000      0xbd0
  *(.debug_frame)
@@ -1340,12 +1340,12 @@ LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/..
  .debug_frame   0x00000040       0xc0 bin/tc13/DEBUG/obj/rtos.o
  .debug_frame   0x00000100       0x40 bin/tc13/DEBUG/obj/stdout.o
  .debug_frame   0x00000140       0x70 bin/tc13/DEBUG/obj/tc13_eventStates.o
- .debug_frame   0x000001b0       0x50 bin/core/core.a(wiring_digital.o)
- .debug_frame   0x00000200      0x1a0 bin/core/core.a(HardwareSerial.o)
- .debug_frame   0x000003a0       0x90 bin/core/core.a(new.o)
- .debug_frame   0x00000430      0x1c0 bin/core/core.a(Print.o)
- .debug_frame   0x000005f0      0x4a0 bin/core/core.a(WString.o)
- .debug_frame   0x00000a90       0x70 bin/core/core.a(wiring.o)
+ .debug_frame   0x000001b0       0x70 bin/core/core.a(wiring.o)
+ .debug_frame   0x00000220       0x50 bin/core/core.a(wiring_digital.o)
+ .debug_frame   0x00000270      0x1a0 bin/core/core.a(HardwareSerial.o)
+ .debug_frame   0x00000410       0x90 bin/core/core.a(new.o)
+ .debug_frame   0x000004a0      0x1c0 bin/core/core.a(Print.o)
+ .debug_frame   0x00000660      0x4a0 bin/core/core.a(WString.o)
  .debug_frame   0x00000b00       0x30 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
  .debug_frame   0x00000b30       0x20 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
  .debug_frame   0x00000b50       0x20 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
@@ -1353,62 +1353,62 @@ LOAD /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/..
  .debug_frame   0x00000b90       0x20 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(puts.o)
  .debug_frame   0x00000bb0       0x20 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
 
-.debug_str      0x00000000     0x20f2
+.debug_str      0x00000000     0x20eb
  *(.debug_str)
- .debug_str     0x00000000       0xf3 bin/tc13/DEBUG/obj/gsl_systemLoad.o
-                                0x13d (size before relaxing)
- .debug_str     0x000000f3       0x16 bin/tc13/DEBUG/obj/main.o
-                                 0xd4 (size before relaxing)
- .debug_str     0x00000109      0x4d3 bin/tc13/DEBUG/obj/rtos.o
-                                0x5d6 (size before relaxing)
- .debug_str     0x000005dc       0xde bin/tc13/DEBUG/obj/stdout.o
-                                0x1d0 (size before relaxing)
- .debug_str     0x000006ba      0x154 bin/tc13/DEBUG/obj/tc13_eventStates.o
-                                0x266 (size before relaxing)
- .debug_str     0x0000080e      0x12d bin/core/core.a(wiring_digital.o)
-                                0x1eb (size before relaxing)
- .debug_str     0x0000093b      0xde0 bin/core/core.a(HardwareSerial.o)
-                                0xf49 (size before relaxing)
- .debug_str     0x0000171b      0x10c bin/core/core.a(new.o)
-                                0x14a (size before relaxing)
- .debug_str     0x00001827      0x3df bin/core/core.a(Print.o)
-                                0xc10 (size before relaxing)
- .debug_str     0x00001c06      0x1f5 bin/core/core.a(WString.o)
-                                0x9ac (size before relaxing)
- .debug_str     0x00001dfb       0xba bin/core/core.a(wiring.o)
+ .debug_str     0x00000000       0xec bin/tc13/DEBUG/obj/gsl_systemLoad.o
+                                0x136 (size before relaxing)
+ .debug_str     0x000000ec       0x16 bin/tc13/DEBUG/obj/main.o
+                                 0xcd (size before relaxing)
+ .debug_str     0x00000102      0x4d3 bin/tc13/DEBUG/obj/rtos.o
+                                0x5cf (size before relaxing)
+ .debug_str     0x000005d5       0xde bin/tc13/DEBUG/obj/stdout.o
+                                0x1c9 (size before relaxing)
+ .debug_str     0x000006b3      0x154 bin/tc13/DEBUG/obj/tc13_eventStates.o
+                                0x25f (size before relaxing)
+ .debug_str     0x00000807       0xc7 bin/core/core.a(wiring.o)
                                 0x180 (size before relaxing)
- .debug_str     0x00001eb5      0x10e /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .debug_str     0x000008ce      0x125 bin/core/core.a(wiring_digital.o)
+                                0x1eb (size before relaxing)
+ .debug_str     0x000009f3      0xddb bin/core/core.a(HardwareSerial.o)
+                                0xf49 (size before relaxing)
+ .debug_str     0x000017ce      0x10c bin/core/core.a(new.o)
+                                0x14a (size before relaxing)
+ .debug_str     0x000018da      0x3df bin/core/core.a(Print.o)
+                                0xc10 (size before relaxing)
+ .debug_str     0x00001cb9      0x1f5 bin/core/core.a(WString.o)
+                                0x9ac (size before relaxing)
+ .debug_str     0x00001eae      0x10e /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
                                 0x181 (size before relaxing)
- .debug_str     0x00001fc3       0x36 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+ .debug_str     0x00001fbc       0x36 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
                                 0x14f (size before relaxing)
- .debug_str     0x00001ff9       0x29 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+ .debug_str     0x00001ff2       0x29 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
                                 0x125 (size before relaxing)
- .debug_str     0x00002022       0x1a /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(iob.o)
+ .debug_str     0x0000201b       0x1a /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(iob.o)
                                 0x11c (size before relaxing)
- .debug_str     0x0000203c       0x3e /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(printf.o)
+ .debug_str     0x00002035       0x3e /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(printf.o)
                                 0x14f (size before relaxing)
- .debug_str     0x0000207a       0x20 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(puts.o)
+ .debug_str     0x00002073       0x20 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(puts.o)
                                 0x122 (size before relaxing)
- .debug_str     0x0000209a       0x58 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .debug_str     0x00002093       0x58 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
                                 0x195 (size before relaxing)
 
-.debug_loc      0x00000000     0x5106
+.debug_loc      0x00000000     0x50d8
  *(.debug_loc)
  .debug_loc     0x00000000      0x1d0 bin/tc13/DEBUG/obj/gsl_systemLoad.o
  .debug_loc     0x000001d0      0xd8e bin/tc13/DEBUG/obj/rtos.o
  .debug_loc     0x00000f5e       0xda bin/tc13/DEBUG/obj/stdout.o
  .debug_loc     0x00001038       0x8c bin/tc13/DEBUG/obj/tc13_eventStates.o
- .debug_loc     0x000010c4      0x27a bin/core/core.a(wiring_digital.o)
- .debug_loc     0x0000133e      0x53f bin/core/core.a(HardwareSerial.o)
- .debug_loc     0x0000187d       0xb0 bin/core/core.a(new.o)
- .debug_loc     0x0000192d      0xdb8 bin/core/core.a(Print.o)
- .debug_loc     0x000026e5     0x1f05 bin/core/core.a(WString.o)
- .debug_loc     0x000045ea      0x19b bin/core/core.a(wiring.o)
- .debug_loc     0x00004785      0x288 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
- .debug_loc     0x00004a0d      0x1f0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
- .debug_loc     0x00004bfd       0x60 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
- .debug_loc     0x00004c5d       0x5e /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(puts.o)
- .debug_loc     0x00004cbb      0x44b /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+ .debug_loc     0x000010c4      0x16d bin/core/core.a(wiring.o)
+ .debug_loc     0x00001231      0x27a bin/core/core.a(wiring_digital.o)
+ .debug_loc     0x000014ab      0x53f bin/core/core.a(HardwareSerial.o)
+ .debug_loc     0x000019ea       0xb0 bin/core/core.a(new.o)
+ .debug_loc     0x00001a9a      0xdb8 bin/core/core.a(Print.o)
+ .debug_loc     0x00002852     0x1f05 bin/core/core.a(WString.o)
+ .debug_loc     0x00004757      0x288 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
+ .debug_loc     0x000049df      0x1f0 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
+ .debug_loc     0x00004bcf       0x60 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
+ .debug_loc     0x00004c2f       0x5e /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(puts.o)
+ .debug_loc     0x00004c8d      0x44b /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
 
 .debug_macinfo  0x00000000    0x3d130
  *(.debug_macinfo)
@@ -1431,12 +1431,12 @@ LOAD linker stubs
  .debug_ranges  0x00000030      0x1b8 bin/tc13/DEBUG/obj/rtos.o
  .debug_ranges  0x000001e8       0x48 bin/tc13/DEBUG/obj/stdout.o
  .debug_ranges  0x00000230       0xc0 bin/tc13/DEBUG/obj/tc13_eventStates.o
- .debug_ranges  0x000002f0       0x30 bin/core/core.a(wiring_digital.o)
- .debug_ranges  0x00000320       0xd8 bin/core/core.a(HardwareSerial.o)
- .debug_ranges  0x000003f8       0x50 bin/core/core.a(new.o)
- .debug_ranges  0x00000448       0xe8 bin/core/core.a(Print.o)
- .debug_ranges  0x00000530      0x270 bin/core/core.a(WString.o)
- .debug_ranges  0x000007a0       0x40 bin/core/core.a(wiring.o)
+ .debug_ranges  0x000002f0       0x40 bin/core/core.a(wiring.o)
+ .debug_ranges  0x00000330       0x30 bin/core/core.a(wiring_digital.o)
+ .debug_ranges  0x00000360       0xd8 bin/core/core.a(HardwareSerial.o)
+ .debug_ranges  0x00000438       0x50 bin/core/core.a(new.o)
+ .debug_ranges  0x00000488       0xe8 bin/core/core.a(Print.o)
+ .debug_ranges  0x00000570      0x270 bin/core/core.a(WString.o)
  .debug_ranges  0x000007e0       0x18 /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(vfprintf_std.o)
 
 Cross Reference Table
@@ -1602,12 +1602,12 @@ __do_clear_bss                                    /Applications/Arduino.app/Cont
                                                   /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
                                                   /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
                                                   /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
-                                                  bin/core/core.a(wiring.o)
                                                   bin/core/core.a(WString.o)
                                                   bin/core/core.a(Print.o)
                                                   bin/core/core.a(new.o)
                                                   bin/core/core.a(HardwareSerial.o)
                                                   bin/core/core.a(wiring_digital.o)
+                                                  bin/core/core.a(wiring.o)
                                                   bin/tc13/DEBUG/obj/tc13_eventStates.o
                                                   bin/tc13/DEBUG/obj/stdout.o
                                                   bin/tc13/DEBUG/obj/rtos.o
@@ -1621,12 +1621,12 @@ __do_copy_data                                    /Applications/Arduino.app/Cont
                                                   /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(fputc.o)
                                                   /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(realloc.o)
                                                   /Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/libc.a(malloc.o)
-                                                  bin/core/core.a(wiring.o)
                                                   bin/core/core.a(WString.o)
                                                   bin/core/core.a(Print.o)
                                                   bin/core/core.a(new.o)
                                                   bin/core/core.a(HardwareSerial.o)
                                                   bin/core/core.a(wiring_digital.o)
+                                                  bin/core/core.a(wiring.o)
                                                   bin/tc13/DEBUG/obj/tc13_eventStates.o
                                                   bin/tc13/DEBUG/obj/stdout.o
                                                   bin/tc13/DEBUG/obj/rtos.o
@@ -1953,4 +1953,14 @@ vfprintf                                          /Applications/Arduino.app/Cont
 vtable for HardwareSerial                         bin/core/core.a(HardwareSerial.o)
 vtable for Print                                  bin/core/core.a(Print.o)
 vtable for Stream                                 bin/core/core.a(HardwareSerial.o)
-yield                                             bin/core/core.a(wiring.o)
+AVR Memory Usage
+----------------
+Device: atmega2560
+
+Program:   18270 bytes (7.0% Full)
+(.text + .data + .bootloader)
+
+Data:       2448 bytes (29.9% Full)
+(.data + .bss + .noinit)
+
+

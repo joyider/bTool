@@ -1,0 +1,401 @@
+\hypertarget{rtos_8c}{\section{/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/rtos.c File Reference}
+\label{rtos_8c}\index{/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/rtos.\-c@{/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/rtos.\-c}}
+}
+{\ttfamily \#include $<$Arduino.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}rtos\-\_\-assert.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}rtos.\-h\char`\"{}}\\*
+Include dependency graph for rtos.\-c\-:
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structtask__t}{task\-\_\-t}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{rtos_8c_a20cc43d0046b2ac33d6880bd621a19c2}{I\-D\-L\-E\-\_\-\-T\-A\-S\-K\-\_\-\-I\-D}~(\hyperlink{rtos_8config_8template_8h_a9375e1b99d1360af097706deed2dd957}{R\-T\-O\-S\-\_\-\-N\-O\-\_\-\-T\-A\-S\-K\-S})
+\item 
+\#define \hyperlink{rtos_8c_a2c9f885cb9c1e04b5913c24546113c5c}{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E}~((0x01$<$$<$(\-R\-T\-O\-S\-\_\-\-N\-O\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E\-\_\-\-E\-V\-E\-N\-T\-S))-\/1)
+\item 
+\#define \hyperlink{rtos_8c_a29bd86112a7cde0637eb62a98b77ca44}{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-M\-U\-T\-E\-X}
+\item 
+\#define \hyperlink{rtos_8c_a2651e4253fbf0ad048ff5395c4d2c6fc}{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-T\-I\-M\-E\-R}~(\hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R} $\vert$ \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R})
+\item 
+\#define \hyperlink{rtos_8c_a42b766a4e744a480b8349bc1be22cf1d}{U\-N\-U\-S\-E\-D\-\_\-\-S\-T\-A\-C\-K\-\_\-\-P\-A\-T\-T\-E\-R\-N}~0x29
+\item 
+\#define \hyperlink{rtos_8c_a7e23ea17d713aa36beef2571a72d177e}{P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K}
+\item 
+\#define \hyperlink{rtos_8c_a0bfd1176ef3da1b6a56f8f6346756420}{P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-W\-I\-T\-H\-O\-U\-T\-\_\-\-R24\-R25\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K}
+\item 
+\#define \hyperlink{rtos_8c_a775845087a4ea091911dce4173b49377}{P\-O\-P\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-F\-R\-O\-M\-\_\-\-S\-T\-A\-C\-K}
+\item 
+\#define \hyperlink{rtos_8c_ac884c3a1ef50da2f7c61a3588b54c8f1}{S\-W\-I\-T\-C\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T}
+\item 
+\#define \hyperlink{rtos_8c_ab50466613b5d30ab2e75073e7594c28f}{P\-U\-S\-H\-\_\-\-R\-E\-T\-\_\-\-C\-O\-D\-E\-\_\-\-O\-F\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-S\-W\-I\-T\-C\-H}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{rtos_8h_a187666d1c567029bd5e6e0bfadb49869}{R\-T\-O\-S\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-F\-C\-T} void \hyperlink{rtos_8c_a9aaf9405324cda7deee18d5cb7f6390d}{rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic} (void)
+\item 
+\hyperlink{rtos_8h_aa9eefbedc3c6fc094763fd0998a66f05}{R\-T\-O\-S\-\_\-\-N\-A\-K\-E\-D\-\_\-\-F\-C\-T} void \hyperlink{rtos_8c_a31394bea21e0b38e390be169f0ee9811}{rtos\-\_\-send\-Event} (uint16\-\_\-t event\-Vec)
+\item 
+\hyperlink{rtos_8h_aa9eefbedc3c6fc094763fd0998a66f05}{R\-T\-O\-S\-\_\-\-N\-A\-K\-E\-D\-\_\-\-F\-C\-T} uint16\-\_\-t \hyperlink{rtos_8c_ade4d420d20c378bf3a6fdff59f44126d}{rtos\-\_\-wait\-For\-Event} (uint16\-\_\-t event\-Mask, boolean all, uint\-Time\-\_\-t timeout)
+\item 
+\hyperlink{rtos_8c_aa9863feea1785d4d60073a35876e1d5c}{I\-S\-R} (\hyperlink{rtos_8config_8template_8h_ad4a77dc2ff9b06fc8e39ed35e768c0ae}{R\-T\-O\-S\-\_\-\-I\-S\-R\-\_\-\-S\-Y\-S\-T\-E\-M\-\_\-\-T\-I\-M\-E\-R\-\_\-\-T\-I\-C}, I\-S\-R\-\_\-\-N\-A\-K\-E\-D)
+\item 
+uint8\-\_\-t \hyperlink{rtos_8c_a81506c5199c04cdf60ded63c9fa4d120}{rtos\-\_\-get\-Task\-Overrun\-Counter} (uint8\-\_\-t idx\-Task, boolean do\-Reset)
+\item 
+uint16\-\_\-t \hyperlink{rtos_8c_a54ca7c825941b0d17877db45d2b4c662}{rtos\-\_\-get\-Stack\-Reserve} (uint8\-\_\-t idx\-Task)
+\item 
+void \hyperlink{rtos_8c_a902a2048ccee395d6eec7bd480f8dc01}{rtos\-\_\-initialize\-Task} (uint8\-\_\-t idx\-Task, \hyperlink{rtos_8h_a3e12c5d9135209b870ca71628179beb3}{rtos\-\_\-task\-Function\-\_\-t} task\-Function, uint8\-\_\-t prio\-Class, uint8\-\_\-t $\ast$const p\-Stack\-Area, uint16\-\_\-t stack\-Size, uint16\-\_\-t start\-Event\-Mask, boolean start\-By\-All\-Events, uint\-Time\-\_\-t start\-Timeout)
+\item 
+void \hyperlink{rtos_8c_ac8b1fae05c844e38b6d93fab56597ce7}{rtos\-\_\-init\-R\-T\-O\-S} (void)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{rtos_8h_a230d90f46eaeeabc20cac6e3eda61f8e}{R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N} const char \hyperlink{rtos_8c_a210d40d5737753d7460f8b0c4ab446d1}{rtos\-\_\-rtuinos\-Startup\-Msg} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}r\char`\"{} R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-S\-T\-A\-R\-T\-U\-P\-\_\-\-M\-S\-G
+\item 
+volatile uint16\-\_\-t \hyperlink{rtos_8c_aed225646fe49a53d2a6031c0a99e57cf}{\-\_\-tmp\-Var\-Asm\-To\-C\-\_\-u16}
+\item 
+volatile uint16\-\_\-t \hyperlink{rtos_8c_a28dcbedd17c277ec7b25de1694539131}{\-\_\-tmp\-Var\-C\-To\-Asm\-\_\-u16}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implementation of a Real Time Operating System for the Arduino Mega board in the Arduino environment 1.\-0.\-5.\par
+ The implementation is dependent on the board (the controller) and the G\-N\-U C++ compiler (thus the release of the Arduino environment) but should be easily portable to other boards and Arduino releases. See manual for details.
+
+Copyright (C) 2012-\/2013 Peter Vranken (\href{mailto:Peter_Vranken@Yahoo.de}{\tt Peter\-\_\-\-Vranken@\-Yahoo.\-de})
+
+This program is free software\-: you can redistribute it and/or modify it under the terms of the G\-N\-U Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+
+This program is distributed in the hope that it will be useful, but W\-I\-T\-H\-O\-U\-T A\-N\-Y W\-A\-R\-R\-A\-N\-T\-Y; without even the implied warranty of M\-E\-R\-C\-H\-A\-N\-T\-A\-B\-I\-L\-I\-T\-Y or F\-I\-T\-N\-E\-S\-S F\-O\-R A P\-A\-R\-T\-I\-C\-U\-L\-A\-R P\-U\-R\-P\-O\-S\-E. See the G\-N\-U Lesser General Public License for more details.
+
+You should have received a copy of the G\-N\-U Lesser General Public License along with this program. If not, see \href{http://www.gnu.org/licenses/}{\tt http\-://www.\-gnu.\-org/licenses/}. 
+
+\subsection{Macro Definition Documentation}
+\hypertarget{rtos_8c_a20cc43d0046b2ac33d6880bd621a19c2}{\index{rtos.\-c@{rtos.\-c}!I\-D\-L\-E\-\_\-\-T\-A\-S\-K\-\_\-\-I\-D@{I\-D\-L\-E\-\_\-\-T\-A\-S\-K\-\_\-\-I\-D}}
+\index{I\-D\-L\-E\-\_\-\-T\-A\-S\-K\-\_\-\-I\-D@{I\-D\-L\-E\-\_\-\-T\-A\-S\-K\-\_\-\-I\-D}!rtos.c@{rtos.\-c}}
+\subsubsection[{I\-D\-L\-E\-\_\-\-T\-A\-S\-K\-\_\-\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\-D\-L\-E\-\_\-\-T\-A\-S\-K\-\_\-\-I\-D~({\bf R\-T\-O\-S\-\_\-\-N\-O\-\_\-\-T\-A\-S\-K\-S})}}\label{rtos_8c_a20cc43d0046b2ac33d6880bd621a19c2}
+The I\-D of the idle task. The I\-D of a task is identical with the index into the task array. \hypertarget{rtos_8c_a29bd86112a7cde0637eb62a98b77ca44}{\index{rtos.\-c@{rtos.\-c}!M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-M\-U\-T\-E\-X@{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-M\-U\-T\-E\-X}}
+\index{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-M\-U\-T\-E\-X@{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-M\-U\-T\-E\-X}!rtos.c@{rtos.\-c}}
+\subsubsection[{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-M\-U\-T\-E\-X}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-M\-U\-T\-E\-X}}\label{rtos_8c_a29bd86112a7cde0637eb62a98b77ca44}
+{\bfseries Value\-:}
+\begin{DoxyCode}
+(((0x0001u<<(\hyperlink{rtos_8config_8template_8h_aeba5a7401c1221fb42082b46c0345519}{RTOS\_NO\_MUTEX\_EVENTS}+\hyperlink{rtos_8config_8template_8h_a083d99e4e5e9b07eaac67d9a561caf07}{RTOS\_NO\_SEMAPHORE\_EVENTS}))-1u
+      )    \(\backslash\)
+         - (uint16\_t)\hyperlink{rtos_8c_a2c9f885cb9c1e04b5913c24546113c5c}{MASK\_EVT\_IS\_SEMAPHORE}                                  \(\backslash\)
+        )
+\end{DoxyCode}
+A bit mask, which selects all the mutex events in an event vector. \hypertarget{rtos_8c_a2c9f885cb9c1e04b5913c24546113c5c}{\index{rtos.\-c@{rtos.\-c}!M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E@{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E}}
+\index{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E@{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E}!rtos.c@{rtos.\-c}}
+\subsubsection[{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E~((0x01$<$$<$(\-R\-T\-O\-S\-\_\-\-N\-O\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E\-\_\-\-E\-V\-E\-N\-T\-S))-\/1)}}\label{rtos_8c_a2c9f885cb9c1e04b5913c24546113c5c}
+A bit mask, which selects all the mutex events in an event vector. \hypertarget{rtos_8c_a2651e4253fbf0ad048ff5395c4d2c6fc}{\index{rtos.\-c@{rtos.\-c}!M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-T\-I\-M\-E\-R@{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-T\-I\-M\-E\-R}}
+\index{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-T\-I\-M\-E\-R@{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-T\-I\-M\-E\-R}!rtos.c@{rtos.\-c}}
+\subsubsection[{M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-T\-I\-M\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\-A\-S\-K\-\_\-\-E\-V\-T\-\_\-\-I\-S\-\_\-\-T\-I\-M\-E\-R~({\bf R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R} $\vert$ {\bf R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R})}}\label{rtos_8c_a2651e4253fbf0ad048ff5395c4d2c6fc}
+A bit mask, which selects all timer events in a vector of events. \hypertarget{rtos_8c_a775845087a4ea091911dce4173b49377}{\index{rtos.\-c@{rtos.\-c}!P\-O\-P\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-F\-R\-O\-M\-\_\-\-S\-T\-A\-C\-K@{P\-O\-P\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-F\-R\-O\-M\-\_\-\-S\-T\-A\-C\-K}}
+\index{P\-O\-P\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-F\-R\-O\-M\-\_\-\-S\-T\-A\-C\-K@{P\-O\-P\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-F\-R\-O\-M\-\_\-\-S\-T\-A\-C\-K}!rtos.c@{rtos.\-c}}
+\subsubsection[{P\-O\-P\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-F\-R\-O\-M\-\_\-\-S\-T\-A\-C\-K}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-O\-P\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-F\-R\-O\-M\-\_\-\-S\-T\-A\-C\-K}}\label{rtos_8c_a775845087a4ea091911dce4173b49377}
+An important code pattern, which is used in every interrupt routine (including the suspend commands, which can be considered pseudo-\/software interrupts). The C\-P\-U context except for the program counter is restored by popping it from the stack of the given context. The program counter is not popped\-: This code pattern needs to be used at the very end of a function so that the P\-C will be restored by the machine return command (ret or reti).\par
+ \begin{DoxyRemark}{Remarks}
+The function which uses this pattern must not be inlined, otherwise the P\-C would not be part of the restored context and the system would crash. 
+
+This pattern needs to be changed only in strict accordance with the counterpart patterns, which push the context onto the stack. The pattern need to be the inverse of each other. 
+\end{DoxyRemark}
+\hypertarget{rtos_8c_a7e23ea17d713aa36beef2571a72d177e}{\index{rtos.\-c@{rtos.\-c}!P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K@{P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K}}
+\index{P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K@{P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K}!rtos.c@{rtos.\-c}}
+\subsubsection[{P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K}}\label{rtos_8c_a7e23ea17d713aa36beef2571a72d177e}
+{\bfseries Value\-:}
+\begin{DoxyCode}
+\hyperlink{rtos_8c_a0bfd1176ef3da1b6a56f8f6346756420}{PUSH\_CONTEXT\_WITHOUT\_R24R25\_ONTO\_STACK};         \(\backslash\)
+    asm \textcolor{keyword}{volatile}                                    \(\backslash\)
+    ( \textcolor{stringliteral}{"push r24 \(\backslash\)n\(\backslash\)t"}                               \(\backslash\)
+      \textcolor{stringliteral}{"push r25 \(\backslash\)n\(\backslash\)t"}                               \(\backslash\)
+    );
+\end{DoxyCode}
+An important code pattern, which is used in every interrupt routine, which can result in a context switch. The C\-P\-U context except for the program counter is saved by pushing it onto the stack of the given context. The program counter is not explicitly saved\-: This code pattern needs to be used at the very beginning of a function so that the P\-C has been pushed onto the stack just before by the call of this function.\par
+ \begin{DoxyRemark}{Remarks}
+The function which uses this pattern must not be inlined, otherwise the P\-C would not be part of the saved context and the system would crash when trying to return to this context the next time! 
+
+This pattern needs to be changed only in strict accordance with the counterpart pattern, which pops the context from a stack back into the C\-P\-U. Both pattern needs to be the inverse of each other. 
+\end{DoxyRemark}
+\hypertarget{rtos_8c_a0bfd1176ef3da1b6a56f8f6346756420}{\index{rtos.\-c@{rtos.\-c}!P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-W\-I\-T\-H\-O\-U\-T\-\_\-\-R24\-R25\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K@{P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-W\-I\-T\-H\-O\-U\-T\-\_\-\-R24\-R25\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K}}
+\index{P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-W\-I\-T\-H\-O\-U\-T\-\_\-\-R24\-R25\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K@{P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-W\-I\-T\-H\-O\-U\-T\-\_\-\-R24\-R25\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K}!rtos.c@{rtos.\-c}}
+\subsubsection[{P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-W\-I\-T\-H\-O\-U\-T\-\_\-\-R24\-R25\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-W\-I\-T\-H\-O\-U\-T\-\_\-\-R24\-R25\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K}}\label{rtos_8c_a0bfd1176ef3da1b6a56f8f6346756420}
+An important code pattern, which is used in every suspend command. The C\-P\-U context except for the register pair r24/r25 is saved by pushing it onto the stack of the given context. (Exception program counter\-: see macro \hyperlink{rtos_8c_a7e23ea17d713aa36beef2571a72d177e}{P\-U\-S\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-O\-N\-T\-O\-\_\-\-S\-T\-A\-C\-K}.)\par
+ When returning to a context which had become un-\/due by invoking one of the suspend commands, the restore context should still be done with the other macro \hyperlink{rtos_8c_a775845087a4ea091911dce4173b49377}{P\-O\-P\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-F\-R\-O\-M\-\_\-\-S\-T\-A\-C\-K}. However, before using this macro, the return code of the suspend command needs to be pushed onto the stack so that it is loaded into the C\-P\-U's register pair r24/r25 as part of macro \hyperlink{rtos_8c_a775845087a4ea091911dce4173b49377}{P\-O\-P\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-F\-R\-O\-M\-\_\-\-S\-T\-A\-C\-K}. \begin{DoxyRemark}{Remarks}
+The function which uses this pattern must not be inlined, otherwise the P\-C would not be part of the saved context and the system would crash when trying to return to this context the next time! 
+
+This pattern needs to be changed only in strict accordance with the counterpart pattern, which pops the context from a stack back into the C\-P\-U. 
+\end{DoxyRemark}
+\hypertarget{rtos_8c_ab50466613b5d30ab2e75073e7594c28f}{\index{rtos.\-c@{rtos.\-c}!P\-U\-S\-H\-\_\-\-R\-E\-T\-\_\-\-C\-O\-D\-E\-\_\-\-O\-F\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-S\-W\-I\-T\-C\-H@{P\-U\-S\-H\-\_\-\-R\-E\-T\-\_\-\-C\-O\-D\-E\-\_\-\-O\-F\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-S\-W\-I\-T\-C\-H}}
+\index{P\-U\-S\-H\-\_\-\-R\-E\-T\-\_\-\-C\-O\-D\-E\-\_\-\-O\-F\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-S\-W\-I\-T\-C\-H@{P\-U\-S\-H\-\_\-\-R\-E\-T\-\_\-\-C\-O\-D\-E\-\_\-\-O\-F\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-S\-W\-I\-T\-C\-H}!rtos.c@{rtos.\-c}}
+\subsubsection[{P\-U\-S\-H\-\_\-\-R\-E\-T\-\_\-\-C\-O\-D\-E\-\_\-\-O\-F\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-S\-W\-I\-T\-C\-H}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-U\-S\-H\-\_\-\-R\-E\-T\-\_\-\-C\-O\-D\-E\-\_\-\-O\-F\-\_\-\-C\-O\-N\-T\-E\-X\-T\-\_\-\-S\-W\-I\-T\-C\-H}}\label{rtos_8c_ab50466613b5d30ab2e75073e7594c28f}
+An important code pattern, which is used in every interrupt routine (including the suspend commands, which can be considered pseudo-\/software interrupts). Placed immediately after a context switch, the code fragment decides whether the task we switch to had been inactivated by a timer or application interrupt or by a suspend command. (Only) in the latter case the return value of the suspend command is put onto the stack. From there it'll be loaded into the C\-P\-U when ending the interrupt routine.\par
+ Side effects\-: The new task is read from the global variable \-\_\-p\-Active\-Task.\par
+ Prerequisites\-: The use of the macro needs to be preceded by a use of macro S\-W\-I\-T\-C\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T.\par
+ The routine depends on a reset global interrupt flag.\par
+ The implementation must be compatible with a naked function. In particular, it must not define any local data! \hypertarget{rtos_8c_ac884c3a1ef50da2f7c61a3588b54c8f1}{\index{rtos.\-c@{rtos.\-c}!S\-W\-I\-T\-C\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T@{S\-W\-I\-T\-C\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T}}
+\index{S\-W\-I\-T\-C\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T@{S\-W\-I\-T\-C\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T}!rtos.c@{rtos.\-c}}
+\subsubsection[{S\-W\-I\-T\-C\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\-W\-I\-T\-C\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T}}\label{rtos_8c_ac884c3a1ef50da2f7c61a3588b54c8f1}
+{\bfseries Value\-:}
+\begin{DoxyCode}
+\{                                                                                           \(\backslash\)
+    \textcolor{comment}{/* Switch the stack pointer to the (saved) stack pointer of the new active task. */}     
+      \hyperlink{rtos_8c_a28dcbedd17c277ec7b25de1694539131}{\(\backslash\)}
+\hyperlink{rtos_8c_a28dcbedd17c277ec7b25de1694539131}{    \_tmpVarCToAsm\_u16} = \_pActiveTask->\hyperlink{structtask__t_a760a32c332e502fe421256fce4f7d9d8}{stackPointer};                       
+                        \(\backslash\)
+    asm \textcolor{keyword}{volatile}                                                                            \(\backslash\)
+    ( \textcolor{stringliteral}{"in r0, \_\_SP\_L\_\_ /* Save current stack pointer at known, fixed location */ \(\backslash\)n\(\backslash\)t"}      \(\backslash\)
+      \textcolor{stringliteral}{"sts \_tmpVarAsmToC\_u16, r0 \(\backslash\)n\(\backslash\)t"}                                                      \(\backslash\)
+      \textcolor{stringliteral}{"in r0, \_\_SP\_H\_\_ \(\backslash\)n\(\backslash\)t"}                                                                \(\backslash\)
+      \textcolor{stringliteral}{"sts \_tmpVarAsmToC\_u16+1, r0 \(\backslash\)n\(\backslash\)t"}                                                    \(\backslash\)
+      \textcolor{stringliteral}{"lds r0, \_tmpVarCToAsm\_u16 \(\backslash\)n\(\backslash\)t"}                                                      \(\backslash\)
+      \textcolor{stringliteral}{"out \_\_SP\_L\_\_, r0 /* Write l-byte of new stack pointer content */ \(\backslash\)n\(\backslash\)t"}               \(\backslash\)
+      \textcolor{stringliteral}{"lds r0, \_tmpVarCToAsm\_u16+1 \(\backslash\)n\(\backslash\)t"}                                                    \(\backslash\)
+      \textcolor{stringliteral}{"out \_\_SP\_H\_\_, r0 /* Write h-byte of new stack pointer content */ \(\backslash\)n\(\backslash\)t"}               \(\backslash\)
+    );                                                                                      \(\backslash\)
+    \_pSuspendedTask->stackPointer = \hyperlink{rtos_8c_aed225646fe49a53d2a6031c0a99e57cf}{\_tmpVarAsmToC\_u16};                                    
+        \(\backslash\)
+                                                                                            \(\backslash\)
+\} \textcolor{comment}{/* End of macro SWITCH\_CONTEXT */}
+\end{DoxyCode}
+An important code pattern, which is used in every interrupt routine (including the suspend commands, which can be considered pseudo-\/software interrupts). The code performs the actual task switch by saving the current stack pointer in a location owned by the left task and by loading the stack pointer from a location owned by the new task (where its stack pointer value had been saved at initialization time or the last time it became inactive).\par
+ Side effects\-: The left task and the new task are read from the global variables \-\_\-p\-Suspended\-Task and \-\_\-p\-Active\-Task.\par
+ Prerequisites\-: The use of the macro needs to be followed by a use of macro P\-U\-S\-H\-\_\-\-R\-E\-T\-\_\-\-C\-O\-D\-E\-\_\-\-O\-F\-\_\-\-S\-W\-I\-T\-C\-H\-\_\-\-C\-O\-N\-T\-E\-X\-T.\par
+ The routine depends on a reset global interrupt flag.\par
+ The implementation must be compatible with a naked function. In particular, it must not define any local data! \hypertarget{rtos_8c_a42b766a4e744a480b8349bc1be22cf1d}{\index{rtos.\-c@{rtos.\-c}!U\-N\-U\-S\-E\-D\-\_\-\-S\-T\-A\-C\-K\-\_\-\-P\-A\-T\-T\-E\-R\-N@{U\-N\-U\-S\-E\-D\-\_\-\-S\-T\-A\-C\-K\-\_\-\-P\-A\-T\-T\-E\-R\-N}}
+\index{U\-N\-U\-S\-E\-D\-\_\-\-S\-T\-A\-C\-K\-\_\-\-P\-A\-T\-T\-E\-R\-N@{U\-N\-U\-S\-E\-D\-\_\-\-S\-T\-A\-C\-K\-\_\-\-P\-A\-T\-T\-E\-R\-N}!rtos.c@{rtos.\-c}}
+\subsubsection[{U\-N\-U\-S\-E\-D\-\_\-\-S\-T\-A\-C\-K\-\_\-\-P\-A\-T\-T\-E\-R\-N}]{\setlength{\rightskip}{0pt plus 5cm}\#define U\-N\-U\-S\-E\-D\-\_\-\-S\-T\-A\-C\-K\-\_\-\-P\-A\-T\-T\-E\-R\-N~0x29}}\label{rtos_8c_a42b766a4e744a480b8349bc1be22cf1d}
+A pattern byte, which is used as prefill byte of any task stack area. A simple and inexpensive stack usage check at runtime can be implemented by looking for up to where this pattern has been destroyed. Any value which is not the null and which is improbable to be a true stack contents byte can be used -\/ whatever this value might be. 
+
+\subsection{Function Documentation}
+\hypertarget{rtos_8c_aa9863feea1785d4d60073a35876e1d5c}{\index{rtos.\-c@{rtos.\-c}!I\-S\-R@{I\-S\-R}}
+\index{I\-S\-R@{I\-S\-R}!rtos.c@{rtos.\-c}}
+\subsubsection[{I\-S\-R}]{\setlength{\rightskip}{0pt plus 5cm}I\-S\-R (
+\begin{DoxyParamCaption}
+\item[{{\bf R\-T\-O\-S\-\_\-\-I\-S\-R\-\_\-\-S\-Y\-S\-T\-E\-M\-\_\-\-T\-I\-M\-E\-R\-\_\-\-T\-I\-C}}]{, }
+\item[{I\-S\-R\-\_\-\-N\-A\-K\-E\-D}]{}
+\end{DoxyParamCaption}
+)}}\label{rtos_8c_aa9863feea1785d4d60073a35876e1d5c}
+Each call of this function cyclically increments the system time of the kernel by one.\par
+ Incrementing the system timer is an important system event. The routine will always include an inspection of all suspended tasks, whether they could become due again. The cycle time of the system time is low (typically implemented as 0..255) and determines the maximum delay time or timeout for a task which suspends itself and the ratio of the task periods of the fastest and the slowest regular task. Furthermore it determines the reliability of task overrun recognition. Task overrun events in the magnitude of half the cycle time won't be recognized as such.\par
+ The unit of the time is defined only by the it triggering source and doesn't matter at all for the kernel. The time even don't need to be regular.\par
+ \begin{DoxyRemark}{Remarks}
+The function needs to be called by an interrupt and can easily end with a context change, i.\-e. the interrupt will return to another task as the one it had interrupted. 
+
+The connected interrupt is defined by macro \hyperlink{rtos_8config_8template_8h_ad4a77dc2ff9b06fc8e39ed35e768c0ae}{R\-T\-O\-S\-\_\-\-I\-S\-R\-\_\-\-S\-Y\-S\-T\-E\-M\-\_\-\-T\-I\-M\-E\-R\-\_\-\-T\-I\-C}. This interrupt needs to be disabled/enabled by the implementation of {\itshape enter\-Critical\-Section} and {\itshape leave\-Critical\-Section}. 
+
+The cycle time of the system time can be influenced by the typedef of uint\-Time\-\_\-t. Find a discussion of pros and cons at the location of this typedef. 
+\end{DoxyRemark}
+\begin{DoxySeeAlso}{See Also}
+boolean on\-Timer\-Tic(void) 
+
+\#rtos\-\_\-enter\-Critical\-Section 
+\end{DoxySeeAlso}
+\hypertarget{rtos_8c_a9aaf9405324cda7deee18d5cb7f6390d}{\index{rtos.\-c@{rtos.\-c}!rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic@{rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic}}
+\index{rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic@{rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic}!rtos.c@{rtos.\-c}}
+\subsubsection[{rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic}]{\setlength{\rightskip}{0pt plus 5cm}{\bf R\-T\-O\-S\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-F\-C\-T} void rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rtos_8c_a9aaf9405324cda7deee18d5cb7f6390d}
+Start the interrupt which clocks the system time. Timer 2 is used as interrupt source with a period time of about 2 ms or a frequency of 490.\-1961 Hz respectively.\par
+ This is the default implementation of the routine, which can be overloaded by the application code if another interrupt or other interrupt settings should be used. \hypertarget{rtos_8c_a54ca7c825941b0d17877db45d2b4c662}{\index{rtos.\-c@{rtos.\-c}!rtos\-\_\-get\-Stack\-Reserve@{rtos\-\_\-get\-Stack\-Reserve}}
+\index{rtos\-\_\-get\-Stack\-Reserve@{rtos\-\_\-get\-Stack\-Reserve}!rtos.c@{rtos.\-c}}
+\subsubsection[{rtos\-\_\-get\-Stack\-Reserve}]{\setlength{\rightskip}{0pt plus 5cm}uint16\-\_\-t rtos\-\_\-get\-Stack\-Reserve (
+\begin{DoxyParamCaption}
+\item[{uint8\-\_\-t}]{idx\-Task}
+\end{DoxyParamCaption}
+)}}\label{rtos_8c_a54ca7c825941b0d17877db45d2b4c662}
+Compute how many bytes of the stack area of a task are still unused. If the value is requested after an application has been run a long while and has been forced to run through all its paths many times, it may be used to optimize the static stack allocation of the task. The function is useful only for diagnosis purpose as there's no chance to dynamically increase or decrease the stack area at runtime.\par
+ The function may be called from a task or from the idle task.\par
+ The algorithm is as follows\-: The unused part of the stack is initialized with a specific pattern byte. This routine counts the number of subsequent pattern bytes down from the top of the stack area. This number is returned.\par
+ The returned result must not be trusted too much\-: It could of course be that a pattern byte is found not because of the initialization but because it has been pushed onto the stack -\/ in which case the return value is too great (too optimistic) by one. The probability that this happens is significantly greater than zero. The chance that two pattern bytes had been pushed is however much less and the probability of three, four, five such bytes in sequence is negligible. (Except the irrelevant case you initialize an automatic array variable with all pattern bytes.) Any stack size optimization based on this routine should therefore subtract e.\-g. five bytes from the returned reserve and diminish the stack outermost by this modified value.\par
+ Be careful with stack size optimization based on this routine\-: Even if the application ran a long time there's a non-\/zero probability that there has not yet been a system timer interrupt in the very instance that the code of the task of interest was busy in the deepest nested sub-\/routine, i.\-e. when having the largest stack consumption. A good suggestion is to have another 36 Byte of reserve -\/ this is the stack consumption if an interrupt occurs.\par
+ Recipe\-: Run your application a long time, ensure that it ran through all paths, get the stack reserve from this routine, subtract 5+36 Byte and diminish the stack by this value. \begin{DoxyReturn}{Returns}
+The number of still unused stack bytes. See function description for details. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em idx\-Task} & The index of the task the stack usage has to be investigated for. The index is the same as used when initializing the tasks (see rtos\-\_\-initialize\-Task). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRemark}{Remarks}
+The computation is a linear search for the first non-\/pattern byte and thus relatively expensive. It's suggested to call it only in some specific diagnosis compilation or occasionally from the idle task. 
+\end{DoxyRemark}
+\begin{DoxySeeAlso}{See Also}
+void \hyperlink{rtos_8c_a902a2048ccee395d6eec7bd480f8dc01}{rtos\-\_\-initialize\-Task()} 
+\end{DoxySeeAlso}
+\hypertarget{rtos_8c_a81506c5199c04cdf60ded63c9fa4d120}{\index{rtos.\-c@{rtos.\-c}!rtos\-\_\-get\-Task\-Overrun\-Counter@{rtos\-\_\-get\-Task\-Overrun\-Counter}}
+\index{rtos\-\_\-get\-Task\-Overrun\-Counter@{rtos\-\_\-get\-Task\-Overrun\-Counter}!rtos.c@{rtos.\-c}}
+\subsubsection[{rtos\-\_\-get\-Task\-Overrun\-Counter}]{\setlength{\rightskip}{0pt plus 5cm}uint8\-\_\-t rtos\-\_\-get\-Task\-Overrun\-Counter (
+\begin{DoxyParamCaption}
+\item[{uint8\-\_\-t}]{idx\-Task, }
+\item[{boolean}]{do\-Reset}
+\end{DoxyParamCaption}
+)}}\label{rtos_8c_a81506c5199c04cdf60ded63c9fa4d120}
+Get the current value of the overrun counter of a given task.\par
+ The value is a limited 8 Bit counter (i.\-e. it won't cycle around). This is considered satisfying as any task overrun is a kind of error and should not happen in a real application (with other words\-: even a Boolean information could be enough). Furthermore, if a larger range is required, one can regularly ask for this information, accumulate it and reset the value here to zero at the same time.\par
+ The function may be called from a task or from the idle task. \begin{DoxyReturn}{Returns}
+Get the current value of the overrun counter. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em idx\-Task} & The index of the task the overrun counter of which is to be returned. The index is the same as used when initializing the tasks (see rtos\-\_\-initialize\-Task). \\
+\hline
+{\em do\-Reset} & Boolean flag, which tells whether to reset the value.\par
+ Caution, when setting this to true, reading and resetting the value needs to become an atomic operation, which requires a critical section. This is significantly more expensive than just reading the value and it globally enables the interrupts finally. Therefore this call may destroy a surrounding critical section. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRemark}{Remarks}
+This function has some limitations and weaknesses\-: First of all, the concept of task overruns is defined only for regular tasks. Secondary, and particularly when using the 8 Bit system timer, there's a significant probability of not recognizing huge task overruns. Finally there's a significant probability of false recognitions of (not happening) task overruns if the task period time is greater than half the system timer's cycle time (i.\-e. greater than 127 for the 8 Bit system timer). Please, refer to the R\-Tuin\-O\-S manual for details. 
+\end{DoxyRemark}
+\begin{DoxySeeAlso}{See Also}
+void \hyperlink{rtos_8c_a902a2048ccee395d6eec7bd480f8dc01}{rtos\-\_\-initialize\-Task()} 
+\end{DoxySeeAlso}
+\hypertarget{rtos_8c_a902a2048ccee395d6eec7bd480f8dc01}{\index{rtos.\-c@{rtos.\-c}!rtos\-\_\-initialize\-Task@{rtos\-\_\-initialize\-Task}}
+\index{rtos\-\_\-initialize\-Task@{rtos\-\_\-initialize\-Task}!rtos.c@{rtos.\-c}}
+\subsubsection[{rtos\-\_\-initialize\-Task}]{\setlength{\rightskip}{0pt plus 5cm}void rtos\-\_\-initialize\-Task (
+\begin{DoxyParamCaption}
+\item[{uint8\-\_\-t}]{idx\-Task, }
+\item[{{\bf rtos\-\_\-task\-Function\-\_\-t}}]{task\-Function, }
+\item[{uint8\-\_\-t}]{prio\-Class, }
+\item[{uint8\-\_\-t $\ast$const}]{p\-Stack\-Area, }
+\item[{uint16\-\_\-t}]{stack\-Size, }
+\item[{uint16\-\_\-t}]{start\-Event\-Mask, }
+\item[{boolean}]{start\-By\-All\-Events, }
+\item[{uint\-Time\-\_\-t}]{start\-Timeout}
+\end{DoxyParamCaption}
+)}}\label{rtos_8c_a902a2048ccee395d6eec7bd480f8dc01}
+Initialize the contents of a single task object.\par
+ This routine needs to be called from within setup() once for each task. The number of tasks has been defined by the application using \hyperlink{rtos_8config_8template_8h_a9375e1b99d1360af097706deed2dd957}{R\-T\-O\-S\-\_\-\-N\-O\-\_\-\-T\-A\-S\-K\-S} but the array of this number of task objects is still empty. The system will crash if this routine is not called properly for each of the tasks before the R\-T\-O\-S actually starts.\par
+ This function must never be called outside of setup(). A crash would result otherwise. 
+\begin{DoxyParams}{Parameters}
+{\em idx\-Task} & The index of the task in the range 0..R\-T\-O\-S\-\_\-\-N\-O\-\_\-\-T\-A\-S\-K\-S-\/1. The order of tasks barely matters. \\
+\hline
+{\em task\-Function} & The task function as a function pointer. It is used once and only once\-: The task function is invoked the first time the task becomes active and must never end. A return statement would cause an immediate reset of the controller. \\
+\hline
+{\em prio\-Class} & The priority class this task belongs to. Priority class 255 has the highest possible priority and the lower the value the lower the priority. \\
+\hline
+{\em time\-Round\-Robin} & The maximum time a task may be activated if it is operated in round-\/robin mode. The range is 1..max\-\_\-value({\itshape uint\-Time\-\_\-t}).\par
+ Specify a maximum time of 0 to switch round robin mode off for this task.\par
+ Remark\-: Round robin like behavior is given only if there are several tasks in the same priority class and all tasks of this class have the round-\/robin mode activated. Otherwise it's just the limitation of execution time for an individual task.\par
+ This parameter is available only if \hyperlink{rtos_8config_8template_8h_a40d0df06f67d8a73574879217d9ea34c}{R\-T\-O\-S\-\_\-\-R\-O\-U\-N\-D\-\_\-\-R\-O\-B\-I\-N\-\_\-\-M\-O\-D\-E\-\_\-\-S\-U\-P\-P\-O\-R\-T\-E\-D} is set to \hyperlink{rtos_8h_af0db50dba4d0026d470641610de9b624}{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-N}. \\
+\hline
+{\em p\-Stack\-Area} & The pointer to the preallocated stack area of the task. The area needs to be available all the R\-T\-O\-S runtime. Therefore dynamic allocation won't pay off. Consider to use the address of any statically defined array. There's no alignment constraint. \\
+\hline
+{\em stack\-Size} & The size in Byte of the memory area {\itshape $\ast$p\-Stack\-Area}, which is reserved as stack for the task. Each task may have an individual stack size. \\
+\hline
+{\em start\-Event\-Mask} & The condition under which the task becomes due the very first time is specified nearly in the same way as at runtime when using the suspend command {\itshape rtos\-\_\-wait\-For\-Event\-:} A set of events to wait for is specified, the Boolean information if any event will activate the task or if all are required and finally a timeout in case no such events would be posted.\par
+ This parameter specifies the set of events as a bit vector. Only ordinary events are supports, i.\-e. braodcasted events. Events of kind mutex or semaphore must not be used here. If a task needs to own such events right from beginning its implementation needs to place an explicit suspend command {\itshape rtos\-\_\-wait\-For\-Event} as very first command. \\
+\hline
+{\em start\-By\-All\-Events} & If true, all specified events (except for a timer event) must be posted before the task is activated. Otherwise the first event belonging to the specified set will activate the task. See rtos\-\_\-wait\-For\-Event for details. \\
+\hline
+{\em start\-Timeout} & The task will be started at latest after {\itshape start\-Timeout} system timer tics if only the event \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R} is in the set of specified events. If none of the timer events \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R} and \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R} are set in {\itshape start\-Event\-Mask}, the task will not be activated by a time condition. Do not set both timer events at once! See rtos\-\_\-wait\-For\-Event for details. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+void \hyperlink{rtos_8c_ac8b1fae05c844e38b6d93fab56597ce7}{rtos\-\_\-init\-R\-T\-O\-S(void)} 
+
+uint16\-\_\-t \hyperlink{rtos_8c_ade4d420d20c378bf3a6fdff59f44126d}{rtos\-\_\-wait\-For\-Event(uint16\-\_\-t, boolean, uint\-Time\-\_\-t)} 
+\end{DoxySeeAlso}
+\begin{DoxyRemark}{Remarks}
+The restriction that the initial resume condition must not comprise the request for mutex or semaphore kind of events has been made just for simplicity. No additional code is needed for broadcasted events but would be needed to allow mutexes and semaphores, too.\par
+ The main use case for the start condition is to delay the take off of different tasks by individual time spans to avoid having too many regular tasks becoming due at the same timer tic. If there should be a use case for initial waiting for a mutex or semaphore this can be easily implemented by an according suspend command at the beginning of the actual task code. 
+\end{DoxyRemark}
+\hypertarget{rtos_8c_ac8b1fae05c844e38b6d93fab56597ce7}{\index{rtos.\-c@{rtos.\-c}!rtos\-\_\-init\-R\-T\-O\-S@{rtos\-\_\-init\-R\-T\-O\-S}}
+\index{rtos\-\_\-init\-R\-T\-O\-S@{rtos\-\_\-init\-R\-T\-O\-S}!rtos.c@{rtos.\-c}}
+\subsubsection[{rtos\-\_\-init\-R\-T\-O\-S}]{\setlength{\rightskip}{0pt plus 5cm}void rtos\-\_\-init\-R\-T\-O\-S (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rtos_8c_ac8b1fae05c844e38b6d93fab56597ce7}
+Application called initialization of R\-T\-O\-S.\par
+ Most important is the application handled task information. A task is characterized by several static settings which need to be preset by the application. To save resources, a standard situation will be the specification of all relevant settings at compile time in the initializer expression of the array definition. The array is declared extern to enable this mode.\par
+ The application however also has the chance to provide this information at runtime. Early in the execution of this function a callback {\itshape setup} into the application is invoked. If the application has setup everything as a compile time expression, the callback may simply contain a return.\par
+ The callback {\itshape setup} is invoked before any R\-T\-O\-S related interrupts have been initialized, the routine is executed in the same context as and as a substitute of the normal Arduino setup routine. The implementation can be made without bothering with interrupt inhibition or data synchronization considerations. Furthermore it can be used for all the sort of things you've ever done in Arduino's setup routine.\par
+ After returning from {\itshape setup} all tasks defined in the task array are made due. The main interrupt, which clocks the R\-T\-O\-S system time is started and will immediately make the very task the active task which belongs to the highest priority class and which was found first (i.\-e. in the order of rising indexes) in the task array. The system is running.\par
+ No idle task is specified in the task array. The idle task is implicitly defined and implemented as the external function {\itshape loop}. To stick to Arduino's convention (and to give the R\-T\-O\-S the chance to benefit from idle as well) {\itshape loop} is still implemented as such\-: You are encouraged to return from {\itshape loop} after doing things. R\-T\-O\-S will call {\itshape loop} again as soon as it has some time left.\par
+ As for the original Arduino code, {\itshape setup} and {\itshape loop} are mandatory, global functions.\par
+ This routine is not called by the application but in C's main function. Your code seems to start with setup and seems then to branch into either {\itshape loop} (the idle task) or any other of the tasks defined by your application.\par
+ This function never returns. No task must ever return, a reset will be the immediate consequence. Your part of the idle task, function {\itshape loop}, may and should return, but the actual idle task as a whole won't terminate neither. Instead it'll repeat to call {\itshape loop}. 
+
+Here is the call graph for this function\-:
+
+
+\hypertarget{rtos_8c_a31394bea21e0b38e390be169f0ee9811}{\index{rtos.\-c@{rtos.\-c}!rtos\-\_\-send\-Event@{rtos\-\_\-send\-Event}}
+\index{rtos\-\_\-send\-Event@{rtos\-\_\-send\-Event}!rtos.c@{rtos.\-c}}
+\subsubsection[{rtos\-\_\-send\-Event}]{\setlength{\rightskip}{0pt plus 5cm}{\bf R\-T\-O\-S\-\_\-\-N\-A\-K\-E\-D\-\_\-\-F\-C\-T} void rtos\-\_\-send\-Event (
+\begin{DoxyParamCaption}
+\item[{uint16\-\_\-t}]{event\-Vec}
+\end{DoxyParamCaption}
+)}}\label{rtos_8c_a31394bea21e0b38e390be169f0ee9811}
+A task (including the idle task) may post an event. The event is broadcasted to all suspended tasks which are waiting for it. An event is not saved beyond that. If a task suspends and starts waiting for an event which has been posted by another task just before, it'll wait forever and never be resumed.\par
+ The posted event may resume another task, which may be of higher priority as the event posting task. In this case {\itshape send\-Event} will cause a task switch. The calling task stays due but stops to be the active task. It does not become suspended (this is why even the idle task may call this function). The activated task will resume by coming out of the suspend command it had been invoked to wait for this event. The return value of this suspend command will then tell about the event set here.\par
+ If no task of higher priority is resumed by the posted event the calling task will be continued immediately after execution of this method. In this case {\itshape send\-Event} behaves like any ordinary sub-\/routine. 
+\begin{DoxyParams}{Parameters}
+{\em event\-Vec} & A bit vector of posted events. Known events are defined in \hyperlink{rtos_8h}{rtos.\-h}. The timer events R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R and R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R cannot be posted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+uint16\-\_\-t \hyperlink{rtos_8c_ade4d420d20c378bf3a6fdff59f44126d}{rtos\-\_\-wait\-For\-Event(uint16\-\_\-t, boolean, uint\-Time\-\_\-t)} 
+\end{DoxySeeAlso}
+\begin{DoxyRemark}{Remarks}
+It is absolutely essential that this routine is implemented as naked and noinline. See \href{http://gcc.gnu.org/onlinedocs/gcc/Function-Attributes.html}{\tt http\-://gcc.\-gnu.\-org/onlinedocs/gcc/\-Function-\/\-Attributes.\-html} for details 
+
+In optimization level 0 G\-C\-C has a problem with code generation for naked functions. See function \hyperlink{rtos_8h_a91e2be2c71d5ee6619b3cf069c49f18f}{rtos\-\_\-suspend\-Task\-Till\-Time} for details. 
+
+The implementation of this function is reused on machine code level by the implementation of the application interrupt service routines {\itshape I\-S\-R(\-R\-T\-O\-S\-\_\-\-I\-S\-R\-\_\-\-U\-S\-E\-R\-\_\-nn)}. This function needs to be maintained in strict accordance with the implementation of the I\-S\-Rs. 
+\end{DoxyRemark}
+\hypertarget{rtos_8c_ade4d420d20c378bf3a6fdff59f44126d}{\index{rtos.\-c@{rtos.\-c}!rtos\-\_\-wait\-For\-Event@{rtos\-\_\-wait\-For\-Event}}
+\index{rtos\-\_\-wait\-For\-Event@{rtos\-\_\-wait\-For\-Event}!rtos.c@{rtos.\-c}}
+\subsubsection[{rtos\-\_\-wait\-For\-Event}]{\setlength{\rightskip}{0pt plus 5cm}{\bf R\-T\-O\-S\-\_\-\-N\-A\-K\-E\-D\-\_\-\-F\-C\-T} uint16\-\_\-t rtos\-\_\-wait\-For\-Event (
+\begin{DoxyParamCaption}
+\item[{uint16\-\_\-t}]{event\-Mask, }
+\item[{boolean}]{all, }
+\item[{uint\-Time\-\_\-t}]{timeout}
+\end{DoxyParamCaption}
+)}}\label{rtos_8c_ade4d420d20c378bf3a6fdff59f44126d}
+Suspend the current task (i.\-e. the one which invokes this method) until a specified combination of events occur. In the special case, that the specified combination of events can be satisfied with currently available synchronization objects (mutexes and semaphores) the function will return immediately without suspending the calling task.\par
+ A task is suspended in the instance of calling this method. It specifies a list of events. The task becomes due again, when either the first one or all of the specified events have been posted by other tasks.\par
+ The idle task can't be suspended. If it calls this function a crash would be the immediate result. \begin{DoxyReturn}{Returns}
+The set of actually resuming events is returned as a bit vector which corresponds bitwise to event\-Mask. See {\itshape \hyperlink{rtos_8h}{rtos.\-h}} for a list of known events. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em event\-Mask} & The bit vector of events to wait for. Needs to include either the delay timer event \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R} or \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R}, if a timeout is required, but not both of them.\par
+ The normal use case will probably be the delay timer. However, a regular task may also specify the absolute timer with the next regular task time as parameter so that it surely becomes due outermost at its usual task time. \\
+\hline
+{\em all} & If false, the task is made due as soon as the first event mentioned in {\itshape event\-Mask} is seen.\par
+ If true, the task is made due only when all events are posted to the suspending task -\/ except for the timer events, which are still O\-R combined. If you say \char`\"{}all\char`\"{} but the event mask contains either \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R} or \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R}, the task will resume when either the timer elapsed or when all other events in the mask were seen.\par
+ Caution\-: If all is true, there need to be at least one event bit set in {\itshape event\-Mask} besides a timer bit; R\-Tuin\-O\-S crashes otherwise. Saying\-: \char`\"{}\-No particular event, just a
+timer condition\char`\"{} needs to be implemented by {\itshape all} set to false and {\itshape event\-Mask} set to only a timer event bit. \\
+\hline
+{\em timeout} & If {\itshape event\-Mask} contains \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R}\-:\par
+ The number of system timer tics from now on until the timeout elapses. One should be aware of the resolution of any timing being the tic of the system timer. A timeout of {\itshape n} may actually mean any delay in the range {\itshape n} .. {\itshape n+1} tics.\par
+ Even specifying 0 will suspend the task a short time and give others the chance to become active -\/ particularly other tasks belonging to the same priority class.\par
+ If {\itshape event\-Mask} contains \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R}\-:\par
+ The absolute time the task becomes due again at latest. The time designation is relative; it refers to the last recent absolute time at which this task had been resumed. See \hyperlink{rtos_8h_a91e2be2c71d5ee6619b3cf069c49f18f}{rtos\-\_\-suspend\-Task\-Till\-Time} for details.\par
+ Now the range of the parameter is 1 till the half the range of the data type which is configured for the system time, e.\-g. 127 in case of uint8\-\_\-t. Otherwise proper task timing can't be guaranteed.\par
+ If neither \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R} nor \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R} is set in the event mask, this parameter should be zero. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Variable Documentation}
+\hypertarget{rtos_8c_aed225646fe49a53d2a6031c0a99e57cf}{\index{rtos.\-c@{rtos.\-c}!\-\_\-tmp\-Var\-Asm\-To\-C\-\_\-u16@{\-\_\-tmp\-Var\-Asm\-To\-C\-\_\-u16}}
+\index{\-\_\-tmp\-Var\-Asm\-To\-C\-\_\-u16@{\-\_\-tmp\-Var\-Asm\-To\-C\-\_\-u16}!rtos.c@{rtos.\-c}}
+\subsubsection[{\-\_\-tmp\-Var\-Asm\-To\-C\-\_\-u16}]{\setlength{\rightskip}{0pt plus 5cm}volatile uint16\-\_\-t \-\_\-tmp\-Var\-Asm\-To\-C\-\_\-u16}}\label{rtos_8c_aed225646fe49a53d2a6031c0a99e57cf}
+Temporary data, internally used to pass information between assembly and C code. \hypertarget{rtos_8c_a28dcbedd17c277ec7b25de1694539131}{\index{rtos.\-c@{rtos.\-c}!\-\_\-tmp\-Var\-C\-To\-Asm\-\_\-u16@{\-\_\-tmp\-Var\-C\-To\-Asm\-\_\-u16}}
+\index{\-\_\-tmp\-Var\-C\-To\-Asm\-\_\-u16@{\-\_\-tmp\-Var\-C\-To\-Asm\-\_\-u16}!rtos.c@{rtos.\-c}}
+\subsubsection[{\-\_\-tmp\-Var\-C\-To\-Asm\-\_\-u16}]{\setlength{\rightskip}{0pt plus 5cm}volatile uint16\-\_\-t \-\_\-tmp\-Var\-C\-To\-Asm\-\_\-u16}}\label{rtos_8c_a28dcbedd17c277ec7b25de1694539131}
+Temporary data, internally used to pass information between C and assembly code. \hypertarget{rtos_8c_a210d40d5737753d7460f8b0c4ab446d1}{\index{rtos.\-c@{rtos.\-c}!rtos\-\_\-rtuinos\-Startup\-Msg@{rtos\-\_\-rtuinos\-Startup\-Msg}}
+\index{rtos\-\_\-rtuinos\-Startup\-Msg@{rtos\-\_\-rtuinos\-Startup\-Msg}!rtos.c@{rtos.\-c}}
+\subsubsection[{rtos\-\_\-rtuinos\-Startup\-Msg}]{\setlength{\rightskip}{0pt plus 5cm}{\bf R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N} const char rtos\-\_\-rtuinos\-Startup\-Msg\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}r\char`\"{} R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-S\-T\-A\-R\-T\-U\-P\-\_\-\-M\-S\-G}}\label{rtos_8c_a210d40d5737753d7460f8b0c4ab446d1}
+The R\-Tuin\-O\-S startup message is placed in the flash R\-O\-M. Here, memory is not expensive. Consider to use {\itshape Serial.\-println} or {\itshape puts\-\_\-progmem} to print such a string in the Arduino console window. Or Please refer to tc12/stdout.\-c, test case tc12, for more.\par
+ See \href{http://gcc.gnu.org/bugzilla/show_bug.cgi?id=34734}{\tt http\-://gcc.\-gnu.\-org/bugzilla/show\-\_\-bug.\-cgi?id=34734} why not using P\-R\-O\-G\-M\-E\-M for the declaration and \hyperlink{rtos_8h_a230d90f46eaeeabc20cac6e3eda61f8e}{R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N} for a valid substitute. \begin{DoxySeeAlso}{See Also}
+int puts\-\_\-progmem(const char $\ast$) 
+\end{DoxySeeAlso}

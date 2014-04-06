@@ -1,0 +1,58 @@
+\hypertarget{gsl__system_load_8c}{\section{/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/gsl\-\_\-system\-Load.c File Reference}
+\label{gsl__system_load_8c}\index{/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/gsl\-\_\-system\-Load.\-c@{/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/gsl\-\_\-system\-Load.\-c}}
+}
+{\ttfamily \#include $<$Arduino.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}rtos\-\_\-assert.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gsl\-\_\-system\-Load.\-h\char`\"{}}\\*
+Include dependency graph for gsl\-\_\-system\-Load.\-c\-:
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{gsl__system_load_8c_adb862a6542af241e12be0c4d02014780}{T\-I\-\_\-\-W\-I\-N\-D\-O\-W\-\_\-\-L\-E\-N}~1000ul
+\item 
+\hypertarget{gsl__system_load_8c_a2a8345b012fabddac57ecce60c79933d}{\#define {\bfseries T\-I\-\_\-\-S\-T\-E\-P}~16u     /$\ast$ Should be a power of 2, need to $<$= 65 $\ast$/}\label{gsl__system_load_8c_a2a8345b012fabddac57ecce60c79933d}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+uint8\-\_\-t \hyperlink{gsl__system_load_8c_a3d7484dc6700c9dde7430ef5b2e5dcd2}{gsl\-\_\-get\-System\-Load} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Measure the current C\-P\-U load of the R\-Tuin\-O\-S application. A support function for the use with R\-Tuin\-O\-S. \begin{DoxySeeAlso}{See Also}
+uint8\-\_\-t \hyperlink{gsl__system_load_8c_a3d7484dc6700c9dde7430ef5b2e5dcd2}{gsl\-\_\-get\-System\-Load(void)}
+\end{DoxySeeAlso}
+Copyright (C) 2012 Peter Vranken (\href{mailto:Peter_Vranken@Yahoo.de}{\tt Peter\-\_\-\-Vranken@\-Yahoo.\-de})
+
+This program is free software\-: you can redistribute it and/or modify it under the terms of the G\-N\-U Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+
+This program is distributed in the hope that it will be useful, but W\-I\-T\-H\-O\-U\-T A\-N\-Y W\-A\-R\-R\-A\-N\-T\-Y; without even the implied warranty of M\-E\-R\-C\-H\-A\-N\-T\-A\-B\-I\-L\-I\-T\-Y or F\-I\-T\-N\-E\-S\-S F\-O\-R A P\-A\-R\-T\-I\-C\-U\-L\-A\-R P\-U\-R\-P\-O\-S\-E. See the G\-N\-U Lesser General Public License for more details.
+
+You should have received a copy of the G\-N\-U Lesser General Public License along with this program. If not, see \href{http://www.gnu.org/licenses/}{\tt http\-://www.\-gnu.\-org/licenses/}. 
+
+\subsection{Macro Definition Documentation}
+\hypertarget{gsl__system_load_8c_adb862a6542af241e12be0c4d02014780}{\index{gsl\-\_\-system\-Load.\-c@{gsl\-\_\-system\-Load.\-c}!T\-I\-\_\-\-W\-I\-N\-D\-O\-W\-\_\-\-L\-E\-N@{T\-I\-\_\-\-W\-I\-N\-D\-O\-W\-\_\-\-L\-E\-N}}
+\index{T\-I\-\_\-\-W\-I\-N\-D\-O\-W\-\_\-\-L\-E\-N@{T\-I\-\_\-\-W\-I\-N\-D\-O\-W\-\_\-\-L\-E\-N}!gsl_systemLoad.c@{gsl\-\_\-system\-Load.\-c}}
+\subsubsection[{T\-I\-\_\-\-W\-I\-N\-D\-O\-W\-\_\-\-L\-E\-N}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\-I\-\_\-\-W\-I\-N\-D\-O\-W\-\_\-\-L\-E\-N~1000ul}}\label{gsl__system_load_8c_adb862a6542af241e12be0c4d02014780}
+Averaging time window of \hyperlink{gsl__system_load_8c_a3d7484dc6700c9dde7430ef5b2e5dcd2}{gsl\-\_\-get\-System\-Load(void)} in ms. The window should contain a full cycle of tasks activations. 
+
+\subsection{Function Documentation}
+\hypertarget{gsl__system_load_8c_a3d7484dc6700c9dde7430ef5b2e5dcd2}{\index{gsl\-\_\-system\-Load.\-c@{gsl\-\_\-system\-Load.\-c}!gsl\-\_\-get\-System\-Load@{gsl\-\_\-get\-System\-Load}}
+\index{gsl\-\_\-get\-System\-Load@{gsl\-\_\-get\-System\-Load}!gsl_systemLoad.c@{gsl\-\_\-system\-Load.\-c}}
+\subsubsection[{gsl\-\_\-get\-System\-Load}]{\setlength{\rightskip}{0pt plus 5cm}uint8\-\_\-t gsl\-\_\-get\-System\-Load (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{gsl__system_load_8c_a3d7484dc6700c9dde7430ef5b2e5dcd2}
+A diagnostic function, which can be used to estimate the current system load. The function executes some test code of known C\-P\-U execution time and relates this known time to the measured, actually elapsed world time. The function needs to be called from the idle task only. Now the mentioned ratio is a measure for the system load\-: The less the system idles the longer it'll take to execute the test code.\par
+ On principal, the execution time of the function depends on the system load and can raise to infinite if the load approaches 100\%. This effect is lowered by splitting the test code in pieces and ending the measurement if enough pieces have been executed to get the desired resolution. Nonetheless, the effect remains and no upper boundary can be given for the execution time of this function if the system load is close to 100\%.\par
+ Normally, the execution time of this function is about 1 second. This long time is needed to have a sufficient averaging effect; typically the C\-P\-U consumption by the tasks is quite irregular due to the complex task activation pattern of the scheduler. The averaging time can be changed at compile time, please see macro \hyperlink{gsl__system_load_8c_adb862a6542af241e12be0c4d02014780}{T\-I\-\_\-\-W\-I\-N\-D\-O\-W\-\_\-\-L\-E\-N}. \begin{DoxyReturn}{Returns}
+The system load is returned with a resolution 0.\-5\%, i.\-e. as an integer number in the range 0..200. 
+\end{DoxyReturn}
+\begin{DoxyRemark}{Remarks}
+The function execution takes a long time (above 1s). It must only be called from the idle task and only if there are no other essential jobs for the idle task. 
+
+The function will never return if the C\-P\-U load is 100\% and it might take an arbitrary long time to return if it is close to 100\%. The calling code must anticipate this, e.\-g. by presetting the result variable with 100\% prior to calling this function. 
+\end{DoxyRemark}

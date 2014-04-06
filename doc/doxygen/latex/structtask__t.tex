@@ -1,0 +1,82 @@
+\hypertarget{structtask__t}{\section{task\-\_\-t Struct Reference}
+\label{structtask__t}\index{task\-\_\-t@{task\-\_\-t}}
+}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+uint16\-\_\-t \hyperlink{structtask__t_a760a32c332e502fe421256fce4f7d9d8}{stack\-Pointer}
+\item 
+uint8\-\_\-t \hyperlink{structtask__t_a5f71b4873dad334e5ec93aec6cea1d23}{prio\-Class}
+\item 
+\hyperlink{rtos_8h_a3e12c5d9135209b870ca71628179beb3}{rtos\-\_\-task\-Function\-\_\-t} \hyperlink{structtask__t_a4ab0b83e3ec3a3b0d61919a926ee3d26}{task\-Function}
+\item 
+uint\-Time\-\_\-t \hyperlink{structtask__t_a18d0bc5a3a13ceef1c9036d56efe280d}{time\-Due\-At}
+\item 
+uint8\-\_\-t $\ast$ \hyperlink{structtask__t_a5edd85b979fc31ec0b53347a0e67429c}{p\-Stack\-Area}
+\item 
+uint16\-\_\-t \hyperlink{structtask__t_ad1781e9cc344b34a0ba6f6a896c6ed93}{stack\-Size}
+\item 
+uint\-Time\-\_\-t \hyperlink{structtask__t_ab3c3ac52ea96b6ed2478df36a9b1906f}{cnt\-Delay}
+\item 
+uint16\-\_\-t \hyperlink{structtask__t_aaf032c29bc60c586e9a33d91b21f6fa4}{posted\-Event\-Vec}
+\item 
+uint16\-\_\-t \hyperlink{structtask__t_ab1e84a1442746b4c7816fd15fff75baf}{event\-Mask}
+\item 
+boolean \hyperlink{structtask__t_a40beda2a55d5826268c79600bcce72a1}{wait\-For\-Any\-Event}
+\item 
+uint8\-\_\-t \hyperlink{structtask__t_ad116bccdc9e4c60355b6200a862db78a}{cnt\-Overrun}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The descriptor of any task. Contains static information like task priority class and dynamic information like received events, timer values etc. This type is invisible to the R\-Tuin\-O\-S application code. \begin{DoxyRemark}{Remarks}
+Some members of the struct are not used by the kernel at runtime, e.\-g. the pointer to the task function or the definition of the stack area. These elements or parts of them could be placed into a second array such that the remaining data structure had a size which is a power of 2. (Maybe with a few padding bytes.) This would speed-\/up -\/ and maybe significantly -\/ the address computations the kernel often has to do when accessing the task information. 
+\end{DoxyRemark}
+
+
+\subsection{Field Documentation}
+\hypertarget{structtask__t_ab3c3ac52ea96b6ed2478df36a9b1906f}{\index{task\-\_\-t@{task\-\_\-t}!cnt\-Delay@{cnt\-Delay}}
+\index{cnt\-Delay@{cnt\-Delay}!task_t@{task\-\_\-t}}
+\subsubsection[{cnt\-Delay}]{\setlength{\rightskip}{0pt plus 5cm}uint\-Time\-\_\-t cnt\-Delay}}\label{structtask__t_ab3c3ac52ea96b6ed2478df36a9b1906f}
+The timer tic decremented counter triggering the task local delay-\/timer event.\par
+ The initial value determines at which system timer tic the task becomes due the very first time. This may always by 1 (task becomes due immediately). In the use case of regular tasks it may however pay off to distribute the tasks on the time grid in order to avoid too many due tasks regularly at specific points in time. See documentation for more. \hypertarget{structtask__t_ad116bccdc9e4c60355b6200a862db78a}{\index{task\-\_\-t@{task\-\_\-t}!cnt\-Overrun@{cnt\-Overrun}}
+\index{cnt\-Overrun@{cnt\-Overrun}!task_t@{task\-\_\-t}}
+\subsubsection[{cnt\-Overrun}]{\setlength{\rightskip}{0pt plus 5cm}uint8\-\_\-t cnt\-Overrun}}\label{structtask__t_ad116bccdc9e4c60355b6200a862db78a}
+All recognized overruns of the timing of this task are recorded in this variable. The access to this variable is considered atomic by the implementation, therefore no other type than 8 Bit must be used.\par
+ Task overruns are defined only in the (typical) use case of regular real time tasks. In all other applications of a task this value is useless and undefined.\par
+ \begin{DoxyRemark}{Remarks}
+Even for regular real time tasks, overruns can only be recognized with a certain probability, which depends on the range of the cyclic system timer. Find a discussion in the documentation of type uint\-Time\-\_\-t. 
+\end{DoxyRemark}
+\hypertarget{structtask__t_ab1e84a1442746b4c7816fd15fff75baf}{\index{task\-\_\-t@{task\-\_\-t}!event\-Mask@{event\-Mask}}
+\index{event\-Mask@{event\-Mask}!task_t@{task\-\_\-t}}
+\subsubsection[{event\-Mask}]{\setlength{\rightskip}{0pt plus 5cm}uint16\-\_\-t event\-Mask}}\label{structtask__t_ab1e84a1442746b4c7816fd15fff75baf}
+The mask of events which will make this task due. \hypertarget{structtask__t_aaf032c29bc60c586e9a33d91b21f6fa4}{\index{task\-\_\-t@{task\-\_\-t}!posted\-Event\-Vec@{posted\-Event\-Vec}}
+\index{posted\-Event\-Vec@{posted\-Event\-Vec}!task_t@{task\-\_\-t}}
+\subsubsection[{posted\-Event\-Vec}]{\setlength{\rightskip}{0pt plus 5cm}uint16\-\_\-t posted\-Event\-Vec}}\label{structtask__t_aaf032c29bc60c586e9a33d91b21f6fa4}
+The events posted to this task. \hypertarget{structtask__t_a5f71b4873dad334e5ec93aec6cea1d23}{\index{task\-\_\-t@{task\-\_\-t}!prio\-Class@{prio\-Class}}
+\index{prio\-Class@{prio\-Class}!task_t@{task\-\_\-t}}
+\subsubsection[{prio\-Class}]{\setlength{\rightskip}{0pt plus 5cm}uint8\-\_\-t prio\-Class}}\label{structtask__t_a5f71b4873dad334e5ec93aec6cea1d23}
+The priority class this task belongs to. Priority class 255 has the highest possible priority and the lower the value the lower the priority. \hypertarget{structtask__t_a5edd85b979fc31ec0b53347a0e67429c}{\index{task\-\_\-t@{task\-\_\-t}!p\-Stack\-Area@{p\-Stack\-Area}}
+\index{p\-Stack\-Area@{p\-Stack\-Area}!task_t@{task\-\_\-t}}
+\subsubsection[{p\-Stack\-Area}]{\setlength{\rightskip}{0pt plus 5cm}uint8\-\_\-t$\ast$ p\-Stack\-Area}}\label{structtask__t_a5edd85b979fc31ec0b53347a0e67429c}
+The pointer to the preallocated stack area of the task. The area needs to be available all the R\-T\-O\-S runtime. Therefore dynamic allocation won't pay off. Consider to use the address of any statically defined array. There's no alignment constraint. \hypertarget{structtask__t_a760a32c332e502fe421256fce4f7d9d8}{\index{task\-\_\-t@{task\-\_\-t}!stack\-Pointer@{stack\-Pointer}}
+\index{stack\-Pointer@{stack\-Pointer}!task_t@{task\-\_\-t}}
+\subsubsection[{stack\-Pointer}]{\setlength{\rightskip}{0pt plus 5cm}uint16\-\_\-t stack\-Pointer}}\label{structtask__t_a760a32c332e502fe421256fce4f7d9d8}
+The saved stack pointer of this task whenever it is not active.\par
+ For optimization reasons, this element should come first. It's most often used in the core routines and can be addressed with less machine code if it has offset 0 inside the struct. \hypertarget{structtask__t_ad1781e9cc344b34a0ba6f6a896c6ed93}{\index{task\-\_\-t@{task\-\_\-t}!stack\-Size@{stack\-Size}}
+\index{stack\-Size@{stack\-Size}!task_t@{task\-\_\-t}}
+\subsubsection[{stack\-Size}]{\setlength{\rightskip}{0pt plus 5cm}uint16\-\_\-t stack\-Size}}\label{structtask__t_ad1781e9cc344b34a0ba6f6a896c6ed93}
+The size in Byte of the memory area {\itshape $\ast$p\-Stack\-Area}, which is reserved as stack for the task. Each task may have an individual stack size. \hypertarget{structtask__t_a4ab0b83e3ec3a3b0d61919a926ee3d26}{\index{task\-\_\-t@{task\-\_\-t}!task\-Function@{task\-Function}}
+\index{task\-Function@{task\-Function}!task_t@{task\-\_\-t}}
+\subsubsection[{task\-Function}]{\setlength{\rightskip}{0pt plus 5cm}{\bf rtos\-\_\-task\-Function\-\_\-t} task\-Function}}\label{structtask__t_a4ab0b83e3ec3a3b0d61919a926ee3d26}
+The task function as a function pointer. It is used once and only once\-: The task function is invoked the first time the task becomes active and must never end. A return statement would cause an immediate reset of the controller. \hypertarget{structtask__t_a18d0bc5a3a13ceef1c9036d56efe280d}{\index{task\-\_\-t@{task\-\_\-t}!time\-Due\-At@{time\-Due\-At}}
+\index{time\-Due\-At@{time\-Due\-At}!task_t@{task\-\_\-t}}
+\subsubsection[{time\-Due\-At}]{\setlength{\rightskip}{0pt plus 5cm}uint\-Time\-\_\-t time\-Due\-At}}\label{structtask__t_a18d0bc5a3a13ceef1c9036d56efe280d}
+The timer value triggering the task local absolute-\/timer event. \hypertarget{structtask__t_a40beda2a55d5826268c79600bcce72a1}{\index{task\-\_\-t@{task\-\_\-t}!wait\-For\-Any\-Event@{wait\-For\-Any\-Event}}
+\index{wait\-For\-Any\-Event@{wait\-For\-Any\-Event}!task_t@{task\-\_\-t}}
+\subsubsection[{wait\-For\-Any\-Event}]{\setlength{\rightskip}{0pt plus 5cm}boolean wait\-For\-Any\-Event}}\label{structtask__t_a40beda2a55d5826268c79600bcce72a1}
+Do we need to wait for the first posted event or for all events? 
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/\hyperlink{rtos_8c}{rtos.\-c}\end{DoxyCompactItemize}

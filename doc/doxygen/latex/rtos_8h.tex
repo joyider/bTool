@@ -1,0 +1,497 @@
+\hypertarget{rtos_8h}{\section{/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/rtos.h File Reference}
+\label{rtos_8h}\index{/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/rtos.\-h@{/\-Users/andrek/b\-Tool/code/\-R\-T\-O\-S/rtos.\-h}}
+}
+{\ttfamily \#include \char`\"{}Arduino.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}rtos.\-config.\-h\char`\"{}}\\*
+Include dependency graph for rtos.\-h\-:
+This graph shows which files directly or indirectly include this file\-:
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{rtos_8h_a764530e10a57bd9a1c71bed8511ba32e}{R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-V\-E\-R\-S\-I\-O\-N}~\char`\"{}1.\-0\char`\"{}
+\item 
+\#define \hyperlink{rtos_8h_a1d060d9f723ec33c567b9f29ec12fc20}{R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-S\-T\-A\-R\-T\-U\-P\-\_\-\-M\-S\-G}
+\item 
+\#define \hyperlink{rtos_8h_af0db50dba4d0026d470641610de9b624}{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-N}~1
+\item 
+\#define \hyperlink{rtos_8h_a5fdc4782bcfacebf233fd419efac7383}{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-F\-F}~0
+\item 
+\#define \hyperlink{rtos_8h_a6e18955f74c25b2b3c83d655db7132a4}{R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E}~\hyperlink{rtos_8h_a5fdc4782bcfacebf233fd419efac7383}{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-F\-F}
+\item 
+\#define \hyperlink{rtos_8h_aed1d8500c6908a97e8a2ac81223f488c}{R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-M\-U\-T\-E\-X}~\hyperlink{rtos_8h_a5fdc4782bcfacebf233fd419efac7383}{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-F\-F}
+\item 
+\#define \hyperlink{rtos_8h_a05308de0bb2db3243db003c375599d82}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-00}~(0x0001u$<$$<$0)
+\item 
+\#define \hyperlink{rtos_8h_ac79a668111df50f46270818f60e61597}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-01}~(0x0001u$<$$<$1)
+\item 
+\#define \hyperlink{rtos_8h_aff43a3f1f1d30009f5b7cae684d78c34}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-02}~(0x0001u$<$$<$2)
+\item 
+\#define \hyperlink{rtos_8h_a67f56a0bda2566ee6b489ecf79193d21}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-03}~(0x0001u$<$$<$3)
+\item 
+\#define \hyperlink{rtos_8h_af11d09826b9c9997613cf9a2f8f95f70}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-04}~(0x0001u$<$$<$4)
+\item 
+\#define \hyperlink{rtos_8h_a14038aad04165423fddceffc432dc327}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-05}~(0x0001u$<$$<$5)
+\item 
+\#define \hyperlink{rtos_8h_acda23b10012d8b326e150b2f262edf4b}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-06}~(0x0001u$<$$<$6)
+\item 
+\#define \hyperlink{rtos_8h_a4e3564cb7a4ea946290fbb10ffb9f398}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-07}~(0x0001u$<$$<$7)
+\item 
+\#define \hyperlink{rtos_8h_a44fd0b49b0d99121830c548ccea13a1b}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-08}~(0x0001u$<$$<$8)
+\item 
+\#define \hyperlink{rtos_8h_a4cbfa220a74a3c7d4cc44a8603952647}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-09}~(0x0001u$<$$<$9)
+\item 
+\#define \hyperlink{rtos_8h_a60ce31c9bb455f941ae3839115200628}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-10}~(0x0001u$<$$<$10)
+\item 
+\#define \hyperlink{rtos_8h_a281ebca85d777751e8ae0edbd9cee4a0}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-11}~(0x0001u$<$$<$11)
+\item 
+\#define \hyperlink{rtos_8h_ac8edc6c9ee4e69db54a1b5d39ece3ca4}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-12}~(0x0001u$<$$<$12)
+\item 
+\#define \hyperlink{rtos_8h_a4272a3907ec6d9b95ddb22aa0a6a49e3}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-13}~(0x0001u$<$$<$13)
+\item 
+\#define \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R}~(0x0001u$<$$<$14)
+\item 
+\#define \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R}~(0x0001u$<$$<$15)
+\item 
+\#define \hyperlink{rtos_8h_a84ad81876c57032475b78134bdde181a}{R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-F\-R\-E\-Q\-U\-E\-N\-C\-Y}~(1.\-0/(\hyperlink{rtos_8config_8template_8h_add5b23832c4b645c4425272e9b74064b}{R\-T\-O\-S\-\_\-\-T\-I\-C}))
+\item 
+\#define \hyperlink{rtos_8h_a9ebad5d22d415f479f13e6dad5adf6b9}{R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-M\-S}~((\hyperlink{rtos_8config_8template_8h_add5b23832c4b645c4425272e9b74064b}{R\-T\-O\-S\-\_\-\-T\-I\-C})$\ast$1000.\-0)
+\item 
+\#define \hyperlink{rtos_8h_a187666d1c567029bd5e6e0bfadb49869}{R\-T\-O\-S\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-F\-C\-T}~\-\_\-\-\_\-attribute\-\_\-\-\_\-((weak))
+\item 
+\#define \hyperlink{rtos_8h_aa9eefbedc3c6fc094763fd0998a66f05}{R\-T\-O\-S\-\_\-\-N\-A\-K\-E\-D\-\_\-\-F\-C\-T}~\-\_\-\-\_\-attribute\-\_\-\-\_\-((naked, noinline))
+\item 
+\#define \hyperlink{rtos_8h_acbeb54863ebb9c618b75ad5a6e9cb525}{R\-T\-O\-S\-\_\-\-T\-R\-U\-E\-\_\-\-F\-C\-T}~\-\_\-\-\_\-attribute\-\_\-\-\_\-((used, noinline))
+\item 
+\#define \hyperlink{rtos_8h_a230d90f46eaeeabc20cac6e3eda61f8e}{R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N}~\-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}.progmem.\-rtuinos\char`\"{})))
+\item 
+\#define \hyperlink{rtos_8h_a6363b3e7dc855986c5a8cb6c7ca2fb4d}{rtos\-\_\-delay}(delay\-Time)~\hyperlink{rtos_8h_a4758bc6137ec6a49b6c587403f7a0f17}{rtos\-\_\-wait\-For\-Event}(\hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R}, false, delay\-Time)
+\item 
+\#define \hyperlink{rtos_8h_a91e2be2c71d5ee6619b3cf069c49f18f}{rtos\-\_\-suspend\-Task\-Till\-Time}(delta\-Time\-Till\-Resume)
+\item 
+\#define \hyperlink{rtos_8h_a17e995dff5a68ccffe2cfacc8feb492c}{rtos\-\_\-set\-Event}(event\-Vec)~\hyperlink{rtos_8h_a6a2d8f95b731bebb14fd72567cba86ac}{rtos\-\_\-send\-Event}(event\-Vec)
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef void($\ast$ \hyperlink{rtos_8h_a3e12c5d9135209b870ca71628179beb3}{rtos\-\_\-task\-Function\-\_\-t} )(uint16\-\_\-t posted\-Event\-Vec)
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{rtos_8h_a902a2048ccee395d6eec7bd480f8dc01}{rtos\-\_\-initialize\-Task} (uint8\-\_\-t idx\-Task, \hyperlink{rtos_8h_a3e12c5d9135209b870ca71628179beb3}{rtos\-\_\-task\-Function\-\_\-t} task\-Function, uint8\-\_\-t prio\-Class, uint8\-\_\-t $\ast$const p\-Stack\-Area, uint16\-\_\-t stack\-Size, uint16\-\_\-t start\-Event\-Mask, boolean start\-By\-All\-Events, uint\-Time\-\_\-t start\-Timeout)
+\item 
+void \hyperlink{rtos_8h_ad1c5008c324111a1df14ff7e7ae341da}{rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic} (void)
+\item 
+void \hyperlink{rtos_8h_ac8b1fae05c844e38b6d93fab56597ce7}{rtos\-\_\-init\-R\-T\-O\-S} (void)
+\item 
+void \hyperlink{rtos_8h_a6a2d8f95b731bebb14fd72567cba86ac}{rtos\-\_\-send\-Event} (uint16\-\_\-t event\-Vec)
+\item 
+uint16\-\_\-t \hyperlink{rtos_8h_a4758bc6137ec6a49b6c587403f7a0f17}{rtos\-\_\-wait\-For\-Event} (uint16\-\_\-t event\-Mask, boolean all, uint\-Time\-\_\-t timeout)
+\item 
+uint8\-\_\-t \hyperlink{rtos_8h_a81506c5199c04cdf60ded63c9fa4d120}{rtos\-\_\-get\-Task\-Overrun\-Counter} (uint8\-\_\-t idx\-Task, boolean do\-Reset)
+\item 
+uint16\-\_\-t \hyperlink{rtos_8h_a54ca7c825941b0d17877db45d2b4c662}{rtos\-\_\-get\-Stack\-Reserve} (uint8\-\_\-t idx\-Task)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{rtos_8h_a230d90f46eaeeabc20cac6e3eda61f8e}{R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N} const char \hyperlink{rtos_8h_a210d40d5737753d7460f8b0c4ab446d1}{rtos\-\_\-rtuinos\-Startup\-Msg} \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Definition of global interface of module \hyperlink{rtos_8c}{rtos.\-c}
+
+Copyright (C) 2012-\/2013 Peter Vranken (\href{mailto:Peter_Vranken@Yahoo.de}{\tt Peter\-\_\-\-Vranken@\-Yahoo.\-de})
+
+This program is free software\-: you can redistribute it and/or modify it under the terms of the G\-N\-U Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+
+This program is distributed in the hope that it will be useful, but W\-I\-T\-H\-O\-U\-T A\-N\-Y W\-A\-R\-R\-A\-N\-T\-Y; without even the implied warranty of M\-E\-R\-C\-H\-A\-N\-T\-A\-B\-I\-L\-I\-T\-Y or F\-I\-T\-N\-E\-S\-S F\-O\-R A P\-A\-R\-T\-I\-C\-U\-L\-A\-R P\-U\-R\-P\-O\-S\-E. See the G\-N\-U Lesser General Public License for more details.
+
+You should have received a copy of the G\-N\-U Lesser General Public License along with this program. If not, see \href{http://www.gnu.org/licenses/}{\tt http\-://www.\-gnu.\-org/licenses/}. 
+
+\subsection{Macro Definition Documentation}
+\hypertarget{rtos_8h_a187666d1c567029bd5e6e0bfadb49869}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-F\-C\-T@{R\-T\-O\-S\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-F\-C\-T}}
+\index{R\-T\-O\-S\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-F\-C\-T@{R\-T\-O\-S\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-F\-C\-T}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-F\-C\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-D\-E\-F\-A\-U\-L\-T\-\_\-\-F\-C\-T~\-\_\-\-\_\-attribute\-\_\-\-\_\-((weak))}}\label{rtos_8h_a187666d1c567029bd5e6e0bfadb49869}
+Function prototype decoration which declares a function of R\-Tuin\-O\-S just a default implementation of the required functionality. The application code can redefine the function and override the default implementation.\par
+ We use this type decoration for the initialization of the system timer interrupt -- an R\-Tuin\-O\-S application may use any other interrupts source than the default T\-I\-M\-E\-R2\-\_\-\-O\-V\-F. \hypertarget{rtos_8h_a6363b3e7dc855986c5a8cb6c7ca2fb4d}{\index{rtos.\-h@{rtos.\-h}!rtos\-\_\-delay@{rtos\-\_\-delay}}
+\index{rtos\-\_\-delay@{rtos\-\_\-delay}!rtos.h@{rtos.\-h}}
+\subsubsection[{rtos\-\_\-delay}]{\setlength{\rightskip}{0pt plus 5cm}\#define rtos\-\_\-delay(
+\begin{DoxyParamCaption}
+\item[{}]{delay\-Time}
+\end{DoxyParamCaption}
+)~{\bf rtos\-\_\-wait\-For\-Event}({\bf R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R}, false, delay\-Time)}}\label{rtos_8h_a6363b3e7dc855986c5a8cb6c7ca2fb4d}
+Delay a task without looking at other events. {\itshape \hyperlink{rtos_8h_a6363b3e7dc855986c5a8cb6c7ca2fb4d}{rtos\-\_\-delay(delay\-Time)}} is identical to {\itshape rtos\-\_\-wait\-For\-Event}(\hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R}, false, delay\-Time), i.\-e. {\itshape event\-Mask's} only set bit is the delay timer event.\par
+ 
+\begin{DoxyParams}{Parameters}
+{\em delay\-Time} & The duration of the delay in the unit of the system time. The permitted range is 0..max(uint\-Time\-\_\-t). The resolution of any timing operation is the tic of the system timer. A delay time of {\itshape n} may actually mean any delay in the range {\itshape n} .. {\itshape n+1} tics. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRemark}{Remarks}
+This method is one of the task suspend commands. It must not be used by the idle task, which can't be suspended. A crash would be the immediate consequence. 
+
+This function actually is a macro calling {\itshape rtos\-\_\-wait\-For\-Event} using fixed parameters. 
+\end{DoxyRemark}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{rtos_8h_a4758bc6137ec6a49b6c587403f7a0f17}{rtos\-\_\-wait\-For\-Event} 
+\end{DoxySeeAlso}
+\hypertarget{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R~(0x0001u$<$$<$14)}}\label{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}
+Real time clock is elapsed for the task. \hypertarget{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R~(0x0001u$<$$<$15)}}\label{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}
+The relative-\/to-\/start clock is elapsed for the task \hypertarget{rtos_8h_a05308de0bb2db3243db003c375599d82}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-00@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-00}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-00@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-00}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-00}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-00~(0x0001u$<$$<$0)}}\label{rtos_8h_a05308de0bb2db3243db003c375599d82}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_ac79a668111df50f46270818f60e61597}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-01@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-01}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-01@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-01}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-01}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-01~(0x0001u$<$$<$1)}}\label{rtos_8h_ac79a668111df50f46270818f60e61597}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_aff43a3f1f1d30009f5b7cae684d78c34}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-02@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-02}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-02@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-02}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-02}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-02~(0x0001u$<$$<$2)}}\label{rtos_8h_aff43a3f1f1d30009f5b7cae684d78c34}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_a67f56a0bda2566ee6b489ecf79193d21}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-03@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-03}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-03@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-03}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-03}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-03~(0x0001u$<$$<$3)}}\label{rtos_8h_a67f56a0bda2566ee6b489ecf79193d21}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_af11d09826b9c9997613cf9a2f8f95f70}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-04@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-04}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-04@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-04}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-04}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-04~(0x0001u$<$$<$4)}}\label{rtos_8h_af11d09826b9c9997613cf9a2f8f95f70}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_a14038aad04165423fddceffc432dc327}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-05@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-05}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-05@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-05}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-05}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-05~(0x0001u$<$$<$5)}}\label{rtos_8h_a14038aad04165423fddceffc432dc327}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_acda23b10012d8b326e150b2f262edf4b}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-06@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-06}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-06@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-06}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-06}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-06~(0x0001u$<$$<$6)}}\label{rtos_8h_acda23b10012d8b326e150b2f262edf4b}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_a4e3564cb7a4ea946290fbb10ffb9f398}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-07@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-07}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-07@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-07}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-07}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-07~(0x0001u$<$$<$7)}}\label{rtos_8h_a4e3564cb7a4ea946290fbb10ffb9f398}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_a44fd0b49b0d99121830c548ccea13a1b}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-08@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-08}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-08@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-08}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-08}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-08~(0x0001u$<$$<$8)}}\label{rtos_8h_a44fd0b49b0d99121830c548ccea13a1b}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_a4cbfa220a74a3c7d4cc44a8603952647}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-09@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-09}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-09@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-09}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-09}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-09~(0x0001u$<$$<$9)}}\label{rtos_8h_a4cbfa220a74a3c7d4cc44a8603952647}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_a60ce31c9bb455f941ae3839115200628}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-10@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-10}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-10@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-10}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-10}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-10~(0x0001u$<$$<$10)}}\label{rtos_8h_a60ce31c9bb455f941ae3839115200628}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_a281ebca85d777751e8ae0edbd9cee4a0}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-11@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-11}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-11@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-11}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-11}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-11~(0x0001u$<$$<$11)}}\label{rtos_8h_a281ebca85d777751e8ae0edbd9cee4a0}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_ac8edc6c9ee4e69db54a1b5d39ece3ca4}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-12@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-12}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-12@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-12}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-12}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-12~(0x0001u$<$$<$12)}}\label{rtos_8h_ac8edc6c9ee4e69db54a1b5d39ece3ca4}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_a4272a3907ec6d9b95ddb22aa0a6a49e3}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-13@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-13}}
+\index{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-13@{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-13}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-13}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-E\-V\-E\-N\-T\-\_\-13~(0x0001u$<$$<$13)}}\label{rtos_8h_a4272a3907ec6d9b95ddb22aa0a6a49e3}
+General purpose event, posted explicitly by rtos\-\_\-send\-Event. \hypertarget{rtos_8h_a5fdc4782bcfacebf233fd419efac7383}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-F\-F@{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-F\-F}}
+\index{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-F\-F@{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-F\-F}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-F\-F}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-F\-F~0}}\label{rtos_8h_a5fdc4782bcfacebf233fd419efac7383}
+Switch to make feature selecting defines readable. Here\-: Feature is disabled. \hypertarget{rtos_8h_af0db50dba4d0026d470641610de9b624}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-N@{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-N}}
+\index{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-N@{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-N}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-N}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-N~1}}\label{rtos_8h_af0db50dba4d0026d470641610de9b624}
+Switch to make feature selecting defines readable. Here\-: Feature is enabled. \hypertarget{rtos_8h_aa9eefbedc3c6fc094763fd0998a66f05}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-N\-A\-K\-E\-D\-\_\-\-F\-C\-T@{R\-T\-O\-S\-\_\-\-N\-A\-K\-E\-D\-\_\-\-F\-C\-T}}
+\index{R\-T\-O\-S\-\_\-\-N\-A\-K\-E\-D\-\_\-\-F\-C\-T@{R\-T\-O\-S\-\_\-\-N\-A\-K\-E\-D\-\_\-\-F\-C\-T}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-N\-A\-K\-E\-D\-\_\-\-F\-C\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-N\-A\-K\-E\-D\-\_\-\-F\-C\-T~\-\_\-\-\_\-attribute\-\_\-\-\_\-((naked, noinline))}}\label{rtos_8h_aa9eefbedc3c6fc094763fd0998a66f05}
+Function prototype decoration which ensures that a function is implemented without stack frame generating machine code. The machine code starts with the implementation of the visible code lines of the function body. If used, one has to ensure, that the function body does not require a stack frame or has to set it up himself by some introductory inline assembly code.\par
+ We use this type decoration for all software interrupts (all A\-P\-I functions which can cause a task switch). \hypertarget{rtos_8h_a230d90f46eaeeabc20cac6e3eda61f8e}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N@{R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N}}
+\index{R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N@{R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N~\-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}.progmem.\-rtuinos\char`\"{})))}}\label{rtos_8h_a230d90f46eaeeabc20cac6e3eda61f8e}
+A data type decoration to place constant data in the program memory. Mainly used for the R\-Tuin\-O\-S startup message.\par
+ See \href{http://gcc.gnu.org/bugzilla/show_bug.cgi?id=34734}{\tt http\-://gcc.\-gnu.\-org/bugzilla/show\-\_\-bug.\-cgi?id=34734} why not simply using P\-R\-O\-G\-M\-E\-M for such declarations. \hypertarget{rtos_8h_a1d060d9f723ec33c567b9f29ec12fc20}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-S\-T\-A\-R\-T\-U\-P\-\_\-\-M\-S\-G@{R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-S\-T\-A\-R\-T\-U\-P\-\_\-\-M\-S\-G}}
+\index{R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-S\-T\-A\-R\-T\-U\-P\-\_\-\-M\-S\-G@{R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-S\-T\-A\-R\-T\-U\-P\-\_\-\-M\-S\-G}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-S\-T\-A\-R\-T\-U\-P\-\_\-\-M\-S\-G}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-S\-T\-A\-R\-T\-U\-P\-\_\-\-M\-S\-G}}\label{rtos_8h_a1d060d9f723ec33c567b9f29ec12fc20}
+{\bfseries Value\-:}
+\begin{DoxyCode}
+\textcolor{stringliteral}{"RTuinOS "} \hyperlink{rtos_8h_a764530e10a57bd9a1c71bed8511ba32e}{RTOS\_RTUINOS\_VERSION} \textcolor{stringliteral}{" for Arduino 1.0.5\(\backslash\)n"}                              \(\backslash\)
+    \textcolor{stringliteral}{"Copyright (C) 2012-2013 Peter Vranken (mailto:Peter\_Vranken@Yahoo.de)\(\backslash\)n"}           \(\backslash\)
+    \textcolor{stringliteral}{"This is free software; see the source for copying conditions. There is NO\(\backslash\)n"}       \(\backslash\)
+    \textcolor{stringliteral}{"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."}
+\end{DoxyCode}
+Startup message for R\-Tuin\-O\-S applications. \hypertarget{rtos_8h_a764530e10a57bd9a1c71bed8511ba32e}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-V\-E\-R\-S\-I\-O\-N@{R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-V\-E\-R\-S\-I\-O\-N}}
+\index{R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-V\-E\-R\-S\-I\-O\-N@{R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-V\-E\-R\-S\-I\-O\-N}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-V\-E\-R\-S\-I\-O\-N}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-V\-E\-R\-S\-I\-O\-N~\char`\"{}1.\-0\char`\"{}}}\label{rtos_8h_a764530e10a57bd9a1c71bed8511ba32e}
+Version string of R\-Tuin\-O\-S. \hypertarget{rtos_8h_a17e995dff5a68ccffe2cfacc8feb492c}{\index{rtos.\-h@{rtos.\-h}!rtos\-\_\-set\-Event@{rtos\-\_\-set\-Event}}
+\index{rtos\-\_\-set\-Event@{rtos\-\_\-set\-Event}!rtos.h@{rtos.\-h}}
+\subsubsection[{rtos\-\_\-set\-Event}]{\setlength{\rightskip}{0pt plus 5cm}\#define rtos\-\_\-set\-Event(
+\begin{DoxyParamCaption}
+\item[{}]{event\-Vec}
+\end{DoxyParamCaption}
+)~{\bf rtos\-\_\-send\-Event}(event\-Vec)}}\label{rtos_8h_a17e995dff5a68ccffe2cfacc8feb492c}
+Alias of function void \hyperlink{rtos_8h_a6a2d8f95b731bebb14fd72567cba86ac}{rtos\-\_\-send\-Event(uint16\-\_\-t)}. Post a set of events to the suspended tasks. Suspend the current task if the events resume another task of higher priority. 
+\begin{DoxyParams}{Parameters}
+{\em event\-Vec} & The set of events to be posted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRemark}{Remarks}
+This macro is deprecated. Use {\itshape rtos\-\_\-send\-Event} instead. 
+
+This macro exists for backward compatibility only\-: The function {\itshape rtos\-\_\-send\-Event} had been named {\itshape rtos\-\_\-set\-Event} in the first release of R\-Tuin\-O\-S, version 0.\-9. 
+\end{DoxyRemark}
+\begin{DoxySeeAlso}{See Also}
+void \hyperlink{rtos_8h_a6a2d8f95b731bebb14fd72567cba86ac}{rtos\-\_\-send\-Event(uint16\-\_\-t)} 
+\end{DoxySeeAlso}
+\hypertarget{rtos_8h_a91e2be2c71d5ee6619b3cf069c49f18f}{\index{rtos.\-h@{rtos.\-h}!rtos\-\_\-suspend\-Task\-Till\-Time@{rtos\-\_\-suspend\-Task\-Till\-Time}}
+\index{rtos\-\_\-suspend\-Task\-Till\-Time@{rtos\-\_\-suspend\-Task\-Till\-Time}!rtos.h@{rtos.\-h}}
+\subsubsection[{rtos\-\_\-suspend\-Task\-Till\-Time}]{\setlength{\rightskip}{0pt plus 5cm}\#define rtos\-\_\-suspend\-Task\-Till\-Time(
+\begin{DoxyParamCaption}
+\item[{}]{delta\-Time\-Till\-Resume}
+\end{DoxyParamCaption}
+)}}\label{rtos_8h_a91e2be2c71d5ee6619b3cf069c49f18f}
+{\bfseries Value\-:}
+\begin{DoxyCode}
+\hyperlink{rtos_8h_a4758bc6137ec6a49b6c587403f7a0f17}{rtos\_waitForEvent}( \textcolor{comment}{/* eventMask */} \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{RTOS\_EVT\_ABSOLUTE\_TIMER}         
+           \(\backslash\)
+                     , \textcolor{comment}{/* all */}       \textcolor{keyword}{false}                                \(\backslash\)
+                     , \textcolor{comment}{/* timeout */}   deltaTimeTillResume                  \(\backslash\)
+                     )
+\end{DoxyCode}
+Suspend the current task (i.\-e. the one which invokes this method) until a specified point in time.\par
+ Although specified as a increment in time, the time is meant absolute. The meant time is the time specified at the last recent call of this function by this task plus the now specified increment. This way of specifying the desired time of resume supports the intended use case, which is the implementation of regular real time tasks\-: A task will suspend itself with a constant time value at the end of the infinite loop which contains its functional code. This (fixed) time value becomes the sample time of the task. This behavior is opposed to a delay or sleep function\-: The execution time of the task is no time which additionally elapses between two task resumes.\par
+ The idle task can't be suspended. If it calls this function a crash would be the immediate result. \begin{DoxyReturn}{Returns}
+The event mask of resuming events is returned. Since no combination with other events than the elapsed system time is possible, this will always be \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R}. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em delta\-Time\-Till\-Resume} & {\itshape delta\-Time\-Till\-Resume} specifies a time in the future at which the task will become due again. To support the most relevant use case of this function, the implementation of regular real time tasks, the time designation is relative. It refers to the last recent absolute time at which this task had been resumed. This time is defined by the last recent call of either this function or {\itshape rtos\-\_\-wait\-For\-Event} with parameter \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R}. In the very first call of the function it refers to the point in time the task was started.\par
+ The value of {\itshape delta\-Time\-Till\-Resume} must neither be 0 nor exceed half the range of the data type configured for the system time. Otherwise a false task overrun recognition and bad task timing could result. Please, refer to the R\-Tuin\-O\-S manual for details. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRemark}{Remarks}
+This function actually is a macro calling {\itshape rtos\-\_\-wait\-For\-Event} using fixed parameters. 
+\end{DoxyRemark}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{rtos_8h_a4758bc6137ec6a49b6c587403f7a0f17}{rtos\-\_\-wait\-For\-Event} 
+\end{DoxySeeAlso}
+\hypertarget{rtos_8h_a84ad81876c57032475b78134bdde181a}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-F\-R\-E\-Q\-U\-E\-N\-C\-Y@{R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-F\-R\-E\-Q\-U\-E\-N\-C\-Y}}
+\index{R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-F\-R\-E\-Q\-U\-E\-N\-C\-Y@{R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-F\-R\-E\-Q\-U\-E\-N\-C\-Y}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-F\-R\-E\-Q\-U\-E\-N\-C\-Y}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-F\-R\-E\-Q\-U\-E\-N\-C\-Y~(1.\-0/({\bf R\-T\-O\-S\-\_\-\-T\-I\-C}))}}\label{rtos_8h_a84ad81876c57032475b78134bdde181a}
+The system timer frequency as floating point constant. The unit is Hz.\par
+ The value is derived from \hyperlink{rtos_8config_8template_8h_add5b23832c4b645c4425272e9b74064b}{R\-T\-O\-S\-\_\-\-T\-I\-C}, which is about 2 ms in the R\-Tuin\-O\-S standard configuration. The macro is defined in the configuration file rtos.\-config.\-h as it might be subject to changes by the application. \hypertarget{rtos_8h_a9ebad5d22d415f479f13e6dad5adf6b9}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-M\-S@{R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-M\-S}}
+\index{R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-M\-S@{R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-M\-S}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-M\-S}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-T\-I\-C\-\_\-\-M\-S~(({\bf R\-T\-O\-S\-\_\-\-T\-I\-C})$\ast$1000.\-0)}}\label{rtos_8h_a9ebad5d22d415f479f13e6dad5adf6b9}
+The scale factor between R\-Tuin\-O\-S' system timer tic and Arduinos {\itshape millis()} as a floating point constant. Same as tic period in unit ms. The value is derived from \hyperlink{rtos_8config_8template_8h_add5b23832c4b645c4425272e9b74064b}{R\-T\-O\-S\-\_\-\-T\-I\-C}, which is about 2 ms in the R\-Tuin\-O\-S standard configuration. The macro is defined in the configuration file rtos.\-config.\-h as it might be subject to changes by the application. \hypertarget{rtos_8h_acbeb54863ebb9c618b75ad5a6e9cb525}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-T\-R\-U\-E\-\_\-\-F\-C\-T@{R\-T\-O\-S\-\_\-\-T\-R\-U\-E\-\_\-\-F\-C\-T}}
+\index{R\-T\-O\-S\-\_\-\-T\-R\-U\-E\-\_\-\-F\-C\-T@{R\-T\-O\-S\-\_\-\-T\-R\-U\-E\-\_\-\-F\-C\-T}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-T\-R\-U\-E\-\_\-\-F\-C\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-T\-R\-U\-E\-\_\-\-F\-C\-T~\-\_\-\-\_\-attribute\-\_\-\-\_\-((used, noinline))}}\label{rtos_8h_acbeb54863ebb9c618b75ad5a6e9cb525}
+Function prototype decoration which ensures that a function is generated by the compiler as such, but neither inlined nor removed from the code.\par
+ We use this type decoration for all functions called from a software interrupt. If such a function was inlined it could cause the (hazardous) need for a stack frame in the calling function which implements the software interrupt. \hypertarget{rtos_8h_aed1d8500c6908a97e8a2ac81223f488c}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-M\-U\-T\-E\-X@{R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-M\-U\-T\-E\-X}}
+\index{R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-M\-U\-T\-E\-X@{R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-M\-U\-T\-E\-X}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-M\-U\-T\-E\-X}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-M\-U\-T\-E\-X~{\bf R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-F\-F}}}\label{rtos_8h_aed1d8500c6908a97e8a2ac81223f488c}
+Derive a switch telling whether events of type mutex are in use. \hypertarget{rtos_8h_a6e18955f74c25b2b3c83d655db7132a4}{\index{rtos.\-h@{rtos.\-h}!R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E@{R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E}}
+\index{R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E@{R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E}!rtos.h@{rtos.\-h}}
+\subsubsection[{R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-T\-O\-S\-\_\-\-U\-S\-E\-\_\-\-S\-E\-M\-A\-P\-H\-O\-R\-E~{\bf R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-F\-F}}}\label{rtos_8h_a6e18955f74c25b2b3c83d655db7132a4}
+Derive a switch telling whether events of type semaphore are in use. 
+
+\subsection{Typedef Documentation}
+\hypertarget{rtos_8h_a3e12c5d9135209b870ca71628179beb3}{\index{rtos.\-h@{rtos.\-h}!rtos\-\_\-task\-Function\-\_\-t@{rtos\-\_\-task\-Function\-\_\-t}}
+\index{rtos\-\_\-task\-Function\-\_\-t@{rtos\-\_\-task\-Function\-\_\-t}!rtos.h@{rtos.\-h}}
+\subsubsection[{rtos\-\_\-task\-Function\-\_\-t}]{\setlength{\rightskip}{0pt plus 5cm}typedef void($\ast$ rtos\-\_\-task\-Function\-\_\-t)(uint16\-\_\-t posted\-Event\-Vec)}}\label{rtos_8h_a3e12c5d9135209b870ca71628179beb3}
+The type of any task.\par
+ The function is of type void; it must never return.\par
+ The function takes a single parameter. It is the event vector of the very event combination which made the task initially run. Typically this is just the delay timer event. 
+
+\subsection{Function Documentation}
+\hypertarget{rtos_8h_ad1c5008c324111a1df14ff7e7ae341da}{\index{rtos.\-h@{rtos.\-h}!rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic@{rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic}}
+\index{rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic@{rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic}!rtos.h@{rtos.\-h}}
+\subsubsection[{rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic}]{\setlength{\rightskip}{0pt plus 5cm}void rtos\-\_\-enable\-I\-R\-Q\-Timer\-Tic (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rtos_8h_ad1c5008c324111a1df14ff7e7ae341da}
+Configure and enable the interrupt which clocks the system time of R\-Tuin\-O\-S. This function has a default implementation, the application may but need not to implement it.\par
+ If the application decides to set up its specific system timer interrupt, it'll probably have to alter also the interrupt vector name, see \hyperlink{rtos_8config_8template_8h_ad4a77dc2ff9b06fc8e39ed35e768c0ae}{R\-T\-O\-S\-\_\-\-I\-S\-R\-\_\-\-S\-Y\-S\-T\-E\-M\-\_\-\-T\-I\-M\-E\-R\-\_\-\-T\-I\-C}.\par
+ If the application decides to set up its specific system timer interrupt, it'll probably have to state the new system clock frequency, see \hyperlink{rtos_8config_8template_8h_add5b23832c4b645c4425272e9b74064b}{R\-T\-O\-S\-\_\-\-T\-I\-C}.
+
+Start the interrupt which clocks the system time. Timer 2 is used as interrupt source with a period time of about 2 ms or a frequency of 490.\-1961 Hz respectively.\par
+ This is the default implementation of the routine, which can be overloaded by the application code if another interrupt or other interrupt settings should be used. \hypertarget{rtos_8h_a54ca7c825941b0d17877db45d2b4c662}{\index{rtos.\-h@{rtos.\-h}!rtos\-\_\-get\-Stack\-Reserve@{rtos\-\_\-get\-Stack\-Reserve}}
+\index{rtos\-\_\-get\-Stack\-Reserve@{rtos\-\_\-get\-Stack\-Reserve}!rtos.h@{rtos.\-h}}
+\subsubsection[{rtos\-\_\-get\-Stack\-Reserve}]{\setlength{\rightskip}{0pt plus 5cm}uint16\-\_\-t rtos\-\_\-get\-Stack\-Reserve (
+\begin{DoxyParamCaption}
+\item[{uint8\-\_\-t}]{idx\-Task}
+\end{DoxyParamCaption}
+)}}\label{rtos_8h_a54ca7c825941b0d17877db45d2b4c662}
+Compute how many bytes of the stack area of a task are still unused. If the value is requested after an application has been run a long while and has been forced to run through all its paths many times, it may be used to optimize the static stack allocation of the task. The function is useful only for diagnosis purpose as there's no chance to dynamically increase or decrease the stack area at runtime.\par
+ The function may be called from a task or from the idle task.\par
+ The algorithm is as follows\-: The unused part of the stack is initialized with a specific pattern byte. This routine counts the number of subsequent pattern bytes down from the top of the stack area. This number is returned.\par
+ The returned result must not be trusted too much\-: It could of course be that a pattern byte is found not because of the initialization but because it has been pushed onto the stack -\/ in which case the return value is too great (too optimistic) by one. The probability that this happens is significantly greater than zero. The chance that two pattern bytes had been pushed is however much less and the probability of three, four, five such bytes in sequence is negligible. (Except the irrelevant case you initialize an automatic array variable with all pattern bytes.) Any stack size optimization based on this routine should therefore subtract e.\-g. five bytes from the returned reserve and diminish the stack outermost by this modified value.\par
+ Be careful with stack size optimization based on this routine\-: Even if the application ran a long time there's a non-\/zero probability that there has not yet been a system timer interrupt in the very instance that the code of the task of interest was busy in the deepest nested sub-\/routine, i.\-e. when having the largest stack consumption. A good suggestion is to have another 36 Byte of reserve -\/ this is the stack consumption if an interrupt occurs.\par
+ Recipe\-: Run your application a long time, ensure that it ran through all paths, get the stack reserve from this routine, subtract 5+36 Byte and diminish the stack by this value. \begin{DoxyReturn}{Returns}
+The number of still unused stack bytes. See function description for details. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em idx\-Task} & The index of the task the stack usage has to be investigated for. The index is the same as used when initializing the tasks (see rtos\-\_\-initialize\-Task). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRemark}{Remarks}
+The computation is a linear search for the first non-\/pattern byte and thus relatively expensive. It's suggested to call it only in some specific diagnosis compilation or occasionally from the idle task. 
+\end{DoxyRemark}
+\begin{DoxySeeAlso}{See Also}
+void \hyperlink{rtos_8c_a902a2048ccee395d6eec7bd480f8dc01}{rtos\-\_\-initialize\-Task()} 
+\end{DoxySeeAlso}
+\hypertarget{rtos_8h_a81506c5199c04cdf60ded63c9fa4d120}{\index{rtos.\-h@{rtos.\-h}!rtos\-\_\-get\-Task\-Overrun\-Counter@{rtos\-\_\-get\-Task\-Overrun\-Counter}}
+\index{rtos\-\_\-get\-Task\-Overrun\-Counter@{rtos\-\_\-get\-Task\-Overrun\-Counter}!rtos.h@{rtos.\-h}}
+\subsubsection[{rtos\-\_\-get\-Task\-Overrun\-Counter}]{\setlength{\rightskip}{0pt plus 5cm}uint8\-\_\-t rtos\-\_\-get\-Task\-Overrun\-Counter (
+\begin{DoxyParamCaption}
+\item[{uint8\-\_\-t}]{idx\-Task, }
+\item[{boolean}]{do\-Reset}
+\end{DoxyParamCaption}
+)}}\label{rtos_8h_a81506c5199c04cdf60ded63c9fa4d120}
+Get the current value of the overrun counter of a given task.\par
+ The value is a limited 8 Bit counter (i.\-e. it won't cycle around). This is considered satisfying as any task overrun is a kind of error and should not happen in a real application (with other words\-: even a Boolean information could be enough). Furthermore, if a larger range is required, one can regularly ask for this information, accumulate it and reset the value here to zero at the same time.\par
+ The function may be called from a task or from the idle task. \begin{DoxyReturn}{Returns}
+Get the current value of the overrun counter. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em idx\-Task} & The index of the task the overrun counter of which is to be returned. The index is the same as used when initializing the tasks (see rtos\-\_\-initialize\-Task). \\
+\hline
+{\em do\-Reset} & Boolean flag, which tells whether to reset the value.\par
+ Caution, when setting this to true, reading and resetting the value needs to become an atomic operation, which requires a critical section. This is significantly more expensive than just reading the value and it globally enables the interrupts finally. Therefore this call may destroy a surrounding critical section. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRemark}{Remarks}
+This function has some limitations and weaknesses\-: First of all, the concept of task overruns is defined only for regular tasks. Secondary, and particularly when using the 8 Bit system timer, there's a significant probability of not recognizing huge task overruns. Finally there's a significant probability of false recognitions of (not happening) task overruns if the task period time is greater than half the system timer's cycle time (i.\-e. greater than 127 for the 8 Bit system timer). Please, refer to the R\-Tuin\-O\-S manual for details. 
+\end{DoxyRemark}
+\begin{DoxySeeAlso}{See Also}
+void \hyperlink{rtos_8c_a902a2048ccee395d6eec7bd480f8dc01}{rtos\-\_\-initialize\-Task()} 
+\end{DoxySeeAlso}
+\hypertarget{rtos_8h_a902a2048ccee395d6eec7bd480f8dc01}{\index{rtos.\-h@{rtos.\-h}!rtos\-\_\-initialize\-Task@{rtos\-\_\-initialize\-Task}}
+\index{rtos\-\_\-initialize\-Task@{rtos\-\_\-initialize\-Task}!rtos.h@{rtos.\-h}}
+\subsubsection[{rtos\-\_\-initialize\-Task}]{\setlength{\rightskip}{0pt plus 5cm}void rtos\-\_\-initialize\-Task (
+\begin{DoxyParamCaption}
+\item[{uint8\-\_\-t}]{idx\-Task, }
+\item[{{\bf rtos\-\_\-task\-Function\-\_\-t}}]{task\-Function, }
+\item[{uint8\-\_\-t}]{prio\-Class, }
+\item[{uint8\-\_\-t $\ast$const}]{p\-Stack\-Area, }
+\item[{uint16\-\_\-t}]{stack\-Size, }
+\item[{uint16\-\_\-t}]{start\-Event\-Mask, }
+\item[{boolean}]{start\-By\-All\-Events, }
+\item[{uint\-Time\-\_\-t}]{start\-Timeout}
+\end{DoxyParamCaption}
+)}}\label{rtos_8h_a902a2048ccee395d6eec7bd480f8dc01}
+Initialize the contents of a single task object.\par
+ This routine needs to be called from within setup() once for each task. The number of tasks has been defined by the application using \hyperlink{rtos_8config_8template_8h_a9375e1b99d1360af097706deed2dd957}{R\-T\-O\-S\-\_\-\-N\-O\-\_\-\-T\-A\-S\-K\-S} but the array of this number of task objects is still empty. The system will crash if this routine is not called properly for each of the tasks before the R\-T\-O\-S actually starts.\par
+ This function must never be called outside of setup(). A crash would result otherwise. 
+\begin{DoxyParams}{Parameters}
+{\em idx\-Task} & The index of the task in the range 0..R\-T\-O\-S\-\_\-\-N\-O\-\_\-\-T\-A\-S\-K\-S-\/1. The order of tasks barely matters. \\
+\hline
+{\em task\-Function} & The task function as a function pointer. It is used once and only once\-: The task function is invoked the first time the task becomes active and must never end. A return statement would cause an immediate reset of the controller. \\
+\hline
+{\em prio\-Class} & The priority class this task belongs to. Priority class 255 has the highest possible priority and the lower the value the lower the priority. \\
+\hline
+{\em time\-Round\-Robin} & The maximum time a task may be activated if it is operated in round-\/robin mode. The range is 1..max\-\_\-value({\itshape uint\-Time\-\_\-t}).\par
+ Specify a maximum time of 0 to switch round robin mode off for this task.\par
+ Remark\-: Round robin like behavior is given only if there are several tasks in the same priority class and all tasks of this class have the round-\/robin mode activated. Otherwise it's just the limitation of execution time for an individual task.\par
+ This parameter is available only if \hyperlink{rtos_8config_8template_8h_a40d0df06f67d8a73574879217d9ea34c}{R\-T\-O\-S\-\_\-\-R\-O\-U\-N\-D\-\_\-\-R\-O\-B\-I\-N\-\_\-\-M\-O\-D\-E\-\_\-\-S\-U\-P\-P\-O\-R\-T\-E\-D} is set to \hyperlink{rtos_8h_af0db50dba4d0026d470641610de9b624}{R\-T\-O\-S\-\_\-\-F\-E\-A\-T\-U\-R\-E\-\_\-\-O\-N}. \\
+\hline
+{\em p\-Stack\-Area} & The pointer to the preallocated stack area of the task. The area needs to be available all the R\-T\-O\-S runtime. Therefore dynamic allocation won't pay off. Consider to use the address of any statically defined array. There's no alignment constraint. \\
+\hline
+{\em stack\-Size} & The size in Byte of the memory area {\itshape $\ast$p\-Stack\-Area}, which is reserved as stack for the task. Each task may have an individual stack size. \\
+\hline
+{\em start\-Event\-Mask} & The condition under which the task becomes due the very first time is specified nearly in the same way as at runtime when using the suspend command {\itshape rtos\-\_\-wait\-For\-Event\-:} A set of events to wait for is specified, the Boolean information if any event will activate the task or if all are required and finally a timeout in case no such events would be posted.\par
+ This parameter specifies the set of events as a bit vector. Only ordinary events are supports, i.\-e. braodcasted events. Events of kind mutex or semaphore must not be used here. If a task needs to own such events right from beginning its implementation needs to place an explicit suspend command {\itshape rtos\-\_\-wait\-For\-Event} as very first command. \\
+\hline
+{\em start\-By\-All\-Events} & If true, all specified events (except for a timer event) must be posted before the task is activated. Otherwise the first event belonging to the specified set will activate the task. See rtos\-\_\-wait\-For\-Event for details. \\
+\hline
+{\em start\-Timeout} & The task will be started at latest after {\itshape start\-Timeout} system timer tics if only the event \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R} is in the set of specified events. If none of the timer events \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R} and \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R} are set in {\itshape start\-Event\-Mask}, the task will not be activated by a time condition. Do not set both timer events at once! See rtos\-\_\-wait\-For\-Event for details. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+void \hyperlink{rtos_8c_ac8b1fae05c844e38b6d93fab56597ce7}{rtos\-\_\-init\-R\-T\-O\-S(void)} 
+
+uint16\-\_\-t \hyperlink{rtos_8c_ade4d420d20c378bf3a6fdff59f44126d}{rtos\-\_\-wait\-For\-Event(uint16\-\_\-t, boolean, uint\-Time\-\_\-t)} 
+\end{DoxySeeAlso}
+\begin{DoxyRemark}{Remarks}
+The restriction that the initial resume condition must not comprise the request for mutex or semaphore kind of events has been made just for simplicity. No additional code is needed for broadcasted events but would be needed to allow mutexes and semaphores, too.\par
+ The main use case for the start condition is to delay the take off of different tasks by individual time spans to avoid having too many regular tasks becoming due at the same timer tic. If there should be a use case for initial waiting for a mutex or semaphore this can be easily implemented by an according suspend command at the beginning of the actual task code. 
+\end{DoxyRemark}
+\hypertarget{rtos_8h_ac8b1fae05c844e38b6d93fab56597ce7}{\index{rtos.\-h@{rtos.\-h}!rtos\-\_\-init\-R\-T\-O\-S@{rtos\-\_\-init\-R\-T\-O\-S}}
+\index{rtos\-\_\-init\-R\-T\-O\-S@{rtos\-\_\-init\-R\-T\-O\-S}!rtos.h@{rtos.\-h}}
+\subsubsection[{rtos\-\_\-init\-R\-T\-O\-S}]{\setlength{\rightskip}{0pt plus 5cm}void rtos\-\_\-init\-R\-T\-O\-S (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rtos_8h_ac8b1fae05c844e38b6d93fab56597ce7}
+Application called initialization of R\-T\-O\-S.\par
+ Most important is the application handled task information. A task is characterized by several static settings which need to be preset by the application. To save resources, a standard situation will be the specification of all relevant settings at compile time in the initializer expression of the array definition. The array is declared extern to enable this mode.\par
+ The application however also has the chance to provide this information at runtime. Early in the execution of this function a callback {\itshape setup} into the application is invoked. If the application has setup everything as a compile time expression, the callback may simply contain a return.\par
+ The callback {\itshape setup} is invoked before any R\-T\-O\-S related interrupts have been initialized, the routine is executed in the same context as and as a substitute of the normal Arduino setup routine. The implementation can be made without bothering with interrupt inhibition or data synchronization considerations. Furthermore it can be used for all the sort of things you've ever done in Arduino's setup routine.\par
+ After returning from {\itshape setup} all tasks defined in the task array are made due. The main interrupt, which clocks the R\-T\-O\-S system time is started and will immediately make the very task the active task which belongs to the highest priority class and which was found first (i.\-e. in the order of rising indexes) in the task array. The system is running.\par
+ No idle task is specified in the task array. The idle task is implicitly defined and implemented as the external function {\itshape loop}. To stick to Arduino's convention (and to give the R\-T\-O\-S the chance to benefit from idle as well) {\itshape loop} is still implemented as such\-: You are encouraged to return from {\itshape loop} after doing things. R\-T\-O\-S will call {\itshape loop} again as soon as it has some time left.\par
+ As for the original Arduino code, {\itshape setup} and {\itshape loop} are mandatory, global functions.\par
+ This routine is not called by the application but in C's main function. Your code seems to start with setup and seems then to branch into either {\itshape loop} (the idle task) or any other of the tasks defined by your application.\par
+ This function never returns. No task must ever return, a reset will be the immediate consequence. Your part of the idle task, function {\itshape loop}, may and should return, but the actual idle task as a whole won't terminate neither. Instead it'll repeat to call {\itshape loop}. 
+
+Here is the call graph for this function\-:
+
+
+\hypertarget{rtos_8h_a6a2d8f95b731bebb14fd72567cba86ac}{\index{rtos.\-h@{rtos.\-h}!rtos\-\_\-send\-Event@{rtos\-\_\-send\-Event}}
+\index{rtos\-\_\-send\-Event@{rtos\-\_\-send\-Event}!rtos.h@{rtos.\-h}}
+\subsubsection[{rtos\-\_\-send\-Event}]{\setlength{\rightskip}{0pt plus 5cm}void rtos\-\_\-send\-Event (
+\begin{DoxyParamCaption}
+\item[{uint16\-\_\-t}]{event\-Vec}
+\end{DoxyParamCaption}
+)}}\label{rtos_8h_a6a2d8f95b731bebb14fd72567cba86ac}
+A task (including the idle task) may post an event. The event is broadcasted to all suspended tasks which are waiting for it. An event is not saved beyond that. If a task suspends and starts waiting for an event which has been posted by another task just before, it'll wait forever and never be resumed.\par
+ The posted event may resume another task, which may be of higher priority as the event posting task. In this case {\itshape send\-Event} will cause a task switch. The calling task stays due but stops to be the active task. It does not become suspended (this is why even the idle task may call this function). The activated task will resume by coming out of the suspend command it had been invoked to wait for this event. The return value of this suspend command will then tell about the event set here.\par
+ If no task of higher priority is resumed by the posted event the calling task will be continued immediately after execution of this method. In this case {\itshape send\-Event} behaves like any ordinary sub-\/routine. 
+\begin{DoxyParams}{Parameters}
+{\em event\-Vec} & A bit vector of posted events. Known events are defined in \hyperlink{rtos_8h}{rtos.\-h}. The timer events R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R and R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R cannot be posted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+uint16\-\_\-t \hyperlink{rtos_8c_ade4d420d20c378bf3a6fdff59f44126d}{rtos\-\_\-wait\-For\-Event(uint16\-\_\-t, boolean, uint\-Time\-\_\-t)} 
+\end{DoxySeeAlso}
+\begin{DoxyRemark}{Remarks}
+It is absolutely essential that this routine is implemented as naked and noinline. See \href{http://gcc.gnu.org/onlinedocs/gcc/Function-Attributes.html}{\tt http\-://gcc.\-gnu.\-org/onlinedocs/gcc/\-Function-\/\-Attributes.\-html} for details 
+
+In optimization level 0 G\-C\-C has a problem with code generation for naked functions. See function \hyperlink{rtos_8h_a91e2be2c71d5ee6619b3cf069c49f18f}{rtos\-\_\-suspend\-Task\-Till\-Time} for details. 
+
+The implementation of this function is reused on machine code level by the implementation of the application interrupt service routines {\itshape I\-S\-R(\-R\-T\-O\-S\-\_\-\-I\-S\-R\-\_\-\-U\-S\-E\-R\-\_\-nn)}. This function needs to be maintained in strict accordance with the implementation of the I\-S\-Rs. 
+\end{DoxyRemark}
+\hypertarget{rtos_8h_a4758bc6137ec6a49b6c587403f7a0f17}{\index{rtos.\-h@{rtos.\-h}!rtos\-\_\-wait\-For\-Event@{rtos\-\_\-wait\-For\-Event}}
+\index{rtos\-\_\-wait\-For\-Event@{rtos\-\_\-wait\-For\-Event}!rtos.h@{rtos.\-h}}
+\subsubsection[{rtos\-\_\-wait\-For\-Event}]{\setlength{\rightskip}{0pt plus 5cm}uint16\-\_\-t rtos\-\_\-wait\-For\-Event (
+\begin{DoxyParamCaption}
+\item[{uint16\-\_\-t}]{event\-Mask, }
+\item[{boolean}]{all, }
+\item[{uint\-Time\-\_\-t}]{timeout}
+\end{DoxyParamCaption}
+)}}\label{rtos_8h_a4758bc6137ec6a49b6c587403f7a0f17}
+Suspend the current task (i.\-e. the one which invokes this method) until a specified combination of events occur. In the special case, that the specified combination of events can be satisfied with currently available synchronization objects (mutexes and semaphores) the function will return immediately without suspending the calling task.\par
+ A task is suspended in the instance of calling this method. It specifies a list of events. The task becomes due again, when either the first one or all of the specified events have been posted by other tasks.\par
+ The idle task can't be suspended. If it calls this function a crash would be the immediate result. \begin{DoxyReturn}{Returns}
+The set of actually resuming events is returned as a bit vector which corresponds bitwise to event\-Mask. See {\itshape \hyperlink{rtos_8h}{rtos.\-h}} for a list of known events. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em event\-Mask} & The bit vector of events to wait for. Needs to include either the delay timer event \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R} or \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R}, if a timeout is required, but not both of them.\par
+ The normal use case will probably be the delay timer. However, a regular task may also specify the absolute timer with the next regular task time as parameter so that it surely becomes due outermost at its usual task time. \\
+\hline
+{\em all} & If false, the task is made due as soon as the first event mentioned in {\itshape event\-Mask} is seen.\par
+ If true, the task is made due only when all events are posted to the suspending task -\/ except for the timer events, which are still O\-R combined. If you say \char`\"{}all\char`\"{} but the event mask contains either \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R} or \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R}, the task will resume when either the timer elapsed or when all other events in the mask were seen.\par
+ Caution\-: If all is true, there need to be at least one event bit set in {\itshape event\-Mask} besides a timer bit; R\-Tuin\-O\-S crashes otherwise. Saying\-: \char`\"{}\-No particular event, just a
+timer condition\char`\"{} needs to be implemented by {\itshape all} set to false and {\itshape event\-Mask} set to only a timer event bit. \\
+\hline
+{\em timeout} & If {\itshape event\-Mask} contains \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R}\-:\par
+ The number of system timer tics from now on until the timeout elapses. One should be aware of the resolution of any timing being the tic of the system timer. A timeout of {\itshape n} may actually mean any delay in the range {\itshape n} .. {\itshape n+1} tics.\par
+ Even specifying 0 will suspend the task a short time and give others the chance to become active -\/ particularly other tasks belonging to the same priority class.\par
+ If {\itshape event\-Mask} contains \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R}\-:\par
+ The absolute time the task becomes due again at latest. The time designation is relative; it refers to the last recent absolute time at which this task had been resumed. See \hyperlink{rtos_8h_a91e2be2c71d5ee6619b3cf069c49f18f}{rtos\-\_\-suspend\-Task\-Till\-Time} for details.\par
+ Now the range of the parameter is 1 till the half the range of the data type which is configured for the system time, e.\-g. 127 in case of uint8\-\_\-t. Otherwise proper task timing can't be guaranteed.\par
+ If neither \hyperlink{rtos_8h_ad1826c27715466493d50f3266ecd9cd9}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-D\-E\-L\-A\-Y\-\_\-\-T\-I\-M\-E\-R} nor \hyperlink{rtos_8h_a2c10db7141dcec5eeb56c29cd0ac5fe8}{R\-T\-O\-S\-\_\-\-E\-V\-T\-\_\-\-A\-B\-S\-O\-L\-U\-T\-E\-\_\-\-T\-I\-M\-E\-R} is set in the event mask, this parameter should be zero. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Variable Documentation}
+\hypertarget{rtos_8h_a210d40d5737753d7460f8b0c4ab446d1}{\index{rtos.\-h@{rtos.\-h}!rtos\-\_\-rtuinos\-Startup\-Msg@{rtos\-\_\-rtuinos\-Startup\-Msg}}
+\index{rtos\-\_\-rtuinos\-Startup\-Msg@{rtos\-\_\-rtuinos\-Startup\-Msg}!rtos.h@{rtos.\-h}}
+\subsubsection[{rtos\-\_\-rtuinos\-Startup\-Msg}]{\setlength{\rightskip}{0pt plus 5cm}{\bf R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N} const char rtos\-\_\-rtuinos\-Startup\-Msg\mbox{[}$\,$\mbox{]}}}\label{rtos_8h_a210d40d5737753d7460f8b0c4ab446d1}
+The R\-Tuin\-O\-S startup message is placed in the flash R\-O\-M. See \hyperlink{rtos_8h_a1d060d9f723ec33c567b9f29ec12fc20}{R\-T\-O\-S\-\_\-\-R\-T\-U\-I\-N\-O\-S\-\_\-\-S\-T\-A\-R\-T\-U\-P\-\_\-\-M\-S\-G} for the definition of string contents.
+
+The R\-Tuin\-O\-S startup message is placed in the flash R\-O\-M. Here, memory is not expensive. Consider to use {\itshape Serial.\-println} or {\itshape puts\-\_\-progmem} to print such a string in the Arduino console window. Or Please refer to tc12/stdout.\-c, test case tc12, for more.\par
+ See \href{http://gcc.gnu.org/bugzilla/show_bug.cgi?id=34734}{\tt http\-://gcc.\-gnu.\-org/bugzilla/show\-\_\-bug.\-cgi?id=34734} why not using P\-R\-O\-G\-M\-E\-M for the declaration and \hyperlink{rtos_8h_a230d90f46eaeeabc20cac6e3eda61f8e}{R\-T\-O\-S\-\_\-\-P\-R\-O\-G\-M\-E\-M\-\_\-\-S\-E\-C\-T\-I\-O\-N} for a valid substitute. \begin{DoxySeeAlso}{See Also}
+int puts\-\_\-progmem(const char $\ast$) 
+\end{DoxySeeAlso}

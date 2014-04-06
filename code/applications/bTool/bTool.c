@@ -1,48 +1,10 @@
-/**
- * @file bTool.c
- *   Test case 02 of RTuinOS. One task is defined, which runs alternatingly with the idle
- * task.\n
- *   Observations:\n
- *   The object Serial is used to write progress and status information to console, under
- * which the current CPU load. It is remarkably high, which is not the consumption of the
- * software implemented here but the effect of the data streaming over the RS 232
- * connection. We have selected a Baud rate of only 9600 bps and all print command block
- * until the characters to print are processed. At the beginning it is very fast as the
- * characters immediately fit into the send buffer. Once is has been filled the print
- * function is in mean as fast as the stream, 9600 characters a second. Even though the
- * rest is just waiting somewhere inside print it's lost CPU processing time for RTuinOS. A
- * hypothetical redesign of the library for serial communication for RTuinOS would
- * obviously use a suspend command to free this time for use by other tasks. This way, the
- * mean CPU load would become independent of the chosen Baud rate.\n
- *   Please consider to change the Baud rate to 115200 bps in setup() to prove that the CPU
- * load strongly goes down.
- *
- * Copyright (C) 2012-2013 Peter Vranken (mailto:Peter_Vranken@Yahoo.de)
- *
- * This program is free software: you can redistribute it and/or modify it
- * under the terms of the GNU Lesser General Public License as published by the
- * Free Software Foundation, either version 3 of the License, or any later
- * version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License
- * for more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- *
- * Module interface
- *   setup
- *   loop
- * Local functions
- *   blink
- *   task01_class00
- */
+/* 
+* @Author: joyider
+* @Date:   2014-03-29 23:21:15
+* @Last Modified by:   joyider
+* @Last Modified time: 2014-04-06 20:55:19
+*/
 
-/*
- * Include files
- */
 
 #include <Arduino.h>
 #include <LiquidCrystal.h>
@@ -50,6 +12,7 @@
 #include "rtos_assert.h"
 #include "gsl_systemLoad.h"
 #include "dht11.h"  //Import needed libraries
+#include "bTool.h"
 
 
 dht11 DHT11;  //Declare objects
@@ -65,7 +28,12 @@ dht11 DHT11;  //Declare objects
 /** Stack size of task. */
 #define STACK_SIZE_TASK_TEMP_SENSORS   256
 #define STACK_SIZE_TASK_LCD_MANAGEMENT   256
- 
+#define STACK_SIZE_TASK_RELAY_CTRL   256
+#define STACK_SIZE_TASK_CONTROL   256
+#define STACK_SIZE_TASK_SERIAL   256
+#define STACK_SIZE_TASK_HERMS   256
+#define STACK_SIZE_TASK_FERMENTATION   256
+
 
 /*
  * Local type definitions
@@ -78,8 +46,14 @@ dht11 DHT11;  //Declare objects
  
 static void task_Temp_sensors(uint16_t taskParam);
 static void task_LCD_management(uint16_t taskParam);
+static void task_Control(uint16_t taskParam);
+static void task_Relay_CTRL(uint16_t taskParam);
+static void task_Serial(uint16_t taskParam);
+static void task_HERMS(uint16_t taskParam);
+static void task_FERMENTATION(uint16_t taskParam);
  
-int _last_temp=0;
+int _last_temp=0,
+    _step;
  
 /*
  * Data definitions
@@ -87,9 +61,14 @@ int _last_temp=0;
  
 static uint8_t _taskStack_Temp_sensors[STACK_SIZE_TASK_TEMP_SENSORS];
 static uint8_t _taskStack_LCD_management[STACK_SIZE_TASK_LCD_MANAGEMENT];
+static uint8_t _taskStack_Control[STACK_SIZE_TASK_CONTROL];
+static uint8_t _taskStack_Relay_Ctrl[STACK_SIZE_TASK_RELAY_CTRL];
+static uint8_t _taskStack_Serial[STACK_SIZE_TASK_SERIAL];
+static uint8_t _taskStack_HERMS[STACK_SIZE_TASK_HERMS];
+static uint8_t _taskStack_FERMENTATION[STACK_SIZE_TASK_FERMENTATION];
 static uint8_t _cpuLoad = 200;
 
- 
+
 /*
  * Function implementation
  */
@@ -143,6 +122,22 @@ double dewPointFast(double celsius, double humidity)
         return Td;
 }
 
+static void task_Relay_CTRL(uint16_t taskParam)
+{
+
+}
+static void task_Serial(uint16_t taskParam)
+{
+
+}
+static void task_HERMS(uint16_t taskParam)
+{
+
+}
+static void task_FERMENTATION(uint16_t taskParam)
+{
+
+}
 
 /**
  * The only task in this test case (besides idle).
@@ -160,6 +155,7 @@ static void task_Temp_sensors(uint16_t initCondition)
     uint16_t u;
     uint32_t ti = millis()
            , tiCycle;
+    int      current_temp=0;
     
     Serial.print("task01_class00: Activated by 0x");
     Serial.println(initCondition, HEX);
@@ -168,20 +164,21 @@ static void task_Temp_sensors(uint16_t initCondition)
     
     for(;;)
     {
-    	//u = rtos_delay(500);
+      Serial.println("Pre");
+      rtos_waitForEvent(EVT_TRIGGER_bTool, /* all */ false, /* timeout */ 0);
+      uint16_t reqEvtVec, gotEvtVec; //Outside loop?
+    	rtos_delay(500);
+      //rtos_suspendTaskTillTime(10000);
+      Serial.println("pre temp");
     	get_Data_From_sensor();
-    	 Serial.print("Humidity (%): ");
-    	  Serial.println((float)DHT11.humidity, 2);
-
-    	  Serial.print("Temperature (oC): ");
-    	  Serial.println((float)DHT11.temperature, 2);
-
-    	  Serial.print("Dew Point (oC): ");
-    	  Serial.println(dewPoint(DHT11.temperature, DHT11.humidity));
-
-    	  Serial.print("Dew PointFast (oC): ");
-    	  Serial.println(dewPointFast(DHT11.temperature, DHT11.humidity));
-    	  //u = rtos_suspendTaskTillTime(/* deltaTimeTillRelease */ 5000);
+      _last_temp=(int)DHT11.temperature;
+      Serial.println("temp");
+      if (current_temp != _last_temp)
+      {
+        current_temp=_last_temp;
+        reqEvtVec = EVT_0;
+        rtos_sendEvent(reqEvtVec); 
+      }
     }
     
 #undef TICS_CYCLE
@@ -192,26 +189,44 @@ static void task_LCD_management(uint16_t initCondition)
 {
 	 /* initialize the library with the numbers of the interface pins */
 	    LiquidCrystal lcd(12, 11, 10, 9, 8, 7);
-
-	for (;;)
+      lcd.begin(20, 4);                      // set up the LCD's number of columns and rows
+       lcd.clear();    
+      lcd.setCursor(0,0);                    // Set cursor to x=0 and y=0
+       lcd.print("Temperature: "); 
+	do
 	{
-			lcd.begin(20, 4);                      // set up the LCD's number of columns and rows
-			  lcd.clear();                           // Clear LCD
-			  lcd.setCursor(0,0);                    // Set cursor to x=0 and y=0
-			  lcd.print("Temperature: ");           // Print text on LCD
-			  lcd.setCursor(13,0);
-			  lcd.print("boOS");
-			  lcd.setCursor(0,2);
-			  lcd.print("bTool v:0.1a");
-			  lcd.setCursor(0,3);
-			  lcd.print("Fermentor Status");
-			  lcd.display();
-			  //rtos_suspendTaskTillTime(/* deltaTimeTillRelease */ 5000);
-			  rtos_delay(500);
+    uint16_t reqEvtVec, gotEvtVec; //move outeside loop?
+    //rtos_waitForEvent( /* eventMask */ EVT_TRIGGER_LCD_management, /* all */ false, /* timeout */ 0);
+    //reqEvtVec = EVT_0;
+    //gotEvtVec = rtos_waitForEvent(reqEvtVec, /* all */ true, /* timeout */ 0);
+    //ASSERT(reqEvtVec == gotEvtVec);
+    Serial.println("LCD");
+		lcd.setCursor(13,0);
+    lcd.print((int)_last_temp);
 	}
+  while(rtos_waitForEvent(EVT_0,/* all */ false, /* timeout */ 0));
 
 }
 
+static void task_Control(uint16_t initCondition)
+{
+  Serial.println("1:st control");
+do
+    {
+
+        /* Trigger one task. */
+        uint16_t evtTriggerTask = EVT_TRIGGER_Temp_sensors;
+        rtos_sendEvent(evtTriggerTask);
+        
+        /* The test is cyclically repeated. */
+        
+        Serial.println("control");
+        /* Any task may query the task overrun counter and this task is known to be
+           regular. So we double-check the counter. */
+        ASSERT(rtos_getTaskOverrunCounter(2, /* doReset */ false) == 0);
+    }
+    while(rtos_suspendTaskTillTime(/* deltaTimeTillResume */ 100));
+}
 
 /**
  * The initalization of the RTOS tasks and general board initialization.
@@ -226,12 +241,12 @@ void setup(void)
 
 
     
-    /* Configure task 1 of priority class 0 */
+    
         uint8_t idxTask = 0;
 
     rtos_initializeTask( /* idxTask */          idxTask++
                        , /* taskFunction */     task_Temp_sensors
-                       , /* prioClass */        0
+                       , /* prioClass */        1
                        , /* pStackArea */       &_taskStack_Temp_sensors[0]
                        , /* stackSize */        sizeof(_taskStack_Temp_sensors)
                        , /* startEventMask */   RTOS_EVT_DELAY_TIMER
@@ -239,14 +254,60 @@ void setup(void)
                        , /* startTimeout */     5
                        );
     rtos_initializeTask( /* idxTask */          idxTask++
-                          , /* taskFunction */     task_LCD_management
-                          , /* prioClass */        0
-                          , /* pStackArea */       &_taskStack_LCD_management[0]
-                          , /* stackSize */        sizeof(_taskStack_LCD_management)
-                          , /* startEventMask */   RTOS_EVT_DELAY_TIMER
-                          , /* startByAllEvents */ false
-                          , /* startTimeout */     5
-                          );
+                       , /* taskFunction */     task_LCD_management
+                       , /* prioClass */        2
+                       , /* pStackArea */       &_taskStack_LCD_management[0]
+                       , /* stackSize */        sizeof(_taskStack_LCD_management)
+                       , /* startEventMask */   RTOS_EVT_DELAY_TIMER
+                       , /* startByAllEvents */ false
+                       , /* startTimeout */     10
+                       );
+    /* Configure the control task of priority class 0. */
+    rtos_initializeTask( /* idxTask */          idxTask++
+                       , /* taskFunction */     task_Control
+                       , /* prioClass */        0
+                       , /* pStackArea */       &_taskStack_Control[0]
+                       , /* stackSize */        sizeof(_taskStack_Control)
+                       , /* startEventMask */   RTOS_EVT_DELAY_TIMER
+                       , /* startByAllEvents */ false
+                       , /* startTimeout */     0
+                       );
+    rtos_initializeTask( /* idxTask */          idxTask++
+                       , /* taskFunction */     task__Relay_Ctrl
+                       , /* prioClass */        0
+                       , /* pStackArea */       &_taskStack_Relay_Ctrl[0]
+                       , /* stackSize */        sizeof(_taskStack_Relay_Ctrl)
+                       , /* startEventMask */   RTOS_EVT_DELAY_TIMER
+                       , /* startByAllEvents */ false
+                       , /* startTimeout */     0
+                       );
+    rtos_initializeTask( /* idxTask */          idxTask++
+                       , /* taskFunction */     task_Serial
+                       , /* prioClass */        0
+                       , /* pStackArea */       &_taskStack_Serial[0]
+                       , /* stackSize */        sizeof(_taskStack_Serial)
+                       , /* startEventMask */   RTOS_EVT_DELAY_TIMER
+                       , /* startByAllEvents */ false
+                       , /* startTimeout */     0
+                       );
+    rtos_initializeTask( /* idxTask */          idxTask++
+                       , /* taskFunction */     task_HERMS
+                       , /* prioClass */        0
+                       , /* pStackArea */       &_taskStack_HERMS[0]
+                       , /* stackSize */        sizeof(_taskStack_HERMS)
+                       , /* startEventMask */   RTOS_EVT_DELAY_TIMER
+                       , /* startByAllEvents */ false
+                       , /* startTimeout */     0
+                       );
+    rtos_initializeTask( /* idxTask */          idxTask++
+                       , /* taskFunction */     task_FERMENTATION
+                       , /* prioClass */        0
+                       , /* pStackArea */       &_taskStack_FERMENTATION[0]
+                       , /* stackSize */        sizeof(_taskStack_FERMENTATION)
+                       , /* startEventMask */   RTOS_EVT_DELAY_TIMER
+                       , /* startByAllEvents */ false
+                       , /* startTimeout */     0
+                       );
 } /* End of setup */
 
 
@@ -265,10 +326,10 @@ void setup(void)
 void loop(void)
 {
 
-	//get_Data_From_sensor();
     /* Share current CPU load measurement with task code, which owns Serial and which can
        thus display it. */
     _cpuLoad = gsl_getSystemLoad();
+    Serial.println(_cpuLoad);
     
 } /* End of loop */
 

@@ -223,7 +223,7 @@ objListWithPath := $(addprefix $(targetDir)obj/, $(objList))
 # rules for compilation.
 VPATH := $(srcDirList) 																\
          $(targetDir)                                                               \
-         $(ARDUINO_HOME)hardware/arduino/avr/cores/arduino/                         \
+         $(ARDUINO_HOME)hardware/arduino/cores/arduino/                         \
          $(ARDUINO_HOME)libraries/LiquidCrystal/ 
 
 # Pattern rules for compilation of C and C++ source files.
@@ -234,9 +234,9 @@ cFlags =  $(cDefines) -c -Wall -fno-exceptions -ffunction-sections              
           -Wa,-a=$(patsubst %.o,%.lst,$@)                                           \
           -Winline                                                                  \
           $(foreach path, $(srcDirList), -I$(path))                                 \
-          -I$(ARDUINO_HOME)hardware/arduino/avr/cores/arduino/                      \
+          -I$(ARDUINO_HOME)hardware/arduino/cores/arduino/                      \
 	  -I$(ARDUINO_HOME)libraries/LiquidCrystal/                                 \
-          -I$(ARDUINO_HOME)hardware/arduino/avr/variants/mega/                          
+          -I$(ARDUINO_HOME)hardware/arduino/variants/mega/                          
 ifeq ($(CONFIG),DEBUG)
 	cDbgFlags := -ggdb3 -O3
 else

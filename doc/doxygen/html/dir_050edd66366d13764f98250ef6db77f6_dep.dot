@@ -1,0 +1,10 @@
+digraph "/Users/andrek/bTool/code" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_050edd66366d13764f98250ef6db77f6 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_050edd66366d13764f98250ef6db77f6.html"];
+    dir_050edd66366d13764f98250ef6db77f6 [shape=plaintext label="code"];
+    dir_bb4e8fb1f83fc8f952fae1bfadd5ebdd [shape=box label="RTOS" color="black" fillcolor="white" style="filled" URL="dir_bb4e8fb1f83fc8f952fae1bfadd5ebdd.html"];
+  }
+}
